@@ -1,0 +1,70 @@
+[
+ {
+  "creation": "2014-02-17 15:58:36", 
+  "docstatus": 0, 
+  "modified": "2014-02-17 16:57:12", 
+  "modified_by": "Administrator", 
+  "owner": "Administrator"
+ }, 
+ {
+  "autoname": "field:publisher_name", 
+  "doctype": "DocType", 
+  "module": "Frappe Apps", 
+  "name": "__common__"
+ }, 
+ {
+  "doctype": "DocField", 
+  "name": "__common__", 
+  "parent": "Frappe Publisher", 
+  "parentfield": "fields", 
+  "parenttype": "DocType", 
+  "permlevel": 0
+ }, 
+ {
+  "create": 1, 
+  "delete": 1, 
+  "doctype": "DocPerm", 
+  "export": 1, 
+  "name": "__common__", 
+  "parent": "Frappe Publisher", 
+  "parentfield": "permissions", 
+  "parenttype": "DocType", 
+  "permlevel": 0, 
+  "read": 1, 
+  "report": 1, 
+  "role": "System Manager", 
+  "submit": 0, 
+  "write": 1
+ }, 
+ {
+  "doctype": "DocType", 
+  "name": "Frappe Publisher"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "publisher_name", 
+  "fieldtype": "Data", 
+  "label": "Publisher Name"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "publisher_logo", 
+  "fieldtype": "Attach", 
+  "label": "Publisher Logo"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "location", 
+  "fieldtype": "Data", 
+  "label": "Location"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "description", 
+  "fieldtype": "Text", 
+  "label": "Description"
+ }, 
+ {
+  "doctype": "DocPerm"
+ }
+]

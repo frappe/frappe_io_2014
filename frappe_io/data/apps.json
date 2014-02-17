@@ -1,0 +1,19 @@
+[
+	{
+		"doctype":"Frappe Publisher",
+		"publisher_name": "Web Notes",
+		"location": "Mumbai, India"
+	},
+	{
+		"doctype":"Frappe App",
+		"application_name": "ERPNext",
+		"description": "Open Source ERP Built for the Web",
+		"publisher": "Web Notes"
+	},
+	{
+		"doctype":"Frappe App",
+		"application_name": "Frappe",
+		"description": "Full Stack Web Application Framework in Python and Javascript",
+		"publisher": "Web Notes"
+	}
+]

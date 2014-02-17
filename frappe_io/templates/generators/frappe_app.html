@@ -1,0 +1,20 @@
+{% block style %}
+table.app-table tr td:first-child {
+	width: 30%;
+}
+{% endblock %}
+
+{% block content %}
+<table class="table table-bordered table-striped app-table">
+	<tbody>
+		<tr>
+			<td>Publisher</td>
+			<td>{{ bean.doc.publisher }}</td>
+		</td>
+		<tr>
+			<td>Description</td>
+			<td>{{ bean.doc.description }}</td>
+		</td>
+	</tbody>
+</table>
+{% endblock %}
