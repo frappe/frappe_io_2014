@@ -2,12 +2,13 @@
  {
   "creation": "2014-02-17 15:54:39", 
   "docstatus": 0, 
-  "modified": "2014-02-17 16:58:24", 
+  "modified": "2014-02-20 15:05:20", 
   "modified_by": "Administrator", 
   "owner": "Administrator"
  }, 
  {
-  "autoname": "field:application_name", 
+  "allow_import": 1, 
+  "allow_rename": 1, 
   "doctype": "DocType", 
   "document_type": "Master", 
   "module": "Frappe Apps", 
@@ -70,6 +71,15 @@
   "fieldtype": "Link", 
   "label": "Publisher", 
   "options": "Frappe Publisher"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "parent_website_sitemap", 
+  "fieldtype": "Link", 
+  "hidden": 1, 
+  "label": "Parent Website Sitemap", 
+  "options": "Website Sitemap", 
+  "read_only": 1
  }, 
  {
   "doctype": "DocPerm"

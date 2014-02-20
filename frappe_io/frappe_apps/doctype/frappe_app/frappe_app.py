@@ -11,9 +11,10 @@ from frappe.website.website_generator import WebsiteGenerator
 class DocType(WebsiteGenerator):
 	def __init__(self, d, dl):
 		self.doc, self.doclist = d, dl
-		
+	
+	def validate(self):
+		self.doc.parent_website_sitemap = "apps"
+	
 	def get_page_title(self):
 		return self.doc.application_name
 		
-	def get_parent_website_sitemap(self):
-		return "apps"
