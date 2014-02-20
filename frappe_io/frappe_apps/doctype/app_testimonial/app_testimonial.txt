@@ -1,0 +1,48 @@
+[
+ {
+  "creation": "2014-02-20 15:55:42", 
+  "docstatus": 0, 
+  "modified": "2014-02-20 16:48:36", 
+  "modified_by": "Administrator", 
+  "owner": "Administrator"
+ }, 
+ {
+  "doctype": "DocType", 
+  "istable": 1, 
+  "module": "Frappe Apps", 
+  "name": "__common__"
+ }, 
+ {
+  "doctype": "DocField", 
+  "name": "__common__", 
+  "parent": "App Testimonial", 
+  "parentfield": "fields", 
+  "parenttype": "DocType", 
+  "permlevel": 0, 
+  "reqd": 1
+ }, 
+ {
+  "doctype": "DocType", 
+  "name": "App Testimonial"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "author", 
+  "fieldtype": "Data", 
+  "in_list_view": 1, 
+  "label": "Author"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "author_image", 
+  "fieldtype": "Attach", 
+  "label": "Author Image"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "testimonial", 
+  "fieldtype": "Text Editor", 
+  "in_list_view": 1, 
+  "label": "Testimonial"
+ }
+]
