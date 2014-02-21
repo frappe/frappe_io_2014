@@ -10,4 +10,3 @@ app_version = 0.0.1
 
 home_page = index
 brand_html = Frappe.io
-
