@@ -42,7 +42,7 @@
 {% for testimonial in bean.doclist.get({"parentfield": "app_testimonials"}) %}
 <div class="media">
 	<span class="pull-left">
-		<div class="media-object avatar-x-large testimonial-avatar" style="background-image: url({{ testimonial.author_image }});"></div>
+		<div class="media-object avatar-large testimonial-avatar" style="background-image: url({{ testimonial.author_image }});"></div>
 	</span>
 	<div class="media-body">
 		{{ testimonial.testimonial }}
