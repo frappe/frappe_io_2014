@@ -1,20 +1,55 @@
+{% block header %}
+<img src="{{ bean.doc.icon }}" class="app-icon"> {{ title }}{% endblock %}
+
 {% block style %}
-table.app-table tr td:first-child {
-	width: 30%;
+.testimonial-avatar {
+	background-size: cover;
+	background-position: center center;
+}
+.app-icon {
+	border-radius: 5px;
+	width: 1.1em;
+	height: 1.1em;
+	display: inline-block;
+	margin-top: -0.2em;
 }
 {% endblock %}
 
 {% block content %}
-<table class="table table-bordered table-striped app-table">
-	<tbody>
-		<tr>
-			<td>Publisher</td>
-			<td>{{ bean.doc.publisher }}</td>
-		</td>
-		<tr>
-			<td>Description</td>
-			<td>{{ bean.doc.description }}</td>
-		</td>
-	</tbody>
-</table>
+<div style="margin-bottom: 15px;">
+	<h4 class="pull-left">Publisher: {{ bean.doc.publisher }}</h4>
+	<div class="pull-right">
+		{% if bean.doc.source_link -%}
+			<a href="{{ bean.doc.source_link }}" target="_blank" class="btn btn-default">
+				<i class="icon icon-github"></i> Github</a>
+		{%- endif %}
+		{% if bean.doc.cloud_link -%}
+			<a href="{{ bean.doc.cloud_link }}" target="_blank" class="btn btn-default">
+				<i class="icon icon-cloud"></i> Cloud Hosting</a>
+		{%- endif %}
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+{% include "templates/includes/slideshow.html" %}
+
+<p>{{ bean.doc.description }}</p>
+
+<!-- testimonials -->
+{% if bean.doclist.get({"parentfield": "app_testimonials"}) %}
+<hr>
+<h3>Testimonials</h3>
+{% for testimonial in bean.doclist.get({"parentfield": "app_testimonials"}) %}
+<div class="media">
+	<span class="pull-left">
+		<div class="media-object avatar-large testimonial-avatar" style="background-image: url({{ testimonial.author_image }});"></div>
+	</span>
+	<div class="media-body">
+		{{ testimonial.testimonial }}
+		<p class="text-right text-muted" style="margin-top: 7px;"><em>{{ testimonial.author }}</em></p>
+	</div>
+</div>
+{% endfor %}
+{% endif %}
+
 {% endblock %}

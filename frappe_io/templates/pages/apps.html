@@ -1,7 +1,16 @@
 {% block title %}Applications{% endblock %}
 {% block header %}Applications{% endblock %}
 
-{% block style %}{% include "public/css/app_icon.css" %}{% endblock %}
+{% block style %}
+.app-icon {
+	border-radius: 5px; 
+	width: 4em;
+}
+
+.featured-app-icon {
+	width: 1.2em;
+}
+{% endblock %}
 
 {% block content %}
 <div class="row">
@@ -10,8 +19,9 @@
 	</div>
 	<div class="col-sm-6">
 		<a href="apps/erpnext" class="no-decoration"><h3 style="margin-bottom: 5px;">
-			<span class="app-icon app-icon-img app-icon-small"><img src="assets/frappe_io/images/erpnext.png"></span> ERPNext</h3></a>
-		<span class="label label-warning">Featured</span>
+			<img src="assets/frappe_io/images/erpnext.png" class="app-icon featured-app-icon">
+			ERPNext</h3></a>
+		
 		<p style="margin-top: 5px;">ERPNext is an Open Source web based ERP system built grounds up 
 			for the web. It features all
 			basic modules such as Accounting, Inventory Mangament, CRM, Sales, Purchase, Projects,
@@ -20,16 +30,19 @@
 	</div>
 </div>
 <hr>
-<h3>All Applications</h3>
+<h3 style="margin-bottom: 30px;">All Applications</h3>
 {% for app in apps %}
-<div class="row">
-	<div class="col-xs-2">
-		<span class="app-icon app-icon-img app-icon-small"><img src="{{ app.icon }}"></span>
-	</div>
-	<div class="col-xs-10">
-		<a href="{{ frappe.get_website_sitemap('Frappe App', app.name) }}"><h4>{{ app.application_name }}</h4></a>
-		<p>{{ app.description }}</p>
-		<p class="text-muted">Publisher: {{ app.publisher }}</p>
+<div class="media">
+	<a class="pull-left" 
+		href="{{ frappe.get_website_sitemap('Frappe App', app.name) }}">
+		<img class="media-object app-icon" src="{{ app.icon }}">
+	</a>
+	<div class="media-body">
+		<a href="{{ frappe.get_website_sitemap('Frappe App', app.name) }}">
+		<h4 class="media-heading">{{ app.application_name }}</h4>
+	</a>
+	<p>{{ app.introduction }}</p>
+	<p class="text-muted">Publisher: {{ app.publisher }}</p>
 	</div>
 </div>
 {% if not loop.last %}<hr>{% endif %}
