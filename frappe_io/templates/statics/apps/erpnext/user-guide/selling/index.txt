@@ -1,0 +1,11 @@
+campaign
+customer-master
+discount
+introduction-to-selling
+lead
+opportunity
+quotation
+sales-bill-of-material
+sales-order
+sales-person-and-sales-territory
+selling-setup
