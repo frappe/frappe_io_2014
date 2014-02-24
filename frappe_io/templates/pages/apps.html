@@ -34,11 +34,11 @@
 {% for app in apps %}
 <div class="media">
 	<a class="pull-left" 
-		href="{{ frappe.get_website_sitemap('Frappe App', app.name) }}">
+		href="{{ frappe.get_website_route('Frappe App', app.name) }}">
 		<img class="media-object app-icon" src="{{ app.icon }}">
 	</a>
 	<div class="media-body">
-		<a href="{{ frappe.get_website_sitemap('Frappe App', app.name) }}">
+		<a href="{{ frappe.get_website_route('Frappe App', app.name) }}">
 		<h4 class="media-heading">{{ app.application_name }}</h4>
 	</a>
 	<p>{{ app.introduction }}</p>

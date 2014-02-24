@@ -12,9 +12,9 @@ class DocType(WebsiteGenerator):
 	def __init__(self, d, dl):
 		self.doc, self.doclist = d, dl
 	
-	def validate(self):
-		self.doc.parent_website_sitemap = "apps"
-	
+	def on_update(self):
+		self.doc.set("parent_website_route", "apps")
+		super(DocType, self).on_update()
+		
 	def get_page_title(self):
 		return self.doc.application_name
-		

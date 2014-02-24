@@ -2,7 +2,7 @@
  {
   "creation": "2014-02-17 15:54:39", 
   "docstatus": 0, 
-  "modified": "2014-02-20 18:21:54", 
+  "modified": "2014-02-24 13:26:07", 
   "modified_by": "Administrator", 
   "owner": "Administrator"
  }, 
@@ -49,9 +49,21 @@
  }, 
  {
   "doctype": "DocField", 
+  "fieldname": "published", 
+  "fieldtype": "Check", 
+  "label": "Published"
+ }, 
+ {
+  "doctype": "DocField", 
   "fieldname": "icon", 
   "fieldtype": "Attach", 
   "label": "Icon"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "description", 
+  "fieldtype": "Text", 
+  "label": "Description"
  }, 
  {
   "doctype": "DocField", 
@@ -62,66 +74,11 @@
  }, 
  {
   "doctype": "DocField", 
-  "fieldname": "published", 
-  "fieldtype": "Check", 
-  "label": "Published"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "column_break_4", 
-  "fieldtype": "Column Break"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "source_link", 
-  "fieldtype": "Data", 
-  "label": "Source Link"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "cloud_link", 
-  "fieldtype": "Data", 
-  "label": "Cloud Link"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "slideshow", 
-  "fieldtype": "Link", 
-  "label": "Slideshow", 
-  "options": "Website Slideshow"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "section_break_8", 
-  "fieldtype": "Section Break"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "introduction", 
-  "fieldtype": "Text", 
-  "label": "Introduction", 
-  "reqd": 1
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "description", 
-  "fieldtype": "Text Editor", 
-  "label": "Description"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "app_testimonials", 
-  "fieldtype": "Table", 
-  "label": "App Testimonials", 
-  "options": "App Testimonial"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "parent_website_sitemap", 
+  "fieldname": "parent_website_route", 
   "fieldtype": "Link", 
   "hidden": 1, 
-  "label": "Parent Website Sitemap", 
-  "options": "Website Sitemap", 
+  "label": "Parent Website Route", 
+  "options": "Website Route", 
   "read_only": 1
  }, 
  {

@@ -1,0 +1,1 @@
+frappe_io.patches.rename_sitemap_to_route
