@@ -1,1 +1,2 @@
 frappe_io.patches.rename_sitemap_to_route
+frappe_io.patches.rename_app_testimonial

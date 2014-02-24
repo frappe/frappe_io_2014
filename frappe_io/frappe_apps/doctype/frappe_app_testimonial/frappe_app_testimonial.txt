@@ -15,7 +15,7 @@
  {
   "doctype": "DocField", 
   "name": "__common__", 
-  "parent": "App Testimonial", 
+  "parent": "Frappe App Testimonial", 
   "parentfield": "fields", 
   "parenttype": "DocType", 
   "permlevel": 0, 
@@ -23,7 +23,7 @@
  }, 
  {
   "doctype": "DocType", 
-  "name": "App Testimonial"
+  "name": "Frappe App Testimonial"
  }, 
  {
   "doctype": "DocField", 

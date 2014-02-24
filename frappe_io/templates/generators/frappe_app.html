@@ -23,6 +23,10 @@
 			<a href="{{ bean.doc.source_link }}" target="_blank" class="btn btn-default">
 				<i class="icon icon-github"></i> Github</a>
 		{%- endif %}
+		{% if bean.doc.demo_link -%}
+			<a href="{{ bean.doc.demo_link }}" target="_blank" class="btn btn-default">
+				<i class="icon icon-eye-open"></i> Demo</a>
+		{%- endif %}
 		{% if bean.doc.cloud_link -%}
 			<a href="{{ bean.doc.cloud_link }}" target="_blank" class="btn btn-default">
 				<i class="icon icon-cloud"></i> Cloud Hosting</a>
