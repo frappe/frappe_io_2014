@@ -4,7 +4,7 @@ master data, into the system.
 To Open the data import tool, you either go to Setup or go to the Transaction
 you want to Import. If Data Import is allowed, you will see an Import Button:
 
-![Start Import](files/import-1.png)
+![Start Import](assets/frappe_io/images/erpnext/import-1.png)
 
 The tool has two sections, one to download a template and the second to upload
 the data.
@@ -25,7 +25,7 @@ you must mention the parent of the row in the “parent” column so that ERPNex
 knows which Item’s price or tax you are trying to set if you are importing
 separately.
 
-![Download The Template](files/import-2.png)
+![Download The Template](assets/frappe_io/images/erpnext/import-2.png)
 
   * Click on the table you want to download or "All Tables"
   * For bulk editing, you can click on "Download With Data"
@@ -35,19 +35,19 @@ separately.
 After downloading the template, open it in a spreadsheet application and fill
 in the data below the column headings.
 
-![Spreadsheet](files/import-3.png)
+![Spreadsheet](assets/frappe_io/images/erpnext/import-3.png)
 
 Then export your template or save it as a **Comma Separated Values** (CSV)
 file.
 
-![Spreadsheet](files/import-4.png)
+![Spreadsheet](assets/frappe_io/images/erpnext/import-4.png)
 
 ### 3\. Upload the .csv File
 
 Finally attach the .csv file in the section. Click on the "Upload and Import"
 button.
 
-![Attach and Upload](files/import-5.png)
+![Attach and Upload](assets/frappe_io/images/erpnext/import-5.png)
 
 Notes:
 

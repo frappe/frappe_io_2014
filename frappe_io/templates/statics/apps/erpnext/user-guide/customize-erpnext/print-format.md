@@ -14,7 +14,7 @@ To create your own versions, open an existing template from:
 
 > Setup > Printing > Print Formats
 
-![Print Format](files/print-format.png)
+![Print Format](assets/frappe_io/images/erpnext/print-format.png)
 
   
 

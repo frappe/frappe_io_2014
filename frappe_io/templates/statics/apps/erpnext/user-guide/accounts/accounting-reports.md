@@ -6,7 +6,7 @@ General Ledger is based on the table GL Entry and can be filtered by Account
 and between a period. This will help you get a full update for all entries
 done in that period for that Account.
 
-![General Ledger](files/general-ledger.png)
+![General Ledger](assets/frappe_io/images/erpnext/general-ledger.png)
 
 ### Trial Balance
 
@@ -19,7 +19,7 @@ the:
   * Credits
   * Closing
 
-![Trial Balance](files/trial-balance.png)
+![Trial Balance](assets/frappe_io/images/erpnext/trial-balance.png)
 
 The sum of all closing balances in a Trial Balance must be zero.
 
@@ -29,7 +29,7 @@ These reports help you to track the outstanding invoices sent to Customer and
 Suppliers. In this report, you will get your outstanding amounts period wise.
 i.e. between 0-30 days, 30-60 days and so on.
 
-![Query Report](files/query-report-accounts-payable.png)
+![Query Report](assets/frappe_io/images/erpnext/query-report-accounts-payable.png)
 
 You can also get your payables and receivables from direct reports on Sales
 Invoice and Purchase Invoice.
@@ -40,5 +40,5 @@ In this report, each tax Account is transposed in columns.For each Invoice and
 invoice Item, you will get the amount of individual tax that has been paid,
 based on the Taxes and Charges table.
 
-![Query Report Sales Register](files/query-report-sales-register.png)
+![Query Report Sales Register](assets/frappe_io/images/erpnext/query-report-sales-register.png)
 

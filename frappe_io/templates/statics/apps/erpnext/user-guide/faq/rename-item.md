@@ -13,7 +13,7 @@ Renaming is basically calling the same product with a different name.
 
 **Figure 1: Select Rename**
 
-![](files/rename-jute-bag-general.png)  
+![](assets/frappe_io/images/erpnext/rename-jute-bag-general.png)  
 
   
 
@@ -31,7 +31,7 @@ Renaming is basically calling the same product with a different name.
 
 **Figure 2: Enter New Name **
 
-![](files/rename-jute-bag-sog.png)  
+![](assets/frappe_io/images/erpnext/rename-jute-bag-sog.png)  
 
   
 
@@ -46,7 +46,7 @@ code and description will remain same.
 
 **Figure 3: The Changed Name Output**
 
-![](files/rename-output.png)  
+![](assets/frappe_io/images/erpnext/rename-output.png)  
 
   
 

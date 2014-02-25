@@ -16,11 +16,11 @@ Select a Cost Center  and click on Edit.
 
 **Step 1: Click on Edit.**
 
-![](files/budgeting-1.png)  
+![](assets/frappe_io/images/erpnext/budgeting-1.png)  
 
 **Step 2: Enter Monthly Distribution.**
 
-![](files/budgeting-2-1.png)**  
+![](assets/frappe_io/images/erpnext/budgeting-2-1.png)**  
 **
 
 If you leave the** **distribution ID blank, ERPNext will calculate on a yearly
@@ -30,13 +30,13 @@ basis or in equal proportion for every month.
 
   
 
-![](files/budgeting-3.png)  
+![](assets/frappe_io/images/erpnext/budgeting-3.png)  
 
   
 
 **To Create New Distribution ID**  
 
-![](files/budgeting-4.png)**  
+![](assets/frappe_io/images/erpnext/budgeting-4.png)**  
 **
 
 **  
@@ -47,7 +47,7 @@ ERPNext allows you to take a few budget actions. It signifies whether to stop
 
 These can be defined from the Company record.  
 
-![](files/budgeting-4-1.png)  
+![](assets/frappe_io/images/erpnext/budgeting-4-1.png)  
 
   
 

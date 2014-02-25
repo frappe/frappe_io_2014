@@ -5,13 +5,13 @@ given conditions.
 A Purchase Order can be automatically created from a Material Request or
 Supplier Quotation.
 
-![Purchase Order](files/purchase-order-f.jpg)
+![Purchase Order](assets/frappe_io/images/erpnext/purchase-order-f.jpg)
 
 In ERPNext, you can also make a Purchase Order directly by going to:
 
 > Buying > Purchase Order > New Purchase Order ￼
 
-![Purchase Order](files/purchase-order.png)
+![Purchase Order](assets/frappe_io/images/erpnext/purchase-order.png)
 
 Entering a Purchase Order is very similar to a Purchase Request, additionally
 you will have to set:
@@ -71,7 +71,7 @@ Nos (from the Item form)
 **  
 **
 
-![](files/purchase-order-uom-change.png)**  
+![](assets/frappe_io/images/erpnext/purchase-order-uom-change.png)**  
 **
 
 Step 4: Mention the UOM conversion factor. For example, (100);If one box has

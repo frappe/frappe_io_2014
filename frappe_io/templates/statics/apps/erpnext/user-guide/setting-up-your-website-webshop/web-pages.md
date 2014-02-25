@@ -3,7 +3,7 @@ created using the Web Page. To create a new Web Page, go to:
 
 > Website > Web Page > New Web Page
 
-![Web Page](files/webpage.png)
+![Web Page](assets/frappe_io/images/erpnext/webpage.png)
 
 #### Title
 
@@ -26,5 +26,5 @@ page will be yoursite.com/contact-us.html.
 #### Images
 
 You can attach images to your web page and show them using the  HTML tag or
-using markdown format. the link to your file will be files/filename
+using markdown format. the link to your file will be assets/frappe_io/images/erpnext/filename
 

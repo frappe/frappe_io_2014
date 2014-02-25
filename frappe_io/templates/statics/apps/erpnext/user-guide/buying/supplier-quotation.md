@@ -6,13 +6,13 @@ agreement binding on both parties.
 
 You can make a supplier quotation from a Material Request
 
-![Supplier Quotation](files/supplier-quotation-f.jpg)
+![Supplier Quotation](assets/frappe_io/images/erpnext/supplier-quotation-f.jpg)
 
 You can also make a Supplier Quotation directly from:
 
 > Buying > Supplier Quotation > New Supplier Quotation
 
-![Supplier Quotation](files/supplier-quotation.png)
+![Supplier Quotation](assets/frappe_io/images/erpnext/supplier-quotation.png)
 
 If you have multiple **Suppliers** who supply you with the same **Item**, you
 usually send out a message (Request for Quote) to various **Suppliers**. In

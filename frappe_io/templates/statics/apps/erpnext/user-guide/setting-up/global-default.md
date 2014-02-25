@@ -8,5 +8,5 @@ unless you specify otherwise.
 
 > Setup > Tools > Global Settings/Defaults
 
-![Global Defaults](files/global-defaults.png)
+![Global Defaults](assets/frappe_io/images/erpnext/global-defaults.png)
 

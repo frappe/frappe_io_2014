@@ -6,13 +6,13 @@ giving appropriate weightage to each parameter.
 
 #### Step 1: Select an Appraisal Template
 
-![Appraisal](files/appraisal-1.png)
+![Appraisal](assets/frappe_io/images/erpnext/appraisal-1.png)
 
 After you select the template, the remaining form appears.
 
 #### Step 2: Enter Employee Details
 
-![Appraisal](files/appraisal-2.png)
+![Appraisal](assets/frappe_io/images/erpnext/appraisal-2.png)
 
 Once the Appraisal Template is completed, you can create Appraisal records for
 each period where you track performance. You can give points out of 5 for each

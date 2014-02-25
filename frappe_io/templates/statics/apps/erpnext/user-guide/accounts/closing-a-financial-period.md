@@ -18,7 +18,7 @@ make all your Income and Expense accounts to zero via:
 
 > Accounts > Tools > Period Closing Voucher
 
-![Period Closing](files/period-closing.png)
+![Period Closing](assets/frappe_io/images/erpnext/period-closing.png)
 
 The Period Closing Voucher will make accounting entries (GL Entry) making all
 your Income and Expense Accounts zero and transferring the balance to the

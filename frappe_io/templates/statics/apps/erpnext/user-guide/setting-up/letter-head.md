@@ -4,11 +4,11 @@ You can create / manage Letter Heads from:
 
 #### Step 1: Letter Head Name
 
-![Letter Head](files/letter-head1.png)
+![Letter Head](assets/frappe_io/images/erpnext/letter-head1.png)
 
 #### Step 2 : Attach Image
 
-![Letter Head](files/letter-head2.png)
+![Letter Head](assets/frappe_io/images/erpnext/letter-head2.png)
 
   * Create an image with your logo, brand and other information that you want to put on your letter head.
   * Attach the image in your Letter Head record by clicking on image icon to automatically generate the HTML required for this Letter Head.

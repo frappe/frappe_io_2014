@@ -3,5 +3,5 @@ requirements, rules, specifications, and standards that a company follows.
 These specifications are an integral part of an agreement or contract that the
 company gets into with its customers, suppliers or partners.
 
-![Terms and Conditions](files/terms.png)
+![Terms and Conditions](assets/frappe_io/images/erpnext/terms.png)
 

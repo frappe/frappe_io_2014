@@ -2,7 +2,7 @@
 
 #### Step 2: Select Purpose as Manufacture/Repack.
 
-![Repack](files/repack-1.png)
+![Repack](assets/frappe_io/images/erpnext/repack-1.png)
 
 #### Step 3: Fill Item details and BOM details.
 
@@ -20,7 +20,7 @@ This entry is explained with an example.
 If you have a product, say - wheat, create a Stock Entry for the total amount
 of wheat stock in the Source Warehouse. Keep the UOM as KG.
 
-![Repack](files/stock-entry-repack.png)
+![Repack](assets/frappe_io/images/erpnext/stock-entry-repack.png)
 
 If you pack your item-wheat in boxes, and want to measure stock in terms of
 numbers, say - [5 kg wheat in 1 box];then, go to Stock Entry and select
@@ -32,5 +32,5 @@ numbers, save and submit the entry.
 The stock will be calculated as per the entry and will reflect in the stock
 report.
 
-![Repack](files/repack-2.png)
+![Repack](assets/frappe_io/images/erpnext/repack-2.png)
 

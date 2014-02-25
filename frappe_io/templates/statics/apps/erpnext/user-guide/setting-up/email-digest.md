@@ -23,7 +23,7 @@ payments done during the digest period.
 
 **Figure 1; Email Digest**
 
-![](files/new-email-digest.png)  
+![](assets/frappe_io/images/erpnext/new-email-digest.png)  
 
   
 

@@ -9,7 +9,7 @@ could also go to the Setup module and click on Warehouse under Master Data.
 
 > Stock > Warehouse > New Warehouse
 
-![Warehouse](files/warehouse.png)
+![Warehouse](assets/frappe_io/images/erpnext/warehouse.png)
 
 In ERPNext, every Warehouse must belong to a specific company, to maintain
 company wise stock balance. The Warehouses are saved with their respective

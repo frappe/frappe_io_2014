@@ -20,7 +20,7 @@ merge the records.
 
 Figure 1: Customer list showing two records of same person.
 
-![](files/merging-documents.png)  
+![](assets/frappe_io/images/erpnext/merging-documents.png)  
 
   
 
@@ -41,7 +41,7 @@ There is no direct selection called Merge. Click on the Rename function.
 
 Figure 2: Select Rename to Merge.** **  
 
-![](files/merging-documents-1.png)**  
+![](assets/frappe_io/images/erpnext/merging-documents-1.png)**  
 **
 
 **  
@@ -64,7 +64,7 @@ Afonso will get merged with the new name Ivan Afonso.
 
 Figure 3: Rename Old Name  
 
-![](files/merging-documents-2.png)  
+![](assets/frappe_io/images/erpnext/merging-documents-2.png)  
 
   
 
@@ -75,7 +75,7 @@ Figure 3: Rename Old Name
 
 Figure 4: Customer list with merged name.
 
-![](files/merging-documents-3.png)**  
+![](assets/frappe_io/images/erpnext/merging-documents-3.png)**  
 **
 
   

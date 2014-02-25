@@ -8,14 +8,14 @@ make a new BOM:
 
 > Manufacturing > Bill of Materials > New BOM
 
-![Bill of Materials](files/bom.png)
+![Bill of Materials](assets/frappe_io/images/erpnext/bom.png)
 
 In the BOM form:
 
   * Select the Item for which you want to make the BOM.
   * Add the operations that you have to go through to make that particular Item in the “Operations” table. For each operation, you will be asked to enter a Workstation. You must create new Workstations as and when necessary. 
 
-![Bill of Materials with Operations](files/mfg-bom-3.png)
+![Bill of Materials with Operations](assets/frappe_io/images/erpnext/mfg-bom-3.png)
 
   * Add the list of Items you require for each operation, with its quantity. This Item could be a purchased Item or a sub-assembly with its own BOM. If the row Item is a manufactured Item and has multiple BOMs, select the appropriate BOM.  You can also define if a part of the Item goes into scrap.
 

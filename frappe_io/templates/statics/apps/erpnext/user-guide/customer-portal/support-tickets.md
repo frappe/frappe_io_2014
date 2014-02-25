@@ -5,17 +5,17 @@ conversation.
 
 #### Empty Ticket List
 
-![Ticket List](files/portal-ticket-list-empty.png)
+![Ticket List](assets/frappe_io/images/erpnext/portal-ticket-list-empty.png)
 
 #### New Support Ticket
 
-![New Ticket](files/portal-new-ticket.png)
+![New Ticket](assets/frappe_io/images/erpnext/portal-new-ticket.png)
 
 #### Open Support Ticket
 
-![Open Support Ticket](files/portal-ticket-1.png)
+![Open Support Ticket](assets/frappe_io/images/erpnext/portal-ticket-1.png)
 
 #### Reply on Support Ticket
 
-![Reply Support Ticket](files/portal-ticket-reply.png)
+![Reply Support Ticket](assets/frappe_io/images/erpnext/portal-ticket-reply.png)
 

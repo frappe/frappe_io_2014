@@ -8,10 +8,10 @@ To create a sales partner go to
 
 > Setup > Sales Partner > New Sales Partner
 
-![Sales Partner](files/sales-partner.png)
+![Sales Partner](assets/frappe_io/images/erpnext/sales-partner.png)
 
 To include the name of your Partner on your website, check the "Show in
 Website" box.
 
-![Sales Partner](files/sales-partner-1.png)
+![Sales Partner](assets/frappe_io/images/erpnext/sales-partner-1.png)
 

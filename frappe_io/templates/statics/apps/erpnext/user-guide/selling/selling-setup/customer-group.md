@@ -9,15 +9,15 @@ To create a new Customer Group, go to
 
 #### Step 1: Click on Add Child
 
-![Customer Group Tree](files/customer-group-tree-1.png)
+![Customer Group Tree](assets/frappe_io/images/erpnext/customer-group-tree-1.png)
 
   
 
 #### Step 2: Name the Customer Group
 
-![Customer Group Tree](files/customer-group-tree-2.png)
+![Customer Group Tree](assets/frappe_io/images/erpnext/customer-group-tree-2.png)
 
 The new Customer Group will be added to the Customer Group Tree.
 
-![Customer Group Tree](files/customer-group-tree-3.png)
+![Customer Group Tree](assets/frappe_io/images/erpnext/customer-group-tree-3.png)
 

@@ -5,13 +5,13 @@ functions. This diagram does not cover all the features of ERPNext.
 
   
 
-# ![](files/overview.jpg)
+# ![](assets/frappe_io/images/erpnext/overview.jpg)
 
         
 
   
 
-[Full Resolution](files/overview.jpg)
+[Full Resolution](assets/frappe_io/images/erpnext/overview.jpg)
 
   
 

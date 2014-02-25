@@ -5,5 +5,5 @@ companies, create the setup under the Company Setup page.
 
 > Setup > Company > New Company
 
-![Company Setup](files/company.png)
+![Company Setup](assets/frappe_io/images/erpnext/company.png)
 

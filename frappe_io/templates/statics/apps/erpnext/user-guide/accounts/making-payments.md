@@ -6,7 +6,7 @@ clicking on “Make Payment Entry” button on “Submitted” invoices.
   3. Enter the cheque number, cheque date.
   4. Save and Submit.
 
-![Payment Entry](files/payment-entry.png)
+![Payment Entry](assets/frappe_io/images/erpnext/payment-entry.png)
 
 Payments can also be made independent of invoices by creating a new Journal
 Voucher and selecting the type of payment.

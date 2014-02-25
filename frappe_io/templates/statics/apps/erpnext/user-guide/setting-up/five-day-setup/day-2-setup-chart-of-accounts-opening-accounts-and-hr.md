@@ -3,20 +3,20 @@
   
 Go to the Accounts icon and make ledgers under Chart of Accounts.
 
-![Accounts](files/seconddaysetup-accounts.png)
+![Accounts](assets/frappe_io/images/erpnext/seconddaysetup-accounts.png)
 
   
 
 Create acccounting ledgers.
 
-![Tree](files/seconddaysetup-tree.png)
+![Tree](assets/frappe_io/images/erpnext/seconddaysetup-tree.png)
 
   
 
 To begin Opening Entries, go to 'Opening Accounts and Stock' on the Setup
 Page.
 
-![Ledger](files/seconddaysetup-accounts-jv.png)
+![Ledger](assets/frappe_io/images/erpnext/seconddaysetup-accounts-jv.png)
 
   
 
@@ -30,7 +30,7 @@ To understand how to create opening entries in detail visit [Opening Entry
 You can upload your opening stock in the system using Stock Reconciliation.
 Stock Reconciliation will update your stock for any given Item.
 
-![Stock Opening](files/seconddaysetup-stock-opening.png)  
+![Stock Opening](assets/frappe_io/images/erpnext/seconddaysetup-stock-opening.png)  
 
 To understand Stock Opening in detail visit [Opening Stock.](stock-
 reconciliation-for-non-serialized-item)
@@ -41,7 +41,7 @@ reconciliation-for-non-serialized-item)
 
 To setup HR, begin by creating individual employee records.
 
-![Employee](files/seconddaysetup-hr.png)
+![Employee](assets/frappe_io/images/erpnext/seconddaysetup-hr.png)
 
 To fill the Employee Form, refer to [Employee](employee-master)
 

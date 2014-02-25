@@ -7,13 +7,13 @@ A Sales Order is usually a binding Contract with your Customer.
 Once your customer confirms the Quotation you can convert your Quotation into
 a Sales Order.
 
-![Sales Order](files/sales-order-f.jpg)
+![Sales Order](assets/frappe_io/images/erpnext/sales-order-f.jpg)
 
 Alternatively, you can create a Sales Order directly from:
 
 > Selling > Sales Order > New Sales Order
 
-![Sales Order](files/sales-order.png)
+![Sales Order](assets/frappe_io/images/erpnext/sales-order.png)
 
 Most of the information in your Sales Order is the same as the Quotation.
 There are a few amongst other things that a Sales Order will ask you to

@@ -12,7 +12,7 @@ ERPNext, you can also create and allocate a Task independently of a Project.
 
 To create a Task, go to Project and click on Task.
 
-![Tasks](files/fifthdaysetup-tasks.png)
+![Tasks](assets/frappe_io/images/erpnext/fifthdaysetup-tasks.png)
 
 > To understand Projects in detail, visit
 

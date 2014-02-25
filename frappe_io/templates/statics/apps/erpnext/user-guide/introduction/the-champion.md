@@ -1,4 +1,4 @@
-![Implementation](files/implementation-image.png)
+![Implementation](assets/frappe_io/images/erpnext/implementation-image.png)
 
 We have seen dozens of ERP implementations over the past few years and we
 realize that successful implementation is a lot about intangibles and

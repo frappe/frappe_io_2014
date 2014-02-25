@@ -132,11 +132,11 @@ Valuation
 
 **Stock Ledger**
 
-![pr<em>stock</em>ledger](files/accounting-for-stock-2.png)
+![pr<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-2.png)
 
 **General Ledger**
 
-![pr<em>general</em>ledger](files/accounting-for-stock-3.png)
+![pr<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-3.png)
 
 As stock balance increases through Purchase Receipt, "Store" and "Fixed Asset
 Warehouse" accounts are debited and a temporary account "Stock Receipt But Not
@@ -151,7 +151,7 @@ Purchase Invoice for the same. The general ledger entries are as follows:
 
 **General Ledger**
 
-![pi<em>general</em>ledger](files/accounting-for-stock-4.png)
+![pi<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-4.png)
 
 Here "Stock Received But Not Billed" account is debited and nullified the
 effect of Purchase Receipt. "Expenses Included In Valuation" account has been
@@ -195,11 +195,11 @@ VAT
 
 **Stock Ledger**
 
-![dn<em>stock</em>ledger](files/accounting-for-stock-5.png)
+![dn<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-5.png)
 
 **General Ledger**
 
-![dn<em>general</em>ledger](files/accounting-for-stock-6.png)
+![dn<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-6.png)
 
 As item is delivered from "Stores" warehouse, "Stores" account is credited and
 equal amount is debited to the expense account "Cost of Goods Sold". The
@@ -229,11 +229,11 @@ of the Sales Invoice are same as the above Delivery Note.
 
 **Stock Ledger**
 
-![si<em>stock</em>ledger](files/accounting-for-stock-7.png)
+![si<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-7.png)
 
 **General Ledger**
 
-![si<em>general</em>ledger](files/accounting-for-stock-8.png)
+![si<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-8.png)
 
 Here, apart from normal account entries for invoice, "Stores" and "Cost of
 Goods Sold" accounts are also affected based on the valuation amount.
@@ -258,11 +258,11 @@ Stores
 
 **Stock Ledger**
 
-![mr<em>stock</em>ledger](files/accounting-for-stock-9.png)
+![mr<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-9.png)
 
 **General Ledger**
 
-![mr<em>stock</em>ledger](files/accounting-for-stock-10.png)
+![mr<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-10.png)
 
 * * *
 
@@ -284,11 +284,11 @@ Stores
 
 **Stock Ledger**
 
-![mi<em>stock</em>ledger](files/accounting-for-stock-11.png)
+![mi<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-11.png)
 
 **General Ledger**
 
-![mi<em>stock</em>ledger](files/accounting-for-stock-12.png)
+![mi<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-12.png)
 
 * * *
 
@@ -312,11 +312,11 @@ Work In Progress
 
 **Stock Ledger**
 
-![mtn<em>stock</em>ledger](files/accounting-for-stock-13.png)
+![mtn<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-13.png)
 
 **General Ledger**
 
-![mtn<em>general</em>ledger](files/accounting-for-stock-14.png)
+![mtn<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-14.png)
 
 * * *
 
@@ -338,11 +338,11 @@ Stores
 
 **Stock Ledger**
 
-![sret<em>stock</em>ledger](files/accounting-for-stock-15.png)
+![sret<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-15.png)
 
 **General Ledger**
 
-![sret<em>general</em>ledger](files/accounting-for-stock-16.png)
+![sret<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-16.png)
 
 * * *
 
@@ -364,9 +364,9 @@ Stores
 
 **Stock Ledger**
 
-![pret<em>stock</em>ledger](files/accounting-for-stock-17.png)
+![pret<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-17.png)
 
 **General Ledger**
 
-![pret<em>general</em>ledger](files/accounting-for-stock-18.png)
+![pret<em>general</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-18.png)
 

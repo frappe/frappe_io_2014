@@ -6,11 +6,11 @@ To create a sales person go to:
 
 > Setup > Sales Person
 
-![Sales Person](files/sales-person-1.png)
+![Sales Person](assets/frappe_io/images/erpnext/sales-person-1.png)
 
   
 
 Click on "Add Child" to create new sales persons.
 
-![Sales Person](files/sales-person-2.png)
+![Sales Person](assets/frappe_io/images/erpnext/sales-person-2.png)
 

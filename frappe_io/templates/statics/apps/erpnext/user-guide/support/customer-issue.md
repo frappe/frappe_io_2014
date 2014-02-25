@@ -15,7 +15,7 @@ To create a new **Customer Issue**:
 
 > Support > Customer Issue > New Customer Issue
 
-![Customer Issue](files/customer-issue.png)
+![Customer Issue](assets/frappe_io/images/erpnext/customer-issue.png)
 
 If a Customer visit is required to address the issue, you can create a new
 Maintenance Visit record from this.

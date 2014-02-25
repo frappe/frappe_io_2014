@@ -5,7 +5,7 @@ To make a Stock Entry you have to go to:
 
 > Stock > Stock Entry
 
-![Stock Entry](files/stock-entry.png)
+![Stock Entry](assets/frappe_io/images/erpnext/stock-entry.png)
 
 This can also be useful in tracking:
 

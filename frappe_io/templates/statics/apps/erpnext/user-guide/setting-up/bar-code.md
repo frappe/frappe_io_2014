@@ -26,7 +26,7 @@ Setup > Hide/ Unhide Features > Item Barcode.
 
   
 
-![](files/barcode-1.png)  
+![](assets/frappe_io/images/erpnext/barcode-1.png)  
 
   
 
@@ -57,7 +57,7 @@ Then go to Accounts and click on Sales Invoice. Check the box 'Is POS'
 
   
 
-![](files/barcode-2.png)  
+![](assets/frappe_io/images/erpnext/barcode-2.png)  
 
   
 

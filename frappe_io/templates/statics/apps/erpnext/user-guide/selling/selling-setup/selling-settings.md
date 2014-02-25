@@ -6,5 +6,5 @@ Customer Group and the Default Territory you operate in.
 
   
 
-![Selling Setup](files/selling-setup.png)
+![Selling Setup](assets/frappe_io/images/erpnext/selling-setup.png)
 

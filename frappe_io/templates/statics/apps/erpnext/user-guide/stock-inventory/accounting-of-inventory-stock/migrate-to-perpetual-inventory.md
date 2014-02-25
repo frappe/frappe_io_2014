@@ -20,7 +20,7 @@ Steps:
 
 > Setup > Accounts Settings > Make Accounting Entry For Every Stock Movement
 
-![Activation](files/accounting-for-stock-1.png)  
+![Activation](assets/frappe_io/images/erpnext/accounting-for-stock-1.png)  
   
 
   * Create Stock Entry (Material Transfer) to transfer available stock from existing warehouse to new warehouse. As stock will be available in the new warehouse, you should select the new warehouse for all the future transactions.

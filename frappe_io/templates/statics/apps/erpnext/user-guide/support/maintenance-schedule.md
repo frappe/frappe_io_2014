@@ -12,13 +12,13 @@ To create a new Maintenance Schedule go to:
 
 #### Step 1: Enter Customer Details
 
-![Maintenance Schedule](files/maintenance-schedule-1.png)
+![Maintenance Schedule](assets/frappe_io/images/erpnext/maintenance-schedule-1.png)
 
   
 
 #### Step 2: Fill Item and Maintenance Details
 
-![Maintenance Schedule](files/maintenance-schedule-2.png)
+![Maintenance Schedule](assets/frappe_io/images/erpnext/maintenance-schedule-2.png)
 
   
 

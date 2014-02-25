@@ -12,5 +12,5 @@ see how it looks to the recepient, you can use the test function.Save the
 document before testing. A test email will be sent to your email id. You can
 send the email to all the intended receipients by clicking on the send button.
 
-![Newsletter](files/newsletter.png)
+![Newsletter](assets/frappe_io/images/erpnext/newsletter.png)
 

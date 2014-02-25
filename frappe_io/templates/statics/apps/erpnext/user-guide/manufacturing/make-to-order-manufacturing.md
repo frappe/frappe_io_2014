@@ -14,7 +14,7 @@ sales orders.
 
   
 
-![](files/Make-to-order.png)  
+![](assets/frappe_io/images/erpnext/Make-to-order.png)  
 
 In ERPNext, to follow Make-To-Order type of manufacturing, you can make
 Production Orders directly from Sales Orders or from Production Planning Tool
@@ -27,7 +27,7 @@ Action button, to get a drop-down list. Select Transfer Raw Material.
 
   
 
-![](files/material-transfer-1.png)  
+![](assets/frappe_io/images/erpnext/material-transfer-1.png)  
 
   
 

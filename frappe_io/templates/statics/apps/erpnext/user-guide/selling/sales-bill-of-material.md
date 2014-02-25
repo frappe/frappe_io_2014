@@ -47,7 +47,7 @@ Note 3: The Parent Item should be a Sales Item.
 
 **Figure 1: Sales BOM for Jute Bag**
 
-![](files/sales-bom-.png)  
+![](assets/frappe_io/images/erpnext/sales-bom-.png)  
 
   
 
@@ -84,7 +84,7 @@ packaged/bundled along with the parent Item.
 
   
 
-**Figure 2: Packing List with Child Items**![](files/sales-bom-usein-so.png)  
+**Figure 2: Packing List with Child Items**![](assets/frappe_io/images/erpnext/sales-bom-usein-so.png)  
 
   
 

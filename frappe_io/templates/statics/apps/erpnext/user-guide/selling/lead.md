@@ -20,7 +20,7 @@ To create a Lead, go to:
 
 > Selling > Lead > New Lead
 
-![Lead](files/lead.png)
+![Lead](assets/frappe_io/images/erpnext/lead.png)
 
 ERPNext gives you a lot of options you may want to store about your Leads. For
 example what is the source, how likely are they to give you business etc. If

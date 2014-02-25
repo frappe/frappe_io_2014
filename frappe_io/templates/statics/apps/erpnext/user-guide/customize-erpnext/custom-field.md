@@ -3,7 +3,7 @@ Fields in any Master or Transaction in ERPNext. To add a Custom Field, go to:
 
 > Setup > Custom Field > New Custom Field
 
-![Custom Field](files/custom-field.png)
+![Custom Field](assets/frappe_io/images/erpnext/custom-field.png)
 
 In the form:
 

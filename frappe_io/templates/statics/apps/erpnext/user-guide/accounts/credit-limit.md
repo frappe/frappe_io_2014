@@ -12,7 +12,7 @@ Selling > Customer > New Customer
 
   
 
-![](files/credit-limit-1.png)  
+![](assets/frappe_io/images/erpnext/credit-limit-1.png)  
 
   
 
@@ -35,7 +35,7 @@ accept orders or raise credit limits of customers.
 
   
 
-![](files/credit-controller.png)  
+![](assets/frappe_io/images/erpnext/credit-controller.png)  
 
   
 

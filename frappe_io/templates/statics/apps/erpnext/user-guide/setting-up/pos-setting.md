@@ -14,7 +14,7 @@ from:
 
 Set default values as defined.
 
-![POS Setting](files/pos-setting.png)
+![POS Setting](assets/frappe_io/images/erpnext/pos-setting.png)
 
 > Important : If you specify a particular User, the POS setting will be
 applied only to that User. If the User option is left blank, the setting will

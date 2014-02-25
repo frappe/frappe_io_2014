@@ -11,7 +11,7 @@ and Deductions. To create a new Salary Structure go to:
 
 > HR > Salary Structure > New Salary Structure
 
-![Salary Structure](files/salary-structure.png)
+![Salary Structure](assets/frappe_io/images/erpnext/salary-structure.png)
 
 ### In the Salary Structure,
 
@@ -41,7 +41,7 @@ form or you can process your payroll for the month using the Salary Manager.
 To create a salary slip from Salary Structure, click on the button Make Salary
 Slip.
 
-![Salary Slip](files/salary-slip-1.png)
+![Salary Slip](assets/frappe_io/images/erpnext/salary-slip-1.png)
 
   
 
@@ -49,7 +49,7 @@ Through Salary Manager:
 
 > HR > Process Payroll
 
-![Salary Manager](files/salary-manager.png)
+![Salary Manager](assets/frappe_io/images/erpnext/salary-manager.png)
 
 In the Salary Manager tool,
 

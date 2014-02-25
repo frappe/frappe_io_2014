@@ -8,7 +8,7 @@ Orders and Purchase Invoices.
 > Buying > Purchase Taxes and Charges Master > New Purchase Taxes and Charges
 Master
 
-![Purchase-Taxes](files/purchase-taxes.png)
+![Purchase-Taxes](assets/frappe_io/images/erpnext/purchase-taxes.png)
 
   
 

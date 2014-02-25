@@ -23,7 +23,7 @@ To setup a series, go to:
 
 > Setup > Tools > Update Numbering Series
 
-![Document Naming Series](files/naming-series.png)
+![Document Naming Series](assets/frappe_io/images/erpnext/naming-series.png)
 
 In this form,
 

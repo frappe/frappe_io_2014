@@ -8,7 +8,7 @@ select the region and click on Edit.
 
   
 
-![](files/territory-1.png)  
+![](assets/frappe_io/images/erpnext/territory-1.png)  
 
   
 
@@ -23,7 +23,7 @@ Click on Add new Row
 
   
 
-![](files/territory-2.png)  
+![](assets/frappe_io/images/erpnext/territory-2.png)  
 
   
 
@@ -39,7 +39,7 @@ Target distribution ID is same as Budget Distribution ID.
 
   
 
-![](files/budgeting-4.png)  
+![](assets/frappe_io/images/erpnext/budgeting-4.png)  
 
   
 

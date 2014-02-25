@@ -11,7 +11,7 @@ will get an indication that the HR department has Accepted or Rejected. The
 Manager, who is the approving authority, will either Approve or Reject this
 request. Accordingly,the user will get his Approved or Rejected status.
 
-![Workflow](files/workflow-leave-fl.jpg)
+![Workflow](assets/frappe_io/images/erpnext/workflow-leave-fl.jpg)
 
 To make this Workflow and transition rules go to :
 
@@ -19,11 +19,11 @@ To make this Workflow and transition rules go to :
 
 #### Step 1: Enter the different states of Leave Approval Process.
 
-![Workflow](files/workflow-leave1.png)
+![Workflow](assets/frappe_io/images/erpnext/workflow-leave1.png)
 
 #### Step 2: Enter Transition Rules.
 
-![Workflow](files/workflow-leave2.png)
+![Workflow](assets/frappe_io/images/erpnext/workflow-leave2.png)
 
 Notes:
 
@@ -50,16 +50,16 @@ Leave.
 When a Leave Application is submitted, the status on the right hand corner of
 the page shows as "Applied"
 
-![Workflow Employee LA](files/workflow-employee-la.png)
+![Workflow Employee LA](assets/frappe_io/images/erpnext/workflow-employee-la.png)
 
 When the HR User logs in, he can either Approve or Reject. If approved the
 status on the right hand corner of the page shows as Approved. However, a blue
 band of information is displayed saying approval is pending by leave approver.
 
-![Leave Approver](files/workflow-hr-user-la.png)
+![Leave Approver](assets/frappe_io/images/erpnext/workflow-hr-user-la.png)
 
 When the leave approver opens the Leave Application page, he should select the
 status and convert to Approved or Rejected.
 
-![Workflow Leave Approver](files/workflow-leave-approver-la.png)
+![Workflow Leave Approver](assets/frappe_io/images/erpnext/workflow-leave-approver-la.png)
 

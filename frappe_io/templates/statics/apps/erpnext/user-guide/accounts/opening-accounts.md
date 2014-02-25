@@ -39,19 +39,19 @@ Note: Make sure to set “Is Opening” as “Yes” in the More Info section.
 
 #### Step 1: Select Opening Entry in the Voucher Type section.
 
-![Opening Entry](files/opening-entry.png)
+![Opening Entry](assets/frappe_io/images/erpnext/opening-entry.png)
 
   
 
 #### Step 2: Complete Journal Entries on the Debit and Credit side.
 
-![Opening Entry](files/opening-entry-1.png)
+![Opening Entry](assets/frappe_io/images/erpnext/opening-entry-1.png)
 
   
 
 #### Step 2: Select Yes in the "Is Opening " record under More Info.
 
-![Opening Entry](files/opening-entry-2.png)
+![Opening Entry](assets/frappe_io/images/erpnext/opening-entry-2.png)
 
 You can make two Opening Journal Vouchers:
 
@@ -61,7 +61,7 @@ You can make two Opening Journal Vouchers:
 After completing the accounting entries, the trial balance report will look
 like the one given below:
 
-![Trial Balance](files/trial-balance-1.png)
+![Trial Balance](assets/frappe_io/images/erpnext/trial-balance-1.png)
 
 #### Outstanding Invoices
 

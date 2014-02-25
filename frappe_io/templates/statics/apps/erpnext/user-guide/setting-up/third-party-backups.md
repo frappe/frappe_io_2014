@@ -3,7 +3,7 @@ it directly through ERPNext.
 
 > Setup > Manage 3rd Party Backups
 
-![Third Party Backups](files/third-party-backups.png)
+![Third Party Backups](assets/frappe_io/images/erpnext/third-party-backups.png)
 
 On the Backup Manager page, enter the email addresses of those people whom you
 wish to notify about the upload status. Under the topic 'Sync with Dropbox',
@@ -13,11 +13,11 @@ click on **Allow Dropbox Access**.
 > Tip: In future, if you wish to discontinue uploading backups to dropbox,
 then select the Never option.
 
-![Backup Manager](files/backup-manager.png)
+![Backup Manager](assets/frappe_io/images/erpnext/backup-manager.png)
 
 You need to login to your dropbox account, with your user id and password.
 
-![Dropbox Access](files/dropbox-access.png)
+![Dropbox Access](assets/frappe_io/images/erpnext/dropbox-access.png)
 
 ## Open Source Users
 

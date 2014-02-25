@@ -6,7 +6,7 @@ allocate them manually by creating new Leave Allocation records.
 
 > HR > Leave Allocation > New Leave Allocation
 
-![Leave ALlocation](files/leave-allocation.png)
+![Leave ALlocation](assets/frappe_io/images/erpnext/leave-allocation.png)
 
 * * *
 
@@ -20,7 +20,7 @@ to approve leaves, you can give “Submission” rights to those users only.
 
 > HR > Leave Application > Make New Leave Application
 
-![New Leave Application](files/new-leave-application.png)
+![New Leave Application](assets/frappe_io/images/erpnext/new-leave-application.png)
 
 If you want all users to create their own Leave Applications, you can set
 their “Employee ID” as a match rule in the Leave Application Permission

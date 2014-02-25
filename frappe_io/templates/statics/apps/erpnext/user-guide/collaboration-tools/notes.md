@@ -4,11 +4,11 @@ which needs to be shared.
 
 #### Step 1: Enter Title and Content
 
-![Notes](files/notes.png)
+![Notes](assets/frappe_io/images/erpnext/notes.png)
 
   
 
 #### Step 2: Set Permissions to select Users
 
-![Notes](files/notes-1.png)
+![Notes](assets/frappe_io/images/erpnext/notes-1.png)
 

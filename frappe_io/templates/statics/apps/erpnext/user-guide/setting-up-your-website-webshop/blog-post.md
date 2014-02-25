@@ -8,12 +8,12 @@ To create a new blog, just create a new Blog from:
 
 > Website > Blog > New Blog
 
-![Blog](files/blog.png)
+![Blog](assets/frappe_io/images/erpnext/blog.png)
 
 You can format a blog using the Markdown format.You can also access your blog
 by going to the page “blog.html”.
 
 #### A sample blog-page.
 
-![Blog](files/blog-look.png)
+![Blog](assets/frappe_io/images/erpnext/blog-look.png)
 

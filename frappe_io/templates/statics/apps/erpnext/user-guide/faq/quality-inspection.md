@@ -7,7 +7,7 @@ Stock > Quality Inspection
 
   
 
-![](files/quality-inspection.png)  
+![](assets/frappe_io/images/erpnext/quality-inspection.png)  
 
   
 
@@ -16,7 +16,7 @@ Stock > Quality Inspection
 **  
 **
 
-![](files/quality-inspection-2.png)**  
+![](assets/frappe_io/images/erpnext/quality-inspection-2.png)**  
 **
 
   
@@ -25,7 +25,7 @@ Stock > Quality Inspection
 
   
 
-![](files/quality-inspection-3.png)  
+![](assets/frappe_io/images/erpnext/quality-inspection-3.png)  
 
   
 

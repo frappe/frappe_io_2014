@@ -18,7 +18,7 @@ Human Resources >Holiday List > New Holiday List
 
 **Figure 1: Holiday List**
 
-![](files/holiday-list-1.png)  
+![](assets/frappe_io/images/erpnext/holiday-list-1.png)  
 
   
 
@@ -42,7 +42,7 @@ Mention the holiday reason in the description and select the date from the
 
 **Figure 2: Adding new holidays to the list**
 
-![](files/holiday-list-2.png)  
+![](assets/frappe_io/images/erpnext/holiday-list-2.png)  
 
   
 

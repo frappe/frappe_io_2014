@@ -5,7 +5,7 @@ mandatory, hiding others and changing permission levels on fields by going to:
 
 #### Step 1: Select the required Form Type for Customization.
 
-![Customize Forms](files/customize-form-1.png)
+![Customize Forms](assets/frappe_io/images/erpnext/customize-form-1.png)
 
 Select the Form you want to customize and the fields table will be updated
 with the fields from that form. Here you can:
@@ -22,7 +22,7 @@ default Print Format.
 
 #### Step 2: Replace Fields with required changes.
 
-![Customize Forms](files/customize-form-2.png)
+![Customize Forms](assets/frappe_io/images/erpnext/customize-form-2.png)
 
   
 

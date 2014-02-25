@@ -1,4 +1,4 @@
-![Stock-Inventory](http://erpnext.org/files/stock-inventory.png)
+![Stock-Inventory](http://erpnext.org/assets/frappe_io/images/erpnext/stock-inventory.png)
 
 For most small business that deal in physical goods, a large part of their net
 worth is invested in the stock in hand.

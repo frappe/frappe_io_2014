@@ -55,7 +55,7 @@ stock quantity as seen in the warehouse.
 
 Figure 1: Download Template
 
-![](files/stock-reconciliation-4.png)  
+![](assets/frappe_io/images/erpnext/stock-reconciliation-4.png)  
 
 Note: While filling the valuation rates of Items, if you wish to find out the
 valuation rates of all items, you can go to stock and click on Item prices
@@ -65,7 +65,7 @@ report. The report will show you all types of rates.
 
 #### Step 2: Enter Data in csv file.
 
-![](files/stock-reconciliation-with-data.png)  
+![](assets/frappe_io/images/erpnext/stock-reconciliation-with-data.png)  
 
   
 
@@ -82,7 +82,7 @@ So leave the field blank.
 
   
 
-![](files/stock-recociliation-upload.png)  
+![](assets/frappe_io/images/erpnext/stock-recociliation-upload.png)  
 
 After reviewing saved Reconciliation Data, submit the Stock Reconciliation. On
 successful submission, the data will be updated in the system. To check the
@@ -92,12 +92,12 @@ submitted data go to stock and view stock level report.
 
 #### **Step 4: Review the reconciliation data **
 
-![](files/reconciliation-data.png)**  
+![](assets/frappe_io/images/erpnext/reconciliation-data.png)**  
 **
 
 #### **Stock Ledger Report**  
 
-![](files/stock-ledger-report-sr000001.png)**  
+![](assets/frappe_io/images/erpnext/stock-ledger-report-sr000001.png)**  
 **
 
   

@@ -13,7 +13,7 @@ create a new Delivery Note from:
 or from a “Submitted” Sales Order (that is not already shipped) by clicking on
 “Make Delivery Note”.
 
-![Delivery Note](files/delivery-note.png)
+![Delivery Note](assets/frappe_io/images/erpnext/delivery-note.png)
 
 You can also “fetch” the details from an unshipped Sales Order.
 

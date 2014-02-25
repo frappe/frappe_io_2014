@@ -7,7 +7,7 @@ by any department.
 Go to Stock Entry. Click on New Stock Entry Select the option “Material Issue”
 under Purpose. Provide Source Warehouse details. Provide the BOM Number. Save
 
-![Material Issue](files/material-issue.png)
+![Material Issue](assets/frappe_io/images/erpnext/material-issue.png)
 
 Note: If you have done a stock entry and selected “Material Issue” under
 Purpose, that particular amount of stock will reflect as negative in stock

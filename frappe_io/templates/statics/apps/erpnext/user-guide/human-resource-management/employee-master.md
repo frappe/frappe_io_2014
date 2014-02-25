@@ -12,20 +12,20 @@ To create new Employee go to:
 
 #### Step 1: Capture basic information and Employement Details.
 
-![Employee Master](files/employee-master-1.png)
+![Employee Master](assets/frappe_io/images/erpnext/employee-master-1.png)
 
   
 
 #### Step 2: Complete Job Profile and Organisation Profile.
 
-![Employee Master](files/employee-master-2.png)
+![Employee Master](assets/frappe_io/images/erpnext/employee-master-2.png)
 
   
 
 #### Step 3: Update contact details, personal details, and previous
 employement details.
 
-![Employee Master](files/employee-master-3.png)
+![Employee Master](assets/frappe_io/images/erpnext/employee-master-3.png)
 
 ### Numbering Employees (Employee ID)
 

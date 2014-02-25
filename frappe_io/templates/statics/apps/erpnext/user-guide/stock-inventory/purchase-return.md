@@ -11,19 +11,19 @@ recorded in the books of accounts just like any other accounting transaction.
 Enter Purchase Return No and the Default Source Warehouse. Source Warehouse is
 a place from where you issue or transfer materials.
 
-![](files/purchase-return-5.png)  
+![](assets/frappe_io/images/erpnext/purchase-return-5.png)  
 
   
 
 Step 2: Add New Row and Enter Item Code.  
 
-![](files/purchase-invoice-2.png)  
+![](assets/frappe_io/images/erpnext/purchase-invoice-2.png)  
 
 Step 3: Enter Accounting Information.  
 
   
 
-![](files/purchase-return-3-3.png)  
+![](assets/frappe_io/images/erpnext/purchase-return-3-3.png)  
 
   
 
@@ -35,7 +35,7 @@ Step 4: Save the Document and Submit it.
 
   
 
-![](files/purchase-return-4-3.png)  
+![](assets/frappe_io/images/erpnext/purchase-return-4-3.png)  
 
   
 

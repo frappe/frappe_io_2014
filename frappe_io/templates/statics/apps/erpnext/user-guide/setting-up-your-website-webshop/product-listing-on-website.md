@@ -7,7 +7,7 @@ generated automatically.
 
 ##### Step 1: Save Image
 
-![Webimage](files/item-webimage.png)
+![Webimage](assets/frappe_io/images/erpnext/item-webimage.png)
 
   
 
@@ -17,13 +17,13 @@ Under the Website section, please check the box that says 'show in Website'.
 Once the box is checked, the page will display other fields for entering
 information.
 
-![Webimage](files/item-webimage-1.png)
+![Webimage](assets/frappe_io/images/erpnext/item-webimage-1.png)
 
   
 
 ##### Step 3: Enter Website Details
 
-![Webimage](files/item-webimage-2.png)
+![Webimage](assets/frappe_io/images/erpnext/item-webimage-2.png)
 
 The page name will be generated automatically. Mention the Item-Group under
 which the Item will be displayed.
@@ -37,18 +37,18 @@ names, make Item Groups with those names and check the box that says 'show in
 Website'. For Example, if you wish to create a category called 'Bags', create
 a Item Group named Bags.
 
-![Item Group](files/itemgroup-webimage-bags.png)
+![Item Group](assets/frappe_io/images/erpnext/itemgroup-webimage-bags.png)
 
 Once the Item Group is created go to the Website Settings page under Website.
 Enter the Label, Url, and Parent Label.
 
-![Item Group](files/itemgroup-website-settings.png)
+![Item Group](assets/frappe_io/images/erpnext/itemgroup-website-settings.png)
 
   
 
 #### Webpage labels
 
-![Webpage](files/webpage-labels.png)
+![Webpage](assets/frappe_io/images/erpnext/webpage-labels.png)
 
 Add more Items under a particular Item Group.
 
@@ -58,11 +58,11 @@ Group Label. For Example, To add Item-Kiddies Bag and Butterfly Print Bag,
 check the 'Show in Website'box. The Items will be placed under the Label Bags
 on the Webpage.
 
-![Item Group](files/itemgroup-websettings.png)
+![Item Group](assets/frappe_io/images/erpnext/itemgroup-websettings.png)
 
   
 
 Item Group Display
 
-![Item Group Display](files/webpage-itemgroup-display.png)
+![Item Group Display](assets/frappe_io/images/erpnext/webpage-itemgroup-display.png)
 

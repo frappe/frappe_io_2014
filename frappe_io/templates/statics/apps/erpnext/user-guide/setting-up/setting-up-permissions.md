@@ -24,7 +24,7 @@ going to
 
 > Setup > Users and Permissions > Permission Manager
 
-![Permission Manager](files/permission-manager.png)
+![Permission Manager](assets/frappe_io/images/erpnext/permission-manager.png)
 
 ## Using the Permission Manager
 
@@ -58,12 +58,12 @@ In the same way, add a row for each user.
 
 #### Step 1: Select Sales Order in "Set Permissions For"
 
-![Permissions Manager](files/permission-manager-1.png)
+![Permissions Manager](assets/frappe_io/images/erpnext/permission-manager-1.png)
 
 #### Step 2: Select restriction option as Territory
 
   
-![Permissions Manager](files/permission-manager-2.png)
+![Permissions Manager](assets/frappe_io/images/erpnext/permission-manager-2.png)
 
   
 
@@ -71,15 +71,15 @@ In the same way, add a row for each user.
 
   
 
-![Permissions Manager](files/permission-manager-3.png)
+![Permissions Manager](assets/frappe_io/images/erpnext/permission-manager-3.png)
 
 #### Step 3: Restrict User by selecting Territory
 
-![Permission Manager](files/permission-manager-4.png)
+![Permission Manager](assets/frappe_io/images/erpnext/permission-manager-4.png)
 
 #### Step 4: Select the User to assign to a Territory
 
-![Permission Manager](files/permission-manager-5.png)
+![Permission Manager](assets/frappe_io/images/erpnext/permission-manager-5.png)
 
 > **Note 1:** The “match” rules apply to all documents that you have matched
 by Territory.

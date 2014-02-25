@@ -11,7 +11,7 @@ Web Notes system.
 
 > Support > Support Ticket > New Support Ticket
 
-![Support Ticket](files/support-ticket.png)
+![Support Ticket](assets/frappe_io/images/erpnext/support-ticket.png)
 
 #### Discussion Thread
 

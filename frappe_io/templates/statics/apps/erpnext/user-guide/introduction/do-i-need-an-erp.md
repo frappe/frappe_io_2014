@@ -29,7 +29,7 @@ everyone is on the same page. An ERP changes that.
 ERPNext helps you to manage all your business information in one application
 and use it to manage operations and take decisions based on data.
 
-![ERPNext-Introduction](files/erpnext-introduction.png)
+![ERPNext-Introduction](assets/frappe_io/images/erpnext/erpnext-introduction.png)
 
 Among other things, ERPNext will help you to:
 

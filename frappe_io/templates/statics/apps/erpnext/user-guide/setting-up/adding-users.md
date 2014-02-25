@@ -12,14 +12,14 @@ To add a new user, click on “Add” button and enter the user’s
   * First Name
   * Last Name
 
-![User](files/user1.png)
+![User](assets/frappe_io/images/erpnext/user1.png)
 
 #### Step 2: Password and Image
 
 Enter a new password and select the image of the user. Write a small
 description about the User under the heading Short Bio
 
-![User](files/user2.png)
+![User](assets/frappe_io/images/erpnext/user2.png)
 
   
 
@@ -31,7 +31,7 @@ Check the boxes which the User can access. ERPNext comes with a bunch of
 predefined roles. Enter his email settings. The message will appear at the end
 of every mail.
 
-![User](files/user3.png)
+![User](assets/frappe_io/images/erpnext/user3.png)
 
 #### Step 4: Security Settings
 
@@ -41,5 +41,5 @@ of every mail.
 If you wish to give the user access to the system only between office hours,
 or during weekends, mention it under security settings.
 
-![User](files/user4.png)
+![User](assets/frappe_io/images/erpnext/user4.png)
 

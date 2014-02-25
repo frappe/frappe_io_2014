@@ -34,7 +34,7 @@ the row "Is Advance" click 'Yes'.
 
   
 
-![](files/e-t-o-jv-advance.png)  
+![](assets/frappe_io/images/erpnext/e-t-o-jv-advance.png)  
 
   
 
@@ -54,7 +54,7 @@ will be credited because it has given value.
 
   
 
-![](files/e-t-o-jv-credit-childbed.png)  
+![](assets/frappe_io/images/erpnext/e-t-o-jv-credit-childbed.png)  
 
   
 
@@ -75,7 +75,7 @@ payment entry, click on ‘Get Advances Received’.  Allocate the amount of
 advance in the advances table. The accounting will be adjusted accordingly.
 
   
-![](files/e-t-o-salinv-get-advance-childbed.png)  
+![](assets/frappe_io/images/erpnext/e-t-o-salinv-get-advance-childbed.png)  
 
   
 

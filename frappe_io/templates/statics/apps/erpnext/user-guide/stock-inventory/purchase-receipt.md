@@ -10,7 +10,7 @@ You can make a Purchase Receipt directly from:
 
 or from a “Submitted” Purchase Order, by clicking on “Make Purchase Receipt”.
 
-![Purchase Receipt](files/purchase-receipt.png)
+![Purchase Receipt](assets/frappe_io/images/erpnext/purchase-receipt.png)
 
 ### Rejections
 

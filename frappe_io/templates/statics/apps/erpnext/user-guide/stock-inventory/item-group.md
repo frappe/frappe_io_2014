@@ -9,5 +9,5 @@ You can also create your own Item groups .
 
 > Stock > Item Group
 
-![Item Group](files/item-group-tree.png)
+![Item Group](assets/frappe_io/images/erpnext/item-group-tree.png)
 

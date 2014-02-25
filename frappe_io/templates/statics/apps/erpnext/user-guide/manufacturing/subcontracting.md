@@ -15,7 +15,7 @@ To setup sub-contracting:
   2. Create a Warehouse for your Supplier so that you can keep track of Items supplied. (you may supply a months worth of Items in one go).
   3. For the processed Item, in the Item master, set “Is Sub Contracted Item” to “Yes”.
 
-![Subcontract](files/subcontract.png)
+![Subcontract](assets/frappe_io/images/erpnext/subcontract.png)
 
   
 

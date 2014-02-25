@@ -11,7 +11,7 @@ To create a new Quotation go to:
 
   
 
-![Quotation](files/quotation.png)
+![Quotation](assets/frappe_io/images/erpnext/quotation.png)
 
   
 
@@ -19,13 +19,13 @@ To create a new Quotation go to:
 
   
 
-![Quotation](files/quotation-1.png)
+![Quotation](assets/frappe_io/images/erpnext/quotation-1.png)
 
 #### Step #: Enter Item and Tax Details.
 
   
 
-![Quotation](files/quotation-2.png)
+![Quotation](assets/frappe_io/images/erpnext/quotation-2.png)
 
 A Quotation contains details about:
 

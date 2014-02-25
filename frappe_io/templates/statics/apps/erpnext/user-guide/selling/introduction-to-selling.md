@@ -4,7 +4,7 @@ may have a small team of sales people to handle this. ERPNext helps you track
 the communication leading up to the sale, by keeping all your documents in an
 organized and searchable manner.  
 
-![Selling](http://erpnext.org/files/selling-image.png)
+![Selling](http://erpnext.org/assets/frappe_io/images/erpnext/selling-image.png)
 
 ERPNext helps you track business **Opportunities** from **Leads** and
 **Customers**, send them **Quotations** and make confirmed **Sales Orders**.

@@ -85,7 +85,7 @@ Images can be added by adding an exclamation ! before the link.
 
     
     
-    ![A flower](files/flower.gif)
+    ![A flower](assets/frappe_io/images/erpnext/flower.gif)
     
 
 #### Code

@@ -5,7 +5,7 @@ You can create a new Supplier via:
 
 > Buying > Supplier > New Supplier
 
-![Supplier](files/supplier.png)
+![Supplier](assets/frappe_io/images/erpnext/supplier.png)
 
 ### Contacts and Addresses
 
@@ -34,7 +34,7 @@ value and “Save” the Supplier again.
 
 > Buying > Contact > New Contact
 
-![Contact](files/contact.png)
+![Contact](assets/frappe_io/images/erpnext/contact.png)
 
 You can also import from the Data Import Tool
 

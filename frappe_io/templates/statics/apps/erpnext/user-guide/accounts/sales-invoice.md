@@ -12,7 +12,7 @@ or from the “Make Sales Invoice” button in the Sales Order or Delivery Note.
 
   
 
-![Sales Invoice](files/sales-invoice.png)
+![Sales Invoice](assets/frappe_io/images/erpnext/sales-invoice.png)
 
   
 

@@ -4,5 +4,5 @@ Lead form, you can do so by creating your own script.
 
 > Setup > Customization > Custom Script
 
-![Custom Script](files/custom-script.png)
+![Custom Script](assets/frappe_io/images/erpnext/custom-script.png)
 

@@ -2,7 +2,7 @@ To set Authorization Rules, go to the Set Up Module.
 
   
 
-![](files/authorization-rule.png)  
+![](assets/frappe_io/images/erpnext/authorization-rule.png)  
 
   
 
@@ -10,7 +10,7 @@ To set Authorization Rules, go to the Set Up Module.
 
   
 
-![](files/authorization-rule-1.png)  
+![](assets/frappe_io/images/erpnext/authorization-rule-1.png)  
 
   
 
@@ -19,7 +19,7 @@ To set Authorization Rules, go to the Set Up Module.
 **  
 **
 
-![](files/authorization-rule-2.png)**  
+![](assets/frappe_io/images/erpnext/authorization-rule-2.png)**  
 **
 
 **  

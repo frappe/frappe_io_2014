@@ -9,7 +9,7 @@ You can either directly create your Customers via
 
 or upload it via the Data Import Tool.
 
-![Customer Master](files/customer.png)
+![Customer Master](assets/frappe_io/images/erpnext/customer.png)
 
 > Note: Customers are separate from Contacts and Addresses. A Customer can
 have multiple Contacts and Addresses.
@@ -70,7 +70,7 @@ based on your domain).
 Customer Group”. But all this effort, will pay off when you start getting
 reports. ￼ An example of a sample report is given below:
 
-![Sales Analytics](files/sales-analytics-customer.png)
+![Sales Analytics](assets/frappe_io/images/erpnext/sales-analytics-customer.png)
 
 ### Territory
 

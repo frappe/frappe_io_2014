@@ -1,7 +1,7 @@
 A Material Request is a simple document identifying a requirement of a set of
 Items (products or services) for a particular reason.
 
-![Workflow](files/material-request-workflow.jpg)
+![Workflow](assets/frappe_io/images/erpnext/material-request-workflow.jpg)
 
 To generate a Material Request manually go to:
 
@@ -9,7 +9,7 @@ To generate a Material Request manually go to:
 
 **Step 1**
 
-![Material Request](files/material-request-1.png)
+![Material Request](assets/frappe_io/images/erpnext/material-request-1.png)
 
 A Material Request can be generated:
 
@@ -20,7 +20,7 @@ A Material Request can be generated:
 
 **Step 2**
 
-![Material Request 2](files/material-request-2.png)
+![Material Request 2](assets/frappe_io/images/erpnext/material-request-2.png)
 
 In the Material Request form,
 

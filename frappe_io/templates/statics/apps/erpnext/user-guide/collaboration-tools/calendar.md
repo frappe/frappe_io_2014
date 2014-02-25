@@ -6,11 +6,11 @@ auto-generated events from the system.
 You can set events to repeat on every interval by Checking the "Repeat This
 Event" as shown in the example.
 
-![Set Repeat This Event](files/event-1.png)
+![Set Repeat This Event](assets/frappe_io/images/erpnext/event-1.png)
 
 You can see the repeat events by switching back to the calendar.
 
-![Event Repeated in Calendar](files/event-2.png)
+![Event Repeated in Calendar](assets/frappe_io/images/erpnext/event-2.png)
 
 ### Reminders
 

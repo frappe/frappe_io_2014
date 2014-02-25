@@ -7,7 +7,7 @@ To create a Journal Voucher go to:
 
 > Accounts > Journal Voucher > New Journal Voucher
 
-![Journal Voucher](files/journal-voucher.png)
+![Journal Voucher](assets/frappe_io/images/erpnext/journal-voucher.png)
 
 In a Journal Voucher, you must select.
 

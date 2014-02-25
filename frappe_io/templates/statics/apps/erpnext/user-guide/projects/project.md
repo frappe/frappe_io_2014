@@ -6,5 +6,5 @@ Delivery Notes, Sales Invoices, Purchase Requests, Purchase Orders and
 Purchase Invoices. This way you can keep a track of all the activities that
 happen around this project.
 
-![projects](files/projects.png)
+![projects](assets/frappe_io/images/erpnext/projects.png)
 

@@ -4,7 +4,7 @@ Maintenance Visit from:
 
 > Support > Maintenance Visit > New Maintenance Visit
 
-![Maintenance Visit](files/maintenance-visit.png)
+![Maintenance Visit](assets/frappe_io/images/erpnext/maintenance-visit.png)
 
 The Maintenance Visit contains information about the:
 

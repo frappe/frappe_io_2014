@@ -4,7 +4,7 @@ sail through the ERPNext implementation.
 
 The setup help is divided into day-wise instructions for 5 consecutive days.
 
-#### ![](files/key-workflows.002.jpg)  
+#### ![](assets/frappe_io/images/erpnext/key-workflows.002.jpg)  
 
   
 

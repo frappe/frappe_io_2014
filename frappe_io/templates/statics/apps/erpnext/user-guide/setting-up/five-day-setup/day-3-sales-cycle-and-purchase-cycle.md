@@ -15,7 +15,7 @@ Complete a standard Sales Cycle.
 To begin the sales cycle, go to the Selling Icon. On the selling page, click
 on [Lead.](lead)
 
-![Lead](files/thirddaysetup-lead.png)
+![Lead](assets/frappe_io/images/erpnext/thirddaysetup-lead.png)
 
 Fill the Lead form.
 
@@ -36,13 +36,13 @@ existing lead, click on Create Opportunity, on the Lead page.
 ##### Step 1: Go to 'Lead List' Page and open the Lead that shows interested
 status.
 
-![Opportunity](files/thirddaysetup-opportunity-1.png)
+![Opportunity](assets/frappe_io/images/erpnext/thirddaysetup-opportunity-1.png)
 
   
 
 ##### Step 2: Generate Opportunity from the selected Lead
 
-![Opportunity](files/thirddaysetup-opportunity.png)
+![Opportunity](assets/frappe_io/images/erpnext/thirddaysetup-opportunity.png)
 
 You can also generate an Opportunity directly from the Selling Page.
 
@@ -56,7 +56,7 @@ Imagine that your Opportunity has shown interest and asked for a Quotation. To
 generate a Quotation from the same Opportunity, open the submitted Opportunity
 and click on Create Quotation.
 
-![Quotation](files/thirddaysetup-quotation.png)
+![Quotation](assets/frappe_io/images/erpnext/thirddaysetup-quotation.png)
 
 You can also generate a Quotation directly from the Selling Page.
 
@@ -70,7 +70,7 @@ Imagine that the Quotation which you sent was accepted by the prospect. You
 are now reequired to send him a Sales Order. To make a sales order from this
 same Quotation, go to that Quotation page and click on Make Sales Order.
 
-![Sales Order](files/thirddaysetup-sales-order.png)
+![Sales Order](assets/frappe_io/images/erpnext/thirddaysetup-sales-order.png)
 
 You can also generate a Sales Order directly from the Selling Page.
 
@@ -84,7 +84,7 @@ If your organisation has the practice of sending Delivery Note, this section
 will be helpful. To create a Delivery Note from the a Sales Order, go to that
 Sales Order and click on Make Delivery.
 
-![Delivery Note](files/thirddaysetup-delivery-note.png)
+![Delivery Note](assets/frappe_io/images/erpnext/thirddaysetup-delivery-note.png)
 
 > To understand Delivery Note in detail, visit [Delivery Note](delivery-note)
 
@@ -95,7 +95,7 @@ Sales Order and click on Make Delivery.
 Save and Submit your Delivery Note to generate a Sales Invoice. You can also
 generate an Invoice from Sales Order.
 
-![Sales Invoice](files/thirddaysetup-sales-invoice.png)
+![Sales Invoice](assets/frappe_io/images/erpnext/thirddaysetup-sales-invoice.png)
 
   
 
@@ -104,7 +104,7 @@ generate an Invoice from Sales Order.
 A Journal Voucher or a payment entry can be generated directly from the Sales
 Invoice.
 
-![Payment Entry](files/thirddaysetup-payment-entry.png)
+![Payment Entry](assets/frappe_io/images/erpnext/thirddaysetup-payment-entry.png)
 
 > To understand a Journal Voucher in detail, visit [Journal Voucher](journal-
 vouchers).
@@ -125,7 +125,7 @@ Voucher).
 To create a Material Request, go to Stock/Buying and Click on Material
 Request.
 
-![Material Request](files/thirddaysetup-material-request.png)
+![Material Request](assets/frappe_io/images/erpnext/thirddaysetup-material-request.png)
 
 > To understand Material Request in detail, visit [Material Request](material-
 request).
@@ -136,7 +136,7 @@ request).
 
 To create a Purchase Order go to Buying and click on Purchase Order
 
-![Purchase Order](files/thirddaysetup-purchase-order.png)
+![Purchase Order](assets/frappe_io/images/erpnext/thirddaysetup-purchase-order.png)
 
 > To understand Purchase Order in detail, visit [Purchase Order](purchase-
 order).
@@ -148,7 +148,7 @@ order).
 To create a Purchase Receipt from an existing Purchase Order, open that
 purchase order and click on Make Purchase Receipt.
 
-![Purchase Receipt](files/thirddaysetup-purchase-receipt.png)  
+![Purchase Receipt](assets/frappe_io/images/erpnext/thirddaysetup-purchase-receipt.png)  
 
 > To understand Purchase Receipt in detail, visit [Purchase Receipt](purchase-
 receipt).
@@ -160,7 +160,7 @@ receipt).
 Payments made against Sales Invoices or Purchase Invoices can be made by
 clicking on “Make Payment Entry” button on “Submitted” invoices.
 
-![Payment Entry](files/thirddaysetup-payment-entry.png)  
+![Payment Entry](assets/frappe_io/images/erpnext/thirddaysetup-payment-entry.png)  
 
 > To understand Payment Entry in detail, visit [Payment Entry.](making-
 payments)
