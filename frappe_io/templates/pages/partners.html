@@ -1,0 +1,26 @@
+{% block content %}
+<div class="partners-content">
+	{% for partner_info in partners %}
+	<div class="row">
+		<div class="col-md-3">
+			{% if partner_info.logo -%}
+			<a href="{{ frappe.get_website_route('Frappe Partner', partner_info.name) }}">
+				<img itemprop="brand" src="{{ partner_info.logo }}" class="partner-logo" 
+					alt="{{ partner_info.partner_name }}" title="{{ partner_info.partner_name }}" />
+			</a>
+			{%- endif %}
+		</div>
+		<div class="col-md-9">
+			<a href="{{ frappe.get_website_route('Frappe Partner', partner_info.name) }}">
+				<h4>{{ partner_info.partner_name }}</h4>
+			</a>
+			<p>{{ partner_info.introduction }}</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+<hr>
+<p class="text-center">
+	<a href="contact" class="btn btn-default">Become a Partner</a>
+</p>
+{% endblock %}

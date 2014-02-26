@@ -23,10 +23,8 @@ webnotes._("This string must be translated")
 
 ### How Translations Are Picked up During Execution
 
-When the **build** (`lib/wnf.py -b`) process is run, along with generating the
-`public` folders, it will also add a `locale` folder in each folder where
-translations need to be applied. This `locale` folder is rebuilt every time
-new translations are made.
+Whenever a translation is called via the _ method, the entire translation
+dictionaries from all apps are built and stored in memcache.
 
 Based on the user preferences or request preferences, the appropriate
 translations are loaded at the time of request on the server side. Or if
@@ -36,34 +34,11 @@ when the DocType data is requested.
 The underscore `_` method will replace the strings based on the available
 translations loaded at the time.
 
-### Master Translations
-
-Master translations are stored in the application (erpnext repository) in the
-`translations` folder. [Translations master
-folder](https://github.com/webnotes/erpnext/tree/master/translations)
-
-These are built using the `webnotes.translate module`
-([Docs](http://erpnext.org/docs.dev.framework.server.webnotes.translate.html)
-| [Code](https://github.com/webnotes/wnframework/blob/master/webnotes/translat
-e.py)).
-
 ### Building Translations
 
-Translations can be built using the `lib/wnf.py` utility. Do `lib/wnf.py
---help` for more info.
-
-> New translations are built using Google Translate API. As of the time of
-writing of this document, Google Translate API is not free. To build a
-translation of your own from Google, you will have to register with Google API
-and add your API key in `conf.py`
-
-To add a new language just add:
-
-  1. Build new translation from Google: `lib/wnf.py --translate ru`
-  2. Get user the ability to select this language: Go to #Form/DocType/Profile and update the options in `langauge` field.
-  3. Map the language name to the abbreviation: Update `startup/__init__.py` ([Link](https://github.com/webnotes/erpnext/blob/master/startup/__init__.py))
-
-### Updating Translations
+1. To find untranslated strings, run `frappe --get_untranslated [lang] [path]`
+1. Add the translated strings in another file in the same order
+1. run `frappe --update_translations [lang] [path of untranslated strings] [path of translated strings]`
 
 #### Updating Sources:
 
@@ -73,7 +48,7 @@ method, you can add them in the code and rebuild the translations.
 #### Improving Translations:
 
 To improve an existing translation, just edit the master translation files in
-`app/translations` and rebuild using `lib/wnf.py -b`
+the `translations` of each app
 
 > Please contribute your translations back to ERPNext by sending us a Pull
 Request.

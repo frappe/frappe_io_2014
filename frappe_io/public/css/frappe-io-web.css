@@ -1,6 +1,6 @@
-/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);*/
 
 body {
+	font-family: Arial;
 	line-height: 1.75;
 	font-size: 15px !important;
 }
@@ -44,4 +44,21 @@ body {
 
 .frappe-coverage img {
 	width: 160px;
+}
+
+.sponsor-icon-stub {
+    font-size: 120px;
+    color: #aaa;
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+    border: 1px dotted;
+    margin: 30px;
+    vertical-align: middle;
+}
+
+.sponsor-icon-stub i {
+    vertical-align: middle;
+    padding: 20px 26px;
+    display: inherit;
 }

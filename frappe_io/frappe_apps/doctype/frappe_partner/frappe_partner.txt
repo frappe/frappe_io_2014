@@ -1,0 +1,107 @@
+[
+ {
+  "creation": "2014-02-26 17:20:29", 
+  "docstatus": 0, 
+  "modified": "2014-02-26 17:29:57", 
+  "modified_by": "Administrator", 
+  "owner": "Administrator"
+ }, 
+ {
+  "autoname": "field:partner_name", 
+  "doctype": "DocType", 
+  "module": "Frappe Apps", 
+  "name": "__common__"
+ }, 
+ {
+  "doctype": "DocField", 
+  "name": "__common__", 
+  "parent": "Frappe Partner", 
+  "parentfield": "fields", 
+  "parenttype": "DocType", 
+  "permlevel": 0
+ }, 
+ {
+  "create": 1, 
+  "delete": 1, 
+  "doctype": "DocPerm", 
+  "name": "__common__", 
+  "parent": "Frappe Partner", 
+  "parentfield": "permissions", 
+  "parenttype": "DocType", 
+  "permlevel": 0, 
+  "read": 1, 
+  "report": 1, 
+  "role": "System Manager", 
+  "write": 1
+ }, 
+ {
+  "doctype": "DocType", 
+  "name": "Frappe Partner"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "partner_name", 
+  "fieldtype": "Data", 
+  "label": "Partner Name", 
+  "reqd": 1
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "show_in_website", 
+  "fieldtype": "Check", 
+  "label": "Show in Website"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "logo", 
+  "fieldtype": "Data", 
+  "label": "Logo"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "partner_website", 
+  "fieldtype": "Data", 
+  "label": "Partner Website"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "email", 
+  "fieldtype": "Data", 
+  "label": "Email"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "phone", 
+  "fieldtype": "Data", 
+  "label": "Phone"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "parnter_address", 
+  "fieldtype": "Text", 
+  "label": "Parnter Address"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "introduction", 
+  "fieldtype": "Text", 
+  "label": "Introduction"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "description", 
+  "fieldtype": "Text Editor", 
+  "label": "Description"
+ }, 
+ {
+  "default": "partners", 
+  "doctype": "DocField", 
+  "fieldname": "parent_website_route", 
+  "fieldtype": "Read Only", 
+  "label": "Parent Website Route", 
+  "options": "Website Route"
+ }, 
+ {
+  "doctype": "DocPerm"
+ }
+]

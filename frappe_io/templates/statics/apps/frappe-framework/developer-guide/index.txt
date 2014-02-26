@@ -1,6 +1,5 @@
-doctype
-doctype-fields
-framework
-managing-translations
-plugins
+install
 quickstart
+setup
+doctype
+managing-translations

@@ -11,49 +11,61 @@ Items table, among others. DocTypes contain a collection of fields called
 DocFields that form the basis of the columns in the database and the layout of
 the form.
 
-Column
-
-Description
-
-Name
-
-Name of the record
-
-Owner
-
-Creator and Owner of the record
-
-Created on
-
-Date and Time of Creation
-
-Modified On
-
-Date and Time of Modification
-
-Docstatus
-
-Status of the record  
-0 = Saved/Draft  
-1 = Submitted  
-2 = Cancelled/Deleted
-
-Parent
-
-Name of the Parent
-
-Parent Type
-
-Type of Parent
-
-Parent Field
-
-Specifying the relationship with the parent (there can be multiple child
-relationships with the same DocType).
-
-Index(idx)
-
-Index (sequence) of the record in the child table.
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th style="width:  50%">Column / Field</th>
+			<th style="width:  50%">Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Name</td>
+			<td>Record ID</td>
+		</tr>
+		<tr>
+			<td>Owner</td>
+			<td>Creator & Owner</td>
+		</tr>
+		<tr>
+			<td>Created On</td>
+			<td>Timestamp of creation</td>
+		</tr>
+		<tr>
+			<td>Modified By</td>
+			<td>Last user who modified</td>
+		</tr>
+		<tr>
+			<td>Modified On</td>
+			<td>Timestamp of modification</td>
+		</tr>
+		<tr>
+			<td>Docstatus</td>
+			<td>
+				Status of the record:
+				<br>0 = Saved/Draft  
+				<br>1 = Submitted  
+				<br>2 = Cancelled/Deleted
+			</td>
+		</tr>
+		<tr>
+			<td>Parent</td>
+			<td>Name of parent record (if child type)</td>
+		</tr>
+		<tr>
+			<td>Parent Type</td>
+			<td>DocType of parent</td>
+		</tr>
+		<tr>
+			<td>Parent Field</td>
+			<td>Relation with parent</td>
+		</tr>
+		<tr>
+			<td>Idx</td>
+			<td>Sequence in child table</td>
+		</tr>
+	</tbody>
+</table>
 
 #### Single DocType
 
