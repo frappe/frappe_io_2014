@@ -3,14 +3,12 @@
 <div class="panel panel-default">
     <div class="panel-body row small">
         <div class="col-xs-4"><i class="icon-calendar text-muted"></i> Founded: 2008</div>
-        <div class="col-xs-4"><i class="icon-group text-muted"></i> Team Size: 8</div>
+        <div class="col-xs-4"><i class="icon-group text-muted"></i> Team Size: 7</div>
         <div class="col-xs-4"><i class="icon-map-marker text-muted"></i> Home: Mumbai</div>
     </div>
 </div>
 
 **Web Notes Technologies** is an internet engineering company based out of Mumbai founded in 2008. We build web based Open Source applications for everyone to use. ERPNext is our flagship product and is used by hundreds of users worldwide.
-
-![WebNotes Team](/assets/frappe_io/images/webnotes/team.jpg)
 
 ---
 
@@ -42,6 +40,10 @@ We think that the future belongs to Open Source. We have built ERPNext on Open S
 **2012** - ERPNext with annual pricing plans and 30-day trials.
 
 **2013** - More than 100 paying customers.
+
+**2013** - Included in Winners List of BOSSIE (World's best Open Source Applications of 2013) Awards.
+
+**2014** - Released Frappe Platform
 
 ---
 
