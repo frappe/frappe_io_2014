@@ -9,6 +9,6 @@ app_url = http://frappe.io
 app_version = 0.0.1
 
 home_page = index
-brand_html = <img src="/assets/frappe_io/images/frappe-io-brand.png" style="width: 30px;" /> Frappe<span class="text-muted">.io</span>
+brand_html = <img src="/assets/frappe_io/images/frappe-io-brand.png" style="width: 30px;" /> Frappe.io
 
 web_include_css = assets/frappe_io/css/frappe-io-web.css

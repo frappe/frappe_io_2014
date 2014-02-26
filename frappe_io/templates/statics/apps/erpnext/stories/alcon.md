@@ -8,11 +8,7 @@ understand the practices which make them a market leader.
 
 ![](assets/frappe_io/images/stories/zel-ortiz.png)
 
-> After trying so many ERP's, what I liked is the completeness and ease of use
-of ERPnext. Other ERP’s are very hard to use and learn” At Alcon, people were
-used to working on traditional excel / word files. It was difficult to get
-everybody to use ERPNext, which was based on an open source platform; However,
-they came around when they saw a user-friendly interface.
+> After trying so many ERP's, what I liked is the completeness and ease of use of ERPnext. Other ERP’s are very hard to use and learn” At Alcon, people were used to working on traditional excel / word files. It was difficult to get everybody to use ERPNext, which was based on an open source platform; However, they came around when they saw a user-friendly interface.
 
 Ms. Zel believes that Alcon’s strength lies in operating as one team. They are
 unified in their front and take decisions as a unified whole. They follow a
