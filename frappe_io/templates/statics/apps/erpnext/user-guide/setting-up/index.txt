@@ -1,6 +1,5 @@
 initial-setup
 five-day-setup
-setting-up-masters
 company-setup
 data-import-tool
 document-naming-series

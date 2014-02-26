@@ -1,3 +1,4 @@
+item-master
 warehouse
 item-group
 serialized-inventory
