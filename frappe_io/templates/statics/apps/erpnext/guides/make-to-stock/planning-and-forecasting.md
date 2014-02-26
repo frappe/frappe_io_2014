@@ -19,6 +19,7 @@ Warehouse is a mandatory field. The Item form will not be saved unless you enter
 
 **Note:** In reality you may not have three warehouses. You may have one, which you use for raw material, for manufacturing/stitching/producing and also for storing finished goods. In this case, you have to only imagine separate spaces for each activity, and name them accordingly. For system entry purpose, having three different warehouses for stocking raw materials, manufacturing unfinished goods and storing finished goods is a necessity. 
 
+ Visit [Item](/apps/erpnext/user-guide/stock-inventory/item-master) to understand in detail.
 
 
 Figure 1: Create an Item- Butterfly Print Bag
@@ -26,6 +27,10 @@ Figure 1: Create an Item- Butterfly Print Bag
 Create other Items and categorize them as Raw Materials. These Items like jute handle and jute cloth will say No to ‘Allow Bill of Materials’, since raw material is purchased not produced in-house. This raw material will not be Sales Item. They will say Yes to ‘Is Purchase Item.These Items like jute cloth and jute handle, will be required in order to manufacture the jute Butterfly Print bag.
 
 ### Forecasting
+
+
+
+![Forecasting](/assets/frappe_io/images/erpnext/m-t-s-forecasting-office-image.jpg)
 
 Shades of Green attends 10 exhibitions per year. For the past 6 months they have been selling approximately 80-100 bags per exhibition. Based on past data they need minimum 100 bags per month to sell at exhibitions. 
 
