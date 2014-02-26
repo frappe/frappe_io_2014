@@ -1,8 +1,8 @@
-add-products-to-website
-blog-post
-introduction-to-website
-product-listing-on-website
-shopping-cart
-styling-the-website
-web-pages
 website-setup
+web-pages
+styling-the-website
+blog-post
+add-products-to-website
+shopping-cart
+product-listing-on-website
+

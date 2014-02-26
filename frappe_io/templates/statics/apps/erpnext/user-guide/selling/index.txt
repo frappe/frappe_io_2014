@@ -1,11 +1,10 @@
-campaign
+selling-setup
 customer-master
 discount
-introduction-to-selling
 lead
 opportunity
 quotation
-sales-bill-of-material
 sales-order
 sales-person-and-sales-territory
-selling-setup
+sales-bill-of-material
+campaign

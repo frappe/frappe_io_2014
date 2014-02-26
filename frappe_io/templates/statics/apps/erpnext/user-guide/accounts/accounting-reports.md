@@ -10,7 +10,7 @@ done in that period for that Account.
 
 ### Trial Balance
 
-￼ Trial Balance is the list of Account balances for all your Accounts
+Trial Balance is the list of Account balances for all your Accounts
 (“Ledger” and “Group”) on a particular date. For each Account it will give you
 the:
 
