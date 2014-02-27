@@ -25,7 +25,7 @@ Save and Submit the Sales Order.
 
 It is a document accompanying a shipment of goods that lists the description, and quantity of the goods delivered.
 
-![Delivery Note](/assets/frappe_io/images/erpnext/m-t-s-deliveru-note-2.png)
+![Delivery Note](/assets/frappe_io/images/erpnext/m-t-s-delivery-note-2.jpg)
 
 ![Delivery Note 2](/assets/frappe_io/images/erpnext/m-t-s-delivery-note.png)
 

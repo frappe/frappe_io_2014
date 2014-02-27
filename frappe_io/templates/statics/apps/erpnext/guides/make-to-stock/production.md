@@ -28,7 +28,7 @@ Note that transferring the raw material is a stock entry. To be able to manufact
 
 To make this stock entry directly, click on the Action button of the Production Order and select Update Finished Goods.
 
-![Bulb](/assets/frappe_io/images/erpnext/bulb.png)
+![Bulb](/assets/frappe_io/images/erpnext/bulb.jpg)
 
 __Tip:__  To go to your Production Order you may use a shortcut route. Go to the head bar at the top ( the black bar) and click on History. Then, select the respective Production Order.
 
