@@ -17,7 +17,6 @@
 
 {% block content %}
 <div style="margin-bottom: 15px;">
-	<h4 class="pull-left">Publisher: {{ bean.doc.publisher }}</h4>
 	<div class="pull-right">
 		{% if bean.doc.source_link -%}
 			<a href="{{ bean.doc.source_link }}" target="_blank" class="btn btn-default">
@@ -34,6 +33,8 @@
 	</div>
 	<div class="clearfix"></div>
 </div>
+
+<p class="text-muted text-right small">Publisher: {{ bean.doc.publisher }}</p>
 
 {% include "templates/includes/slideshow.html" %}
 

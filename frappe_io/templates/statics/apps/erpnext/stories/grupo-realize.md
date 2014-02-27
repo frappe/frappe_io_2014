@@ -76,7 +76,6 @@ handedly deploying ERPNext for their 11 stores.
 assim é ERPNext, transformando as dificuldades e transtornos do dia-a-dia da
 gestão em uma tarefa simples, gratificante e acima de tudo produtiva.
 
->
 
 > [in english] As king Pelé, who with his legs, moved the ball so artistically
 and with ease, so does ERPNext–by transforming difficulties and disorders of

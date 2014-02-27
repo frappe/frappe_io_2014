@@ -1,3 +1,4 @@
-about-erpnext
-stories-of-erpnext-users
 user-guide
+guides
+stories
+about
