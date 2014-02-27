@@ -3,6 +3,7 @@ body {
 	font-family: Arial;
 	line-height: 1.65;
 	font-size: 15px !important;
+	color: #444;
 }
 
 .navbar {
@@ -26,6 +27,22 @@ blockquote {
 
 h3, h4 {
 	font-weight: bold;
+}
+
+#nprogress .bar {
+  background: #000000;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #000000, 0 0 5px #000000;
+}
+
+a, a:hover {
+	color: #FF9F04;
+}
+
+a:hover h2, a:hover h3, a:hover h4 {
+	text-decoration: underline;
 }
 
 .web-footer {
