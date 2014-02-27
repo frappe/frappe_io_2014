@@ -16,7 +16,7 @@ In case for some reason, the account section is blank, it means that you have no
 
 Figure 7: Go to Masters ( Optional: In case defaults not set)
 
-![Default setting](assets/frappe_io/images/erpnext/triangle-button-company.png)
+![Default setting](/assets/frappe_io/images/erpnext/triangle-button-company.png)
 
 The click will take you to the Master-Company file. Now enter your default entry account as HDFC Bank/Axis Bank etc and Save. This will enable the system to post debit/credit entries directly against this particular account.
 
