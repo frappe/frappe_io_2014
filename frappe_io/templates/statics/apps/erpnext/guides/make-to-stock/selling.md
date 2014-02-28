@@ -1,4 +1,4 @@
-Selling
+# Selling
 
 ![Selling](/assets/frappe_io/images/erpnext/m-t-s-selling-2.jpg)
 
@@ -15,7 +15,7 @@ The Sales Order is an order issued by a business to a customer. A sales order ma
 
 Enter the amount that you will charge and the quantity of bags that are required.
 
-Figure 1: Make a Sales Order
+#### Figure 13: Make a Sales Order
 
 ![Sales Order](/assets/frappe_io/images/erpnext/m-t-s-sales-order.png)
 
@@ -27,6 +27,8 @@ It is a document accompanying a shipment of goods that lists the description, an
 
 ![Delivery Note](/assets/frappe_io/images/erpnext/m-t-s-delivery-note-2.jpg)
 
+#### Figure 14: Make Delivery Note
+
 ![Delivery Note 2](/assets/frappe_io/images/erpnext/m-t-s-delivery-note.png)
 
 Save and submit the Delivery Note. After submitting, go to the right hand corner and click on Make Invoice.
@@ -35,9 +37,7 @@ Save and submit the Delivery Note. After submitting, go to the right hand corner
 
 A Sales Invoice is a bill that you send to your Customers, against which the customer processes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice,  the system updates the receivable and books income against a Customer Account.
 
-Make Invoice
-
-Figure 3: Make Invoice
+#### Figure 15: Make Invoice
 
 ![Make Invoice](/assets/frappe_io/images/erpnext/m-t-s-sales-invoice.png)
 
@@ -49,10 +49,12 @@ Payment Entry is a part of book-keeping. To be able to record accounts and manag
 
 Click on the Action button and select ‘Make Payment Entry’ on the Invoice page. The page will open into a Journal Voucher with debit and credit entries made, as per the double accounting system. Click on the button ‘Make Difference Entry’ and mention reference number and reference date.
 
-Figure 4: Make Payment Entry
+#### Figure 16: Make Payment Entry
 
 ![Payment Entry](/assets/frappe_io/images/erpnext/m-t-s-payment-entry.png)
 
 Click on the button ‘Make Difference Entry’ without fail. Save and submit the document.
 
 You can relax now.
+
+![Celebrate](/assets/frappe_io/images/erpnext/celebrate-1.jpg)

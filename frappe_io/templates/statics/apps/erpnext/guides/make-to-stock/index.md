@@ -1,21 +1,18 @@
+This guide explains how a manufacturing unit will run their operations in ERPNext. It will explain a complete business cycle based on make-to-stock type of manufacturing. For this study, a jute artefact company, Shades of Green, is used as a case-example. 
 
 ![Coverpage](/assets/frappe_io/images/erpnext/m-t-s-coverpage-bags.jpg)
 
-
-Copyright 2013, Web Notes Technologies Pvt. Ltd, Mumbai, India
-
-Images: This guide contains images from flickr-creative commons license
-
-
-This guide explains how a manufacturing unit will run their operations in ERPNext. It will explain a complete business cycle based on make-to-stock type of manufacturing. For this study, a jute artefact company, Shades of Green, is used as a case-example. 
+### Introduction
 
 With the help of a business example, the whole process of manufacturing, storing, buying and selling in ERPNext is documented in detail. This study is specifically featured for make-to-stock type of company.
 
-Make-to-stock manufacturing is a system based on keeping stocks ready for customers in order to provide instant availability to customers. Products like FMCG goods and electronics are made and stocked. Here, the production cycle is completed before the sales orders are made. 
+> Make-to-stock manufacturing is a system based on keeping stocks ready for customers in order to provide instant availability to customers. Products like FMCG goods and electronics are made and stocked. Here, the production cycle is completed before the sales orders are made. 
 
 This strategy is used by businesses to match production with consumer demand forecasts. The make-to-stock (MTS) method forecasts demand, to determine how much stock should be produced.
 
 The main drawback to the make-to-stock (MTS) method is that it relies heavily on the accuracy of demand forecasts. Inaccurate forecasts will lead to losses stemming from excessive inventory or stockouts.
+
+### Make to Stock v/s Make to Order
 
 Differences between the two manufacturing methods, make-to-stock and make-to-order are given below:
 
@@ -53,12 +50,3 @@ Differences between the two manufacturing methods, make-to-stock and make-to-ord
 		</tr>
 	</tbody>
 </table>
-
- __For Example__:Shades of Green is an eco-friendly company that manufactures and trades in Jute artefacts and jute gift items. It manufactures some items based on make-to-order type and others based on make-to-stock type of manufacturing.
-
-Shades of Green produces Jute Bags in advance. These bags are sold at exhibitions like over- the- counter products. The jute bags are stored in the company warehouse and sent from time-to-time to the distributors and retailers. They do not wait for the customers to place a bag order and then manufacture it.  
-__Note:__ Production orders are issued based on forecasts, not based on sales orders.
-
-![Make-to-Stock](/assets/frappe_io/images/erpnext/make-to-stock.png)
-
-Following is a step-by-step account of the production process run through ERPNext. For ease of explanation, we will consider an example, of producing a butterfly print bag. Let us see how the whole operation is run in ERPNext .

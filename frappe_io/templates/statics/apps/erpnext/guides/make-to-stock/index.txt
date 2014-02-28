@@ -1,6 +1,8 @@
+example
+item
+bill-of-materials
 planning-and-forecasting
-manufacturing
 buying
-payment-entry
-production
+supplier-billing
+manufacturing
 selling
