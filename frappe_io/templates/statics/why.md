@@ -22,9 +22,9 @@ For users, there are great benefits too.
 1. Domain specific, pre-built apps will be available that will reduce time to implementation even further and make ERPNext usable across a range of domains and industries.
 1. Most users are afraid of the term ERP - it alludes to an industry that is extremely expensive and for large organizations only.
 
-These benefits will take some time before they become obvious, but the our direction is clear. Once the platform is stabilized, expect a whole range of applications that will be available on Frappe.
+These benefits will take some time before they become obvious, but our direction is clear. Once the platform is stabilized, expect a whole range of applications that will be available on Frappe.
 
-Our goal has always been to build this platform with minimum resources. The only way this can be possible is if we make this platform very easy for developers to enter and build new applications. Good quality solutions have to be tailored for each type of industry and organization and we don't think we will have to resources to build so many applications. But by making this a platform, we invite developers to be a part of this movement and make good applications help organizations run better.
+Our goal has always been to build this platform with minimum resources. The only way this can be possible is if we make this platform very easy for developers to enter and build new applications. Good quality solutions have to be tailored for each type of industry and organization and we don't think we will have the resources to build so many applications. But by making this a platform, we invite developers to be a part of this movement and make good applications, that help organizations run better.
 
 thanks,<br>
 **Team Frappe**
