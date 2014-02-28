@@ -1,0 +1,6 @@
+planning-and-forecasting
+manufacturing
+buying
+payment-entry
+production
+selling

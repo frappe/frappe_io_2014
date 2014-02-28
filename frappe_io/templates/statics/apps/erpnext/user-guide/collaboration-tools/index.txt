@@ -1,7 +1,7 @@
-assignment
-calendar
+to-do
 collaborating-around-forms
 messages
 notes
+calendar
+assignment
 tags
-to-do

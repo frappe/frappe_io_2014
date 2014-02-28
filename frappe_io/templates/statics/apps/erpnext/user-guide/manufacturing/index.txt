@@ -1,7 +1,6 @@
 bill-of-materials
-introduction-to-manufacturing
+production-planning-tool
+production-order
+subcontracting
 make-to-order-manufacturing
 make-to-stock-manufacturing
-production-order
-production-planning-tool
-subcontracting

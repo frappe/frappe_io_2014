@@ -2,11 +2,9 @@
 
 ### ERPNext for Distribution
 
-Distributors from manufacturers, stock the merchandise in huge warehouses, and sell the merchandise to wholesalers, retailers or direct customers. 
+Today the manufacturers and suppliers are building direct relationships with large wholesale customers. The information age is promoting price transparency at a lightening speed. As a result your clout and ability to earn on the markup price is diminishing. The manufacturers and customers are driving competition amongst distributors, reducing your markup prices and in turn your margins.
 
-Today though, the manufacturers and suppliers are building direct relationships with large wholesale customers. The information age is promoting price transparency at a lightening speed. The Distributor’s clout and his ability to earn on the markup price is diminishing. The manufacturers and customers are driving competition amongst distributors, reducing their markup prices and in turn their margins.
-
-To survive in this era the distributors can:
+To survive in this era you can:
 
 1. Differentiate themselves by offering reliable and timely service, to justify their markup prices.  
 1. Run the business with optimal efficiency by carrying out effective stock management 

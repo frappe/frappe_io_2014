@@ -1,17 +1,15 @@
-adding-users
-bar-code
+initial-setup
+five-day-setup
 company-setup
 data-import-tool
 document-naming-series
-five-day-setup
 global-default
-initial-setup
+adding-users
 letter-head
 pos-setting
 price-lists
 print-headings
 setting-up-email
-setting-up-masters
 setting-up-permissions
 setting-up-taxes
 sms-setting
@@ -19,3 +17,4 @@ stock-reconciliation-for-non-serialized-item
 territory
 third-party-backups
 workflows
+bar-code

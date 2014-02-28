@@ -6,5 +6,3 @@ Implementation requires the implementer to take a step back and set aside some
 time to do this right. This is usually not a couple-of-hours, after-work kind
 of a project.
 
-Let us start with the screen that you see, the first time you login.
-

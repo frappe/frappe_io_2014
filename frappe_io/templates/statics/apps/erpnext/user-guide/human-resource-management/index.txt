@@ -1,9 +1,8 @@
-appraisal
-attendance
 employee-master
+leave
+attendance
+salary-and-payroll
 expense-claim
+appraisal
 holiday-list
 human-resource-setup
-introduction-to-human-resources
-leave
-salary-and-payroll

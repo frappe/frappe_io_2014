@@ -1,8 +1,8 @@
-concepts-and-terms
 do-i-need-an-erp
-getting-help
+open-source
 getting-started-with-erpnext
+getting-help
+the-champion
 implementation-strategy
 key-workflows
-open-source
-the-champion
+concepts-and-terms
