@@ -16,25 +16,30 @@
 {% endblock %}
 
 {% block content %}
-<div style="margin-bottom: 15px;">
-	<div class="pull-right">
-		{% if bean.doc.source_link -%}
-			<a href="{{ bean.doc.source_link }}" target="_blank" class="btn btn-default">
-				<i class="icon icon-github"></i> Github</a>
-		{%- endif %}
-		{% if bean.doc.demo_link -%}
-			<a href="{{ bean.doc.demo_link }}" target="_blank" class="btn btn-default">
-				<i class="icon icon-eye-open"></i> Demo</a>
-		{%- endif %}
-		{% if bean.doc.cloud_link -%}
-			<a href="{{ bean.doc.cloud_link }}" target="_blank" class="btn btn-default">
-				<i class="icon icon-cloud"></i> Cloud Hosting</a>
-		{%- endif %}
+<div class="row" style="margin-bottom: 15px;">
+	<div class="col-md-6">
+		<h3 style="margin: 0px">{{ bean.doc.headline or "" }}</h3>
 	</div>
-	<div class="clearfix"></div>
+	<div class="col-md-6">
+		<div class="pull-right">
+			{% if bean.doc.source_link -%}
+				<a href="{{ bean.doc.source_link }}" target="_blank" class="btn btn-default">
+					<i class="icon icon-github"></i> Github</a>
+			{%- endif %}
+			{% if bean.doc.demo_link -%}
+				<a href="{{ bean.doc.demo_link }}" target="_blank" class="btn btn-default">
+					<i class="icon icon-eye-open"></i> Demo</a>
+			{%- endif %}
+			{% if bean.doc.cloud_link -%}
+				<a href="{{ bean.doc.cloud_link }}" target="_blank" class="btn btn-default">
+					<i class="icon icon-cloud"></i> Start</a>
+			{%- endif %}
+		</div>
+		<div class="clearfix"></div>
+	</div>
 </div>
 
-<p class="text-muted text-right small">Publisher: {{ bean.doc.publisher }}</p>
+<p class="text-muted small">Publisher: {{ bean.doc.publisher }}</p>
 
 {% include "templates/includes/slideshow.html" %}
 

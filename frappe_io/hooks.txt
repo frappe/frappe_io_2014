@@ -12,3 +12,8 @@ home_page = index
 brand_html = <img src="/assets/frappe_io/images/frappe-io-brand.png" style="width: 30px;" /> Frappe.io
 
 web_include_css = assets/frappe_io/css/frappe-io-web.css
+
+fixture = Website Settings
+fixture = Frappe App
+fixture = Website Group
+fixture = Frappe Partner

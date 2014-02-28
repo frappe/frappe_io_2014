@@ -2,7 +2,7 @@
  {
   "creation": "2014-02-17 15:54:39", 
   "docstatus": 0, 
-  "modified": "2014-02-24 18:10:16", 
+  "modified": "2014-02-28 10:40:38", 
   "modified_by": "Administrator", 
   "owner": "Administrator"
  }, 
@@ -58,6 +58,12 @@
   "fieldname": "icon", 
   "fieldtype": "Attach", 
   "label": "Icon"
+ }, 
+ {
+  "doctype": "DocField", 
+  "fieldname": "headline", 
+  "fieldtype": "Data", 
+  "label": "Headline"
  }, 
  {
   "doctype": "DocField", 
