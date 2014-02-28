@@ -1,10 +1,10 @@
-# Open Platform<br> For the Web
+# Open Platform For the Web
 
 ### Frappe Overview
 
-Frappe is web application platform written in Python and Javascript that enables development, depoyment and usage of database driven apps. It is primarily used to build ERPNext, the fast-growing Open Source ERP loved by all. 
+Frappe is web application platform that enables development, depoyment and usage of database driven apps. It is primarily used to build ERPNext, the fast-growing Open Source ERP loved by all. 
 
-- **Frappe Framework** is web application framework on which Frappe is built.
+- **Frappe Framework** is web application framework written in Python and Javascript on which Frappe is built.
 - **Frappe Apps** are the web applications, including ERPNext that are build on Frappe.
 - **Frappe Cloud** is cloud hosting services provided by the team behind Frappe.
 - **Frappe.io** is the community portal for all Frappe Applications.
