@@ -2,16 +2,17 @@
 ![Penstand](/assets/frappe_io/images/erpnext/pen-stand.jpg)
 
 
-Copyright 2013, Web Notes Technologies Pvt. Ltd, Mumbai, India
-
-Images: This book contains images from flickr-creative commons license. We are grateful to Shades of Green for sharing their product pictures and allowing us to use their case-example.
-
+__Images:__ This book contains images from flickr-creative commons license. We are grateful to Shades of Green for sharing their product pictures and allowing us to use their case-example.
 
 This guide explains how a manufacturing unit would run their operations in ERPNext. It will explain a complete business cycle based on make-to-order type of manufacturing. For this study, a jute artefact company, Shades of Green, is used as a case-example. 
 
 Shades of Green is an eco-friendly company that manufactures and trades in Jute artefacts and jute gift items. It manufactures items based on make-to-order type of manufacturing.
 
+### Introduction
+
 Make-To-Order  is a  system in which the company has basic design of the product but manufacturing begins only after a customer's order is received. When customers place orders for their products with specific quantities and delivery dates, the company begins its manufacturing process by fixing the delivery dates by policy or by agreement with the concerned party.The company has some standard items and design in place, but the product is made only when the customer places an order.
+
+### Make to Stock v/s Make to Order
 
 Differences between the two manufacturing methods, make-to-stock and make-to-order are given below:
 

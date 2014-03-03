@@ -6,23 +6,23 @@
 
 Production Order (also called as Work Order) is a document that is given to the manufacturing shop floor by the Production Planner as a signal to produce a certain quantity of a certain Item. Production Order also helps to generate the material requirements (Stock Entry) for the Item to be produced from its Bill of Materials.
 
-#### Figure 8: Production Order
+Figure 1: Production Order
 
 ![Production Order](/assets/frappe_io/images/erpnext/m-t-s-production-2.jpg)
 
 Save and submit the Production Order. An Action button will appear at the extreme right of the form. It will have a drop-down button. Click on Transfer Raw Materials to proceed further. 
 
-### Step 1: Stores to Work-in-Progress (WIP)
+#### Step 1: Stores to Work-in-Progress (WIP)
 
 Materials which are in stores need to be transferred to the Work-in-Progress Warehouse.
 
-#### Figure 9: From Production Order, Make Stock Entry
+Figure 2: From Production Order, Make Stock Entry
 
 To move material from Stores to Work-in-Progress
 
 ![Transfer Raw Material](/assets/frappe_io/images/erpnext/transfer-raw-material.png)
 
-#### Figure 10: Stock Entry with Warehouse Details.
+Figure 3: Stock Entry with Warehouse Details.
 
 ![Transfer Material 2](/assets/frappe_io/images/erpnext/m-t-s-transfer-material.png)
 
@@ -42,7 +42,7 @@ Update Source Warehouse and Target Warehouse.The Source Warehouse is a place fro
 
 Note that this stock entry will have its purpose as Manufacture/Repack. In this form mention the source warehouse as Work-In-Progress warehouse and Target Warehouse as Finished Goods Warehouse. Then click on ‘Get Stock and Rate’. Save and submit the document.
 
-#### Figure 11: Update Finished Goods
+Figure 4: Update Finished Goods
 
 ![Update](/assets/frappe_io/images/erpnext/m-t-s-update-fg.png)
 
@@ -50,7 +50,7 @@ Since this is a make-to-stock product, the billing will not happen immediately. 
 
 To check your Finished Goods stock balance go to stocks and click on Warehouse -wise stock balance report.
 
-#### Figure 12: Warehouse-wise stock balance report
+Figure 5: Warehouse-wise stock balance report
 
 ![Stock Balance Report](/assets/frappe_io/images/erpnext/m-t-s-warehouse-wise-balance.png)
 

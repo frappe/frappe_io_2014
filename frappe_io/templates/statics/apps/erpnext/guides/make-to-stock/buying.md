@@ -12,7 +12,7 @@ A purchase order (PO) is a commercial document and first official offer issued b
 
 Make Purchase Order. Enter the rate and quantity in this form and save it. After saving, submit the form.
 
-#### Figure 3: Make Purchase Order
+#### Figure 1: Make Purchase Order
 
 ![Purchase Order](assets/frappe_io/images/erpnext/m-t-s-purchase-order.png)
 

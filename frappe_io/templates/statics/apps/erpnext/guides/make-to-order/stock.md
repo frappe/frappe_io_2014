@@ -1,4 +1,4 @@
-Stock
+# Stock
 
 ### Item
 
@@ -6,12 +6,13 @@ An Item is your company's product or a service. The term Item is applicable to y
 
 Create the Item- Pen Stand in ERPNext. Since this is a sales Item, it should be grouped as ‘Product’. The material that goes into making of this product like jute wire and fabric paint will also be called Item. However, the Item Group of jute wire and fabric paint will be termed as Raw Material.
 
+#### Figure 1: Item
+
 ![Item](/assets/frappe_io/images/erpnext/m-t-s-item.png)
 
-__Note:__  Click Yes on ‘Allow Bill of Materials’, 
-           Click Yes on ‘Allow Production Order’ and 
-           Click No on  ‘Is Purchase Item’.
-
+1. Click Yes on ‘Allow Bill of Materials’, 
+1. Click Yes on ‘Allow Production Order’ and 
+1. Click No on  ‘Is Purchase Item’.
 
 ![bulb](/assets/frappe_io/images/erpnext/bulb.jpg)
 
@@ -23,25 +24,26 @@ To understand in detail visit [Item](/apps/erpnext/user-guide/stock-inventory).
 
 Create raw material as “Item” in ERPNext.
 
+
 ![Raw Material](/assets/frappe_io/images/erpnext/m-t-o-jute-raw-material.jpg)
 
-Figure 2: Item Jute-wire as raw material
+#### Figure 2: Item Jute-wire as raw material
 
 ![Jute Wire](/assets/frappe_io/images/erpnext/m-t-o-jute-wire-rawmaterial.png)
 
 Note:  Mention Item Group as Raw Material, 
-            Click No on ‘Allow Bill of Materials’, since BOM is required only for products
-            unless you are manufacturing the raw material too.
+           Click No on ‘Allow Bill of Materials’, since BOM is required only for products
+           unless you are manufacturing the raw material too.
            Click No on Allow Production Order, and 
            Click Yes on ‘Is Purchase Item’.
 
 Create Items for all the raw materials that will go into the Bill of Materials. Following is the list of raw materials that will go into making of a jute pen-stand.
 
-fabric colour
-Jute wire
-Tree glue
+1. fabric colour
+1. Jute wire
+1. Tree glue
 
-Figure 3: Item List
+#### Figure 3: Item List
 
 ![Item List](/assets/frappe_io/images/erpnext/m-t-o-item-list.png)
 
