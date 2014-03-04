@@ -30,7 +30,7 @@ like SendGrid and SMTP.com
 
 To setup your outgoing mails, go to
 
-> Setup > Outgoing Email Settings > Email Settings
+> Setup > Outgoing Email Settings
 
 ![Email Settings](assets/frappe_io/images/erpnext/email-settings1.png)
 
@@ -55,7 +55,7 @@ answered more than 3000 tickets via this system.
 
 To setup your Support integration, go to:
 
-> Setup > Support Email Settings > EMail Settings
+> Setup > Support Email Settings
 
 ![Email Settings](assets/frappe_io/images/erpnext/email-settings2.png)
 
