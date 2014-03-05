@@ -1,7 +1,5 @@
 # Buying
 
-![Buying](/assets/frappe_io/images/erpnext/m-t-s-buying.jpg)
-
 After completing the Bill of Materials, go to the Buying module to purchase raw material. To manufacture butterfly print bags, as per the BOM, there is a need to buy jute cloth with butterfly print and 150 handles. Since one bag requires 1 meter jute cloth, for 150 bags we will require 150 meter jute cloth.  Thus it is essential to procure 150 jute handles and 150 meter jute cloth.
 
 ### Purchase Orders

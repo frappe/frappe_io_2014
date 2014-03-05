@@ -14,7 +14,7 @@ __Delivery Note__ is a document accompanying a shipment of goods that lists the 
 
 Save the document after affirming the shipping address. In case the document has no shipping address, create one by clicking on the + button. You can create the new address in the address form that opens after clicking the + button . Save it and come back to the Delivery Note. Now Save and submit the Delivery Note. 
 
-#### Sales Invoice.
+### Sales Invoice.
 
 A Sales Invoice is a bill that you send to your customers, against which the customer processes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice,  the system updates the receivable and books income against a Customer Account.
 
@@ -26,14 +26,14 @@ To make an invoice, go to the right hand corner of the Delivery Note, and click 
 
 Save and submit the Invoice. When you submit the Invoice, a email pop up box will appear. Correct / change / Confirm the email ID and click on Send button. An email will be sent.
 
-#### Payment Entry
+### Payment Entry
 
 ![Payment Entry](/assets/frappe_io/images/erpnext/m-t-o-make-payment.jpg)
 
 
 Payment Entry is a part of booking-keeping. To be able to record accounts and manage balance sheets, payment entries are requisites.
 
-#### Double Entry Accounting
+### Double Entry Accounting
 
 Double entry bookkeeping is a system of accounting in which every transaction has a corresponding positive and negative entry : debits and credits. Every transaction involves a debit entry in one account and a credit entry in another account. This means that every transaction must be recorded in two accounts; one account will be debited because it receives value and the other account will be credited because it has given value.
 

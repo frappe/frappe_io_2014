@@ -18,6 +18,5 @@ Warehouse is a mandatory field. The Item form will not be saved unless you enter
 
 > Visit [Item](/apps/erpnext/user-guide/stock-inventory/item-master) to understand in detail.
 
-#### Figure 1: Create an Item Butterfly Print Bag
 
 Create other Items and categorize them as Raw Materials. These Items like jute handle and jute cloth will say No to ‘Allow Bill of Materials’, since raw material is purchased not produced in-house. This raw material will not be Sales Item. They will say Yes to ‘Is Purchase Item.These Items like jute cloth and jute handle, will be required in order to manufacture the jute Butterfly Print bag.

@@ -2,6 +2,8 @@ This guide explains how a manufacturing unit will run their operations in ERPNex
 
 ![Coverpage](/assets/frappe_io/images/erpnext/m-t-s-coverpage-bags.jpg)
 
+Images: This book contains images from flickr-creative commons license. We are grateful to Shades of Green for sharing their product pictures and allowing us to use their case-example.
+
 ### Introduction
 
 With the help of a business example, the whole process of manufacturing, storing, buying and selling in ERPNext is documented in detail. This study is specifically featured for make-to-stock type of company.

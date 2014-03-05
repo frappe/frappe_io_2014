@@ -1,8 +1,8 @@
 # Bill of Materials
 
-> Note:  Add image of threads (raw material)
-
 To enable production of work-orders based on make-to-stock system, go to the Manufacturing module and create a Bill of Materials.
+
+![Thread](/assets/frappe_io/images/erpnext/m-t-o-jute-wire-before.jpg)
 
 > Manufacturing > Bill of Materials
 
