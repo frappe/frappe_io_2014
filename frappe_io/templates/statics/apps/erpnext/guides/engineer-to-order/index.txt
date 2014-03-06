@@ -1,1 +1,7 @@
+client-meeting
+set-up
 proposal-phase
+sales-order
+advance-payment-entry
+bill-of-material
+production-planning-tool

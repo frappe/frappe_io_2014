@@ -1,6 +1,6 @@
-stock
-manufacturing
-selling
+setting-up
+sales-order
+bill-of-materials
 production-planning-tool
 stock-balance-report
 billing
