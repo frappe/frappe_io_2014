@@ -1,6 +1,6 @@
 # Setting Up
 
-Make-to-order process starts only when a confirmed __Sales Order__ is placed for an Item. Thus as a first step lets create an Item in the system.
+Make-to-order process starts only when a confirmed __Sales Order__ is placed for an Item. To be able to make a Sales Order, an Item has to exist. Thus, enter the Item details in the system.
 
 ### Item
 

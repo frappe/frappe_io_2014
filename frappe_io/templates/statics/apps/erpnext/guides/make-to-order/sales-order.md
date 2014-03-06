@@ -1,6 +1,6 @@
 # Sales Order
 
-As a first-step to the Make-to-Order process, enter the Sales Order into the system. SOG has received an order to deliver 50 Jute Pen-stands.
+Enter the Sales Order into the system. SOG has received an order to deliver 50 Jute Pen-stands.
 
 ![Selling](/assets/frappe_io/images/erpnext/m-t-o-selling.jpg)
 
