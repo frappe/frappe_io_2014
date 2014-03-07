@@ -30,5 +30,7 @@ Note: Please specify the hour rates. This will help in calculating the actual ex
 
 __Note:__ You can enter the rates manually by adjusting as per the UOM. Since Tree Glue was purchased in Kg, calculate the rate for 10 gm and enter the rate accordingly. Do not forget to mention rates for every material.
 
-Save the BOM and submit it. Do not forget to submit the BOM. This is an important step. After submitting, go to the __Production Planning Tool.__ This tool helps in purchasing the raw material as well as in placing production order. It also allows the material to be trasferred from one warehouse to another, at the click of a single button.
+Save the BOM and submit it. Do not forget to submit the BOM. This is an important step. After submitting, you can go to the production planning tool. However, before you proceed with the manufacturing process, it is necessary to log-in the Sales Order. So make a Sales Order.
+
+ 
 

@@ -8,7 +8,7 @@ Production Planning Tool helps you plan production and purchase of Items for a p
 
 ![Get Sales Order](/assets/frappe_io/images/erpnext/e-t-o-ppt-get-so-childbed.png)
 
-Figure 2: Get the Items.
+#### Figure 2: Get the Items.
 
 ![Production Planning Get Items](/assets/frappe_io/images/erpnext/e-t-o-get-items-ppt-childbed.png)
 

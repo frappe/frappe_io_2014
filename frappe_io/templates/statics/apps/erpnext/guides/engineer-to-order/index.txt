@@ -5,3 +5,7 @@ sales-order
 advance-payment-entry
 bill-of-material
 production-planning-tool
+material-request
+stock-entry
+gross-profit-report
+

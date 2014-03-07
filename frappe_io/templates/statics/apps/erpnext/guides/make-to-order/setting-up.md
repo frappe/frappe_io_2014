@@ -51,5 +51,5 @@ Create Items for all the raw materials that will go into the Bill of Materials. 
 
 Make a Bill of Materials with the help of these raw materials.
 
-Before making the Bill of Materials, log in the Sales Order in the system.
+Before making the Sales Order, make the Bill of Materials based on your designed document.
 

@@ -20,5 +20,6 @@ Save and submit the Sales Order.
 
 After creating the Sales Order the process to manufacture them begins. However, in order to manufacture, it is necessary that a Bill of Materials be made. This helps in production planning and making purchases as per requirements of the raw materials.
 
-Make a Bill of Material.
+Once the Sales Order is ready, we can proceed to the Production Planning Tool. This tool helps in purchasing the raw material as well as in placing production order. It also allows the material to be trasferred from one warehouse to another, at the click of a single button.
+
 
