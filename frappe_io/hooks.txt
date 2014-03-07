@@ -14,6 +14,7 @@ brand_html = <img src="/assets/frappe_io/images/frappe-io-brand.png" style="widt
 web_include_css = assets/frappe_io/css/frappe-io-web.css
 
 fixture = Website Settings
+fixture = Website Script
 fixture = Contact Us Settings
 fixture = Frappe App
 fixture = Website Group

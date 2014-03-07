@@ -26,8 +26,9 @@ article img {
 
 .navbar {
 	/*border-bottom: 2px solid #000000;*/
-	padding: 10px 0px;
+	padding: 17px 0px;
 	border-bottom: 0px;
+	color: #aaa;
 }
 
 .navbar a.active {
