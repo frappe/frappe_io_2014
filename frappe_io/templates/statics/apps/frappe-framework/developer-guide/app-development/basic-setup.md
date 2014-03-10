@@ -47,19 +47,15 @@ Create a text file `apps.txt` with list of installed apps, (right now only `frap
 
 Your structure should look like this:
 
-```
-- bench
-  - apps
-    + frappe
-  - sites
-    apps.txt
-```
+	- bench
+	  - apps
+	    + frappe
+	  - sites
+	    apps.txt
 
-Sample `apps.txt`
+Sample `apps.txt`:
 
-```
-frappe
-```
+	frappe
 
 #### 2. Install requirements and setup `frappe`
 
@@ -86,4 +82,6 @@ Once your site is installed, you can build the application, start the developmen
 
 Go to your browser and open localhost:800
 
-You should see the login screen.
+You should see the login screen. The Administrator Login is `Administrator` and password is `admin`. Once you login, you should see the a desktop environment with icons.
+
+![Desk](assets/images/app-development/desk.png)
