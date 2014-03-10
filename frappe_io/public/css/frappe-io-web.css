@@ -7,12 +7,17 @@ body {
 	color: #444;
 }
 
-h1, h2, h3, h4, h5, .navbar {
+h1, h2, h3, h4, h5, .navbar, footer, .sidebar-item {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
 	font-weight: bold;
+}
+
+.sidebar-item {
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 article img {
