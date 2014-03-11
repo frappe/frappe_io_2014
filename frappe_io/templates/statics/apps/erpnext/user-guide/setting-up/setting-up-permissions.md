@@ -43,14 +43,14 @@ and Role and click on “Update”.
 
 To delete a rule, just uncheck all the boxes of the row and click on “Update”
 
-To set “match” rules, select the drop-down in the last column.  For example,
+To set “match” rules, select the drop-down in the last column. For example,
 you want to restrict Users of Role “Sales User” by Territories in Sales Order.
 
-  1. Select Sales Order in “Set Permissions For”
+  1. Select Sales Order in "Set Permissions For"
   2. In the row for Role “Sales User”, in the last column “Restrict By”, select “territory”.
   3. To assign Territories to Users, click on “Set Users / Roles”
   4. In the popup box, 
-    * In the “Who” column, select “Profile” and the User you want to assign the Territory to
+    * In the “Who” column, select “User” and the User you want to assign the Territory to
     * In the “Is allowed if territory equals” column, select the Territory you want to assign to this user.
   5. Click on “Add”
 

@@ -35,6 +35,6 @@ maintenance activity.
 
 Each Item in a Maintenance Schedule is allocated to a Sales Person.
 
-When the document is “Submitted” Calendar events are created in the profile of
+When the document is “Submitted” Calendar events are created in the User of
 the Sales Person for each maintenance.
 
