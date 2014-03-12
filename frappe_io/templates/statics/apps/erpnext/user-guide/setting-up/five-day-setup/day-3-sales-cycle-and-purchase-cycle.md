@@ -13,20 +13,15 @@ Complete a standard Sales Cycle.
 #### Lead
 
 To begin the sales cycle, go to the Selling Icon. On the selling page, click
-on [Lead.](lead)
+on [Lead.](/apps/erpnext/user-guide/selling/lead)
 
 ![Lead](assets/frappe_io/images/erpnext/thirddaysetup-lead.png)
 
 Fill the Lead form.
 
-> To understand Lead in detail, visit
-
->
-
-> [Lead](lead)
+> To understand Lead in detail, visit [Lead](/apps/erpnext/user-guide/selling/lead)
 
   
-
 #### Opportunity
 
 After completing the Lead form, assume that, this same lead is getting
@@ -46,7 +41,7 @@ status.
 
 You can also generate an Opportunity directly from the Selling Page.
 
-> To understand Opportunity in detail visit [Opportunity](opportunity).
+> To understand Opportunity in detail visit [Opportunity](/apps/erpnext/user-guide/selling/opportunity).
 
   
 
@@ -60,7 +55,7 @@ and click on Create Quotation.
 
 You can also generate a Quotation directly from the Selling Page.
 
-> To understand Quotation in detail visit **[Quotation**](quotation)
+> To understand Quotation in detail visit **[Quotation**](/apps/erpnext/user-guide/selling/quotation)
 
   
 
@@ -74,10 +69,9 @@ same Quotation, go to that Quotation page and click on Make Sales Order.
 
 You can also generate a Sales Order directly from the Selling Page.
 
-> To understand Sales Order in detail visit [Sales Order.](sales-order)
+> To understand Sales Order in detail visit [Sales Order.](/apps/erpnext/user-guide/selling/sales-order)
 
   
-
 #### Delivery Note
 
 If your organisation has the practice of sending Delivery Note, this section
@@ -86,10 +80,9 @@ Sales Order and click on Make Delivery.
 
 ![Delivery Note](assets/frappe_io/images/erpnext/thirddaysetup-delivery-note.png)
 
-> To understand Delivery Note in detail, visit [Delivery Note](delivery-note)
+> To understand Delivery Note in detail, visit [Delivery Note](/apps/erpnext/user-guide/stock-inventory/delivery-note)
 
   
-
 #### Sales Invoice
 
 Save and Submit your Delivery Note to generate a Sales Invoice. You can also
@@ -106,11 +99,9 @@ Invoice.
 
 ![Payment Entry](assets/frappe_io/images/erpnext/thirddaysetup-payment-entry.png)
 
-> To understand a Journal Voucher in detail, visit [Journal Voucher](journal-
-vouchers).
+> To understand a Journal Voucher in detail, visit [Journal Voucher](/apps/erpnext/user-guide/accounts/journal-vouchers).
 
   
-
 ### Purchase Cycle
 
 Complete a standard Purchase Cycle.
@@ -127,22 +118,18 @@ Request.
 
 ![Material Request](assets/frappe_io/images/erpnext/thirddaysetup-material-request.png)
 
-> To understand Material Request in detail, visit [Material Request](material-
-request).
+> To understand Material Request in detail, visit [Material Request](/apps/erpnext/user-guide/buying/material-request).
 
   
-
 #### Purchase Order
 
 To create a Purchase Order go to Buying and click on Purchase Order
 
 ![Purchase Order](assets/frappe_io/images/erpnext/thirddaysetup-purchase-order.png)
 
-> To understand Purchase Order in detail, visit [Purchase Order](purchase-
-order).
+> To understand Purchase Order in detail, visit [Purchase Order](/apps/erpnext/user-guide/buying/purchase-order).
 
   
-
 #### Purchase Receipt
 
 To create a Purchase Receipt from an existing Purchase Order, open that
@@ -150,11 +137,9 @@ purchase order and click on Make Purchase Receipt.
 
 ![Purchase Receipt](assets/frappe_io/images/erpnext/thirddaysetup-purchase-receipt.png)  
 
-> To understand Purchase Receipt in detail, visit [Purchase Receipt](purchase-
-receipt).
+> To understand Purchase Receipt in detail, visit [Purchase Receipt](/apps/erpnext/user-guide/stock-inventory/purchase-receipt).
 
   
-
 #### Payment (Journal Voucher)
 
 Payments made against Sales Invoices or Purchase Invoices can be made by
@@ -162,6 +147,5 @@ clicking on “Make Payment Entry” button on “Submitted” invoices.
 
 ![Payment Entry](assets/frappe_io/images/erpnext/thirddaysetup-payment-entry.png)  
 
-> To understand Payment Entry in detail, visit [Payment Entry.](making-
-payments)
+> To understand Payment Entry in detail, visit [Payment Entry.](/apps/erpnext/user-guide/accounts/making-payments)
 

@@ -34,7 +34,8 @@ After clicking on Customer, a new form will appear.
 
 ![Customer](assets/frappe_io/images/erpnext/firstdaysetup-customer-1.png)
 
-To see how customer details are added, visit [Customer](customer-master).
+To see how customer details are added, visit [Customer](/apps/erpnext/user-guide/selling/customer-master).
+
 Create 5 new customer records in the system.
 
 Now proceed to make an Item. To go to the main menu, click on erpnext icon
@@ -60,12 +61,9 @@ step. After clicking on Item, make a new Item.
 
 ![Item](assets/frappe_io/images/erpnext/firstdaysetup-item-1.png)
 
-To understand how to fill an Item in detail, visit[ Item](item-master). Add 5
-item records to ERPnext. After adding these records, go back to the Setup Page
-and add Suppliers.
+To understand how to fill an Item in detail, visit[ Item](/apps/erpnext/user-guide/stock-inventory/item-master). Add 5 item records to ERPnext. After adding these records, go back to the Setup Page and add Suppliers.
 
   
-
 #### Setup Page - Suppliers
 
 On the Setup page go to Supplier.
@@ -78,7 +76,7 @@ Create a new Supplier record.
 
 ![Supplier](assets/frappe_io/images/erpnext/firstdaysetup-supplier-1.png)
 
-To understand how to fill Supplier details, visit [Supplier.](supplier-master)
+To understand how to fill Supplier details, visit [Supplier.](/apps/erpnext/user-guide/buying/supplier-master)
 
 If you wish to import your list of customers and suppliers directly to
 ERPNext, you can do that via the Data Import Tool.
@@ -89,5 +87,5 @@ To upload Customers or suppliers in bulk, go to the Data Import Tool.
 processed if there are any spelling mistakes or deviations from the default
 values.
 
-To understand how to import data, visit [Importing Data.](data-import-tool)
+To understand how to import data, visit [Importing Data.](/apps/erpnext/user-guide/setting-up/data-import-tool)
 

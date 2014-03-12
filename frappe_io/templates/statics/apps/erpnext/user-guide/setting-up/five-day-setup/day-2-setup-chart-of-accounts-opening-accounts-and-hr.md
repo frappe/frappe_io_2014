@@ -21,7 +21,7 @@ Page.
   
 
 To understand how to create opening entries in detail visit [Opening Entry
-.](opening-accounts)
+.](/apps/erpnext/user-guide/accounts/opening-accounts)
 
   
 
@@ -32,8 +32,7 @@ Stock Reconciliation will update your stock for any given Item.
 
 ![Stock Opening](assets/frappe_io/images/erpnext/seconddaysetup-stock-opening.png)  
 
-To understand Stock Opening in detail visit [Opening Stock.](stock-
-reconciliation-for-non-serialized-item)
+To understand Stock Opening in detail visit [Opening Stock.](/apps/erpnext/user-guide/setting-up/stock-reconciliation-for-non-serialized-item)
 
   
 
@@ -43,8 +42,7 @@ To setup HR, begin by creating individual employee records.
 
 ![Employee](assets/frappe_io/images/erpnext/seconddaysetup-hr.png)
 
-To fill the Employee Form, refer to [Employee](employee-master)
+To fill the Employee Form, refer to [Employee](/apps/erpnext/user-guide/human-resource-management/employee-master)
 
-To complete the remaining HR-Setup, see [Human Resources](human-resource-
-management)
+To complete the remaining HR-Setup, see [Human Resources](/apps/erpnext/user-guide/human-resource-management)
 
