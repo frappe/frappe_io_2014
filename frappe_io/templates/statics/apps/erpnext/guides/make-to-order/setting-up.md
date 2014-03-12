@@ -16,9 +16,7 @@ Create the Item- Pen Stand in ERPNext. Since this is a sales Item, it should be 
 1. Click Yes on ‘Allow Production Order’ and 
 1. Click No on  ‘Is Purchase Item’.
 
-![bulb](/assets/frappe_io/images/erpnext/bulb.jpg)
-
-__Tip:__ Please mention the  Default Warehouse for this Item as “Finished Goods”. This product is available at the Finished Goods Warehouse only after it gets manufactured at the Work-in-Progress Warehouse. It cannot be kept in stores-because it is not purchased, it is manufactured.
+<i class="icon-lightbulb text-warning" style="font-size: 200%"></i>Tip: Please mention the  Default Warehouse for this Item as “Finished Goods”. This product is available at the Finished Goods Warehouse only after it gets manufactured at the Work-in-Progress Warehouse. It cannot be kept in stores-because it is not purchased, it is manufactured.
 
 > Note : In reality you may not have three warehouses. You may have one, which you use for raw material, for manufacturing/stitching/producing and also for storing finished goods. In this case, you have to only imagine separate spaces for each activity, and name them accordingly. For system entry purpose, having three different warehouses for stocking raw materials, manufacturing unfinished goods and storing finished goods is a necessity. 
 

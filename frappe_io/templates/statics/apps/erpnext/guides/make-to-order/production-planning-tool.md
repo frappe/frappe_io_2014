@@ -81,9 +81,7 @@ In this manner create Purchase Orders and Purchase Receipts for all the Material
 * Download Materials Required
 
 
-![Bulb](/assets/frappe_io/images/erpnext/bulb.jpg)
-
-All the buttons on this tool work ! If you have entered the data properly, the tool will work flawlessly.
+<i class="icon-lightbulb text-warning" style="font-size: 200%"></i> All the buttons on this tool work ! If you have entered the data properly, the tool will work flawlessly.
 
 #### Step 8: Manually Check the PO and submit the Production Order
 
@@ -104,9 +102,7 @@ On this form, mention the Source Warehouse and the Target Warehouse. The Source 
 __Note:__ The production order has two buttons on the right hand corner. One says transfer raw material and the other says update finished goods. Both the buttons will work if  you enter source and target warehouse information properly. In case you do not and get an error, note that the stock entry which you make manually should mention the purpose correctly. For transfer the purpose will be Material Transfer. For transferring to Finished Goods, the purpose will be Manufacture/Repack.
 
 
-![Bulb](/assets/frappe_io/images/erpnext/bulb.jpg)
-
-__Tip:__ if you get negative error, ensure that you have enough stock.  your purchase receipt should be saved and submitted.
+<i class="icon-lightbulb text-warning" style="font-size: 200%"></i> Tip: If you get negative error, ensure that you have enough stock.  your purchase receipt should be saved and submitted.
 
 You will find the ‘Transfer Raw Material’ button on right hand corner of the Production Order. Click on Action and select ‘Transfer Raw Material’. 
 

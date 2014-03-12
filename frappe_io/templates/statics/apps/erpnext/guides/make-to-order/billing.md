@@ -1,8 +1,8 @@
 # Billing
 
-![Billing](/assets/frappe_io/images/erpnext/m-t-o-big-bill.jpg)
-
 To bill the client, first make the Delivery Note from the Sales Order. The Action button is placed at the right hand corner of the  Sales Order form. Click on make Delivery Note. 
+
+![Billing](/assets/frappe_io/images/erpnext/m-t-o-big-bill.jpg)
 
 > Selling > Sales Order 
 
