@@ -9,9 +9,7 @@ Go to the Production Order and  click on the button ‘Transfer Raw Material’ 
 __Note:__ The production order has two buttons on the right hand corner. One says transfer raw material and the other says update finished goods. Both the buttons will work if  you enter source and target warehouse information properly. In case you do not and get an error, note that the stock entry which you make manually should mention the purpose correctly. For transfer the purpose will be Material Transfer. For transferring to Finished Goods, the purpose will be Manufacture/Repack.
 
 
-![Bulb](/assets/frappe_io/images/erpnext/bulb.jpg)
-
-__Tip:__ if you get negative error, ensure that your purchase receipt is saved and submitted. Now come back to Production Order and click on Transfer Raw Material. Click on the Action Button and select ‘ Transfer Raw Material’ Save and submit the Stock Entry.
+<i class="icon-lightbulb text-warning" style="font-size: 200%"></i> Tip: If you get negative error, ensure that your purchase receipt is saved and submitted. Now come back to Production Order and click on Transfer Raw Material. Click on the Action Button and select ‘ Transfer Raw Material’ Save and submit the Stock Entry.
 
 ### Update Finished Goods
 

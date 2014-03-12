@@ -1,8 +1,10 @@
 # Material Request
 
+Material Request is a request to order materials for the production of your item/product.
+
 ![Material Request](/assets/frappe_io/images/erpnext/e-t-o-material-request.jpg)
  
-It is a request to order materials for the production of your item/product. You can make Material Requests from the Production Planning Tool itself! Click on the button ‘ Make Material Request’. A list of material requests will be formed. 
+ You can make Material Requests from the Production Planning Tool itself! Click on the button ‘ Make Material Request’. A list of material requests will be formed. 
 
 Figure 1: Make Material Requests
 

@@ -1,11 +1,11 @@
 # Selling
 
+Consider that Shades of Green got a Sales Order for 150 butterfly print bags. Go to the Selling Module and make a Sales Order. 
+
 ![Selling](/assets/frappe_io/images/erpnext/m-t-s-selling-2.jpg)
 
 
 Following are the steps required to make Sales Order and book Profits.
-
-Consider that Shades of Green got a Sales Order for 150 butterfly print bags. Go to the Selling Module and make a Sales Order. 
 
 > Selling > Sales Order > New Sales Order
 
@@ -15,7 +15,7 @@ The Sales Order is an order issued by a business to a customer. A sales order ma
 
 Enter the amount that you will charge and the quantity of bags that are required.
 
-#### Figure 13: Make a Sales Order
+#### Figure 1: Make a Sales Order
 
 ![Sales Order](/assets/frappe_io/images/erpnext/m-t-s-sales-order.png)
 
@@ -27,7 +27,7 @@ It is a document accompanying a shipment of goods that lists the description, an
 
 ![Delivery Note](/assets/frappe_io/images/erpnext/m-t-s-delivery-note-2.jpg)
 
-#### Figure 14: Make Delivery Note
+#### Figure 2: Make Delivery Note
 
 ![Delivery Note 2](/assets/frappe_io/images/erpnext/m-t-s-delivery-note.png)
 
@@ -37,7 +37,7 @@ Save and submit the Delivery Note. After submitting, go to the right hand corner
 
 A Sales Invoice is a bill that you send to your Customers, against which the customer processes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice,  the system updates the receivable and books income against a Customer Account.
 
-#### Figure 15: Make Invoice
+#### Figure 3: Make Invoice
 
 ![Make Invoice](/assets/frappe_io/images/erpnext/m-t-s-sales-invoice.png)
 
@@ -49,7 +49,7 @@ Payment Entry is a part of book-keeping. To be able to record accounts and manag
 
 Click on the Action button and select ‘Make Payment Entry’ on the Invoice page. The page will open into a Journal Voucher with debit and credit entries made, as per the double accounting system. Click on the button ‘Make Difference Entry’ and mention reference number and reference date.
 
-#### Figure 16: Make Payment Entry
+#### Figure 4: Make Payment Entry
 
 ![Payment Entry](/assets/frappe_io/images/erpnext/m-t-s-payment-entry.png)
 
