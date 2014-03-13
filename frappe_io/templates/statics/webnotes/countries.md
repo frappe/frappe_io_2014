@@ -75,3 +75,5 @@ ERPNext is used in atleast 63 countries as of March 2014. Here is the list of co
 		<tr><td>Vietnam</td><td>AMAI SAIGON</td></tr> 
 	</tbody>
 </table>
+
+> [Read Full Length Case Studies Too](apps/erpnext/stories)

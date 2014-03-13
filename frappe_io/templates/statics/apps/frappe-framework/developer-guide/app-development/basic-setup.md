@@ -82,6 +82,8 @@ Once your site is installed, you can build the application, start the developmen
 
 Go to your browser and open localhost:800
 
+![Desk](assets/frappe_io/images/app-development/login.png)
+
 You should see the login screen. The Administrator Login is `Administrator` and password is `admin`. Once you login, you should see the a desktop environment with icons.
 
-![Desk](assets/images/app-development/desk.png)
+![Desk](assets/frappe_io/images/app-development/desk.png)
