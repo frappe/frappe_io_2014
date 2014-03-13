@@ -31,8 +31,7 @@ transactions. Also, the available quantity (actual qty, reserved qty, ordered
 qty etc) of all items in the duplicate warehouse will be transferred to the
 correct warehouse. Once merging is done, delete the duplicate Warehouse.
 
-To understand the merge process in detail  visit [Merging Documents](merging-
-documents).
+To understand the merge process in detail  visit [Merging Documents](/apps/erpnext/user-guide/faq/merging-documents).
 
   
 
