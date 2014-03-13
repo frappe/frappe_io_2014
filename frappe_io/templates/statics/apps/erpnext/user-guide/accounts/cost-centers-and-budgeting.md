@@ -25,7 +25,7 @@ Companies, you can create Cost Centers for each Company and manage it
 separately.
 
 To understand chart of cost centers in detail visit [Accounting Knowledge
-.](introduction-to-accounting)
+.](/apps/erpnext/user-guide/accounts/introduction-to-accounting)
 
 Chart of Cost Centers
 

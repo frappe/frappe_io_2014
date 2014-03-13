@@ -18,8 +18,7 @@ sales orders.
 
 In ERPNext, to follow Make-To-Order type of manufacturing, you can make
 Production Orders directly from Sales Orders or from Production Planning Tool
-( Material Resource Planning).  Visit [Production Planning Tool](production-
-planning-tool.html) to understand in detail, how to make Production Orders.
+( Material Resource Planning).  Visit [Production Planning Tool](/apps/erpnext/user-guide/manufacturing/production-planning-tool) to understand in detail, how to make Production Orders.
 
 Go to the Manufacturing Module to check your Production Order. Manually check
 the Production Order and Submit the Order. After submitting, click on the

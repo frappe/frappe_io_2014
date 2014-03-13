@@ -45,7 +45,7 @@ attach the corresponding image in the Item master.
 
 The rates you quote may depend on two things.
 
-  * The Price List: If you have multiple Price Lists, you can select a Price List or tag it to the Customer (so that it is auto-selected). Your Item prices will automatically be updated from the Price List.For details refer [Price List](http://erpnext.org/price-lists)
+  * The Price List: If you have multiple Price Lists, you can select a Price List or tag it to the Customer (so that it is auto-selected). Your Item prices will automatically be updated from the Price List.For details refer [Price List](/apps/erpnext/user-guide/setting-up/price-lists)
 
   * The Currency: If you are quoting to a Customer in a different currency, you will have to update the conversion rates to enable ERPNext to save the information in your standard Currency. This will help you to analyze the value of your Quotations in standard Currency.
 

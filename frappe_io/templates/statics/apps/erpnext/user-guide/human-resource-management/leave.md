@@ -25,5 +25,5 @@ to approve leaves, you can give “Submission” rights to those users only.
 If you want all users to create their own Leave Applications, you can set
 their “Employee ID” as a match rule in the Leave Application Permission
 settings. See the earlier discussion on permission settings for more info.
-[Permissions](docs.user.setup.permissions.html)
+[Permissions](/apps/erpnext/user-guide/setting-up/setting-up-permissions)
 

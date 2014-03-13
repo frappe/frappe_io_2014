@@ -11,4 +11,4 @@ purchase-return
 projected-quantity
 accounting-of-inventory-stock
 perpetual-inventory
-stock-how-to
+item-valuation-fifo-and-moving-average

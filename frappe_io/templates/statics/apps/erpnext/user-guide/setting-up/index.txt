@@ -18,3 +18,4 @@ territory
 third-party-backups
 workflows
 bar-code
+email-digest

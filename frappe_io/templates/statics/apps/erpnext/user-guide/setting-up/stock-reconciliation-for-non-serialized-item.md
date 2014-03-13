@@ -30,8 +30,7 @@ Stock Reconciliation will make a “difference entry” (the difference between
 the system stock and the actual stock in your file) for the Item.
 
 Tip: Stock Reconciliation can also be used to update the “value” of an Item.
-To understand how Items are valued read [Valuation](item-valuation-fifo-and-
-moving-average).
+To understand how Items are valued read [Valuation](/apps/erpnext/user-guide/stock-inventory/item-master/item-valuation-fifo-and-moving-average).
 
 To perform Stock Reconciliation, go to:
 

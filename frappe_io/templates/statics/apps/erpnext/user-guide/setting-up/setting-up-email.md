@@ -14,19 +14,9 @@ receiving emails. Sending is done via a protocol called SMTP (Simple Mail
 Transfer Protocol) and the server (computer) that sends your email to its
 destination is called SMTP Server.
 
->
 
-> **Info:** Bulk Emails: Bulk Emails, especially those that are sent without
-consent (spam), are considered as bad behavior. While it may be okay to send
-emails to those who have “opted-in” to receive mails, it is very difficult for
-the internet community to know what is spam and what is allowed. To overcome
-this problem, most email servers share a black and white list of email
-senders. If your emails have been marked as spam, you will be blacklisted. So
-be careful. Many times, it may be a good idea to send email via whitelisted
-services also known as SMTP relay services which are paid services. These
-services will block you from sending spam while ensuring that most of your
-email does not go in the spam folder. There are many such services available
-like SendGrid and SMTP.com
+Bulk Emails, especially those that are sent without consent (spam), are considered as bad behavior. While it may be okay to send emails to those who have “opted-in” to receive mails, it is very difficult for the internet community to know what is spam and what is allowed. To overcome this problem, most email servers share a black and white list of email senders. If your emails have been marked as spam, you will be blacklisted. So be careful. Many times, it may be a good idea to send email via whitelisted services also known as SMTP relay services which are paid services.These
+services will block you from sending spam while ensuring that most of your email does not go in the spam folder. There are many such services available like SendGrid and SMTP.com.
 
 To setup your outgoing mails, go to
 

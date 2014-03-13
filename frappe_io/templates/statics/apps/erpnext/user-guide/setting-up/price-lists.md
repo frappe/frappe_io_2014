@@ -16,17 +16,10 @@ Add Item Price
 
 > Setup > Item Price
 
->
 
->  
+![](assets/frappe_io/images/erpnext/item-price-1.png)  
 
->
 
-> ![](assets/frappe_io/images/erpnext/item-price-1.png)  
-
->
-
->  
 
   * Enter Price List and Item Code, Valid for Buying or Selling, Item Name and Item Description will be automatically fetched.
   * Enter Rate and save the document.

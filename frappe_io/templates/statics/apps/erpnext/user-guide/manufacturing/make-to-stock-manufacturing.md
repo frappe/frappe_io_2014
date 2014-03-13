@@ -13,8 +13,7 @@ on the accuracy of demand forecasts. Inaccurate forecasts will lead to losses
 stemming from excessive inventory or stockouts.
 
 In ERPNext, You can manually forecast and make Production Orders. To make
-Production Orders, you can use the [Production Planning Tool](production-
-planning-tool.html).
+Production Orders, you can use the [Production Planning Tool](/apps/erpnext/user-guide/manufacturing/production-planning-tool).
 
 Go to the Manufacturing Module to check your Production Order. Manually check
 the Production Order and Submit the Order. After submitting, click on the

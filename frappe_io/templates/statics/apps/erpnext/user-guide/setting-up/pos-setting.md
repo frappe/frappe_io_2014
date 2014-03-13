@@ -18,6 +18,5 @@ Set default values as defined.
 
 > Important : If you specify a particular User, the POS setting will be
 applied only to that User. If the User option is left blank, the setting will
-be set for all users. To understand POS in detail visit [Point of Sale](point-
-of-sale-pos-invoice)
+be set for all users. To understand POS in detail visit [Point of Sale](/apps/erpnext/user-guide/accounts/point-of-sale-pos-invoice)
 

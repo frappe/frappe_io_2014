@@ -84,7 +84,6 @@ In the same way, add a row for each user.
 > **Note 1:** The “match” rules apply to all documents that you have matched
 by Territory.
 
->
 
 > **Note 2:** You can set multiple rules for the same User. In this example,
 you can set a User to access more than one Territories.

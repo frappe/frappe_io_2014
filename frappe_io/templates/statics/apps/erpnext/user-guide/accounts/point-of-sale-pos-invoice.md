@@ -27,7 +27,7 @@ all your transactions against this Customer record.
 
 ![POS View](assets/frappe_io/images/erpnext/pos-features-setup.png)
 
-  * Setup [POS Setting](docs.user.setup.pos_setting.html)
+  * Setup [POS Setting](/apps/erpnext/user-guide/setting-up/pos-setting)
 
 ### Adding an Item
 

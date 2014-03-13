@@ -14,5 +14,5 @@ be added in the right sidebar.
 
 ### Tags
 
-[Tags](tags)  
+[Tags](/apps/erpnext/user-guide/collaboration-tools/tags)  
 
