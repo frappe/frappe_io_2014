@@ -29,89 +29,66 @@ Selling> Sales BOM> New Sales BOM
 
   
 
-**Step 1: Select the Parent Item **
+__Step 1:__ Select the Parent Item
 
-**  
-**
-
-Note 1: The Parent Item should be a non-stock Item. This is non-stock item
+> Note 1: The Parent Item should be a non-stock Item. This is non-stock item
 because there is no stock maintained for this Item. It is only a Package Item.
 
-Note 2: If you wish to maintain stock for this Parent Item, then you should
+> Note 2: If you wish to maintain stock for this Parent Item, then you should
 create a regular Bill of Material (BOM) and package it [repack function] using
 a Stock Entry Transaction.  
 
-Note 3: The Parent Item should be a Sales Item.
+> Note 3: The Parent Item should be a Sales Item.
 
   
 
-**Figure 1: Sales BOM for Jute Bag**
+#### Figure 1: Sales BOM for Jute Bag
 
 ![](assets/frappe_io/images/erpnext/sales-bom-.png)  
 
   
 
-**Step 2: Add Child Items**
+__Step 2:__ Add Child Items
 
 Enter the Child Items which will be reserved along with the Parent Item.  
 
-Note 1: Child Items will be stock Items because they can be tracked as per
+> Note 1: Child Items will be stock Items because they can be tracked as per
 usage for replenishment of stocks.
 
   
 
-**Step 3: Save  and Submit the Document**
+__Step 3:__ Save  and Submit the Document
 
   
-
 **Q. How to use a Sales BOM in transactions like Sales Orders, Delivery Notes, Sales Invoice etc ?**
 
-Answer: When making sales transactions like Sales Invoice, Sales Order or
+__Answer:__ When making sales transactions like Sales Invoice, Sales Order or
 Delivery Note,
 
-Step 1: Select Parent Item in the main Item table.  
+__Step 1:__ Select Parent Item in the main Item table.  
 
-Step 2: Mention the Warehouse where this Item will be packaged.  
+__Step 2:__ Mention the Warehouse where this Item will be packaged.  
 
-Note: Since Jute Bag is a non-stock Item you have not specified a warehouse
+> Note: Since Jute Bag is a non-stock Item you have not specified a warehouse
 for this Item. However, in Sales Order form or other forms, it is mandatory to
 mention the Reserved Warehouse. This Warehouse will serve as a place to
 reserve the offer Items.
 
-Step 3: Save this Document. After saving, the Packing List feature is added to
-this form. The list will automatically fetch the Child Items which will be
-packaged/bundled along with the parent Item.
+__Step 3:__ Save this Document. After saving, the Packing List feature is added to this form. The list will automatically fetch the Child Items which will be packaged/bundled along with the parent Item.
 
   
 
-**Figure 2: Packing List with Child Items**![](assets/frappe_io/images/erpnext/sales-bom-usein-so.png)  
+#### Figure 2: Packing List with Child Items
+
+![](assets/frappe_io/images/erpnext/sales-bom-usein-so.png)  
 
   
 
-Note 1: On submission of this transaction, the system will reduce/reserve the
+> Note 1: On submission of this transaction, the system will reduce/reserve the
 stock level of Child Items from the warehouse which was mentioned in their
 respective Item forms.  
 
-Note 2: You can define a separate price-list for sales BOM considering all the
+> Note 2: You can define a separate price-list for sales BOM considering all the
 package Items.
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-

@@ -10,6 +10,8 @@ by:
 
 > Manufacturing > Production Order > New Production Order
 
+#### Figure 1: Create Production Order
+
 ![Production Order](assets/frappe_io/images/erpnext/production-order.png)
 
   * Select the Item to be produced (must have a Bill of Materials).
@@ -21,6 +23,8 @@ by:
 and “Submit” the Production Order.
 
 Once you “Submit”, you will see two more buttons:
+
+#### Figure 2: Submit Production Order
 
 ![Production Order](assets/frappe_io/images/erpnext/production-order-2.png)
 

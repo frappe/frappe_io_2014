@@ -13,6 +13,7 @@ In this type of manufacturing, production orders are linked to one or more
 sales orders.
 
   
+#### Figure 1: Make-to-Order Flow-Chart
 
 ![](assets/frappe_io/images/erpnext/Make-to-order.png)  
 
@@ -25,6 +26,7 @@ the Production Order and Submit the Order. After submitting, click on the
 Action button, to get a drop-down list. Select Transfer Raw Material.
 
   
+#### Figure 2: Material Transfer
 
 ![](assets/frappe_io/images/erpnext/material-transfer-1.png)  
 
