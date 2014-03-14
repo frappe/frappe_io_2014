@@ -8,10 +8,10 @@ customer gets on goods purchased.
 
 To set credit limit go to Customer- Master
 
-Selling > Customer > New Customer
+> Selling > Customer > New Customer
 
   
-
+#### Figure 1: Credit Limit
 ![](assets/frappe_io/images/erpnext/credit-limit-1.png)  
 
   
@@ -34,7 +34,7 @@ In the field Credit Controller, select the role who would be authorized to
 accept orders or raise credit limits of customers.
 
   
-
+#### Figure 2: Credit Controller
 ![](assets/frappe_io/images/erpnext/credit-controller.png)  
 
   

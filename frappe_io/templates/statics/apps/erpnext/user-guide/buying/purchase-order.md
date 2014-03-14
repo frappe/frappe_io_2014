@@ -5,11 +5,15 @@ given conditions.
 A Purchase Order can be automatically created from a Material Request or
 Supplier Quotation.
 
+#### Figure 1: Purchase Order Flow Chart
+
 ![Purchase Order](assets/frappe_io/images/erpnext/purchase-order-f.jpg)
 
 In ERPNext, you can also make a Purchase Order directly by going to:
 
 > Buying > Purchase Order > New Purchase Order ￼
+
+#### Figure 2: Create Purchase Order
 
 ![Purchase Order](assets/frappe_io/images/erpnext/purchase-order.png)
 
@@ -56,34 +60,26 @@ For example, If you have bought your raw material in large quantities with UOM
 -boxes, and wish to stock them in UOM- Nos; you can do so while making your
 Purchase Order.
 
-Step 1: Store UOM as Nos in the Item form.
+__Step 1:__ Store UOM as Nos in the Item form.
 
 Note: The UOM in the Item form is the stock UOM.
 
-Step 2: In the Purchase Order mention UOM as Box. (Since material arrives in
+__Step 2:__ In the Purchase Order mention UOM as Box. (Since material arrives in
 Boxes)
 
-Step 3: In the Warehouse and Reference section, the UOM will be pulled in as
+__Step 3:__ In the Warehouse and Reference section, the UOM will be pulled in as
 Nos (from the Item form)
 
-**Figure 3: Conversion of Purchase UOM to stock UOM**
+#### Figure 3: Conversion of Purchase UOM to stock UOM
 
-**  
-**
 
-![](assets/frappe_io/images/erpnext/purchase-order-uom-change.png)**  
-**
+![](assets/frappe_io/images/erpnext/purchase-order-uom-change.png) 
 
-Step 4: Mention the UOM conversion factor. For example, (100);If one box has
+__Step 4:__ Mention the UOM conversion factor. For example, (100);If one box has
 100 pieces.  
 
-Step 5:  Notice that the stock quantity will be updated accordingly.
+__Step 5:__  Notice that the stock quantity will be updated accordingly.
 
-Step 6: Save and Submit the Form.
-
-  
+__Step 6:__ Save and Submit the Form.
 
   
-
-  
-

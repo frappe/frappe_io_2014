@@ -18,7 +18,7 @@ For payments from Customers,
   * Debit: Bank or Cash Account
   * Credit: Customer
 
-> Note: Remember to the “Against Sales Invoice” or “Is Advance” as applicable.
+> Note: Remember to add “Against Sales Invoice” or “Is Advance” as applicable.
 
 #### Outgoing Payment
 
@@ -26,9 +26,6 @@ For payments to Suppliers,
 
   * Debit: Supplier
   * Credit: Bank or Cash Account
-
-> Note: Remember to the “Against Purchase Invoice” or “Is Advance” as
-applicable.
 
 * * *
 

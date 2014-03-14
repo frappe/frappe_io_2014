@@ -6,7 +6,7 @@ business.
 
 ![A&L](assets/frappe_io/images/erpnext/assets-1.png)
 
-Analysis: Mama invested 25000 in company, hoping to get some profit. In other
+__Analysis:__ Mama invested 25000 in company, hoping to get some profit. In other
 words, company is liable to pay 25000 to Mama in the future. So, account
 "Mama" is a liability account and it is credited. Company's cash balance will
 be increased due to the investment, "Cash" is an asset to the company and it
@@ -16,7 +16,7 @@ will debited.
 
 ![A&L](assets/frappe_io/images/erpnext/assets-2.png)
 
-Analysis: Equipments are "Fixed Assets" (because they have a long life) of the
+__Analysis:__ Equipments are "Fixed Assets" (because they have a long life) of the
 company and raw materials "Current Assets" (since they are used for day-to-day
 business), of the company. So, "Equipments" and "Stock in Hand" accounts have
 been debited to increase the value. He pays 2000, so "Cash" account will be
@@ -27,7 +27,7 @@ Bazaar" later, so Super Bazaar will be credited by 3000.
 
 ![A&L](assets/frappe_io/images/erpnext/assets-3.png)
 
-Analysis: Income has been booked in "Sales of Tea" account which has been
+__Analysis:__ Income has been booked in "Sales of Tea" account which has been
 credited to increase the value and the same amount will be debited to "Cash"
 account. Lets say, to make 325 cups of tea, it costs Rs. 800, so "Stock in
 Hand" will be reduced (Cr) by 800 and expense will be booked in "Cost of goods

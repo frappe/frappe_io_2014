@@ -3,7 +3,7 @@ Some of the major accounting reports are:
 ### General Ledger
 
 General Ledger is based on the table GL Entry and can be filtered by Account
-and between a period. This will help you get a full update for all entries
+and between a period. This will help you to get a full update for all entries
 done in that period for that Account.
 
 ![General Ledger](assets/frappe_io/images/erpnext/general-ledger.png)
@@ -36,7 +36,7 @@ Invoice and Purchase Invoice.
 
 ### Sales and Purchase Register
 
-In this report, each tax Account is transposed in columns.For each Invoice and
+In this report, each tax Account is transposed in columns. For each Invoice and
 invoice Item, you will get the amount of individual tax that has been paid,
 based on the Taxes and Charges table.
 

@@ -3,16 +3,14 @@ Advance Payment. For Orders of high value, the business houses expect to
 receive advance.
 
   
-
-For Example: Consider a customer- Jane D'souza placing an order for a double
+__For Example:__ Consider a customer- Jane D'souza placing an order for a double
 bed costing Rs 100000/- She is asked to give some advance before the furniture
 house begins work on her order. She gives them Rs 1000/- in cash.
 
   
-
 Go to Accounts and open a new Journal Voucher to make the advance entry.
 
-##### Accounts> Journal Voucher> New Journal Voucher  
+> Accounts > Journal Voucher> New Journal Voucher  
 
 Mention the voucher type as cash voucher. This differs for different
 customers. If somebody pays by cheque the voucher type will be Bank Voucher.
@@ -26,21 +24,17 @@ credit entry against the customer. To balance it with the debit entry[Double
 accounting Entry]enter 10000/- as debit against the company's cash account. In
 the row "Is Advance" click 'Yes'.
 
-  
 
-##### Figure 1 : Journal Voucher -Advance Entry  
 
-  
+#### Figure 1 : Journal Voucher -Advance Entry  
 
-  
+   
 
 ![](assets/frappe_io/images/erpnext/e-t-o-jv-advance.png)  
 
   
 
-Double Entry Accounting  
-
-  
+### Double Entry Accounting  
 
 Double entry bookkeeping is a system of accounting in which every transaction
 has a corresponding positive and negative entry : debits and credits. Every
@@ -53,7 +47,7 @@ one account will be debited because it receives value and the other account
 will be credited because it has given value.
 
   
-
+#### Figure 2: Transaction and Difference Entry
 ![](assets/frappe_io/images/erpnext/e-t-o-jv-credit-childbed.png)  
 
   
@@ -74,7 +68,7 @@ To link the Sales Invoice to the Journal Voucher which mentions the advance
 payment entry, click on ‘Get Advances Received’.  Allocate the amount of
 advance in the advances table. The accounting will be adjusted accordingly.
 
-  
+#### Figure 3: Receive Advance 
 ![](assets/frappe_io/images/erpnext/e-t-o-salinv-get-advance-childbed.png)  
 
   

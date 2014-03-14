@@ -8,9 +8,9 @@ requirement via BOMs (also called Material Requirements Planning MRP).
 
 Broadly there are three types of Production Planning Systems
 
-  * Make-to-Stock: In these systems, production is planned based on a forecast and the Items are then sold to distributors or customers. All fast moving consumer goods that are sold in retail shops like soaps, packaged water etc and electronics like phones etc are Made to Stock.
-  * Make-to-Order: In these systems, manufacturing takes place after a firm order is placed by a Customer.
-  * Engineer-to-Order: In this case each sale is a separate Project and has to be designed and engineered to the requirements of the Customer. Common examples of this are any custom business like furniture, machine tools, speciality devices, metal fabrication etc.
+  * __Make-to-Stock:__ In these systems, production is planned based on a forecast and the Items are then sold to distributors or customers. All fast moving consumer goods that are sold in retail shops like soaps, packaged water etc and electronics like phones etc are Made to Stock.
+  * __Make-to-Order:__ In these systems, manufacturing takes place after a firm order is placed by a Customer.
+  * __Engineer-to-Order:__ In this case each sale is a separate Project and has to be designed and engineered to the requirements of the Customer. Common examples of this are any custom business like furniture, machine tools, speciality devices, metal fabrication etc.
 
 Most small and medium sized manufacturing businesses are based on a make-to-
 order or engineer-to-order system and so is ERPNext.
