@@ -1,7 +1,7 @@
 Purchase Receipts are made when you accept material from your Supplier usually
 against a Purchase Order.
 
-You can also accept Purchase Receipts directly (you must set Purchase Order
+You can also accept Purchase Receipts directly ( Set Purchase Order
 Required as “No” in Global Defaults).
 
 You can make a Purchase Receipt directly from:
@@ -15,7 +15,7 @@ or from a “Submitted” Purchase Order, by clicking on “Make Purchase Receip
 ### Rejections
 
 In the Purchase Receipt, you are required to enter whether all the materials
-you receive are of accepted quality (in case you check). If you have any
+you receive are of acceptable quality (in case you check). If you have any
 rejections, update the “Rejected Quantity” column in the Items table.
 
 If you reject, you are required to enter a “Rejected Warehouse” to indicate
@@ -32,7 +32,7 @@ Purchase Receipt if you update the “Quality Inspection No”.
 
 If your Purchase Order for an Item is in a different Unit of Measure (UOM)
 than what you stock (Stock UOM), then you will need to update the “UOM
-Conversion Factor”. See the Item settings for more information.
+Conversion Factor”. 
 
 ### Currency Conversions
 
@@ -42,7 +42,7 @@ Currency. You will need to update the Currency Conversion Rate if applicable.
 
 ### Taxes and Valuation
 
-Some of your taxes and charges may affect your Items value. For example a Tax
+Some of your taxes and charges may affect your Items value. For example, a Tax
 may not be added to your Item’s valuation, because if you sell the Item, you
 will have to add the tax at that time. So make sure to mark all your taxes in
 the Taxes and Charges table correctly for accurate valuation.
@@ -50,7 +50,7 @@ the Taxes and Charges table correctly for accurate valuation.
 ### Serial Numbers and Batches
 
 If your Item is serialized or batched, you will have to enter Serial Number
-and Batch in the Items table. You are allowed to enter multiple Serial Numbers
+and Batch in the Item's table. You are allowed to enter multiple Serial Numbers
 in one row (each on a separate line) and you must enter the same number of
 Serial Numbers as the quantity. You must enter each Batch number on a separate
 line.
@@ -69,9 +69,8 @@ Order.
 #### Adding value to your Items post Purchase Receipt:
 
 Some times, certain expenses that add value to your purchased Items are known
-only after sometime. Common example is if you are importing the Items, you
+only after a while. Common example is, if you are importing the Items, you
 will come to know of Customs Duty etc only when your “Clearing Agent” sends
 you a bill. If you want to attribute this cost to your purchased Items, you
 will have to use the Landed Cost Wizard. Why “Landed Cost”? Because it
 represents the charges that you paid when it landed in your possession.
-

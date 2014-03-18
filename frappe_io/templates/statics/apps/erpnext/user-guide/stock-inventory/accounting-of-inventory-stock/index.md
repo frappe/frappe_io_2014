@@ -19,7 +19,7 @@ balance. This improves accuracy of Balance Sheet and Profit and Loss
 statement.
 
 To check accounting entries for a particular stock transaction, please check
-**[examples](perpetual-inventory)**
+[examples](/apps/erpnext/user-guide/stock-inventory/perpetual-inventory)
 
 #### **Advantages**
 

@@ -6,13 +6,14 @@ any other reason. ERPNext allows this transaction for ease of accounting.
 
 #### Step 1: Select Purpose as "Sales Return"
 
-#### Step 2: Enter the Delivery Note No. or Sales Invoice No.
+
 
   
 
 ![Sales Return](assets/frappe_io/images/erpnext/sales-return-1.png)
 
-  
+#### Step 2: Enter the Delivery Note No, or Sales Invoice No.
+This will help in linking the document to either the Delivery  Note or to the Sales Invoice 
 
 #### Step 3: Enter Item Details
 

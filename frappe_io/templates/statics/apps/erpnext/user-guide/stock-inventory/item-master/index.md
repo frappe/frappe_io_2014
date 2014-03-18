@@ -1,4 +1,4 @@
-An Item is your company's product or a service.The term Item is applicable to
+An Item is your companys' product or a service. The term Item is applicable to
 your core products as well as your raw materials. It can be a product or
 service that you buy/sell from your customers/ suppliers. ERPNext allows you
 to manage all sorts of items like raw-materials, sub-assemblies, finished
