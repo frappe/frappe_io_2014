@@ -8,6 +8,8 @@ make a new BOM:
 
 > Manufacturing > Bill of Materials > New BOM
 
+#### Figure 1: Select Item
+
 ![Bill of Materials](assets/frappe_io/images/erpnext/bom.png)
 
 In the BOM form:
@@ -15,9 +17,11 @@ In the BOM form:
   * Select the Item for which you want to make the BOM.
   * Add the operations that you have to go through to make that particular Item in the “Operations” table. For each operation, you will be asked to enter a Workstation. You must create new Workstations as and when necessary. 
 
+#### Figure 2: Select Operations-Optional
+
 ![Bill of Materials with Operations](assets/frappe_io/images/erpnext/mfg-bom-3.png)
 
-  * Add the list of Items you require for each operation, with its quantity. This Item could be a purchased Item or a sub-assembly with its own BOM. If the row Item is a manufactured Item and has multiple BOMs, select the appropriate BOM.  You can also define if a part of the Item goes into scrap.
+  * Add the list of Items you require for each operation, with its quantity. This Item could be a purchased Item or a sub-assembly with its own BOM. If the row Item is a manufactured Item and has multiple BOMs, select the appropriate BOM.   You can also define if a part of the Item goes into scrap.
 
 Workstations are defined only for product costing purposes not inventory.
 Inventory is tracked in Warehouses not Workstations.
@@ -25,4 +29,3 @@ Inventory is tracked in Warehouses not Workstations.
 > The “Full BOM” section will list all the Items of that BOM right up to the
 lower most child node. This table is automatically updated if any of the BOMs
 of the sub-Items are updated.
-

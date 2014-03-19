@@ -16,7 +16,7 @@ In ERPNext, You can manually forecast and make Production Orders. To make
 Production Orders, you can use the [Production Planning Tool](/apps/erpnext/user-guide/manufacturing/production-planning-tool).
 
 Go to the Manufacturing Module to check your Production Order. Manually check
-the Production Order and Submit the Order. After submitting, click on the
+the Production Order and submit the order. After submitting, click on the
 Action button, to get a drop-down list. Select Transfer Raw Material.  
 
 ![](assets/frappe_io/images/erpnext/material-transfer-1.png)  
@@ -25,9 +25,7 @@ Action button, to get a drop-down list. Select Transfer Raw Material.
 
   
 
-The system will update Stock Entry accordingly.  Once the Material is
+The system will update Stock Entry accordingly. Once the Material is
 transferred update finished goods by clicking on the Action button. Select the
 option 'Update Finished Goods'. Save and Submit the Order.
-
-  
 

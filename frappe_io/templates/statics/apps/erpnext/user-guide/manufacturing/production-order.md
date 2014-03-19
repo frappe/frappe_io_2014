@@ -18,7 +18,7 @@ by:
   * Select the BOM
   * Select Quantities
   * Select Warehouses. WIP (Work-in-Progress) is where your Items will be transferred when you begin production and FG (Finished Goods) where you store finished Items before they are shipped.
-  * Select if you want to consider sub-assemblies (sub-Items that have their own BOM) as stock items or you want to explode the entire BOM when you make Stock Entries for this Item. What it means is that if you also maintain stock of your sub assemblies then you should set this as “No” and in your Stock Entires, it will also list the sub-assembly Item (not is sub-components).
+  * Select if you want to consider sub-assemblies (sub-Items that have their own BOM) as stock items or you want to explode the entire BOM when you make Stock Entries for this Item. What it means is that if you also maintain stock of your sub assemblies then you should set this as “No” and in your Stock Entries, it will also list the sub-assembly Item (not is sub-components).
 
 and “Submit” the Production Order.
 
