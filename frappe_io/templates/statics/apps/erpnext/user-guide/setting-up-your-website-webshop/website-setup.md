@@ -19,8 +19,8 @@ layout like Blog, it will have a width of 540 px.
 
 #### Footer
 
-The footer section contains a list of links (this is where you typical put
-links like “Contact Us”, “Terms and Conditions” etc) and the name of your
+The footer section contains a list of links (this is where you typically put
+links like “Contact Us”, “Terms and Conditions”,etc) and the name of your
 company.
 
 ## Defining Menus and Home Page
@@ -56,7 +56,7 @@ open into a page. It is only a button. The drop-down list menu will be
 clickable and open into new pages.
 
 
-Step 4: Footer Details  
+#### Step 4: Footer Details  
 
 ![Website Setting](assets/frappe_io/images/erpnext/website-settings-3.png)
 
@@ -88,7 +88,7 @@ follows:
 
 * * *
 
-##### What is Website Analytics?
+#### What is Website Analytics?
 
 Website analytics helps you to track each visitor on your website. The
 analytics will tell you from which country, at what time, and which pages the
