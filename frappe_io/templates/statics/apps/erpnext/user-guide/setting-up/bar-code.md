@@ -20,11 +20,12 @@ setup, check the box that says Item Barcode.
 
   
 
-Setup > Hide/ Unhide Features > Item Barcode.
+> Setup > Hide/ Unhide Features > Item Barcode.
 
   
 
   
+#### Figure 1: Check the box 'Item Barcode'
 
 ![](assets/frappe_io/images/erpnext/barcode-1.png)  
 
@@ -36,7 +37,7 @@ To start scanning with a bar-code, go to
 
   
 
-Accounts > Sales Invoice
+> Accounts > Sales Invoice
 
   
 
@@ -56,6 +57,7 @@ features'. Check the 'POS view' box.
 Then go to Accounts and click on Sales Invoice. Check the box 'Is POS'
 
   
+#### Figure 2: Check the box 'Is POS'
 
 ![](assets/frappe_io/images/erpnext/barcode-2.png)  
 

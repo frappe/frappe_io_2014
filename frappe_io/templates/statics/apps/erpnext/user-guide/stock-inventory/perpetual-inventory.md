@@ -82,55 +82,66 @@ details of Purchase Receipt:
 
 **Items:**
 
-ItemWarehouseQty RateAmountValuation Amount
-
-RM0001
-
-Stores
-
-10
-
-200
-
-2000
-
-2200
-
-Desktop
-
-Fixed Asset Warehouse
-
-5
-
-100
-
-500
-
-550
-
-**Taxes:**
-
-AccountAmountCategory
-
-Shipping Charges
-
-100
-
-Total and Valuation
-
-VAT
-
-120
-
-Total
-
-Customs Duty
-
-150
-
-Valuation
-
-**Stock Ledger**
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+            <th>Valuation Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>10</td>
+            <td>200</td>
+            <td>2000</td>
+            <td>2200</td>
+        </tr>
+        <tr>
+            <td>Desktop</td>
+            <td>Fixed Asset Warehouse</td>
+            <td>5</td>
+            <td>100</td>
+            <td>500</td>
+            <td>550</td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Taxes:</strong>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Account</th>
+            <th>Amount</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Shipping Charges</td>
+            <td>100</td>
+            <td>Total and Valuation</td>
+        </tr>
+        <tr>
+            <td>VAT</td>
+            <td>120</td>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td>Customs Duty</td>
+            <td>150</td>
+            <td>Valuation</td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Stock Ledger</strong>
+</p>
 
 ![pr<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-2.png)
 
@@ -168,30 +179,46 @@ at $300. Following are the details of Delivery Note:
 **Customer:** Jane Doe
 
 **Items:**
-
-ItemWarehouseQtyRateAmount
-
-RM0001
-
-Stores
-
-5
-
-300
-
-1500
-
-**Taxes:**
-
-AccountAmount
-
-Service Tax
-
-150
-
-VAT
-
-100
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>5</td>
+            <td>300</td>
+            <td>1500</td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Taxes:</strong>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Account</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Service Tax</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>VAT</td>
+            <td>100</td>
+        </tr>
+    </tbody>
+</table>
 
 **Stock Ledger**
 
@@ -244,17 +271,26 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 **Items:**
 
-ItemTarget WarehouseQtyRateAmount
-
-RM0001
-
-Stores
-
-50
-
-220
-
-11000
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Target Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>50</td>
+            <td>220</td>
+            <td>11000</td>
+        </tr>
+    </tbody>
+</table>
 
 **Stock Ledger**
 
@@ -270,17 +306,26 @@ Stores
 
 **Items:**
 
-ItemSource WarehouseQtyRateAmount
-
-RM0001
-
-Stores
-
-10
-
-220
-
-2200
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Source Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>10</td>
+            <td>220</td>
+            <td>2200</td>
+        </tr>
+    </tbody>
+</table>
 
 **Stock Ledger**
 
@@ -296,19 +341,28 @@ Stores
 
 **Items:**
 
-ItemSource WarehouseTarget Warehouse QtyRateAmount
-
-RM0001
-
-Stores
-
-Work In Progress
-
-10
-
-220
-
-2200
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Source Warehouse</th>
+            <th>Target Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>Work In Progress</td>
+            <td>10</td>
+            <td>220</td>
+            <td>2200</td>
+        </tr>
+    </tbody>
+</table>
 
 **Stock Ledger**
 
@@ -324,17 +378,26 @@ Work In Progress
 
 **Items:**
 
-ItemTarget WarehouseQtyRateAmount
-
-RM0001
-
-Stores
-
-2
-
-200
-
-400
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Target Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>2</td>
+            <td>200</td>
+            <td>400</td>
+        </tr>
+    </tbody>
+</table>
 
 **Stock Ledger**
 
@@ -350,18 +413,26 @@ Stores
 
 **Items:**
 
-ItemSource WarehouseQtyRateAmount
-
-RM0001
-
-Stores
-
-4
-
-220
-
-880
-
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Source Warehouse</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RM0001</td>
+            <td>Stores</td>
+            <td>4</td>
+            <td>220</td>
+            <td>880</td>
+        </tr>
+    </tbody>
+</table>
 **Stock Ledger**
 
 ![pret<em>stock</em>ledger](assets/frappe_io/images/erpnext/accounting-for-stock-17.png)

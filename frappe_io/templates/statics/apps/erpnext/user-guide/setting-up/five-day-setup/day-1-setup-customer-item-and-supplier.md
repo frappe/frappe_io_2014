@@ -1,36 +1,22 @@
 Login to your ERPNext account with the User ID and Password sent through the
 mail.
 
-After logging into your account you will receive a pop-up form to fill. Please
-fill this form. Select the abbreviation you would wish to have for your
-company. The abbreviation selected here will be used in naming most of the
-business documents.
+After filling the set-up wizard, Click on the Setup button. The Setup page will appear.
 
-#### Form Part I
 
-![1st Form](assets/frappe_io/images/erpnext/firstdaysetup-1.png)  
-  
+### Customer
 
-#### Form Part II
+The Organisation details are updated in ERPNext, after filling the setup wizard.
 
-To understand about Company Financial Year or Fiscal Year visit [Fiscal
-Year](http://erpnext.org/fiscal-year).
-
-![1st Form](assets/frappe_io/images/erpnext/firstdaysetup-2.png)
-
-After filling this form, you will get a pop-up message for completing the set-
-up process. Click on the Setup button. The Setup page will appear.
-
-  
-
-#### Setup Page - Customer
-
-The Organisation details are updated in ERPNext, after filling the first form.
 Go directly to the Customer Icon.
+
+#### Figure 1: Create Customer
 
 ![Customer](assets/frappe_io/images/erpnext/firstdaysetup-customer.png)  
 
 After clicking on Customer, a new form will appear.  
+
+#### Figure 2: Customer List
 
 ![Customer](assets/frappe_io/images/erpnext/firstdaysetup-customer-1.png)
 
@@ -42,13 +28,16 @@ Now proceed to make an Item. To go to the main menu, click on erpnext icon
 which is on the left hand corner of the page. On the main menu page, click on
 Setup
 
+#### Figure 3: Go to Main Menu.
+
 ![Main Menu](assets/frappe_io/images/erpnext/firstdaysetup-main-menu.png)
 
   
-
-#### Setup Page - Item
+### Item
 
 On the setup page go to Item.
+
+#### Figure 4: Select Item
 
 ![Item](assets/frappe_io/images/erpnext/firstdaysetup-item.png)
 
@@ -59,20 +48,26 @@ be a product or service that you buy/sell from your customers/ suppliers.
 Filling Item details is an important step in ERPNext. Do not postpone this
 step. After clicking on Item, make a new Item.
 
+#### Figure 5: Make a new Item
+
 ![Item](assets/frappe_io/images/erpnext/firstdaysetup-item-1.png)
 
 To understand how to fill an Item in detail, visit[ Item](/apps/erpnext/user-guide/stock-inventory/item-master). Add 5 item records to ERPnext. After adding these records, go back to the Setup Page and add Suppliers.
 
   
-#### Setup Page - Suppliers
+### Suppliers
 
 On the Setup page go to Supplier.
+
+#### Figure 6: Go to Supplier
 
 ![Supplier](assets/frappe_io/images/erpnext/firstdaysetup-supplier.png)  
 
 Suppliers are companies or individuals who provide you with products or
 services. They are treated in exactly the same manner as Customers in ERPNext.
 Create a new Supplier record.
+
+#### Figure 7: Supplier List
 
 ![Supplier](assets/frappe_io/images/erpnext/firstdaysetup-supplier-1.png)
 

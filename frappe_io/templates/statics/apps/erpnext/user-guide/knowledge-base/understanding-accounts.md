@@ -22,35 +22,37 @@ Accounting Entries
 The balance of account can be increased / decreased, depending on account type
 and transaction type.
 
-Account Type
-
-Transaction Type
-
-Effect on account balance
-
-Debit
-
-Debit
-
-Increases
-
-Debit
-
-Credit
-
-Decreases
-
-Credit
-
-Credit
-
-Increases
-
-Credit
-
-Debit
-
-Decreases
+<table class="table table-bordered text-center">
+    <thead>
+        <tr class="active">
+            <td>Account Type</td>
+            <td>Transaction Type</td>
+            <td>Effect on account balance</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Debit</td>
+            <td>Debit</td>
+            <td>Increases</td>
+        </tr>
+        <tr>
+            <td>Debit</td>
+            <td>Credit</td>
+            <td>Decreases</td>
+        </tr>
+        <tr>
+            <td>Credit</td>
+            <td>Credit</td>
+            <td>Increases</td>
+        </tr>
+        <tr>
+            <td>Credit</td>
+            <td>Debit</td>
+            <td>Decreases</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Double Entry
 
@@ -66,34 +68,48 @@ considered as an asset account. For booking income, company maintains an
 account called "Sales of Laptop". So, entries will be done in the following
 manner:
 
-Account
-
-Debit
-
-Credit
-
-Customer A
-
-50000
-
-Sales of Laptop
-
-50000
-
+<table class="table table-bordered text-center">
+    <thead>
+        <tr class="active">
+            <td>Account</td>
+            <td>Debit</td>
+            <td>Credit</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Customer A</td>
+            <td>50000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sales of Laptop</td>
+            <td></td>
+            <td>50000</td>
+        </tr>
+    </tbody>
+</table>
 Customer A has made the payment, so customer balance should decreased based on
 the paid amount, which will increase "Cash" balance.
 
-Account
-
-Debit
-
-Credit
-
-Customer A
-
-50000
-
-Cash
-
-50000
-
+<table class="table table-bordered text-center">
+    <thead>
+        <tr class="active">
+            <td>Account</td>
+            <td>Debit</td>
+            <td>Credit</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Customer A</td>
+            <td></td>
+            <td>50000</td>
+        </tr>
+        <tr>
+            <td>Cash</td>
+            <td>50000</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>

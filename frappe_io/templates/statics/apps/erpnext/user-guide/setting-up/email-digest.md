@@ -10,18 +10,15 @@ To set up Email Digest, go to Set up Module and select Email.
 
   
 
-Step 1: Click on Email Digest.
+__Step 1:__ Click on Email Digest.
 
-Step 2: Add or disable Recipients  
+__Step 2:__ Add or disable Recipients  
 
-Step 3: From Accounts section, select the report which you would like to
+__Step 3:__ From Accounts section, select the report which you would like to
 receive. For example, check on the box 'Payments Received' to get all the
 payments done during the digest period.
 
-**  
-**
 
-**Figure 1; Email Digest**
 
 ![](assets/frappe_io/images/erpnext/new-email-digest.png)  
 
@@ -29,20 +26,12 @@ payments done during the digest period.
 
   
 
-Step 4: From the modules like Buying & Selling, Inventory & Support, Projects
-& Systems, and User Specific information, select the reports which you would
-like to receive.
+__Step 4:__ From the modules like Buying & Selling, Inventory & Support, Projects & Systems, and User Specific information, select the reports which you would like to receive.
 
-Step 5: Save the Document.
+__Step 5:__ Save the Document.
 
   
 
-Note 1: You can send these Email Digests on a Daily, Weekly or a Monthly
+> Note 1: You can send these Email Digests on a Daily, Weekly or a Monthly
 basis.
-
-  
-
-  
-
-  
 

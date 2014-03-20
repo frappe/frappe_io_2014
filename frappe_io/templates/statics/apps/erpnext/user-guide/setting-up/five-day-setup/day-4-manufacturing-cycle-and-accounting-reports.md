@@ -7,37 +7,46 @@ Issue) > Stock Entry (Sales Return)
 
   
 
-#### Bill of Materials
+### Bill of Materials
 
 To go to Bill of Materials, Click on Manufacturing. On the Manufacturing page,
 click on Bill of Materials.
+
+#### Figure 1:Create Bill of Material
 
 ![Bill of Materials](assets/frappe_io/images/erpnext/fourthdaysetup-bom.png)
 
 > To understand BOM in detail, visit [Bill of Materials](/apps/erpnext/user-guide/manufacturing/bill-of-materials)
 
-> Production Planning Tool  
+
+### Production Planning Tool  
 
 To go to Production Planning Tool, click on the Manufacturing Icon. On the
 Manufacturing Page, click on Production Planning Tool to go to that page.
+
+#### Figure 2: Start Production Planning Tool.
 
 ![Production Planning Page](assets/frappe_io/images/erpnext/fourthdaysetup-ppt.png)
 
 > To understand Production Planning Tool in detail, visit [Production Planning](/apps/erpnext/user-guide/manufacturing/production-planning-tool)
 
   
-#### Production Order
+### Production Order
 
 To go to Production Order click on the Manufacturing Icon. On the
 Manufacturing Page, click on Production Order.
+
+#### Figure 3: Create Production Order
 
 ![Production Order](assets/frappe_io/images/erpnext/fourthdaysetup-po.png)
 
 > To understand Production Order in detail, visit [Production Order](/apps/erpnext/user-guide/manufacturing/production-order)
 
-#### Stock Entry
+### Stock Entry
 
 To go to Stock Entry, click on the Stock Icon and go to Stock Entry.
+
+#### Figure 4: Make Stock Entry
 
 ![Stock Entry](assets/frappe_io/images/erpnext/fourthdaysetup-stock.png)
 
@@ -45,41 +54,46 @@ To go to Stock Entry, click on the Stock Icon and go to Stock Entry.
 
 > To understand Sales Return, visit [Sales Return.](/apps/erpnext/user-guide/stock-inventory/sales-return)
 
-#### Delivery Note
+### Delivery Note
 
 To go to Delivery Note, click on Stock. On the Stock Page, click on Delivery
 Note.
+
+#### Figure 5: Make Delivery Note
 
 ![Delivery Note](assets/frappe_io/images/erpnext/fourthdaysetup-delivery-note.png)
 
 > To understand Delivery Note in detail, visit [Delivery Note](/apps/erpnext/user-guide/stock-inventory/delivery-note)
 
-#### Warehouse
+### Warehouse
 
-To go to Warehouse, Click on Stock. On the Stock Page, go to Warehouse.
+ Creating Warehouse is an important step.
+
+#### Figure 6:Create Warehouse
 
 ![Warehouse](assets/frappe_io/images/erpnext/fourthdaysetup-warehouse.png)
 
 > To understand Warehouse in detail, visit [Warehouse](/apps/erpnext/user-guide/stock-inventory/warehouse)
 
-#### Accounts
+### Accounts
 
 Make a few Journal Vouchers. Generate some Accounting Reports.
 
-#### Journal Voucher
+### Journal Voucher
 
 To go to a Journal Voucher, click on Accounts. On the Accounts page, click on
 Journal Voucher.
+
+#### Figure 7: Create Journal Voucher
 
 ![Journal Voucher](assets/frappe_io/images/erpnext/fourthdaysetup-jv.png)
 
 > To understand Journal Voucher in detail, visit [Journal Voucher](/apps/erpnext/user-guide/accounts/journal-vouchers)  
 
-#### Accounting Reports
+### Accounting Reports
 
 Some of the major Accounting Reports are General Ledger, Trial Balance,
 Accounts Payable and Accounts Receivables, and Sales and Purchase Register.
 
 > To be able to generate these accounts, visit[Accounting Reports](/apps/erpnext/user-guide/accounts/accounting-reports)
-
 
