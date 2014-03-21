@@ -34,3 +34,4 @@ To see an example of a Bill of Material in detail visit [](apps/erpnext/guides/m
 
 > Note : In order to generate a Bill of Materials it is necessary that the Item is checked for "Allow Bill of Materials". The Item should also say 'Yes' to "Allow Production Order" on the Item form.
 
+BOM -Exploded: The 'Materials Required [Exploded]' field will contain the raw materials required by the BOM. It mentions the BOM's Item-Code, Description, Quantity and Rate.
