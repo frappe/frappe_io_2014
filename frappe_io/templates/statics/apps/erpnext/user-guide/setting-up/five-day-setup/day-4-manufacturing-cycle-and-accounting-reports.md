@@ -95,5 +95,5 @@ Journal Voucher.
 Some of the major Accounting Reports are General Ledger, Trial Balance,
 Accounts Payable and Accounts Receivables, and Sales and Purchase Register.
 
-> To be able to generate these accounts, visit[Accounting Reports](/apps/erpnext/user-guide/accounts/accounting-reports)
+> To be able to generate these accounts, visit [Accounting Reports](/apps/erpnext/user-guide/accounts/accounting-reports)
 

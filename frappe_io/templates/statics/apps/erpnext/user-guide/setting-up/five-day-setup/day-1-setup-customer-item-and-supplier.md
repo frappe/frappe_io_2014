@@ -1,7 +1,7 @@
 Login to your ERPNext account with the User ID and Password sent through the
 mail.
 
-After filling the set-up wizard, Click on the Setup button. The Setup page will appear.
+After filling the set-up wizard, click on the Setup button. The Setup page will appear.
 
 
 ### Customer
@@ -22,7 +22,7 @@ After clicking on Customer, a new form will appear.
 
 To see how customer details are added, visit [Customer](/apps/erpnext/user-guide/selling/customer-master).
 
-Create 5 new customer records in the system.
+Create 5 new customer records in the system, if you have not entered them in the setup wizard. 
 
 Now proceed to make an Item. To go to the main menu, click on erpnext icon
 which is on the left hand corner of the page. On the main menu page, click on
