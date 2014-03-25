@@ -1,9 +1,9 @@
 ### Accounting Basics
 
-#### Debit and Credit
-
 People new to accounting are often confused with the terms Debit and Credit.
 Contrary to their meaning, these terms have nothing to do with who owes what.
+
+#### Debit and Credit
 
 Debit and Credit are conventions. All accounting follows these, so that it is
 easy to understand the state of finances in a universal manner. These
