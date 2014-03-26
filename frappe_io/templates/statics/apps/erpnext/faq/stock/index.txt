@@ -1,0 +1,2 @@
+is-item-a-stock-item-or-no
+how-to-allocate-allowance-percent

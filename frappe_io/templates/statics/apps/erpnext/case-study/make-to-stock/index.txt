@@ -1,0 +1,8 @@
+example
+item
+bill-of-materials
+planning-and-forecasting
+buying
+supplier-billing
+manufacturing
+selling
