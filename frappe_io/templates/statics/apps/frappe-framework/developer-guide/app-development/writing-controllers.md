@@ -1,4 +1,4 @@
-# Writing Controllers
+# Writing Controllers and API
 
 We can call server-side methods using whitelisted methods or writing controllers for the DocTypes. Let us build the server-side logic for our app.
 
@@ -12,6 +12,7 @@ For the client:
 1. Client enters name and email.
 1. If agents are active, A new **Website Chat Session** is created and the client is shown the chat window.
 1. If agents are not active, client is shown that the message has been saved.
+1. When client closes window, set session as inactive.
 
 For the agent:
 
@@ -142,6 +143,18 @@ A new session can now be created by sending a POST request:
 
 Now try entering "Submit" from the page, and you should get a message called created.
 
+#### New Website Chat Session From the Desk
+
 To check, go to the Desk (`/desk`) and open the **Website Chat Session** list. You should see the session created!
 
 ![New session](/assets/frappe_io/images/app-development/new-chat-session.png)
+
+To see the application at this stage, go to:
+
+https://github.com/frappe/website-chat/tree/e6860304b8176ab38f07520a06b39e69a23f6b89
+
+
+#### Completing the View
+
+Now we will go ahead and complete the view using the API and adding JS code in the view to create a basic chat appliction.
+

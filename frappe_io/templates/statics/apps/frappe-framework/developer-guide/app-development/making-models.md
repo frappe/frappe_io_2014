@@ -36,7 +36,7 @@ A new module is created from the web interface. Go to, click on:
 
 > File > New... > Module Def
 
-![New Module](/assets/images/frappe_io/app-development/new-module.png)
+![New Module](/assets/frappe_io/images/app-development/new-module.png)
 
 
 After the new `Module Def` is created, we can create our models - **DocTypes**
@@ -56,7 +56,7 @@ To create a new DocType, go to:
 2. Let us create 4 Fields
 	- Status - is the session active or archived
 	- Client Info: Name, Email, Question and Question Type (if such an option is set)
-	- ![New Doctype](/assets/images/app-development/doctype-add-field.png)
+	- ![New Doctype](/assets/frappe_io/images/app-development/doctype-add-field.png)
 3. Set autoname to `Chat-.#####` so that it gets numbered as Chat-00001, Chat-00002 etc
 4. Permissions: We need to give permissions for this. Now, Website Chat Session will created automatically when a new user wants to chat, so lets just keep the permissions for **System Manager**, the default role. We can revisit this later.
 5. Save: When you click on save, the system will prompt you for the name of the DocType. Enter "Website Chat Session" and save it.
