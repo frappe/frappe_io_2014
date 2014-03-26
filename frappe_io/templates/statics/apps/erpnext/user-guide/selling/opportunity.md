@@ -7,9 +7,13 @@ You can create an Opportunity from:
 
 or open a “Open” Lead and click on “Create Opportunity” button.
 
+#### Figure 1: Create Oportunity 
+
 ![Opportunity](assets/frappe_io/images/erpnext/opportunity.png)
 
 You can also open a “Open” Lead and click on “Create Opportunity” button.
+
+#### Figure 2: Create Opportunity from an open Lead
 
 ![Opportunity 1](assets/frappe_io/images/erpnext/opportunity-1.png)
 

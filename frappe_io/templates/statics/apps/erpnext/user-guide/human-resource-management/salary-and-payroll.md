@@ -1,3 +1,7 @@
+Salary is a fixed amount of money or compensation paid to an employee by an employer in return for the work performed . 
+
+Payroll is the administration of financial records of employees' salaries, wages, bonuses, net pay, and deductions.
+
 To process Payroll in ERPNext,
 
   1. Create Salary Structures for all Employees.
@@ -7,9 +11,38 @@ To process Payroll in ERPNext,
 ### Salary Structure
 
 The Salary Structure represents how Salaries are calculated based on Earnings
-and Deductions. To create a new Salary Structure go to:
+and Deductions. 
+
+Salary structures are used to help organizations:
+  1. Maintain pay levels that are competitive with the external labor market,
+  2. Maintain internal pay relationships among jobs,
+  3. Recognize and reward differences in level of responsibility, skill, and performance, and manage pay expenditures.
+
+The usual components of the salary structure (in india) include:
+
+__Basic Salary:__ It is the taxable base income and generally not more than 40% of CTC.
+
+__House Rent Allowance:__ The HRA constitutes 40 to 50% of the basic salary.
+
+__Special Allowances:__ Makes up for the remainder part of the salary, mostly smaller than the basic salary which is completely taxable.
+
+__Leave Travel Allowance:__ The non-taxable amount paid by the employer to the employee for vacation/trips with family within India.
+
+__Gratuity:__ It is basically a lump sum amount paid by the employer when the employee resigns from the organization or retires.
+
+__PF:__ Fund collected during emergency or old age. 12% of the basic salary is automatically deducted and goes to the employee provident fund.
+
+__Medical Allowance:__ The employer pays the employee for the medical expenditures incurred. It is tax free up to Rs.15,000.
+
+__Bonus:__ Taxable part of the CTC, usually a once a year lump sum amount, given to the employee based on the individual’s as well as the organizational performance for the year.
+
+__Employee Stock Options:__ ESOPS are Free/discounted shares given by the company to the employees. This is done to primarily increase employee retention.
+
+To create a new Salary Structure go to:
 
 > HR > Salary Structure > New Salary Structure
+
+#### Figure 1:Salary Structure
 
 ![Salary Structure](assets/frappe_io/images/erpnext/salary-structure.png)
 
@@ -41,6 +74,8 @@ form or you can process your payroll for the month using the Salary Manager.
 To create a salary slip from Salary Structure, click on the button Make Salary
 Slip.
 
+#### Figure 2: Salary Slip
+
 ![Salary Slip](assets/frappe_io/images/erpnext/salary-slip-1.png)
 
   
@@ -48,6 +83,8 @@ Slip.
 Through Salary Manager:
 
 > HR > Process Payroll
+
+#### Figure 3: Salary Manager
 
 ![Salary Manager](assets/frappe_io/images/erpnext/salary-manager.png)
 

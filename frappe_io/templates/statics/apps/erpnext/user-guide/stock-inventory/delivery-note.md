@@ -22,9 +22,8 @@ details are carried over from your Sales Order.
 
 ### Shipping Packets or Items with Sales BOM
 
-If you are shipping Items that have a Sales BOM, ERPNext will automatically
+If you are shipping Items that have a [Sales BOM](/apps/erpnext/user-guide/selling/sales-bill-of-material), ERPNext will automatically
 create a “Packing List” table for you based on the sub-Items in that Item.
-(See the Item explanation for more information).
 
 If your Items are serialized, then for Sales BOM type of Items, you will have
 to update the Serial Number in the “Packing List” table.
@@ -35,7 +34,7 @@ If you are doing container shipment or by weight, then you can use the Packing
 Slip to breakup your Delivery Note into smaller units. To make a Packing Slip
 go to:
 
-Stock > Packing Slip > New Packing Slip
+> Stock > Packing Slip > New Packing Slip
 
 You can create multiple Packing Slips for your Delivery Note and ERPNext will
 ensure that the quantities in the Packing Slip do not exceed the quantities in
@@ -43,7 +42,7 @@ the Delivery Note.
 
 * * *
 
-#### Print Without Amounts
+#### Q. How to Print Without Amounts?
 
 If you want to print your Delivery Notes without the amount (this might be
 useful if you are shipping high value items), just check the “Print without

@@ -2,7 +2,7 @@ You can create / manage Letter Heads from:
 
 > Setup > Printing > Letter Head > New Letter Head
 
-#### Step 1: Letter Head Name
+#### Step 1: Name Letter Head
 
 ![Letter Head](assets/frappe_io/images/erpnext/letter-head1.png)
 

@@ -6,9 +6,12 @@ You can create print headings from :
 
 > Setup > Printing > Print Heading > New Print Heading
 
+#### Figure 1: Save Print Heading
+
 ![Print Heading](assets/frappe_io/images/erpnext/print-heading1.png)
 
 Example of a change in print heading is shown below:
 
-![Print Heading](assets/frappe_io/images/erpnext/print-heading2.png)
+#### Figure 2: Changed Print Heading
 
+![Print Heading](assets/frappe_io/images/erpnext/print-heading2.png)

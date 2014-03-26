@@ -15,8 +15,10 @@ Master
 You can specify if the tax / charge is only for valuation (not a part of
 total) or only for total (does not add value to the item) or for both.
 
-If you select a particular tax as your Default tax, the system will apply this
-tax to all the purchase transactions by default. Calculation Type:
+If you select a particular tax as your Default tax, the system wil l apply this
+tax to all the purchase transactions by default. 
+
+### Calculation Type
 
 This can be on Net Total (that is the sum of basic amount). On Previous Row
 Total / Amount (for cumulative taxes or charges). If you select this option,

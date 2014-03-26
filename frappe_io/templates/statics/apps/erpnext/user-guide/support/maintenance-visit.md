@@ -1,5 +1,5 @@
-A Maintenance Visit is a record for a visit made by an engineer to a
-Customer’s premises usually against a Customer Issue. You can create a new
+A Maintenance Visit is a record of a visit made by an engineer to a
+Customer’s premise usually against a Customer Issue. You can create a new
 Maintenance Visit from:
 
 > Support > Maintenance Visit > New Maintenance Visit

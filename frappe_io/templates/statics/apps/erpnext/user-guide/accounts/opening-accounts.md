@@ -49,7 +49,7 @@ Note: Make sure to set “Is Opening” as “Yes” in the More Info section.
 
   
 
-#### Step 2: Select Yes in the "Is Opening " record under More Info.
+#### Step 3: Select Yes in the "Is Opening " record under More Info.
 
 ![Opening Entry](assets/frappe_io/images/erpnext/opening-entry-2.png)
 
@@ -72,7 +72,7 @@ Since you have already booked the income or expense on these invoices in the
 previous period, select the temp opening accounts in the “Income” and
 “Expense” accounts.
 
-Note: Again make sure to set each invoice as “Is Opening”!
+> Note: Make sure to set each invoice as “Is Opening”!
 
 If you don’t care what items are in that invoice, just make a dummy item entry
 in the Invoice. Item code in the Invoice is not necessary, so it should not be

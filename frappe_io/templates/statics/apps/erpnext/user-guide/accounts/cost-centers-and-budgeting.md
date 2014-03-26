@@ -5,6 +5,8 @@ overheads.They should ideally have their own structure to report, whether they
 are profitable or not. For this purpose, there is an alternate structure,
 called the Chart of Cost Centers.
 
+### Cost Center
+
 You can create a tree of Cost Centers to represent your business better. Each
 Income / Expense entry is also tagged against a Cost Center.
 

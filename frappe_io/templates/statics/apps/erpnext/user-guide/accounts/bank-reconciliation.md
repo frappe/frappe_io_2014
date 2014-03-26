@@ -13,7 +13,7 @@ organisation itself has made an error.
 
 The Bank Reconciliation statement in ERPNext comes in the form of a report.
 
-**Figure 1: Bank Reconciliation Statement**
+#### Figure 1: Bank Reconciliation Statement
 
 ![](assets/frappe_io/images/erpnext/bank-reconciliation-2.png)  
 
@@ -32,30 +32,23 @@ The Bank Reconciliation tool in ERPNext, helps add clearance dates to the
 account statements. To Reconcile cheque payments go to Accounts and click on
 Bank Reconciliation.  
 
-Step 1: Select the Bank Account against which you intend to reconcile. For
+__Step 1:__ Select the Bank Account against which you intend to reconcile. For
 example; HDFC Bank, ICICI Bank, or Citibank etc.
 
-Step 2: Select the Date range that you wish to reconcile for.
+__Step 2:__ Select the Date range that you wish to reconcile for.
 
-Step 3: Click on 'Get Reconciled Entries'
+__Step 3:__ Click on 'Get Reconciled Entries'
 
 All the entries in the specified date range will be shown in a table below.
 
-Step 4: Click on the JV from the table and update clearance date.
+__Step 4:__ Click on the JV from the table and update clearance date.
 
-**Figure 2: Bank Reconciliation Tool**
+#### Figure 2: Bank Reconciliation Tool
 
 ![](assets/frappe_io/images/erpnext/bank-reconciliation-1.png)  
 
   
 
-Step 5: Click on the button 'Update Clearance Date'.
+__Step 5:__ Click on the button 'Update Clearance Date'.
 
-  
-
-  
-
-  
-
-  
-
+ 

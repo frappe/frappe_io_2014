@@ -21,7 +21,7 @@ To create a new Quotation go to:
 
 ![Quotation](assets/frappe_io/images/erpnext/quotation-1.png)
 
-#### Step #: Enter Item and Tax Details.
+#### Step 3: Enter Item and Tax Details.
 
   
 

@@ -14,19 +14,19 @@ define a budget distribution that the budget will follow.
 In order to allocate budget, go to Accounts and click on Chart of Cost Center.
 Select a Cost Center  and click on Edit.
 
-**Step 1: Click on Edit.**
+#### Step 1: Click on Edit.
 
 ![](assets/frappe_io/images/erpnext/budgeting-1.png)  
 
-**Step 2: Enter Monthly Distribution.**
+#### Step 2: Enter Monthly Distribution.
 
-![](assets/frappe_io/images/erpnext/budgeting-2-1.png)**  
-**
+![](assets/frappe_io/images/erpnext/budgeting-2-1.png) 
+
 
 If you leave the** **distribution ID blank, ERPNext will calculate on a yearly
 basis or in equal proportion for every month.
 
-**Step 3: ****Add New Row and select budget account.**  
+#### Step 3:Add New Row and select budget account.  
 
   
 
@@ -34,18 +34,16 @@ basis or in equal proportion for every month.
 
   
 
-**To Create New Distribution ID**  
-
-![](assets/frappe_io/images/erpnext/budgeting-4.png)**  
-**
-
-**  
-**
+### To Create New Distribution ID
 
 ERPNext allows you to take a few budget actions. It signifies whether to stop
 , warn or Ignore  if you exceed budgets.  
 
-These can be defined from the Company record.  
+![](assets/frappe_io/images/erpnext/budgeting-4.png)
+
+
+ 
+These can be defined from the Company record.
 
 ![](assets/frappe_io/images/erpnext/budgeting-4-1.png)  
 
@@ -54,11 +52,4 @@ These can be defined from the Company record.
 Even if you choose to “ignore” budget overruns, you will get a wealth of
 information from the “Budget vs Actual” variance report. This report shows
 month wise actual expenses as compared to the budgeted expenses.
-
-  
-
->  
-
-__ [Setting Up](https://docs.erpnext.com/setting-up)__ [Company
-Setup](https://docs.erpnext.com/company-setup)
 

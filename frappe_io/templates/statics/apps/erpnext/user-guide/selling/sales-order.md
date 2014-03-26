@@ -7,11 +7,15 @@ A Sales Order is usually a binding Contract with your Customer.
 Once your customer confirms the Quotation you can convert your Quotation into
 a Sales Order.
 
+#### Figure 1:Sales Order Flow-Chart
+
 ![Sales Order](assets/frappe_io/images/erpnext/sales-order-f.jpg)
 
 Alternatively, you can create a Sales Order directly from:
 
 > Selling > Sales Order > New Sales Order
+
+#### Figure 2: Create Sales Order
 
 ![Sales Order](assets/frappe_io/images/erpnext/sales-order.png)
 
@@ -65,31 +69,24 @@ able to execute dependent steps (like making a Delivery Note) only after
 When the 'Order Type' of the Sales Order is 'Maintenance' follow the steps
 given below:
 
-Step 1: Enter Currency, Price list and Item details.
+__Step 1:__ Enter Currency, Price list and Item details.
 
-Step 2: Mention taxes and other information.
+__Step 2:__ Mention taxes and other information.
 
-Step 3: Save and Submit the form
+__Step 3:__ Save and Submit the form
 
-Step 4: Once the form is submitted, the Action button will provide three
+__Step 4:__ Once the form is submitted, the Action button will provide three
 choices.i) Maintenance Visit ii) Maintenance Schedule iii) Invoice.
 
   
 
-Note 1: By clicking on the Action button and selecting 'Maintenance Visit' you
-can directly fill the visit form. The Sales Order details will be fetched
+> Note 1: By clicking on the Action button and selecting 'Maintenance Visit' you can directly fill the visit form. The Sales Order details will be fetched
 directly.
 
-Note 2: By clicking on the Action button and selecting 'Maintenance Schedule'
-you can fill the schedule details. The Sales Order details will be fetched
+> Note 2: By clicking on the Action button and selecting 'Maintenance Schedule' you can fill the schedule details. The Sales Order details will be fetched
 directly.
 
-Note 3: By clicking on the Invoice button you can make an Invoice for your
+> Note 3: By clicking on the Invoice button you can make an Invoice for your
 services . The sales orders details will be fetched directly.
 
   
-
-  
-
-  
-

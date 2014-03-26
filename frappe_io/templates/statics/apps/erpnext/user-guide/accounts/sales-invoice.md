@@ -1,20 +1,12 @@
-A Sales Invoice is a bill that you send to your Customers, against which they
-will process your payment.
-
-If you have managed to create Sales Orders or Delivery Notes, creating a Sales
-Invoice follows the same process.
+A Sales Invoice is a bill that you send to your customers, against which the customer processes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice,  the system updates the receivable and books income against a Customer Account.
 
 You can create a Sales Invoice directly from
 
 > Accounting > Sales Invoice > New Sales Invoice
 
-or from the “Make Sales Invoice” button in the Sales Order or Delivery Note.
-
-  
+or Click on Make Invoice at the right hand corner of the Delivery Note.
 
 ![Sales Invoice](assets/frappe_io/images/erpnext/sales-invoice.png)
-
-  
 
 #### Accounting Impact
 

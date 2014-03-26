@@ -20,7 +20,7 @@ Items.
 It is important to note that Stock Reconciliation can be performed only on
 non-serialized Items.  
 
-**Opening Stocks**
+### Opening Stocks
 
 You can upload your opening stock in the system using Stock Reconciliation.
 Stock Reconciliation will update your stock for a given Item on a given date
@@ -89,15 +89,15 @@ submitted data go to stock and view stock level report.
 
   
 
-#### **Step 4: Review the reconciliation data **
+#### Step 4: Review the reconciliation data 
 
-![](assets/frappe_io/images/erpnext/reconciliation-data.png)**  
-**
+![](assets/frappe_io/images/erpnext/reconciliation-data.png)  
 
-#### **Stock Ledger Report**  
 
-![](assets/frappe_io/images/erpnext/stock-ledger-report-sr000001.png)**  
-**
+### Stock Ledger Report  
+
+![](assets/frappe_io/images/erpnext/stock-ledger-report-sr000001.png)  
+
 
   
 

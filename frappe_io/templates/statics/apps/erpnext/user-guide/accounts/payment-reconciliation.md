@@ -14,43 +14,38 @@ Reconciliation'
 
   
 
-Step 1: Select the Account against whom the payments need to be reconciled.
+__Step 1:__ Select the Account against whom the payments need to be reconciled.
 
   
 
-Step 2: Mention the Voucher Type, whether it is Purchase Invoice, Sales
+__Step 2:__ Mention the Voucher Type, whether it is Purchase Invoice, Sales
 Invoice or Journal Voucher.
 
   
 
-**Figure 1: Payment Reconciliation.**
+#### Figure 1: Payment Reconciliation.
 
 ![](assets/frappe_io/images/erpnext/payment-reconciliation-1.png)  
 
   
 
-Step 3: Select the Voucher Number and click on ' Pull Payment Entries'.  
+__Step 3:__ Select the Voucher Number and click on ' Pull Payment Entries'.  
 
 All the payment entries will be pulled into a table below.
 
   
 
-Step 4: Click on the entry row to allocate a particular amount.
+__Step 4:__ Click on the entry row to allocate a particular amount.
 
   
 
-Step 5: Click on the button 'Allocate'
+__Step 5:__ Click on the button 'Allocate'
 
 You will get a message that says 'Amount allocated successfully'
 
   
 
-Step 6: Click again on 'Pull Payment Entries' to refresh the tables with
+__Step 6:__ Click again on 'Pull Payment Entries' to refresh the tables with
 filters.
 
   
-
-  
-
-  
-

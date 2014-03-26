@@ -11,10 +11,10 @@ The Chart of Accounts helps you to answer:
   * How much are you selling?
   * What is your expense break-up
 
-You may note that as a business manager,it is very valuable to see how well
+You may note that as a business manager, it is very valuable to see how well
 your business is doing.
 
-> Tip: If you can’t read a Balance Sheet (I confess it took me a long time to
+> Tip: If you can’t read a Balance Sheet (It took me a long time to
 figure this out) it's a good opportunity to start learning about this. It will
 be worth the effort. You can also take the help of your accountant to setup
 your Chart of Accounts.
@@ -93,8 +93,6 @@ Accounting Transactions can only be made against Ledger Accounts (not Groups)
 > Info: The term "Ledger" means a page in an accounting book where entries are
 made. There is usually one ledger for each account (like a Customer or a
 Supplier).
-
->
 
 > Note: An Account “Ledger” is also sometimes called as Account “Head”.
 

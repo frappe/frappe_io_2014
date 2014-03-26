@@ -7,8 +7,7 @@ To generate a Material Request manually go to:
 
 > Buying > Material Request > New Material Request
 
-**Step 1**
-
+#### Figure 1: Create Material Request 
 ![Material Request](assets/frappe_io/images/erpnext/material-request-1.png)
 
 A Material Request can be generated:
@@ -18,7 +17,7 @@ A Material Request can be generated:
   * Automatically when the Projected Quantity of an Item in stores reaches a particular level.
   * Automatically from your Bill of Materials if you use Production Plan to plan your manufacturing activities.
 
-**Step 2**
+#### Figure 2: Complete Material Request Form
 
 ![Material Request 2](assets/frappe_io/images/erpnext/material-request-2.png)
 
@@ -26,7 +25,7 @@ In the Material Request form,
 
   * Fill in the Items you want and their quantities.
 
-  * If your Items are inventory items, you must also mention the Warehouse where you expect these Items to be delivered. This helps to keep track of the [Projected Quantity](http://erpnext.org/projected-quantity) for this Item.
+  * If your Items are inventory items, you must also mention the Warehouse where you expect these Items to be delivered. This helps to keep track of the [Projected Quantity](/apps/erpnext/user-guide/stock-inventory/projected-quantity) for this Item.
 
   * You can optionally add the Terms, using the Terms and Conditions master and also the reason.
 

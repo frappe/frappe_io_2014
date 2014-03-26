@@ -23,7 +23,7 @@ In ERPNext, there is a separate Account record for each Supplier, of Each
 company.
 
 When you create a new Supplier, ERPNext will automatically create an Account
-Ledger for the Supplier under “Accounts Receivable” in the Company set in the
+Ledger for the Supplier under “Accounts Payable” in the Company set in the
 Supplier record.
 
 > Advanced Tip: If you want to change the Account Group under which the

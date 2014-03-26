@@ -13,4 +13,4 @@ selling
 setting-up-your-website-webshop
 stock-inventory
 support
-faq
+for-advanced-users

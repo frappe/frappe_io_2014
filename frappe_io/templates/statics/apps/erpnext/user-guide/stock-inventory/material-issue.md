@@ -9,7 +9,6 @@ under Purpose. Provide Source Warehouse details. Provide the BOM Number. Save
 
 ![Material Issue](assets/frappe_io/images/erpnext/material-issue.png)
 
-Note: If you have done a stock entry and selected “Material Issue” under
-Purpose, that particular amount of stock will reflect as negative in stock
-details.
+> Note: If you have no stock for an Item and if you select “Material Issue” under Purpose, the stock will reflect as negative. 
+
 

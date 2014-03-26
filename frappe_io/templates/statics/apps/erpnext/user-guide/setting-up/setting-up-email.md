@@ -22,6 +22,8 @@ To setup your outgoing mails, go to
 
 > Setup > Outgoing Email Settings
 
+#### Figure 1: Set up outgoing mail server.
+
 ![Email Settings](assets/frappe_io/images/erpnext/email-settings1.png)
 
 Set your outgoing mail server settings here. These are the same settings you
@@ -47,6 +49,8 @@ To setup your Support integration, go to:
 
 > Setup > Support Email Settings
 
+#### Figure 2: Setup support Integration
+
 ![Email Settings](assets/frappe_io/images/erpnext/email-settings2.png)
 
 To make ERPNext pull emails from your mail box, enter the POP3 settings. (POP3
@@ -62,6 +66,8 @@ ERPNext allows you to automatically email documents on “Submission” to the
 contact mentioned in the document. To set this up, go to:
 
 > Setup > Tools > Enable / Disable Notifications.
+
+#### Figure 3: Set Auto Notification
 
 ![Auto Notification](assets/frappe_io/images/erpnext/auto-notification.png)
 
@@ -82,6 +88,8 @@ numbers like “Sales Booked” or “Amount Collected” or “Invoices Raised�
 To setup Email Digests, go to:
 
 > Setup > Email Digest > New Email Digest
+
+#### Figure 4: Set up Email Digest
 
 ![Email Digest](assets/frappe_io/images/erpnext/email-digest.png)
 

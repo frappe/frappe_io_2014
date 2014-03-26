@@ -4,7 +4,7 @@ select the region and click on Edit.
 
   
 
-**Step 1: Assign Territory Manager**
+#### Step 1: Assign Territory Manager
 
   
 
@@ -14,11 +14,9 @@ select the region and click on Edit.
 
   
 
-**Step 2: Assign Target amount or Target Quantity **
+#### Step 2: Assign Target amount or Target Quantity 
 
-**  
-**
-
+  
 Click on Add new Row
 
   
@@ -27,21 +25,18 @@ Click on Add new Row
 
   
 
-Note that , you can give target in amount or quantity, or both. Item Group can
-also be left blank. In this case the system will calculate based on all the
+> Note that , you can give target in amount or quantity, or both. Item Group can also be left blank. In this case the system will calculate based on all the
 Items for the whole Territory.
 
   
+### Target Distribution
 
 If you wish to give target distribution, mention the target distribution ID.
 Create one by clicking on + button if you have not made a distribution ID.
 Target distribution ID is same as Budget Distribution ID.
 
   
-
 ![](assets/frappe_io/images/erpnext/budgeting-4.png)  
-
-  
 
   
 

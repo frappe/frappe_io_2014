@@ -15,7 +15,7 @@ you are targeting for your audience.
 
 After selecting your layout, you can add content (text, images, etc) to each
 of your content boxes. You can add content in Markdown or HTML format. Read
-the section on how to format using Markdown for more details.
+the section on how to format using Markdown, for more details.
 
 #### Page Link
 

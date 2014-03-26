@@ -8,6 +8,8 @@ from Selling Price List and thus is stored separately.
 
 > Setup > Price List
 
+#### Figure 1: Create Price List
+
 ![](assets/frappe_io/images/erpnext/new-price-list-1.png)  
 
 > For multiple currencies, maintain multiple Price Lists.
@@ -16,6 +18,7 @@ Add Item Price
 
 > Setup > Item Price
 
+#### Figure2: Add Item Price
 
 ![](assets/frappe_io/images/erpnext/item-price-1.png)  
 

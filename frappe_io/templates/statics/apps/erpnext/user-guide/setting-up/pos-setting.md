@@ -1,4 +1,3 @@
-#### POS Settings
 
 POS includes advanced features to cater to different functionality, such as
 inventory management, CRM, financials, warehousing, etc., all built into the

@@ -74,7 +74,6 @@ you give to a set of Item Prices stored under a particular List.
 
 > Selling > Price List
 
->
 
 > Buying > Price List
 
