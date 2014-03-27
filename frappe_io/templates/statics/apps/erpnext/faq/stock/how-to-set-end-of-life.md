@@ -1,5 +1,4 @@
-
-#### How to specify "End of Life"?
+# How To Specify "End of Life"?
 
 To set your product's End-of-Life period, go to the Inventory section of the Item form. Mention the date of expiry for your product.
 

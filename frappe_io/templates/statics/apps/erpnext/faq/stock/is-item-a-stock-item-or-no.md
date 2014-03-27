@@ -1,5 +1,4 @@
-
-#### How to assess whether an Item is a stock Item or not?
+# How To Assess Whether An Item Is A Stock Item Or Not?
 
 Go to the inventory section of the Item form in the stock module to select this option.
 

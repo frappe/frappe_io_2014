@@ -1,5 +1,4 @@
-
-#### How to setup reorder-level?
+# How To Setup Reorder-Level?
 
 Go to the reorder section of the Item form in the stock module.
 

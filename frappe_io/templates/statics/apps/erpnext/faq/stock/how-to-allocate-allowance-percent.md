@@ -1,5 +1,4 @@
-
-#### How to allocate allowance percent?
+# How To Allocate Allowance Percent?
 
 Go to the Item form in stock module to make this allocation.
 

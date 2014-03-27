@@ -1,5 +1,4 @@
-
-#### How to set  a warranty period?
+# How To Set A Warranty Period?
 
 Go to the stock module. In the Item form, Inventory section, mention the warranty period in days.
 

@@ -1,5 +1,4 @@
-
-#### How to set minimum order quantity?
+# How To Set Minimum Order Quantity?
 
 To set minimum order quantity go to the Inventory section of the Item form. In the field ‘Minimum order Qty’ type the required number.
 
