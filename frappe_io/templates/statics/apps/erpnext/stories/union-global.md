@@ -28,5 +28,5 @@ __Inter-department communication:__ Using ERPNext and other communication tools 
 * Very responsive development team (so we stick with the main developers Webnotes anyway)
 
 #### Q 4 : Does ERPNext make any difference to the way you do business?
-__A:__ ERPNext has contributed greatly to a culture of transparency so we can focus on delivering value and solving business problems. Instead of spending scarce time and resources on questions like "what happened?" and "where do we find the details?" -- which ERPNext helps greatly in --  we can focus on "how do we solve this?" and delight our customers.
+__A:__ ERPNext has contributed greatly to a culture of transparency so we can focus on delivering value and solving business problems. Instead of spending scarce time and resources on questions like "what happened?" and "where do we find the details?", which ERPNext helps greatly in, we can focus on "how do we solve this?" and delight our customers.
 
