@@ -8,9 +8,7 @@ import frappe
 
 from frappe.website.website_generator import WebsiteGenerator
 
-class DocType(WebsiteGenerator):
-	def __init__(self, d, dl):
-		self.doc, self.doclist = d, dl
+class FrappeApp(WebsiteGenerator):
 	
 	def on_update(self):
 		self.doc.set("parent_website_route", "apps")
