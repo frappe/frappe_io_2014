@@ -1,142 +1,123 @@
-[
- {
-  "creation": "2014-02-17 15:54:39", 
-  "docstatus": 0, 
-  "modified": "2014-02-28 10:40:38", 
-  "modified_by": "Administrator", 
-  "owner": "Administrator"
- }, 
- {
-  "allow_import": 1, 
-  "allow_rename": 1, 
-  "doctype": "DocType", 
-  "document_type": "Master", 
-  "module": "Frappe Apps", 
-  "name": "__common__"
- }, 
- {
-  "doctype": "DocField", 
-  "name": "__common__", 
-  "parent": "Frappe App", 
-  "parentfield": "fields", 
-  "parenttype": "DocType", 
-  "permlevel": 0
- }, 
- {
-  "create": 1, 
-  "delete": 1, 
-  "doctype": "DocPerm", 
-  "export": 1, 
-  "name": "__common__", 
-  "parent": "Frappe App", 
-  "parentfield": "permissions", 
-  "parenttype": "DocType", 
-  "permlevel": 0, 
-  "read": 1, 
-  "report": 1, 
-  "role": "System Manager", 
-  "write": 1
- }, 
- {
-  "doctype": "DocType", 
-  "name": "Frappe App"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "application_name", 
-  "fieldtype": "Data", 
-  "label": "Application Name"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "published", 
-  "fieldtype": "Check", 
-  "label": "Published"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "icon", 
-  "fieldtype": "Attach", 
-  "label": "Icon"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "headline", 
-  "fieldtype": "Data", 
-  "label": "Headline"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "publisher", 
-  "fieldtype": "Link", 
-  "label": "Publisher", 
-  "options": "Frappe Publisher"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "column_break_5", 
-  "fieldtype": "Column Break"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "source_link", 
-  "fieldtype": "Data", 
-  "label": "Github"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "cloud_link", 
-  "fieldtype": "Data", 
-  "label": "Cloud"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "demo_link", 
-  "fieldtype": "Data", 
-  "label": "Demo"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "slideshow", 
-  "fieldtype": "Link", 
-  "label": "Slideshow", 
-  "options": "Website Slideshow"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "section_break_9", 
-  "fieldtype": "Section Break"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "introduction", 
-  "fieldtype": "Text", 
-  "label": "Introduction", 
-  "reqd": 1
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "description", 
-  "fieldtype": "Text", 
-  "label": "Description"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "app_testimonials", 
-  "fieldtype": "Table", 
-  "label": "App Testimonials", 
-  "options": "Frappe App Testimonial"
- }, 
- {
-  "doctype": "DocField", 
-  "fieldname": "parent_website_route", 
-  "fieldtype": "Link", 
-  "hidden": 1, 
-  "label": "Parent Website Route", 
-  "options": "Website Route", 
-  "read_only": 1
- }, 
- {
-  "doctype": "DocPerm"
- }
-]
+{
+ "allow_import": 1, 
+ "allow_rename": 1, 
+ "creation": "2014-02-17 15:54:39", 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Master", 
+ "fields": [
+  {
+   "fieldname": "application_name", 
+   "fieldtype": "Data", 
+   "label": "Application Name", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "published", 
+   "fieldtype": "Check", 
+   "label": "Published", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "icon", 
+   "fieldtype": "Attach", 
+   "label": "Icon", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "headline", 
+   "fieldtype": "Data", 
+   "label": "Headline", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "publisher", 
+   "fieldtype": "Link", 
+   "label": "Publisher", 
+   "options": "Frappe Publisher", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "column_break_5", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "source_link", 
+   "fieldtype": "Data", 
+   "label": "Github", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "cloud_link", 
+   "fieldtype": "Data", 
+   "label": "Cloud", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "demo_link", 
+   "fieldtype": "Data", 
+   "label": "Demo", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "slideshow", 
+   "fieldtype": "Link", 
+   "label": "Slideshow", 
+   "options": "Website Slideshow", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "section_break_9", 
+   "fieldtype": "Section Break", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "introduction", 
+   "fieldtype": "Text", 
+   "label": "Introduction", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "description", 
+   "fieldtype": "Text", 
+   "label": "Description", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "app_testimonials", 
+   "fieldtype": "Table", 
+   "label": "App Testimonials", 
+   "options": "Frappe App Testimonial", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "parent_website_route", 
+   "fieldtype": "Link", 
+   "hidden": 1, 
+   "label": "Parent Website Route", 
+   "options": "Website Route", 
+   "permlevel": 0, 
+   "read_only": 1
+  }
+ ], 
+ "idx": 1, 
+ "modified": "2014-02-28 10:40:38", 
+ "modified_by": "Administrator", 
+ "module": "Frappe Apps", 
+ "name": "Frappe App", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "create": 1, 
+   "delete": 1, 
+   "export": 1, 
+   "permlevel": 0, 
+   "read": 1, 
+   "report": 1, 
+   "role": "System Manager", 
+   "write": 1
+  }
+ ]
+}
