@@ -56,4 +56,4 @@ You can install it on your site via, the browser or command line. To install it 
 
 To check if the app has been installed, login to your site and click on "Installer"
 
-![Installer](/assets/images/app-development/installer.png)
+![Installer](/assets/frappe_io/images/app-development/installer.png)

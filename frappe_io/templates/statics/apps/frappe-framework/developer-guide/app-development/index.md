@@ -1,40 +1,5 @@
 # App Development
 
-- What is an app
-- Developer Setup
-  - frappe command line
-  - bench and sites
-  - developer_mode = 1
-- Structure
-  - app, module, DocType
-- Hello World
-  - task management app
-- Understanding DocTypes
-  - fields, permissions, forms, reports, lists
-- API and routing
-  - /api
-  - REST
-  - whitelisting
-- User and authentication
-- User interfaces
-  - desktop environment (single page js driven interface, Frappe Desktop Environment, FDE)
-  - web interface (server side, template generated , CMS)
-- Controllers
-  - client, server
-- Creating pages in desktop environment
-  - build.json
-  - key API
-- Creating pages, generators, static pages in CMS
-- Report Builder
-- Running Jobs
-  - scheduler
-- Deployment
-  - sync
-  - patches
-  - fixtures 
-- Utilities
-  - Email, Printing etc.
-
 Welcome to the Frappe Developer Guide, this guide created to teach you all about creating and distributing apps for Frappe Framework. Some of you may feel confident enough to jump straight into coding. If that's the case, you might want to skip ahead and start writing your first app.
 
 However, we strongly recommend to at least skim through this guide. Frappe Framework has its own way of doing things and spending some time reading these pages will help you a lot in the long run.
