@@ -1,7 +1,0 @@
-setting-up
-bill-of-materials
-sales-order
-production-planning-tool
-stock-balance-report
-billing
-gross-profit-report

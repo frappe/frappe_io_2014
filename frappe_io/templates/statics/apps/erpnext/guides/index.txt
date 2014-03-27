@@ -1,3 +1,0 @@
-make-to-order
-make-to-stock
-engineer-to-order
