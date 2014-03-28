@@ -16,7 +16,7 @@ We can listen in on the `on_session_creation` hook and set the status as active:
 		agent = frappe.db.get_value("Website Chat Agent", 
 			{"user": frappe.session.user }, ["name", "status"], as_dict=True)
 		if agent and agent.status=="Offline":
-			agent = frappe.bean("Website Chat Agent", agent.name)
+			agent = frappe.get_doc("Website Chat Agent", agent.name)
 			agent.doc.status = "Active"
 			agent.save(ignore_permissions=True)
 
