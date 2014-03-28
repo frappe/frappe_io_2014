@@ -1,5 +1,5 @@
 {
- "creation": "2014-02-20 15:55:42", 
+ "creation": "2014-02-20 15:55:42.000000", 
  "docstatus": 0, 
  "doctype": "DocType", 
  "fields": [
@@ -29,7 +29,7 @@
  ], 
  "idx": 1, 
  "istable": 1, 
- "modified": "2014-02-20 16:48:36", 
+ "modified": "2014-02-20 16:48:36.000000", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe App Testimonial", 

@@ -1,7 +1,7 @@
 {
  "allow_import": 1, 
  "allow_rename": 1, 
- "creation": "2014-02-17 15:54:39", 
+ "creation": "2014-02-17 15:54:39.000000", 
  "docstatus": 0, 
  "doctype": "DocType", 
  "document_type": "Master", 
@@ -103,7 +103,7 @@
   }
  ], 
  "idx": 1, 
- "modified": "2014-02-28 10:40:38", 
+ "modified": "2014-02-28 10:40:38.000000", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe App", 
