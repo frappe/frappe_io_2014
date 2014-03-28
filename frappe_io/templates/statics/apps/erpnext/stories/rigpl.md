@@ -1,3 +1,5 @@
+# Rohit Industries Group India
+
 When Aditya Duggal decided to blog for the first time, he wrote a blog on
 ERPNext Implementation story. He began by saying that “I have been compelled
 by my conscience to write about this product which has put all my plans in

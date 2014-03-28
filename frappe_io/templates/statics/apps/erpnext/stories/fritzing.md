@@ -1,3 +1,5 @@
+# Fritzing Germany
+
 We witnessed in the last few years a new wave of innovation in hardware and
 electronics made possible by adopting the culture of open source. People
 around the world started making electronics projects, sharing and

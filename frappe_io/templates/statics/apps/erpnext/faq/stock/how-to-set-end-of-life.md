@@ -8,3 +8,4 @@ End-of-life (EOL) is a term used with respect to a product supplied to customers
 
 __For Example__, Different food products can have different End-of Life dates depending upon its ability to preserve its original taste and form. A packaged cake may have a shelf-life of 1 month. This means that you can mention its ‘End-of-life’ as the date which is one month after the date of manufacturing. Similarly, cakes made at a bakery without air-tight packing may have its End-of-Life date after 2 days of manufacturing it.
 
+In ERPNext, when the product reaches its EOL, it is not allowed in any transactions.
