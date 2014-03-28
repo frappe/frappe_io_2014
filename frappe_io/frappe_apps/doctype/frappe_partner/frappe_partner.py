@@ -11,7 +11,7 @@ from frappe.website.website_generator import WebsiteGenerator
 class FrappePartner(WebsiteGenerator):
 	
 	def get_page_title(self):
-		return self.doc.partner_name
+		return self.partner_name
 	
 	def validate(self):
 		clear_cache("partners")

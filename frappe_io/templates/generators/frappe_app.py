@@ -11,8 +11,8 @@ condition_field = "published"
 
 def get_context(context):
 	app_context = {}
-	if context.bean.doc.slideshow:
-		app_context["slideshow"] = context.bean.doc.slideshow
+	if context.bean.slideshow:
+		app_context["slideshow"] = context.bean.slideshow
 		app_context.update(get_slideshow(context.bean))
 	
 	return app_context
