@@ -1,4 +1,4 @@
-# How to name a Manufacturer part number?
+# How To Name a Manufacturer Part Number?
 
 Go to the purchase details section of the Item form, and enter the number on the right hand side in the field ‘Manufacturer Part Number’
 

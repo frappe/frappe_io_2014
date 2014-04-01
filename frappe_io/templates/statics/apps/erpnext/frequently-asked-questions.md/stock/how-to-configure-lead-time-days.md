@@ -1,4 +1,4 @@
-# How to configure Lead time days?
+# How To Configure Lead Time Days?
 
 Go to the stock module and click on Item. In the Item form go to the purchase section. In the field ‘Lead Time Days’ type the number of days.
 
