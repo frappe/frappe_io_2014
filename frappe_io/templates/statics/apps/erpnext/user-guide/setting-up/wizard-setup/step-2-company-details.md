@@ -1,3 +1,4 @@
+# Step 2: Company Details
 
 Enter Company Details like Name, Abbreviation and Financial Year Details.
 
@@ -7,7 +8,7 @@ Enter Company Details like Name, Abbreviation and Financial Year Details.
 
 Company Abbreviation is a shortened form of the company name used chiefly in writing to represent the complete form.  
 
-For Example; East Wind will be abbreviated as EW. Shades of Green will be abbreviated as SOG. In case you wish to give your own abbreviation, you can do so. The text field allows any type of text. 
+For Example: East Wind will be abbreviated as EW. Shades of Green will be abbreviated as SOG. In case you wish to give your own abbreviation, you can do so. The text field allows any type of text. 
 
 
 You can give any abbreviation. Note that this abbreviation will be seen in most of the company forms like Sales Invoice, Delivery Note, Purchase Receipt etc.

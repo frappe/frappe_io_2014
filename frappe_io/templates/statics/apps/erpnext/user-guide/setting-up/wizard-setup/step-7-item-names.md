@@ -1,3 +1,4 @@
+# Step 7: Item Names
 
 Enter your product names.
 
@@ -18,10 +19,8 @@ An assembled unit forming a component to be incorporated into a larger assembly 
 
 For Example: To prepare a Jute Bag,  you require Jute cloth, Jute hand woven strings, Jute decorative patchwork, fabric colour for painting, paint brush, etc. All these requirements that go into building the product Jute Bag are raw materials. However, if you are preparing the Jute decorative patchwork in-house then that patchwork will be a sub-assembly. The sub-assembly will have its own Bill of Materials stating raw material list like wool, beads and colourful frills.
 
-Thus you should click on the sub-assembly option only if you manufacture all your spare parts in-house and have  Bill of Materials within a Bill of Materials.
+Thus you should click on the sub-assembly option if you manufacture all your spare parts in-house and have  Bill of Materials within a Bill of Materials.
 
 ###  Difference beetween Raw-material and Sub-assembly?
 Raw materials are materials that have not been processed. They are in the form in which they are found in nature without any thing done to them. Raw materials are made into other things.  A sub assembly is a Collection of parts put together as a unit, to be used in the making of a larger assembly or a final or higher item.
-
-For Example: To prepare a Jute Bag,  you require Jute cloth, Jute hand woven strings, Jute decorative patchwork, fabric colour for painting, paint brush, etc. All these requirements that go into building the product Jute Bag are raw materials. However, if you are preparing the Jute decorative patchwork in-house then that patchwork will be a sub-assembly. The sub-assembly will have its own Bill of Materials stating raw material list like wool, beads and colourful frills.
 

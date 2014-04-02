@@ -1,3 +1,5 @@
+# Step 6: Customer Names
+
 Enter your Customer names and the contact person from that organisation.
 
 

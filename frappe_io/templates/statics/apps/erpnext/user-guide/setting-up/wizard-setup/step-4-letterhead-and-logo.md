@@ -1,3 +1,5 @@
+# Step 4: Letterhead and Logo
+
 Attach Company Letterhead and Company Logo.
 
 ![Company Letterhead](/assets/frappe_io/images/erpnext/wizard-step-4.png)

@@ -1,3 +1,5 @@
+# Step 3: Currency and Timezone
+
 Set your country name, currency and timezone.
 
 ![Currency and Time Zone](/assets/frappe_io/images/erpnext/wizard-step-3.png)

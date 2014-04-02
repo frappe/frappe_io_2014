@@ -1,3 +1,5 @@
+# Step 5: Tax Details
+
 Enter any three types of taxes which you regularly pay. This wizard will create a tax master which will calculate the taxes as per the tax-type.
 
 ![Taxes](/assets/frappe_io/images/erpnext/wizard-step-5.png)
