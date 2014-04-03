@@ -1,5 +1,5 @@
 {% block header %}
-<img src="{{ bean.doc.icon }}" class="app-icon"> {{ title }}{% endblock %}
+<img src="{{ doc.doc.icon }}" class="app-icon"> {{ title }}{% endblock %}
 
 {% block style %}
 .testimonial-avatar {
@@ -18,20 +18,20 @@
 {% block content %}
 <div class="row" style="margin-bottom: 15px;">
 	<div class="col-md-6">
-		<h3 style="margin: 0px">{{ bean.doc.headline or "" }}</h3>
+		<h3 style="margin: 0px">{{ doc.doc.headline or "" }}</h3>
 	</div>
 	<div class="col-md-6">
 		<div class="pull-right">
-			{% if bean.doc.source_link -%}
-				<a href="{{ bean.doc.source_link }}" target="_blank" class="btn btn-default">
+			{% if doc.doc.source_link -%}
+				<a href="{{ doc.doc.source_link }}" target="_blank" class="btn btn-default">
 					<i class="icon icon-github"></i> Github</a>
 			{%- endif %}
-			{% if bean.doc.demo_link -%}
-				<a href="{{ bean.doc.demo_link }}" target="_blank" class="btn btn-default">
+			{% if doc.doc.demo_link -%}
+				<a href="{{ doc.doc.demo_link }}" target="_blank" class="btn btn-default">
 					<i class="icon icon-eye-open"></i> Demo</a>
 			{%- endif %}
-			{% if bean.doc.cloud_link -%}
-				<a href="{{ bean.doc.cloud_link }}" target="_blank" class="btn btn-default">
+			{% if doc.doc.cloud_link -%}
+				<a href="{{ doc.doc.cloud_link }}" target="_blank" class="btn btn-default">
 					<i class="icon icon-cloud"></i> Start</a>
 			{%- endif %}
 		</div>
@@ -39,17 +39,17 @@
 	</div>
 </div>
 
-<p class="text-muted small">Publisher: {{ bean.doc.publisher }}</p>
+<p class="text-muted small">Publisher: {{ doc.doc.publisher }}</p>
 
 {% include "templates/includes/slideshow.html" %}
 
-<p>{{ bean.doc.description }}</p>
+<p>{{ doc.doc.description }}</p>
 
 <!-- testimonials -->
-{% if bean.doclist.get({"parentfield": "app_testimonials"}) %}
+{% if doc.get({"parentfield": "app_testimonials"}) %}
 <hr>
 <h3>Testimonials</h3>
-{% for testimonial in bean.doclist.get({"parentfield": "app_testimonials"}) %}
+{% for testimonial in doc.get({"parentfield": "app_testimonials"}) %}
 <div class="media">
 	<span class="pull-left">
 		<div class="media-object avatar-large testimonial-avatar" style="background-image: url({{ testimonial.author_image }});"></div>

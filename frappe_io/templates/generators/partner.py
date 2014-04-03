@@ -7,6 +7,6 @@ doctype = "Frappe Partner"
 condition_field = "show_in_website"
 
 def get_context(context):
-	context.update(context.bean.fields)
+	context.update(context.doc.as_dict())
 	
 	return context

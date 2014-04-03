@@ -11,8 +11,8 @@ condition_field = "published"
 
 def get_context(context):
 	app_context = {}
-	if hasattr(context.bean, 'slideshow'):
-		app_context["slideshow"] = context.bean.slideshow
-		app_context.update(get_slideshow(context.bean))
+	if hasattr(context.doc, 'slideshow'):
+		app_context["slideshow"] = context.doc.slideshow
+		app_context.update(get_slideshow(context.doc))
 	
 	return app_context
