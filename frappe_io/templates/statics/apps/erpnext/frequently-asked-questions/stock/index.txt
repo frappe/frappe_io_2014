@@ -8,3 +8,4 @@ how-to-set-up-reorder-quantity
 how-to-assess-purchase-item
 how-to-configure-lead-time-days
 how-to-name-a-manufacturer-part-no
+last-purchased-rate-and-standard-rate

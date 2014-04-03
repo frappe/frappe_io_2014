@@ -4,12 +4,12 @@ Go to the inventory section of the Item form in the stock module to select this 
 
 > Stock > Item
 
-Stock Items are products which the company stores in their warehouses. The stocks can be either raw materials or finished goods. In case they are raw materials, they are stocked to manage manufacturing without wasting time in last minute purchases. The finished goods are stocked in order to provide supplies to retailers and distributors on demand.
+In ERPNext an Item is a Stock Item when it is countable. Anything that is countable can be stored as a stock Item. The stocks can be raw materials or finished goods. 
 
-An Item is not a stock item, when it is outsourced or purchased and not stored . It could be an item which is bought and sold based on demand.
+An Item is not a stock item, when it is not essential to keep a count of that Item.
 
 ![Stock Item](/assets/frappe_io/images/erpnext/faq-stock-item-yes.png)
 
-__For example,__ a custom goods order is not a stock Item. If a customised bed cum wardrobe is manufactured based on the design specification of the customer, the product will be manufactured and delivered. There is no point in stocking this Item. 
+__For example:__ In a furniture manufacturing unit, if you order a box of nails, you will not essentially keep a stock of all the individual small nails. Similarly you might order a box of office pins, but you may not individually count them or maintain their stock. In such scenarios, where keeping a count is negligible, you can mention that Item as Non-stock Item.
 
 To understand Item in detail visit [Item](/apps/erpnext/user-guide/stock-inventory/item-master)

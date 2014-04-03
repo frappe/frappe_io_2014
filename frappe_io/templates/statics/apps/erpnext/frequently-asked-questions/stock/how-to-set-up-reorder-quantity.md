@@ -4,8 +4,8 @@ To setup Reorder quantity go to the Re-order section of the Item form. In the fi
 
 > Stock> Item
 
-Reorder quantity is  the quantity to order, so that the sum of ordering cost and holding cost is at its minimum.The re-order quantity is based on the minimum order quantity specified by the supplier.
+Reorder quantity is  the quantity to order, so that the sum of ordering cost and holding cost is at its minimum.The re-order quantity is based on the minimum order quantity specified by the supplier and many other factors.
 
 ![Reorder Quantity](/assets/frappe_io/images/erpnext/faq-reorder-qty.png)
 
-__For example:__ If your suppliers minimum order quantity of Jute fabric is 10 meters, You may set your reorder quantity at 50 meters based on your product consumption, lead time cycle, transportation costs etc.
+__For example:__ If reorder level is 100 items, your reorder quantity may not necessarily be 100 items. The Reorder quantity can be greater than or equal to reorder level. It may depend upon lead time, discount, transportation and average daily consumption.

@@ -4,7 +4,8 @@ Go to the reorder section of the Item form in the stock module.
 
 > Stock > Item
 
-The Re-Order level is the point at which stock on a particular item has diminished to a point where it needs to be replenished.
+The Re-Order level is the point at which stock on a particular item has diminished to a point where it needs to be replenished. To order based on re-order level can avoid shortages. Re-order level can be determined based on the lead time and the average daily consumption.
+
 
 ![Reorder Level](/assets/frappe_io/images/erpnext/faq-reorder-level.png)
 
