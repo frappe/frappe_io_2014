@@ -9,10 +9,9 @@ import frappe
 from frappe.website.website_generator import WebsiteGenerator
 
 class FrappeApp(WebsiteGenerator):
-	
 	def on_update(self):
 		self.set("parent_website_route", "apps")
-		super(DocType, self).on_update()
-		
+		super(FrappeApp, self).on_update()
+
 	def get_page_title(self):
 		return self.application_name

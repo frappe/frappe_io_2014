@@ -14,5 +14,5 @@ def get_context(context):
 	if hasattr(context.doc, 'slideshow'):
 		app_context["slideshow"] = context.doc.slideshow
 		app_context.update(get_slideshow(context.doc))
-	
+
 	return app_context

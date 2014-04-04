@@ -1,4 +1,5 @@
 user-guide
-guides
+case-studies
+frequently-asked-questions
 stories
 about

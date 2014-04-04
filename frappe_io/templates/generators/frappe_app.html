@@ -1,5 +1,5 @@
 {% block header %}
-<img src="{{ doc.doc.icon }}" class="app-icon"> {{ title }}{% endblock %}
+<img src="{{ doc.icon }}" class="app-icon"> {{ title }}{% endblock %}
 
 {% block style %}
 .testimonial-avatar {
@@ -18,20 +18,20 @@
 {% block content %}
 <div class="row" style="margin-bottom: 15px;">
 	<div class="col-md-6">
-		<h3 style="margin: 0px">{{ doc.doc.headline or "" }}</h3>
+		<h3 style="margin: 0px">{{ doc.headline or "" }}</h3>
 	</div>
 	<div class="col-md-6">
 		<div class="pull-right">
-			{% if doc.doc.source_link -%}
-				<a href="{{ doc.doc.source_link }}" target="_blank" class="btn btn-default">
+			{% if doc.source_link -%}
+				<a href="{{ doc.source_link }}" target="_blank" class="btn btn-default">
 					<i class="icon icon-github"></i> Github</a>
 			{%- endif %}
-			{% if doc.doc.demo_link -%}
-				<a href="{{ doc.doc.demo_link }}" target="_blank" class="btn btn-default">
+			{% if doc.demo_link -%}
+				<a href="{{ doc.demo_link }}" target="_blank" class="btn btn-default">
 					<i class="icon icon-eye-open"></i> Demo</a>
 			{%- endif %}
-			{% if doc.doc.cloud_link -%}
-				<a href="{{ doc.doc.cloud_link }}" target="_blank" class="btn btn-default">
+			{% if doc.cloud_link -%}
+				<a href="{{ doc.cloud_link }}" target="_blank" class="btn btn-default">
 					<i class="icon icon-cloud"></i> Start</a>
 			{%- endif %}
 		</div>
@@ -39,11 +39,11 @@
 	</div>
 </div>
 
-<p class="text-muted small">Publisher: {{ doc.doc.publisher }}</p>
+<p class="text-muted small">Publisher: {{ doc.publisher }}</p>
 
 {% include "templates/includes/slideshow.html" %}
 
-<p>{{ doc.doc.description }}</p>
+<p>{{ doc.description }}</p>
 
 <!-- testimonials -->
 {% if doc.get({"parentfield": "app_testimonials"}) %}
