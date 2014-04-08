@@ -1,14 +1,9 @@
 is-item-a-stock-item-or-no
 how-to-allocate-allowance-percent
-how-to-set-a-warranty-period
 how-to-set-end-of-life
 how-to-set-minimum-order-quantity
-how-to-set-up-reorder-level
-how-to-set-up-reorder-quantity
 how-to-assess-purchase-item
 how-to-configure-lead-time-days
-how-to-name-a-manufacturer-part-no
-last-purchased-rate-and-standard-rate
 what-is-sales-item
 what-is-a-service-item
 item-sub-contracted-or-not
