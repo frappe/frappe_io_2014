@@ -9,3 +9,6 @@ how-to-assess-purchase-item
 how-to-configure-lead-time-days
 how-to-name-a-manufacturer-part-no
 last-purchased-rate-and-standard-rate
+what-is-sales-item
+what-is-a-service-item
+item-sub-contracted-or-not

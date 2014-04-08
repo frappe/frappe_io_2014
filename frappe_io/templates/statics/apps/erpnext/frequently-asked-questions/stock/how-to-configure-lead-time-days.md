@@ -4,7 +4,7 @@ Go to the stock module and click on Item. In the Item form go to the purchase se
 
 > Stock > Item >
 
-Lead Time days is number of days by which an item is expected in your warehouse. These  days are fetched in Material Request when you select that particular item.
+Lead Time days is number of days by which an item is expected in your warehouse. Days are fetched in Material Request when you select that particular item.
 
 
 ![Lead Time](/assets/frappe_io/images/erpnext/faq-lead-time.png)

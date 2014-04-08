@@ -1,4 +1,4 @@
-# Step 9: Rawmaterial Names
+# Step 9: Raw-material Names
 
 Enter the names of your Raw-materials.
 

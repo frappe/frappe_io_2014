@@ -1,6 +1,7 @@
 introduction
 setting-up
 accounts
+stock-inventory
 buying
 collaboration-tools
 customer-portal
@@ -11,6 +12,5 @@ manufacturing
 projects
 selling
 setting-up-your-website-webshop
-stock-inventory
 support
 for-advanced-users
