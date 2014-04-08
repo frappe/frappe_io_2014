@@ -1,19 +1,17 @@
 [
- [
   {
-   "__islocal": 1, 
-   "_comments": null, 
-   "_user_tags": null, 
-   "docstatus": 0, 
-   "doctype": "Website Script", 
-   "idx": null, 
-   "javascript": "$(document).ready(function() { \n  $('<div class=\"alert alert-warning text-center\" style=\"margin: 0px\">ERPNext is now part of the Frappe Platform. <a href=\"/why\">Read More.</a></div>').insertBefore(\"header .navbar\");\n});", 
-   "modified_by": "Administrator", 
-   "name": "Website Script", 
-   "owner": "", 
-   "parent": null, 
-   "parentfield": null, 
+   "__islocal": 1,
+   "_comments": null,
+   "_user_tags": null,
+   "docstatus": 0,
+   "doctype": "Website Script",
+   "idx": null,
+   "javascript": "$(document).ready(function() { \n  $('<div class=\"alert alert-warning text-center\" style=\"margin: 0px\">ERPNext is now part of the Frappe Platform. <a href=\"/why\">Read More.</a></div>').insertBefore(\"header .navbar\");\n});",
+   "modified_by": "Administrator",
+   "name": "Website Script",
+   "owner": "",
+   "parent": null,
+   "parentfield": null,
    "parenttype": null
   }
- ]
 ]
