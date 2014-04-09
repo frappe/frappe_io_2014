@@ -7,3 +7,6 @@ how-to-configure-lead-time-days
 what-is-sales-item
 what-is-a-service-item
 item-sub-contracted-or-not
+how-to-repack-products
+rename-item
+merging-documents

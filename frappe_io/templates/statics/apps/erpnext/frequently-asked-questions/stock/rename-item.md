@@ -1,3 +1,5 @@
+# How To Rename An Item?
+
 There are times when we wish we could have renamed our product differently. At
 times like this, ERPNext allows you to make changes to the Item name.
 
@@ -21,7 +23,7 @@ Renaming is basically calling the same product with a different name.
 
   
 
-**Step 3: **A rename box will appear where you can type the new Item Name and click on Rename. Do not check on box 'Merge with existing'. To read what Merge does visit [Merging Documents](merging-documents).
+__Step 3:__ A rename box will appear where you can type the new Item Name and click on Rename. Do not check on box 'Merge with existing'. To read what Merge does visit [Merging Documents](merging-documents).
 
   
 

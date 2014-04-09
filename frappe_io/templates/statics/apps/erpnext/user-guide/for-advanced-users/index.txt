@@ -1,7 +1,0 @@
-attachment-and-csv-files
-authorization-rule
-handling-returns
-how-to-repack-products
-merging-documents
-quality-inspection
-rename-item
