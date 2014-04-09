@@ -1,1 +1,1 @@
-index.txt
+stock
