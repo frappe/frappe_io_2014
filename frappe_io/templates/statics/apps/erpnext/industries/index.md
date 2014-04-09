@@ -1,3 +1,5 @@
+# Industries
+
 ERPNext is used by a few hundred companies in manufacturing, distribution, retail and services. Learn more how EPRNext can help you manage you organization better for your industry
 
 #### Manufacturing

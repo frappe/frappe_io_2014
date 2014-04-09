@@ -1,5 +1,8 @@
 user-guide
+testimonials
+industries
+countries
+stories
 case-studies
 frequently-asked-questions
-stories
 about

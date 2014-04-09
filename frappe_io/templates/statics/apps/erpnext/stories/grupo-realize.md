@@ -1,4 +1,4 @@
-# Grupo Realize De Móveis Brazil
+# Grupo Realize De Móveis, Brazil
 
 In portuguese, Móveis means furniture. If you don't pay attention to the
 spelling, you are very likely to confuse it with Movies-Hollywood. Grupo
@@ -46,7 +46,7 @@ They have divided teams based on responsibilities:
   2. Scheduling team manages deadlines.
   3. Conference team ensures the technical specifications of the product.
   4. Assembly team brings together raw materials to make finished goods.
-  5. Operations team monitors and supports the above teams. 
+  5. Operations team monitors and supports the above teams.
 
 In Brazil, the market benchmark to deliver furniture orders is 70 days. Grupo
 Realize de Móveis delivers in 30 days.

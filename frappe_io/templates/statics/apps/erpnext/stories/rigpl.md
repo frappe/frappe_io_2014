@@ -1,4 +1,4 @@
-# Rohit Industries Group India
+# Rohit Industries Group, India
 
 When Aditya Duggal decided to blog for the first time, he wrote a blog on
 ERPNext Implementation story. He began by saying that “I have been compelled
@@ -48,8 +48,8 @@ As per Aditya the basic features of ERPNext which are out of the ordinary are
 
   * ERPNext has low entry cost.
   * Is web-based, so no need of installing computer software at client location.
-  * Is Online, thus there is real-time sharing of data across the world 
-  * Imports data easily from excel. The import formats are all saved in the system. 
+  * Is Online, thus there is real-time sharing of data across the world
+  * Imports data easily from excel. The import formats are all saved in the system.
   * Is a robust system which can handle many users at any given time.
   * Needs no installation on any computer, just internet and a browser is sufficient.
 

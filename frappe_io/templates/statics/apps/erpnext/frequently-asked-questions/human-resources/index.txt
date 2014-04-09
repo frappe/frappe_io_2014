@@ -1,4 +1,3 @@
-index.txt
 how-to-setup-employee-user-id
 how-to-make-a-leave-application
 how-to-setup-bulk-salary-slips

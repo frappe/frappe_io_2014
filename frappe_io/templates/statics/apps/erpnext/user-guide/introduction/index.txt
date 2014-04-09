@@ -1,7 +1,6 @@
 do-i-need-an-erp
 open-source
 getting-started-with-erpnext
-getting-help
 the-champion
 implementation-strategy
 key-workflows

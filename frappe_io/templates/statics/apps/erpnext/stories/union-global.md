@@ -1,8 +1,8 @@
-# Union Global Marketing Philippines
+# Union Global Marketing, Philippines
 
-Union global is one of our first customer who introduced the bounty system. They pledged to pay $ 50 to any developer who would develop the ERPNext feature they required. Union Global is also one of the first few customers who developed their website using ERPNext's Website Module. 
+Union global is one of our first customer who introduced the bounty system. They pledged to pay $ 50 to any developer who would develop the ERPNext feature they required. Union Global is also one of the first few customers who developed their website using ERPNext's Website Module.
 
-Union Global Marketing Corp - Phillipines, is in the business of electronics and consumer appliances since last 50 years. Laurence Cua, their Executive Vice President, contributes actively to the community. We have captured some of his responses on business practices and ERPNext to add to our repository of customer stories. 
+Union Global Marketing Corp - Phillipines, is in the business of electronics and consumer appliances since last 50 years. Laurence Cua, their Executive Vice President, contributes actively to the community. We have captured some of his responses on business practices and ERPNext to add to our repository of customer stories.
 
 His interview excerpts are given below in question and answer form:
 
@@ -10,7 +10,7 @@ His interview excerpts are given below in question and answer form:
 
 #### From the day you joined to the current day, what has changed in the company?
 
-Automation. We came from standalone custom-built Windows programs used mainly for documentation.  We  adopted a Windows-based networked SMB system but after quickly growing out of that, we realized we needed a system that was more flexible and location-agnostic, i.e. cloud-based. We found ERPNext and loved the idea of open-source. So we rolled out ERPNext among our employees across different teams.  
+Automation. We came from standalone custom-built Windows programs used mainly for documentation.  We  adopted a Windows-based networked SMB system but after quickly growing out of that, we realized we needed a system that was more flexible and location-agnostic, i.e. cloud-based. We found ERPNext and loved the idea of open-source. So we rolled out ERPNext among our employees across different teams.
 
 The benefits of cross-location automation happened when we: (1) computerized our processes, resulting in more accurate analytics of our business results and issues, (2) ERPNext brought about a huge improvement in allowing us to roll-out our system and business processes to off-site locations without the headache of setting up additional servers and managing network infrastructure. Because of this we have aligned how we do things regardless of site location.
 
@@ -18,7 +18,7 @@ The benefits of cross-location automation happened when we: (1) computerized our
 
 #### What are the business challenges which you face? How do you overcome them?
 
-Our main challenge is growing our appliance brands. We overcome this by understanding how our products perform. We use ERPNext for this kind of analysis so we understand product profitability, inventory turns, and customer purchase behavior. 
+Our main challenge is growing our appliance brands. We overcome this by understanding how our products perform. We use ERPNext for this kind of analysis so we understand product profitability, inventory turns, and customer purchase behavior.
 
 __Inter-department communication:__ Using ERPNext and other communication tools helps keep this real-time and reduce confusion
 
