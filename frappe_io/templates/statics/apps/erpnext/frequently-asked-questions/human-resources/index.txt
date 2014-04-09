@@ -1,0 +1,8 @@
+index.txt
+how-to-setup-employee-user-id
+how-to-make-a-leave-application
+how-to-setup-bulk-salary-slips
+how-to-select-employee-status
+how-to-setup-employment-type
+how-to-create-a-branch
+how-to-mange-salary-deduction

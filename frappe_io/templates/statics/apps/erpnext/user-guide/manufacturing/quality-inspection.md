@@ -19,7 +19,7 @@ __Step 1:__ Mention Inspection Type and Item Details
 
   
 
-__Step 2:__Enter Specification Details:
+__Step 2:__ Enter Specification Details
 
   
 

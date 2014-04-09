@@ -1,4 +1,4 @@
-# Case-studies
+# Case studies
 
 Casestudies have small booklets written on topics of general interest to the customers. These booklets have user information  on how to run ERPNext cycles based on specific case-examples. The Case-studies have detail documentation and can supplement the existing user manual.
 

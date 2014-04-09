@@ -1,7 +1,9 @@
+# How To Merge Documents?
+
 Merging documents means combining or causing two documents to form single
 entity.  
 
-  
+ 
 
 It may happen that at times, you may create two records against the same
 customer, Item or Supplier. In future you might decide to merge these two
@@ -10,7 +12,7 @@ is available in the Rename function.
 
   
 
-For example; If you have created one customer record with the name of Afonso
+For example: If you have created one customer record with the name of Afonso
 and another record called Ivan Afonso for the same customer, you might want to
 consider merging these two records and keeping all the information  regarding
 this record under one name. To do so, you can use the rename function and
@@ -56,7 +58,7 @@ Afonso will get merged with the new name Ivan Afonso.
 ![](assets/frappe_io/images/erpnext/merging-documents-2.png)  
 
   
-__Step 5:__Check the customer list for merged name.
+__Step 5:__ Check the customer list for merged name.
 
 
 #### Figure 4: Customer list with merged name.

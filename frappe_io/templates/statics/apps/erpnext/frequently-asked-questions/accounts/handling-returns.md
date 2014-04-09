@@ -1,3 +1,5 @@
+# How To Handle Returns?
+
 Returns are a part of doing business. Your Customers may return Items in
 exchange of other Items or money back or you may return Items to your
 Supplier. In each case there could be a variety of scenarios.
