@@ -3,6 +3,6 @@ testimonials
 industries
 countries
 stories
-case-studies
+guide-books
 frequently-asked-questions
 about

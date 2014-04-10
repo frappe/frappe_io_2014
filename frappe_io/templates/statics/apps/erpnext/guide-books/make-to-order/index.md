@@ -1,3 +1,5 @@
+# Make to Order
+
 This guide explains how a manufacturing unit would run their operations in ERPNext. It will explain a complete business cycle based on make-to-order type of manufacturing.
 
 ![Penstand](/assets/frappe_io/images/erpnext/pen-stand.jpg)
@@ -5,7 +7,7 @@ This guide explains how a manufacturing unit would run their operations in ERPNe
 
 __Images:__ This book contains images from flickr-creative commons license. We are grateful to Shades of Green for sharing their product pictures and allowing us to use their case-example.
 
-For this study, a jute artefact company, Shades of Green, is used as a case-example. 
+For this study, a jute artefact company, Shades of Green, is used as a case-example.
 
 Shades of Green is an eco-friendly company that manufactures and trades in Jute artefacts and jute gift items. It manufactures items based on make-to-order type of manufacturing.
 

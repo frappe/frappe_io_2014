@@ -1,4 +1,6 @@
-This guide explains how a manufacturing unit will run their operations in ERPNext. It will explain a complete business cycle based on make-to-stock type of manufacturing. For this study, a jute artefact company, Shades of Green, is used as a case-example. 
+# Make to Stock
+
+This guide explains how a manufacturing unit will run their operations in ERPNext. It will explain a complete business cycle based on make-to-stock type of manufacturing. For this study, a jute artefact company, Shades of Green, is used as a case-example.
 
 ![Coverpage](/assets/frappe_io/images/erpnext/m-t-s-coverpage-bags.jpg)
 
@@ -8,7 +10,7 @@ Images: This book contains images from flickr-creative commons license. We are g
 
 With the help of a business example, the whole process of manufacturing, storing, buying and selling in ERPNext is documented in detail. This study is specifically featured for make-to-stock type of company.
 
-> Make-to-stock manufacturing is a system based on keeping stocks ready for customers in order to provide instant availability to customers. Products like FMCG goods and electronics are made and stocked. Here, the production cycle is completed before the sales orders are made. 
+> Make-to-stock manufacturing is a system based on keeping stocks ready for customers in order to provide instant availability to customers. Products like FMCG goods and electronics are made and stocked. Here, the production cycle is completed before the sales orders are made.
 
 This strategy is used by businesses to match production with consumer demand forecasts. The make-to-stock (MTS) method forecasts demand, to determine how much stock should be produced.
 

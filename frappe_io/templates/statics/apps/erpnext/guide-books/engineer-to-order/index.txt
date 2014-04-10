@@ -1,9 +1,9 @@
 client-meeting
 set-up
+bill-of-material
 proposal-phase
 sales-order
 advance-payment-entry
-bill-of-material
 production-planning-tool
 material-request
 stock-entry
