@@ -1,17 +1,10 @@
-[
-  {
-   "__islocal": 1,
-   "_comments": null,
-   "_user_tags": null,
-   "docstatus": 0,
-   "doctype": "Website Script",
-   "idx": null,
-   "javascript": "$(document).ready(function() { \n  $('<div class=\"alert alert-warning text-center\" style=\"margin: 0px\">ERPNext is now part of the Frappe Platform. <a href=\"/why\">Read More.</a></div>').insertBefore(\"header .navbar\");\n});",
-   "modified_by": "Administrator",
-   "name": "Website Script",
-   "owner": "",
-   "parent": null,
-   "parentfield": null,
-   "parenttype": null
-  }
-]
+{
+ "creation": "2014-04-08 14:03:59.600982", 
+ "docstatus": 0, 
+ "doctype": "Website Script", 
+ "javascript": "$(document).ready(function() { \n  //$('<div class=\"alert alert-warning text-center\" style=\"margin: 0px\">ERPNext is now part of the Frappe Platform. <a href=\"/why\">Read More.</a></div>').insertBefore(\"header .navbar\");\n});", 
+ "modified": "2014-04-09 12:23:03.679807", 
+ "modified_by": "Administrator", 
+ "name": "Website Script", 
+ "owner": "Administrator"
+}

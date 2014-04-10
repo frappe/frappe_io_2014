@@ -1,10 +1,10 @@
 from frappe import _
 
 data = {
-	"Frappe.io Portal": {
-		"color": "#888", 
-		"icon": "assets/frappe/images/frappe.svg", 
+	"Frappe Apps": {
+		"color": "orange",
+		"icon": "assets/frappe/images/frappe.svg",
 		"label": _("Frappe.io Portal"),
-		"link": "frappe-home"
+		"type": "module"
 	}
 }

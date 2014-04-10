@@ -2,6 +2,66 @@
 
 <p class="lead">Our Guestbook: User Feedback for ERPNext</p>
 
+*"Everyone who attended the Open Hardware Summit at MIT last week was so impressed with ERPNext, they truly believe, as I do, that it's the best ERP software in the world for our scale."*
+
+<p class="text-right">Amin Zayani, Germany</p>
+
+---
+
+*"We have searched for many years to find a hosted application to handle this data properly, including SalesForce Professional. ERPNext is far superior to everything we have looked at! Thanks again for a wonderful product!"*
+
+<p class="text-right">Paul Stary, USA</p>
+
+---
+
+*"We are using ERPNext since 2010 and it has served our business very well. We are able to track all our smartphones with serial numbers, manage billing and also use ERPNext to streamline our administration. We have loved using the ERPNext application and it has put me on top of my business. I am confident that this is the SAP and Oracle of the Bottom of the Pyramid."*
+
+<p class="text-right">Dimeji Matesun, Nigeria</p>
+
+---
+
+*"ERPNext is an economic solution for an ERP system that can easily adapt to the needs of any small medium company. Well thought, easy to manage it is one of the very few ERP solutions that offer also an integrated module for technical support."*
+
+<p class="text-right">Giorgio Vergano, Italy</p>
+
+---
+
+*"After trying so many ERP's, what I liked is the completeness and ease of use of ERPnext. Other ERP’s are very hard to use and learn."*
+
+<p class="text-right">Zel Ortiz, Philippines</p>
+
+---
+
+*"We worked extensively on OpenERP and very nearly signed up for the same from a local vendor. Everything with the product was fine except that it just could not handle some very basic functions regarding batch manufacture, taxes, additional costs of purchase etc.. For all of these the vendor said we would have to customise at a reasonable cost which just did not fit into our scheme of things. Secondly I find ERPNext very user friendly compared with OpenBravo and OpenERP. As I keep working more on ERPNext I realise how much work you guys have put in and come out with a product that handles most of the functions without any hassles plus giving the additional option of customisation."*
+
+<p class="text-right">Mehul Mehta, India</p>
+
+---
+
+*"Again, THANK YOU for all your support and time. I want you guys to know that hands down, you guys are the best in what you do."*
+
+<p class="text-right">Varshik Motwani, UAE</p>
+
+---
+
+*"This email is after a very long time since I used ERPNext's online service when trying it out at that time (2011 I believe).  I actually had no issues with your great software at that time; my partner was not fully convinced at that time, so we opted for Brightpearl instead.  It did the job but is not really meeting my expectations.  So a few months back, I asked my partner again to try out the software.  And he gladly did the install and we tested it again.  It works great and really meets all my business requirements.  I have tested MANY other open source ERP systems, and I can confidently say that ERPNext is the one I prefer."*
+
+<p class="text-right">Talal Al Jishi, Bahrain</p>
+
+---
+
+*"Avana Corporation is a Sarasota, Florida based corporation dealing in LED Lighting Import/Export and Manufacturing. We are currently negotiating a 10 Million USD expansion program into the Tampa Bay area and believe ERPNext will be coming with us through this period. The efforts made by the team to bring this product to the small business market is astonishing. The product is great value for money."*
+
+<p class="text-right">Steven Brown, USA</p>
+
+---
+
+*"You have done a great project that competes with the major ERP systems worldwide, I am really proud of your product ERPNext and have an excellent success story with its implementation in an industrial company in Egypt which has two failure ERP systems before. I have a previous experience with ORACLE E-Business suite and Microsoft Dynamics AX , but really I found ERPNext much more better than those ERPs. It is the first ERP I found users love it because of its simplicity , ease of use and speed. The product size is very small -25MB compared with 70GB from others, it doesn't exhaust server resources as others. Please continue, you will be number one within next few years. I wish you all the best, and will support you all ways."*
+
+<p class="text-right">Hisham Farid, Egypt</p>
+
+---
+
 *"Firstly, amazing product in ERPNext. I'm a big fan of Open Source and I'm planning to go all out with them for all my requirements."*
 
 <p class="text-right">Sooraj</p>
