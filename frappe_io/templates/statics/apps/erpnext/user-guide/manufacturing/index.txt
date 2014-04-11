@@ -4,3 +4,4 @@ production-order
 subcontracting
 make-to-order-manufacturing
 make-to-stock-manufacturing
+quality-inspection

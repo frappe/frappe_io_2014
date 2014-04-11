@@ -1,4 +1,4 @@
-# How to setup bulk salary slips?
+# How To Generate Salary Slips For All Employees?
 
 To set up bulk salary slips, go to Human Resources module and click on process payroll
 
