@@ -1,8 +1,7 @@
-This manual covers all the major processes in setting up and using ERPNext.
-The manual is written in a way that the user can manage a self-implementation
-of the ERP. We recommend that the manual be read first before starting
-implementation.
+Welcome to the ERPNext User Manual.
 
-The user-guide is divided into different modules. Beginners can start with the Introduction and Setting up module. Advanced Users can go directly to the module and look for help based on the topic. The individual modules have subtopics which inturn have sub-chapters if required.
+This manual covers all the major processes in setting up and using ERPNext. The manual is written in a way that the user can manage a self-implementation. We recommend that the manual be read first before starting implementation.
 
-This guide is aimed at an average business user. To gain conceptual understanding of selected topics, you could read the knowledge-base.
+#### How To Contribute
+
+The source of this manual is available [here](https://github.com/frappe/frappe_io/tree/master/frappe_io/templates/statics/apps/erpnext/user-guide). If you have suggestions, fixes, please put in a pull-request!

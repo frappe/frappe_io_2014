@@ -119,3 +119,5 @@ We think that the future belongs to Open Source. We have built ERPNext on Open S
 		Prakash handles all billing, taxation, accounting and statutory requirements to keep the company running. For those who don't know about doing business in India, the government works under the deep suspicion that the primary goal of all business is to cheat their employees and customers, and its job is to shield all these poor people from the evil capitalists. Thankfully Prakash helps us ensuring that follow all the rules and also manages billing and sometimes support. Prakash's dream is to buy his own apartment in the heart of Mumbai City at Dadar, that would cost a fortune today. Prakash loves order and gets really bugged when he sees all the chaos in the office.
 	</div>
 </div>
+
+<blockquote><a href="https://www.youtube.com/watch?v=zRoFnqN6kPU" target="_blank"><i class="icon-youtube"></i> Watch our team video</a></blockquote>
