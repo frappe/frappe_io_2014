@@ -8,7 +8,7 @@
 
 ERPNext is a modern, Open Source ERP that is built for the web. ERPNext has financial accounting, inventory management, CRM, selling and purchasing management, human resource management and a lot more.
 
-<a href="/apps/erpnext/customer-stories">Read full length customer case studies</a>
+<a href="/apps/erpnext/stories">Read full length customer case studies</a>
 
 ---
 
