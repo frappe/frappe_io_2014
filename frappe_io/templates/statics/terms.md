@@ -2,7 +2,8 @@
 
 Subscription Agreement.
 Version 1.01
-Introduction
+
+### Introduction
 
 Web Notes Technologies Pvt Ltd is the publisher of "ERPNext" and offers hosting and support services for the same. The software is available under the GNU/GPL licenses and others as specified in the source code. This agreement is not about the software (which is available under the General Public License) but for the hosting and support services that are provided commercially.
 
@@ -79,7 +80,7 @@ Company: Web Notes Technologies Pvt Ltd
 
 Registered Address: D/324 Neelkanth Business Park, Vidyavihar West, Mumbai 400086
 
-Jurisdiction: Mumbai, India 
+Jurisdiction: Mumbai, India
 
 Dated: 20th October 2010
 
