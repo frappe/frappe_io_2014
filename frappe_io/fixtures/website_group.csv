@@ -18,11 +18,11 @@
 "Type:","Data (text)","Data","Data","Select","Link","Text","Data","Check","Check","Int","Int"
 "Info:","","","","One of: Forum, Tasks, Events","Valid Website Route","","","0 or 1","0 or 1","Integer","Integer"
 "Start entering data below this line"
-"","""accounts""","Accounts","Accounts","Forum","community/erpnext","Questions about Accounting","accounts",1,1,0,0
-"","""app-development""","app-development","App Development","Forum","community","Questions about creating Apps on ERPNext","app-development",1,1,0,0
-"","""erpnext-setup""","ERPNext Setup","ERPNext Setup","Forum","community/erpnext","Questions about Setting up and Implementing ERPNext","erpnext-setup",1,1,0,0
-"","""installation""","install","Installation","Forum","community","Questions about Installation and Setup","installation",1,1,0,0
-"","""inventory""","Inventory","Inventory","Forum","community/erpnext","Questions about Stock and Inventory","inventory",1,1,0,0
-"","""partners""","partners","Partners","Forum","community","Questions about becoming an ERPNext Partner","partners",1,1,0,0
-"","""general""","general","General","Forum","community","General Questions about Frappe.io","general",1,1,0,0
 "","""erpnext""","erpnext","ERPNext","Forum","community","Questions about using ERPNext","erpnext",1,1,0,0
+"","""general""","general","General","Forum","community","General Questions about Frappe.io","general",1,1,0,0
+"","""partners""","partners","Partners","Forum","community","Questions about becoming an ERPNext Partner","partners",1,1,0,0
+"","""inventory""","Inventory","Inventory","Forum","community/erpnext","Questions about Stock and Inventory","inventory",1,1,0,0
+"","""installation""","install","Installation","Forum","community","Questions about Installation and Setup","installation",1,1,0,0
+"","""erpnext-setup""","ERPNext Setup","ERPNext Setup","Forum","community/erpnext","Questions about Setting up and Implementing ERPNext","erpnext-setup",1,1,0,0
+"","""app-development""","app-development","App Development","Forum","community","Questions about creating Apps on ERPNext","app-development",1,1,0,0
+"","""accounts""","Accounts","Accounts","Forum","community/erpnext","Questions about Accounting","accounts",1,1,0,0

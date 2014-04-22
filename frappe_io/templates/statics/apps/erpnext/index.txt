@@ -4,6 +4,5 @@ industries
 countries
 stories
 guide-books
-frequently-asked-questions
 download-image
 about
