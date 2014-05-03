@@ -1,5 +1,4 @@
-{% block header %}
-<img src="{{ doc.icon }}" class="app-icon"> {{ title }}{% endblock %}
+{% block header %}{{ title }}{% endblock %}
 
 {% block style %}
 .testimonial-avatar {
@@ -18,20 +17,20 @@
 {% block content %}
 <div class="row" style="margin-bottom: 15px;">
 	<div class="col-md-6">
-		<h3 style="margin: 0px">{{ doc.headline or "" }}</h3>
+		<h3 style="margin: 0px"><img src="{{ doc.icon }}" class="app-icon"> {{ doc.headline or "" }}</h3>
 	</div>
 	<div class="col-md-6">
 		<div class="pull-right">
 			{% if doc.source_link -%}
-				<a href="{{ doc.source_link }}" target="_blank" class="btn btn-default">
+				<a href="{{ doc.source_link }}" target="_blank" class="btn btn-success">
 					<i class="icon icon-github"></i> Github</a>
 			{%- endif %}
 			{% if doc.demo_link -%}
-				<a href="{{ doc.demo_link }}" target="_blank" class="btn btn-default">
+				<a href="{{ doc.demo_link }}" target="_blank" class="btn btn-success">
 					<i class="icon icon-eye-open"></i> Demo</a>
 			{%- endif %}
 			{% if doc.cloud_link -%}
-				<a href="{{ doc.cloud_link }}" target="_blank" class="btn btn-default">
+				<a href="{{ doc.cloud_link }}" target="_blank" class="btn btn-success">
 					<i class="icon icon-cloud"></i> Start</a>
 			{%- endif %}
 		</div>

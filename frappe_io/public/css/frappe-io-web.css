@@ -1,18 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,400);
-
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.8em;
-	line-height: 1.65;
-	color: #444;
-}
-
-h1, h2, h3, h4, h5, .navbar, footer, .sidebar-item {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-	font-weight: bold;
+.page-header {
+	background-color: #5B6470;
+	background-image: url(/assets/frappe/images/grid-pattern.png);
+	background-repeat: repeat;
 }
 
 .sidebar-item {
@@ -25,20 +14,8 @@ article img {
 	border: 1px solid #eee;
 }
 
-.container {
-	max-width: 970px;
-}
-
-.navbar {
-	/*border-bottom: 2px solid #000000;*/
-	padding: 23px 0px;
-	border-bottom: 0px;
-	color: #aaa;
-}
-
 .navbar a.active {
 	font-weight: bold;
-	color: #FF9F04 !important;
 }
 
 blockquote {
@@ -49,21 +26,6 @@ blockquote {
 }
 
 
-#nprogress .bar {
-  background: #000000;
-}
-
-#nprogress .peg {
-  box-shadow: 0 0 10px #000000, 0 0 5px #000000;
-}
-
-a, a:hover {
-	color: #FF9F04;
-}
-
-a:hover h2, a:hover h3, a:hover h4 {
-	text-decoration: underline;
-}
 
 .web-footer {
 	border-top: 0px;
@@ -81,13 +43,6 @@ a:hover h2, a:hover h3, a:hover h4 {
 .navbar-brand img {
 	margin-top: -20px;
 	margin-bottom: -15px;
-}
-
-.page-header {
-	background: url(/assets/frappe/images/ui/sos.png) repeat;
-	-webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, .07);
-	        box-shadow: inset 0 0 7px rgba(0, 0, 0, .07);
-	border-bottom: 0px;
 }
 
 .media {

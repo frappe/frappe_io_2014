@@ -1,9 +1,20 @@
 .page-header {
-	background: url(assets/frappe_io/images/home-splash.png);
+/*	background: url(assets/frappe_io/images/home-splash.png);
 	background-size: cover;
-	height: 360px;
+*/
+	padding: 150px 0px;
+	margin-right: -25%;
 }
 
-.page-header h2 {
-	color: #ffffff !important;
+.page-header h1, .page-header h3, .page-header h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+div[data-html-block="header"]:after {
+	content: "Web Application Framework + Platform";
+	text-align: center;
+	color: white;
+	margin-right: -25%;
 }
