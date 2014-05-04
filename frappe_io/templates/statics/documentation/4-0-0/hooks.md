@@ -23,7 +23,7 @@ official hooks from Frappe.
 The above hooks are called before and after installation of the app they are in.
 For example, [ERPNext](/apps/erpnext)'s hooks contains a line,
 
-	after_install = erpnext.setup.install.after_install
+	after_install = "erpnext.setup.install.after_install"
 
 So, the function after\_install is imported and called after ERPNext is installed.
 
@@ -48,14 +48,14 @@ argument, bootinfo which it can modify and return.
 
 Eg,
 
-	boot_session = erpnext.startup.boot.boot_session
+	boot_session = "erpnext.startup.boot.boot_session"
 
 ### Notification configurations
 
 The notification configuration hook is expected to return a Python dictionary.
 
-	{ "for_doctype": 
-		{
+	{ 
+		"for_doctype": {
 			"Support Ticket": {"status":"Open"},
 			"Customer Issue": {"status":"Open"},
 		},
@@ -93,8 +93,8 @@ There are two types of assets, app and web. The app assets are loaded in the
 
 Eg,
 
-	app_include_js = assets/js/erpnext.min.js
-	web_include_js = assets/js/erpnext-web.min.js
+	app_include_js = "assets/js/erpnext.min.js"
+	web_include_js = "assets/js/erpnext-web.min.js"
 
 Note: to create an asset bundle (eg, assets/js/erpnext.min.js) the target file
 should be in build.json of your app.
@@ -110,7 +110,7 @@ without any arguments. Example of output of this function is below.
 		"columns": ["name"],
 		"conditions": ["docstatus < 2"],
 		"order_by": "name"
-	},
+	}
 
 Here, for a report with Warehouse doctype, would include only those records that
 are not cancelled (docstatus < 2) and will be ordered by name.
@@ -151,16 +151,66 @@ website related pages.
 
 #### Permissions
 
+#### Query Permissions
+You can customize how permissions are resolved for a DocType by hooking custom
+permission match conditions using the `permission_query_conditions` hook. This
+match condition is expected to be fragment for a where clause in an sql query.
+Structure for this hook is as follows.
+
+
+	permission_query_conditions = {
+		"{doctype}": "{dotted.path.to.function}",
+	}
+
+The output of the function should be a string with a match condition.
+Example of such a function,
+
+
+	def get_permission_query_conditions():
+		return "(tabevent.event_type='public' or tabevent.owner='{user}'".format(user=frappe.session.user)
+
+The above function returns a fragment that permits an event to listed if it's
+public or owned by the current user.
+
+#### Document permissions
+You can hook to `doc.has_permission` for any DocType and add special permission
+checking logic using the `has_permission` hook. Structure for this hook is,
+
+	has_permission = {
+		"{doctype}": "{dotted.path.to.function}",
+	}
+
+The function will be passed the concerned document as an argument. It should
+True or a falsy value after running the required logic. 
+
+For Example,
+
+	def has_permission(doc):
+		if doc.event_type=="Public" or doc.owner==frappe.session.user:
+			return True
+
+The above function permits an event if it's public or owned by the current user.
+
 #### CRUD Events
 
-You can hook to various CRUD events of any doctype, the syntax for such a hook is as follows,
+You can hook to various CRUD events of any doctype, the syntax for such a hook
+is as follows,
 
-	doc_event:{doctype}:{event} = dotted.path.to.function
+	doc_events = {
+		"{doctype}": {
+			"{event}": "{dotted.path.to.function}",
+		}
+	}
 
 To hook to events of all doctypes, you can use the follwing syntax also,
 
-	doc_event:*:{event} = {dotted.path.to.function}
+	 doc_events = {
+	 	"*": {
+	 		"on_update": "{dotted.path.to.function}",
+		}
+	 }
 
+The hook function will be passed the doc in concern as the only argument.
 
 ##### List of events
 
@@ -180,13 +230,21 @@ To hook to events of all doctypes, you can use the follwing syntax also,
 
 Eg, 
 
-	doc_event:Cab Request:after_insert = topcab.schedule_cab
+	doc_events = {
+		"Cab Request": {
+			"after_insert": topcab.schedule_cab",
+		}
+	}
 
 ### Scheduler Hooks
 
-Scheduler hooks are methods that are run periodically in background. Syntax for such a hook is,
+Scheduler hooks are methods that are run periodically in background. Structure for such a hook is,
 
-	scheduler_event:{event} = {dotted.path.to.function}
+	scheduler_events = {
+		"{event_name}": [
+			"{dotted.path.to.function}"
+		],
+	}
 
 #### Events
 
@@ -205,5 +263,11 @@ jobs. The `all` event is triggered everytime (as per the celerybeat interval).
 
 Example,
 
-	scheduler_event:daily = erpnext.accounts.doctype.sales_invoice.sales_invoice.manage_recurring_invoices
-	scheduler_event:daily_long = erpnext.setup.doctype.backup_manager.backup_manager.take_backups_daily
+	scheduler_events = {
+		"{daily}": [
+			"erpnext.accounts.doctype.sales_invoice.sales_invoice.manage_recurring_invoices"
+		],
+		"{daily_long}": [
+			"erpnext.setup.doctype.backup_manager.backup_manager.take_backups_daily"
+		],
+	}
