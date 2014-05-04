@@ -1,12 +1,12 @@
 # Union Global Marketing, Philippines
 
-Union global is one of our first customer who introduced the bounty system. They pledged to pay $ 50 to any developer who would develop the ERPNext feature they required. Union Global is also one of the first few customers who developed their website using ERPNext's Website Module.
+Union global is one of our first customer who introduced the bounty system. They are also one of the first few customers who developed their website using ERPNext's Website Module.
 
 Union Global Marketing Corp - Phillipines, is in the business of electronics and consumer appliances since last 50 years. Laurence Cua, their Executive Vice President, contributes actively to the community. We have captured some of his responses on business practices and ERPNext to add to our repository of customer stories.
 
 His interview excerpts are given below in question and answer form:
 
-<img src="/assets/frappe_io/images/erpnext/laurence.jpg" class="img-responsive" style="max-width: 300px;">
+<img src="/assets/frappe_io/images/stories/laurence.jpg" class="img-responsive" style="max-width: 300px;">
 
 #### From the day you joined to the current day, what has changed in the company?
 

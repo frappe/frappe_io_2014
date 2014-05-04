@@ -56,7 +56,7 @@ adopt ERPNext. Initially there was a lot of resistance to implementation from
 old Microsoft users. However, they migrated after they saw the simple and easy
 to run application.
 
-![](http://frappe.io/files/hisham_farid.jpg)
+![](assets/frappe_io/images/stories/hisham_farid.jpg)
 
 > Initially, the manufacturing department too was reluctant to adapt to a new
 software. Their Quality Team had a special quality check form that needed to

@@ -5,18 +5,18 @@ There are many ways to get started with ERPNext.
 If you want to check out the user interface and **feel** the application, just
 see the demo at:
 
-  * <https://demo.erpnext.com>
+  * <https://demo.frappecloud.com>
 
 ### 2\. Get a Free 30 day Trial at ERPNext.com
 
 If you like the feel and want to set it up for your own company, you can take
-a 30 day free trial (no credit card details required) at ERPNext.com
+a 30 day free trial (no credit card details required) at FrappeCloud.com
 
-ERPNext.com is managed by the organization (Web Notes) that publishes ERPNext.
+FrappeCloud.com is managed by the organization (Web Notes) that publishes ERPNext.
 You can do a trial run with your own account by [signing up on the
-website](https://erpnext.com/pricing-and-signup).
+website](https://frappecloud.com).
 
-You can also decide to host your application at ERPNext.com by buying the
+You can also decide to host your application at FrappeCloud.com by buying the
 hosting plans. This way you support the organization that develops and
 improves ERPNext. You also get one-to-one functional (usage) support with the
 hosting plans.
@@ -32,15 +32,5 @@ Image](https://github.com/frappe/frappe-bench/blob/master/Readme.md)
 
 ### 4\. Install ERPNext on your Unix/Linux/Mac machine
 
-ERPNext is reasonably easy to install on a Unix like operating system and
-requires:
-
-  1. MySQL database
-  2. Apache Web Server
-  3. Python
-  4. Memcached
-
-to be installed.
-
-[More instructions on this page](how-to-install-erpnext).
+If you are familiar to installing applications on *nix platforms, read the instructions on how to install using [Frappe Bench](https://github.com/frappe/frappe-bench).
 

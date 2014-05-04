@@ -16,10 +16,9 @@
 
 {% block content %}
 <div class="row" style="margin-bottom: 15px;">
-	<div class="col-md-6">
+	<div class="col-md-12">
 		<h3 style="margin: 0px"><img src="{{ doc.icon }}" class="app-icon"> {{ doc.headline or "" }}</h3>
-	</div>
-	<div class="col-md-6">
+		<br>
 		<div class="pull-right">
 			{% if doc.source_link -%}
 				<a href="{{ doc.source_link }}" target="_blank" class="btn btn-success">

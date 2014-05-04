@@ -2,7 +2,7 @@
 
 Cloud computing brings great benefits such as affordability, scalability and manageability for businesses, especially for small and medium enterprises (SMEs). That's one truism Mumbai-based Neural Integrated Systems had in mind while choosing ERPNext.
 
-![Neural Integrated Systems](/assets/frappe_io/images/erpnext/tarun-gupta-neural.jpg)
+![Neural Integrated Systems](/assets/frappe_io/images/stories/tarun-gupta-neural.jpg)
 
 Started in 2003, Neural is into the business of providing various customised electronic security and automation systems. The company imports, designs and integrates security solutions such as access control systems, CCTVs, various alarms, RFIDs, biometric solutions, etc. In the initial days of the business, Neural was using Tally solutions to run all its business processes. However, as the business started growing, it became a herculean task for the company to manage and control the business sans an ERP solution.
 

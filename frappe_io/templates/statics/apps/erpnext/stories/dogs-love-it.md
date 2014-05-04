@@ -12,7 +12,7 @@ At a very early stage of the startup, Dr. Robert realised that they need to reco
 
 The key feature they were looking for in their ERP was that the system should not be location specific. They needed  a system that would work on internet and avoid all the issues that come with a location specific ERP. They found many solutions in the Dutch market. However, a quick calculation revealed that the cost of ERPs available in their market was not justifiable in comparison to the revenue and profits of Dogs Love It. Thus, began their google journey to identify a cost-effective ERP. They evaluated a couple of ERPs and finally took a decision to buy ERPNext. Dr. Becht, says that he has never regretted this decision. He says “ERPNext is very user and service oriented”.
 
-![Dr. Robert Becht](/assets/frappe_io/images/erpnext/becht.jpg)
+![Dr. Robert Becht](/assets/frappe_io/images/stories/becht.jpg)
 
 Dr. Robert Becht of ‘Dogs Love it’ is our ardent user and keeps us on our toes. He often gives good feedback on our processes and documentation. His relentless eye on us, keeps us focussed on user issues. He was instrumental in selecting ERPNext for his company. On his recommendation, Water Resource Management Authority - Kenya is now using ERPNext for their transactions.
 
