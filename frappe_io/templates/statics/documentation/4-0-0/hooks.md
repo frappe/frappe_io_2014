@@ -1,4 +1,5 @@
 # Hooks
+<!-- TODO: Add tables for quick reference -->
 
 Hooks are the duct tape of the Frappe system. Hooks allow you to "hook" in to
 functionality and events of other parts of the Frappe system. Following are the
@@ -79,7 +80,7 @@ The above configuration has three parts,
 3. `for_module` maps modules to functions to obtain its unread count. The
    functions are called without any argument.
 
-#### Javascript / CSS Assets
+### Javascript / CSS Assets
 
 The following hooks allow you to bundle built assets to your app for serving.
 There are two types of assets, app and web. The app assets are loaded in the
@@ -97,3 +98,112 @@ Eg,
 
 Note: to create an asset bundle (eg, assets/js/erpnext.min.js) the target file
 should be in build.json of your app.
+
+### Configuring Reports
+
+In the report view, you can force filters as per doctype using `dump_report_map`
+hook. The hook should be a dotted path to a Python function which will be called
+without any arguments. Example of output of this function is below.
+
+
+	"Warehouse": {
+		"columns": ["name"],
+		"conditions": ["docstatus < 2"],
+		"order_by": "name"
+	},
+
+Here, for a report with Warehouse doctype, would include only those records that
+are not cancelled (docstatus < 2) and will be ordered by name.
+
+### Modifying Website Context
+
+Context used in website pages can be modified by adding
+a `update_website_context` hook. This hook should be a dotted path to a function
+which will be called with a context (dictionary) argument.
+
+### Customizing Email footer
+
+By default, for every email, a footer with content, "Sent via Frappe" is sent.
+You can customize this globally by adding a `mail_footer` hook. The hook should
+be a dotted path to a variable.
+
+### Session Creation Hook
+
+You can attach custom logic to the event of a successful logic using
+`on_session_creation` hook. The hook should be a dotted path to a Python
+function that takes login\_manager as an argument.
+
+Eg,
+
+	def on_session_creation(login_manager):
+		"""make feed"""
+		if frappe.session['user'] != 'Guest':
+			# log to timesheet
+			pass
+
+### Website Clear Cache
+
+If you cache values in your views, the `website_clear_cache` allows you to hook
+methods that invalidate your caches when Frappe tries to clear cache for all
+website related pages.
+
+### Document hooks
+
+#### Permissions
+
+#### CRUD Events
+
+You can hook to various CRUD events of any doctype, the syntax for such a hook is as follows,
+
+	doc_event:{doctype}:{event} = dotted.path.to.function
+
+To hook to events of all doctypes, you can use the follwing syntax also,
+
+	doc_event:*:{event} = {dotted.path.to.function}
+
+
+##### List of events
+
+* `validate`
+* `before_save`
+* `before_insert`
+* `after_insert`
+* `validate`
+* `before_submit`
+* `before_cancel`
+* `before_update_after_submit`
+* `on_update`
+* `on_submit`
+* `on_cancel`
+* `on_update_after_submit`
+
+
+Eg, 
+
+	doc_event:Cab Request:after_insert = topcab.schedule_cab
+
+### Scheduler Hooks
+
+Scheduler hooks are methods that are run periodically in background. Syntax for such a hook is,
+
+	scheduler_event:{event} = {dotted.path.to.function}
+
+#### Events
+
+* `daily`
+* `daily_long`
+* `weekly`
+* `weekly_long`
+* `monthly`
+* `monthly_long`
+* `hourly`
+* `all`
+
+The scheduler events require celery, celerybeat and redis (or a supported and
+configured broker) to be running. The events with suffix '\_long' are for long
+jobs. The `all` event is triggered everytime (as per the celerybeat interval).
+
+Example,
+
+	scheduler_event:daily = erpnext.accounts.doctype.sales_invoice.sales_invoice.manage_recurring_invoices
+	scheduler_event:daily_long = erpnext.setup.doctype.backup_manager.backup_manager.take_backups_daily
