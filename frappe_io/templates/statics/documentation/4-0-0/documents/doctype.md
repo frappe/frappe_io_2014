@@ -46,19 +46,50 @@ a parent-child relationship using the
 ### Standard Fields
 
 Apart from the fields you add to its DocType, a Documents has the following standard fields,
+<dl class="dl-horizontal">
+	<dt>Name</dt>
+	<dd> Name of the record.</dd>
 
-||**Field**    || **Description**                                           ||
-||Name         || Name of the record.                                       ||
-||Owner        || Creator + owner of the record.                            ||
-||Created On   || Date / time of creation.                                  ||
-||Modified On  || Date / time of modification.                              ||
-||Doc Status   || Status of the record.                                     ||
-||             || 0 - Saved / Draft                                         ||
-||             || 1 - Submitted                                             ||
-||             || 2 - Cancelled / Deleted.                                  ||
-||Parent       || Name of the parent (in case if child).                    ||
-||Parent Type  || Type of parent                                            ||
-||Parent Field || The field name specifying the relationship with the parent||
-||             || (there can be multiple child relationships with the same  ||
-||             || DocType).                                                 ||
-||Index (idx)  || Index (sequence) of the record in the child table.        ||
+	<dt>Owner</dt>
+	<dd> Creator + owner of the record.</dd>
+
+	<dt>Created On</dt>
+	<dd> Date / time of creation.</dd>
+
+	<dt>Modified On</dt>
+	<dd> Date / time of modification.</dd>
+
+	<dt>Doc Status</dt>
+	<dd> Status of the record.</dd>
+
+	<dt></dt>
+	<dd> 0 - Saved / Draft</dd>
+
+	<dt></dt>
+	<dd> 1 - Submitted</dd>
+
+	<dt></dt>
+	<dd> 2 - Cancelled / Deleted.</dd>
+
+	<dt>Parent</dt>
+	<dd> Name of the parent (in case if child).</dd>
+
+	<dt>Parent Type</dt>
+	<dd> Type of parent</dd>
+
+	<dt>Parent Field</dt>
+	<dd> The field name specifying the relationship with the parent (there can
+	be multiple child relationships with the same DocType).</dd>
+
+	<dt>Index (idx)</dt>
+	<dd> Index (sequence) of the record in the child table.</dd>
+</dl>
+
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in 
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+
