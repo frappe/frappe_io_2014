@@ -1,7 +1,7 @@
 introduction
 setting-up
 accounts
-stock-inventory
+stock
 selling
 buying
 manufacturing

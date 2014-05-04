@@ -5,17 +5,17 @@ ERPNext is used by a few hundred companies in manufacturing, distribution, retai
 #### Manufacturing
 
 ERPNext will help you manage multi-level Bill of Materials, create Production Plans and help you estimate material requirement by Material Resource Planning (MRP). Along with the standard Accounting, Sales, Purchase, HR Management and Projects, ERPNext has many more features that will help you manage your organization smoothly.<br>
-[Learn More](industries/manufacturing)
+[Learn More](apps/erpnext/industries/manufacturing)
 
 #### Distribution
 
 ERPNext is a favorite with distributors with its comprehensive inventory management system that includes Serialized and Batched inventory. Along with Sales and Purchase management, manage multiple pricelists across multiple currencies.<br>
-[Learn More](industries/distribution)
+[Learn More](apps/erpnext/industries/distribution)
 
 #### Retail
 
 ERPNext has a built in Point-of-Sale Retail system that will help you manage single or multiple stores across with web. With strong accounting, inventory and CRM features to keep you on top of your data, ERPNext is ideal for small and medium retailers or single person shops.<br>
-[Learn More](industries/retail)
+[Learn More](apps/erpnext/industries/retail)
 
 #### Service Providers
 
