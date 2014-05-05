@@ -56,7 +56,7 @@ We think that the future belongs to Open Source. We have built ERPNext on Open S
 	</div>
 	<div class="media-body">
 		<h4 class="media-heading">Rushabh Mehta</h4>
-		Rushabh is the founder and the chief architect of the ERPNext product. An entrepreneur by fate, it totally bugs him when people ask him, "How's business?". Some years ago, he went to graduate school at the Penn State University to study Industrial Engineering, which he thinks is a big fraud (at least a a part of it). He likes to believe that he is an independent thinker but most people think he is an iconoclast (though his wife thinks that he blindly believes whatever is written at nytimes.com). He loves reading books and HackerNews and these days his favorite author is Jhumpa Lahiri.
+		Rushabh is the founder and the chief architect of the ERPNext product. An entrepreneur by fate, it totally bugs him when people ask him, "How's business?". Some years ago, he went to graduate school at the Penn State University to study Industrial Engineering, which he thinks is a big fraud (at least a a part of it). He likes to believe that he is an independent thinker but most people think he is an iconoclast (though his wife thinks that he blindly believes whatever is written at nytimes.com).
 		<br><a href="http://twitter.com/rushabh_mehta"><i class="icon-twitter"></i> Follow Rushabh on Twitter</a>
 	</div>
 </div>
