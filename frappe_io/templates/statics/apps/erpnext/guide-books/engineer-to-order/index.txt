@@ -1,4 +1,4 @@
-client-meeting
+overview
 set-up
 bill-of-material
 proposal-phase
@@ -7,4 +7,5 @@ advance-payment-entry
 production-planning-tool
 material-request
 stock-entry
+customer-billing
 gross-profit-report

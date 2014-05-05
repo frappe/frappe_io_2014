@@ -1,18 +1,28 @@
 # Engineer To Order
 
-For this study, a furniture making company is featured. With the help of a example, the whole process of making a sales order to manufacturing the product along with billing the customer, is explained in detail.
+<p class="lead">This guide explains how a manufacturing unit would run its operations based on an engineer-to-order type of workflow.</p>
 
-### Introduction
+In engineer to order companies, a deal goes through multiple stages of discussions going back and forth. At each stage, new proposals are made and new costing for the product is prepared. 
 
-**Engineer-to-order:** Engineer-to-order manufacturing is a strategy where the product is designed and manufactured based on very specific customer requirements. Since the end product tends to be complex, customers may engage with the ETO company throughout the entire design and manufacturing phases, to ensure that their specifications are met. This strategy is used by construction, fabrication industry, furniture industry etc.
+### Supreme Furniture
 
-Since most specifications like design, requirements, engineering changes etc are often tossed back and forth several times between the company and the customer, either party can become confused if the exchange of product information is poorly managed. Managing and identifying parts for production is an important step.
+For this study, a furniture making company, Supreme Furniture, is used as a case-example.
 
-Engineered-to-order products are often built from difficult to source parts, expensive parts and highly engineered components. Thus, acquiring the necessary product components can be a time consuming and costly endeavor, causing issues before and during production runs.
+![Furniture Picture](/assets/frappe_io/images/erpnext/e-t-o-furniture.jpg)
 
-#### Case Example
+ Supreme Furniture deals in all-types of furniture. They have a small showroom, where they keep some samples. However, they produce only after a Customer confirms the order and gives their specifications clearly.
 
-Supreme Furniture is a small furniture making company that deals in all-types of furniture. They have a small showroom, where they keep some samples. However, they produce only after a customer confirms the order and gives their specifications clearly.
+> Note: Production Orders are issued based on customised order obtained after multiple iterations and may change even after production begins.
 
-Supreme Furniture receives a client who is keen on making a multipurpose bed for her daughter. She wishes for a bed that would have lot of storage units, has no sharp edges, and has provision for drawers. She also wishes that the bed would have an attached wardrobe to it.
+To explain the production cycle we will consider an example of a custom-made bed cum wardrobe for a child. Please read the Overview section to get a glimpse of all the steps required to complete an engineer-to-order cycle.
 
+
+Next: [Overview](/apps/erpnext/guide-books/engineer-to-order/overview)
+
+---
+
+Reference
+
+This book contains an image from Flickr.com.
+
+1. _[Flickr: Furniture Image](https://www.flickr.com/photos/mazzali/2658587012)_

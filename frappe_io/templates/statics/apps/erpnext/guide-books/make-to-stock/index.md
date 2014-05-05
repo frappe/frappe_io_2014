@@ -1,56 +1,25 @@
-# Make to Stock
+# Make To Stock
 
-This guide explains how a manufacturing unit will run their operations in ERPNext. It will explain a complete business cycle based on make-to-stock type of manufacturing. For this study, a jute artefact company, Shades of Green, is used as a case-example.
+<p class="lead">This guide explains how a manufacturing unit would run its operations based on a make-to-stock type of workflow.</p>
 
-![Coverpage](/assets/frappe_io/images/erpnext/m-t-s-coverpage-bags.jpg)
+Make-to-stock manufacturing is a system based on keeping Stocks ready for Customers in order to provide instant availability to Customers. Products like FMCG goods and electronics are made and stocked. Here, the production cycle is completed before the Sales Orders are made.
 
-Images: This book contains images from flickr-creative commons license. We are grateful to Shades of Green for sharing their product pictures and allowing us to use their case-example.
+### Shades of Green
 
-### Introduction
+For this study, a jute artefact company, Shades of Green, is used as a case-example.
 
-With the help of a business example, the whole process of manufacturing, storing, buying and selling in ERPNext is documented in detail. This study is specifically featured for make-to-stock type of company.
+![Coverpage](/assets/frappe_io/images/erpnext/butterfly-print.jpg)
 
-> Make-to-stock manufacturing is a system based on keeping stocks ready for customers in order to provide instant availability to customers. Products like FMCG goods and electronics are made and stocked. Here, the production cycle is completed before the sales orders are made.
 
-This strategy is used by businesses to match production with consumer demand forecasts. The make-to-stock (MTS) method forecasts demand, to determine how much stock should be produced.
+Shades of Green is an eco-friendly company that manufactures and trades in  jute gift Items. It manufactures Items based on make-to-stock type of manufacturing.
 
-The main drawback to the make-to-stock (MTS) method is that it relies heavily on the accuracy of demand forecasts. Inaccurate forecasts will lead to losses stemming from excessive inventory or stockouts.
+Shades of Green has retail outlets and they also produce based on orders. For their retail outlets and distribution networks, they manufacture in advance. These bags are sold at exhibitions similar to over-the-counter products. The jute bags are stored in the company Warehouse and sent from time-to-time to the distributors and retailers. 
 
-### Make to Stock v/s Make to Order
 
-Differences between the two manufacturing methods, make-to-stock and make-to-order are given below:
+This guide gives a step-by-step account of the production process run through ERPNext. Let us take an example of producing a jute bag named 'Butterfly Print'.
 
-<table class="table table-bordered">
-	<thead>
-		<tr>
-			<th width="50%">Make to Stock</th>
-			<th width="50%">Make to Order</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Make-to-stock manufacturing is a system based on keeping stocks ready for customers in order to provide instant availability to customers.</td>
-			<td>Make-To-Order  is a system in which manufacturing begins only after a customer's order is received.</td>
-		</tr>
-		<tr>
-			<td>Production orders depend on statistical data and forecasting results.</td>
-			<td>Production orders depends on number of sales orders and quantity requested by customers.</td>
-		</tr>
-		<tr>
-			<td>Production is not linked to Sales Orders.</td>
-			<td>Production is linked to Sales Orders.</td>
-		</tr>
-		<tr>
-			<td>Cost of Inventory is high.</td>
-			<td>Cost of Inventory is low.</td>
-		</tr>
-		<tr>
-			<td>Production can be planned evenly over a given period.</td>
-			<td>Production is based on customer orders and thus cannot be pre-planned.</td>
-		</tr>
-		<tr>
-			<td>Doesn’t reduce the risk of inefficiency and wastage.</td>
-			<td>Reduces risk of inefficiency and wastage.</td>
-		</tr>
-	</tbody>
-</table>
+Next: [Overview](/apps/erpnext/guide-books/make-to-stock/overview)
+
+---
+
+_Images: This book contains images from Shades of Green. We are grateful to them for sharing their product pictures and allowing us to use their case-example._

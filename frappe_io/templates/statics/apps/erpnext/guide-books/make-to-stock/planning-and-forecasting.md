@@ -1,11 +1,12 @@
 # Planning and Forecasting
 
-### Forecasting
-
-![Forecasting](/assets/frappe_io/images/erpnext/m-t-s-forecasting-office-image.jpg)
+<p class="lead">In order to create Items to stock, planning and forecasting is an important step. Forecasting is based on the past data and current business plans.</p>
 
 Shades of Green attends 10 exhibitions per year. For the past 6 months they have been selling approximately 80-100 bags per exhibition. Based on past data they need minimum 100 bags per month to sell at exhibitions. 
 
-Since they have established their brand, they are planning to sell aggressively at retail stores too. Thus, they have decided to produce 150 bags per month. Considering the quantity of bags required as 150, lets proceed with the production process.
+Since they have established their brand, they are planning to sell aggressively at retail stores and to the newly established distributors. Thus, they have decided to produce 150 bags per month, since the monthly Stocks keep increasing in the Warehouses if not sold.
 
-> Note: Create Production Orders and Material Requests from Production Planning Tool
+Create Material Requests and Production Order using the Production Planning Tool.
+
+
+Next: [Production Planning Tool](/apps/erpnext/guide-books/make-to-stock/production-planning-tool)

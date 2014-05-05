@@ -1,7 +1,10 @@
+overview
 setting-up
 bill-of-materials
+price-list
 sales-order
 production-planning-tool
-stock-balance-report
-billing
-gross-profit-report
+purchase-order
+manufacturing
+shipping-and-billing
+reports
