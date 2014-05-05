@@ -48,3 +48,6 @@ Note: Server refers to a root server or managed server or virtual server. Hostin
 - Server should have a static IP.
 - If you choose a commercial linux distribution like RedHat, you will have to buy relevant subscription to installation repositories.
 - Port 80 and 8080 should not be blocked by a firewall (by operating system and router).
+
+<br>
+<p><a class="btn btn-success" href="/contact">Intersted? Get in Touch</a></p>

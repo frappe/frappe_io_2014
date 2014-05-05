@@ -7,7 +7,7 @@ see the demo at:
 
   * <https://demo.frappecloud.com>
 
-### 2\. Get a Free 30 day Trial at ERPNext.com
+### 2\. Get a Free 30 day Trial at FrappeCloud.com
 
 If you like the feel and want to set it up for your own company, you can take
 a 30 day free trial (no credit card details required) at FrappeCloud.com

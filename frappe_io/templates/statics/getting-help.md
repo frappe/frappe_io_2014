@@ -30,4 +30,4 @@ offers:
   2. Priority bug fixing
   3. Remote setup and installation on your linux server.
   4. Help in setting up backups and restoring.
-  * [ERPNext Commercial Support](http://erpnext.com/open-source-commercial-support)
+  * [ERPNext Commercial Support](http://frappe.io/buy/commercial-support)

@@ -4,6 +4,19 @@
 
 <hr>
 <div class="media frappe-coverage">
+	<a class="pull-left" href="http://www.crn.in/news/software/2014/04/02/web-notes-technologies-counts-on-low-cost-erp" target="_blank">
+		<img class="media-object" src="/assets/frappe_io/images/frappe/crn-logo.gif">
+	</a>
+	<div class="media-body">
+		<a href="http://www.crn.in/news/software/2014/04/02/web-notes-technologies-counts-on-low-cost-erp" target="_blank">
+			<h4 class="media-heading">CRN</h4></a>
+		<p class="text-muted">April 2014</p>
+		<p>The Mumbai-based solutions provider is offering its ERPNext built on open source platform at as low as $6 per user per year for a company having 100 user.</p>
+		<p><a href="http://www.crn.in/news/software/2014/04/02/web-notes-technologies-counts-on-low-cost-erp" target="_blank">Read more.</a></p>
+	</div>
+</div>
+<hr>
+<div class="media frappe-coverage">
 	<a class="pull-left" href="http://yourstory.com/2013/11/erpnext-open-source-erp/" target="_blank">
 		<img class="media-object" src="/assets/frappe_io/images/frappe/your-story.png">
 	</a>

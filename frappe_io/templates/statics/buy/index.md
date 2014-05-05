@@ -37,7 +37,7 @@
 	<div class="col-md-7">
 		<h4 style="margin-top:0px">Buy One User Hosting</h4>
 		<p>For $99 you can buy one user hosting for a year at frappecloud.com and get one-on-one chat support private email support.</p>
-		<p><a href="https://erpnext.com/pricing-and-signup">Signup for a Free 30 day Trial</a></p>
+		<p><a href="https://frappecloud.com">Signup for a Free 30 day Trial</a></p>
 	</div>
 </div>
 
@@ -50,7 +50,7 @@
 	<div class="col-md-7">
 		<h4 style="margin-top:0px">Buy One Year Hosting for Your Small Business</h4>
 		<p>For $299 you can buy hosting for a year at frappecloud.com for <b>five users</b> and get one-on-one chat support and private email support.</p>
-		<p><a href="https://erpnext.com/pricing-and-signup">Signup for a Free 30 day Trial</a></p>
+		<p><a href="https://frappecloud.com">Signup for a Free 30 day Trial</a></p>
 	</div>
 </div>
 
@@ -63,7 +63,7 @@
 	<div class="col-md-7">
 		<h4 style="margin-top:0px">Buy One Year Hosting for Your Enterprise</h4>
 		<p>For $599 you can buy hosting for a year at frappecloud.com for <b>unlimited users</b> and get one-on-one chat support and private email support.</p>
-		<p><a href="https://erpnext.com/pricing-and-signup">Signup for a Free 30 day Trial</a></p>
+		<p><a href="https://frappecloud.com">Signup for a Free 30 day Trial</a></p>
 	</div>
 </div>
 

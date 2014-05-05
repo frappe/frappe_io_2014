@@ -25,6 +25,3 @@ HTML / CSS or hire the services of a professional. The good part is that once
 this is setup, you can add and edit content, blogs and products directly from
 your ERP.
 
-> The ERPNext website (www.erpnext.com) is generated from the Website Module!
-In the world of startups, it's called eating-your-own-dog-food!
-
