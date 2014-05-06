@@ -12,3 +12,4 @@ projected-quantity
 accounting-of-inventory-stock
 perpetual-inventory
 item-valuation-fifo-and-moving-average
+opening-stock

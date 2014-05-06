@@ -7,17 +7,16 @@ place for my organisation”.
 
 ![](assets/frappe_io/images/stories/aditya-duggal.png)
 
-Aditya joined his father's company in 2006, after working for 2 years in
-Maruti. Rohit Industries Group Pvt Ltd, is a manufacturing company that
-develops cutting tools. They have developed more than 80,000 different sizes &
-shapes of HSS & Solid Carbide Cutting Tools. When Aditya joined his company,
-he saw that all the work was being done on paper. The whole business was
-handheld by his father. If somebody ordered something, it was written on a
-piece of paper and that paper would be passed from one hand to the other, till
-the product was delivered. It would take at least 2-3 days to find out a list
-of all pending orders.
+#### Company and Products
 
-![](assets/frappe_io/images/stories/rigpl-products.png)
+Rohit Industries Group Pvt Ltd, is a manufacturing company that develops cutting tools. They have developed more than 80,000 different sizes &
+shapes of HSS & Solid Carbide Cutting Tools. 
+
+#### The Challenge
+
+When Aditya joined his company, he saw that all the work was being done on paper. The whole business was handheld by his father. If somebody ordered something, it was written on a piece of paper and that paper would be passed from one hand to the other, till the product was delivered. It would take at least 2-3 days to find out a list of all pending orders.
+
+#### The Solution
 
 Being an organised person, he decided to put the business in order by getting
 a very good ERP. He shortlisted SAP for his business. However, he realised
@@ -27,8 +26,10 @@ for a perfect ERP which could be customised to his business, he made other
 changes. The first thing he started was to establish a culture of
 systematising order data. He also enumerated the importance of making stock
 entry. It was a change for him and for the people who worked with him. There
-were lots of fights. It was a culture shock for people to work in an organised
+were lot of fights. It was a culture shock for people to work in an organised
 manner.
+
+#### Discovering ERPNext
 
 While making changes in his organisation, he was also looking for applications
 to run his business. He gathered that there was no standard application that
@@ -43,8 +44,7 @@ give-up, he came across ERPNext. He liked ERPNext and the entry-level pricing
 that allowed him to try it. Once he saw the benefits of ERPNext and it’s
 ability to customise, he replaced Tally and Quickbooks with ERPNext.
 
-As per Aditya the basic features of ERPNext which are out of the ordinary are
-:
+#### Best Features of ERPNext as per Aditya
 
   * ERPNext has low entry cost.
   * Is web-based, so no need of installing computer software at client location.
@@ -64,12 +64,11 @@ many software vendors who are good at coding but not so good at understanding
 the needs of the customers with regards to manufacturing. With ERPNext, he has
 found a fusion of both.
 
-![](assets/frappe_io/images/stories/rigpl-logo.png)
-
 Aditya played a major role in transforming Rohit Industries, from a 400000
 dollars company to 3 million dollars professionally managed organisation. His
 journey is continuous and he is constantly striving to channel his company
 towards unprecedented success.
 
-[RIGPL Website](http://www.rigpl.com)
+![](assets/frappe_io/images/stories/rigpl-logo.png)
 
+[RIGPL Website](http://www.rigpl.com)

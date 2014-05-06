@@ -1,13 +1,11 @@
 # Fritzing, Germany
 
 We witnessed in the last few years a new wave of innovation in hardware and
-electronics made possible by adopting the culture of open source. People
-around the world started making electronics projects, sharing and
-collaborating on them, bringing to life some very exciting projects.
+electronics by adopting the culture of Open Source. People around the world started making electronics, sharing and collaborating on them, bringing to life some very exciting projects.
 
-![](assets/frappe_io/images/stories/fritzing-logo.png)
+#### Company and Products
 
-With the rise of this movement, the need for adequate tools was obvious, then
+With the rise of this movement, the need for adequate tools was obvious, thus
 Fritzing was born. Fritzing is an open-source hardware initiative to support
 designers, artists, researchers and hobbyists to work creatively with
 interactive electronics. They opened the doors to information and technologies
@@ -37,6 +35,8 @@ commercially viable. They decided to take a step forward and establish
 Fritzing as a company. They are doing phenomenal work in the realm of
 Electronic Design Automation.
 
+#### Best Practice: Documentation
+
 Fritzing is teaching electronics to people without an engineering background.
 They have done away with dependence on schematic symbol diagrams which are
 abstract to understand and need knowledge of electronics They have enabled
@@ -53,12 +53,15 @@ spot mistakes, hard to transport, extremely difficult to reproduce
 A compact, robust and industrially reproducible PCB (right), manufactured from
 a Fritzing file (left)
 
+#### Best Practice: New Product Developement
+
 Fritzing enables easy transfer between a hardware sketch and software
 representation. They make it possible to create PCB layouts turn into a robust
-PCB Prototypes which were difficult to “read” and could only be photographed
-can now be read easily .
+PCB Prototypes which were earlier difficult to “read” and could only be photographed. Fritzing has made it easily readable. 
 
 ![](assets/frappe_io/images/stories/fritzing-lab.png)
+
+#### Best Practice: Communication and Collaboration
 
 There are about ten people working part and full time at fritzing, There are
 students, professors, academic researchers, all working together at their own
@@ -74,5 +77,6 @@ entry barrier, and not limiting advancing users in the long run. The notion of
 learning by doing and through the works of others, as opposed to from a
 textbook.
 
-[Fritzing Website](http://fritzing.org/home/)
+![](assets/frappe_io/images/stories/fritzing-logo.png)
 
+[Fritzing Website](http://fritzing.org/home/)

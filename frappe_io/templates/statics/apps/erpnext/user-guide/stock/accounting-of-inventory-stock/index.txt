@@ -1,1 +1,2 @@
 migrate-to-perpetual-inventory
+perpetual-inventory

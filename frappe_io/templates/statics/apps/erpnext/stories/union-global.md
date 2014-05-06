@@ -2,9 +2,11 @@
 
 Union global is one of our first customer who introduced the bounty system. They are also one of the first few customers who developed their website using ERPNext's Website Module.
 
+#### Company and Products
+
 Union Global Marketing Corp - Phillipines, is in the business of electronics and consumer appliances since last 50 years. Laurence Cua, their Executive Vice President, contributes actively to the community. We have captured some of his responses on business practices and ERPNext to add to our repository of customer stories.
 
-His interview excerpts are given below in question and answer form:
+His interview excerpts are given below in question and answer form.
 
 <img src="/assets/frappe_io/images/stories/laurence.jpg" class="img-responsive" style="max-width: 300px;">
 
@@ -35,3 +37,4 @@ __Inter-department communication:__ Using ERPNext and other communication tools 
 #### Does ERPNext make any difference to the way you do business?
 ERPNext has contributed greatly to a culture of transparency so we can focus on delivering value and solving business problems. Instead of spending scarce time and resources on questions like "what happened?" and "where do we find the details?" - which ERPNext helps greatly in, we can focus on "how do we solve this?" and delight our customers.
 
+[Union Global Website](http://www.union.ph/)

@@ -4,14 +4,13 @@ In portuguese, Móveis means furniture. If you don't pay attention to the
 spelling, you are very likely to confuse it with Movies-Hollywood. Grupo
 Realize de Móveis is a furniture company based in São Paulo, Brazil.
 
-![](http://frappe.io/files/realize_logo.png)
+#### Company and Products
 
-Grupo Realize started with 1 furniture store and 10 employees and now has
-grown to include 11 stores and 200 employees. It is interesting to note how
-they managed to make a monthly turnover of USD 1 million.
+Grupo Realize is a furniture company that started with 1 furniture store and 10 employees . Mr Antonio Carlos Pavan and Mr Armando Pavan Filho started this company in 2008. It has grown to include 11 stores and 200 employees. It is interesting to note how they managed to make a monthly turnover of USD 1 million.
 
-Mr Antonio Carlos Pavan and Mr Armando Pavan Filho started this company in
-2008. At that time, the furniture market was a highly fragmented business. The
+#### The Challenge
+
+In 2008, the furniture market was a highly fragmented business. The
 supply-chain network was unpredictable. In such a scenario these businesses
 were not able to stick to their committed delivery dates. Such delays were the
 biggest generators of complaints, both official and unofficial. The official
@@ -27,18 +26,18 @@ customers.
 
 ![](http://frappe.io/files/grupo_kitchen.png)
 
-How can such a scheme be viable?
-
 The process of how they meet their promises without going bankrupt is worth
 noting. As a first step to ensure predictability, they make service level
 agreements with their suppliers and carriers to comply with their Just-In-Time
 strategy.
 
-They execute an order in three stages:
+#### The Solution
 
-Confirm requirements with the customer. Purchase the raw-materials in time,
-once the requirement is final. Arrange and schedule transportation to deliver
-the product to the customer.
+They execute an order in three stages;
+
+1. Confirm requirements with the customer. 
+1. Purchase the raw-materials in time, once the requirement is final.
+1. Arrange and schedule transportation to deliver the product to the customer.
 
 They have divided teams based on responsibilities:
 
@@ -47,6 +46,8 @@ They have divided teams based on responsibilities:
   3. Conference team ensures the technical specifications of the product.
   4. Assembly team brings together raw materials to make finished goods.
   5. Operations team monitors and supports the above teams.
+
+#### Benchmark: Delivery
 
 In Brazil, the market benchmark to deliver furniture orders is 70 days. Grupo
 Realize de Móveis delivers in 30 days.
@@ -83,6 +84,8 @@ gestão em uma tarefa simples, gratificante e acima de tudo produtiva.
 and with ease, so does ERPNext–by transforming difficulties and disorders of
 day-to-day management into simple tasks, which are rewarding and above all
 productive.
+
+![](http://frappe.io/files/realize_logo.png)
 
 [Grupo Realize de Website Móveis](http://www.gruporealizemoveis.com.br/)
 
