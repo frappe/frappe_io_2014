@@ -7,7 +7,7 @@ Frappe ships with an HTTP API. There are two parts of this API.
 
 ## RPC
 
-A request to an endpoint like `/api/method/{dotted.path.to.function}` will call
+A request to an endpoint `/api/method/{dotted.path.to.function}` will call
 a whitelisted python function. A function can be whitelisted using the
 `frappe.whitelist` decorator.
 
@@ -63,7 +63,7 @@ _Response:_
 To list documents, the URL endpoint is `/api/resource/{doctype}` and the
 expected HTTP verb is GET.
 
-_Response_ is returned as JSON Object and the listing is an array in with the key `data`.
+Response is returned as JSON Object and the listing is an array in with the key `data`.
 
 <span class="label label-success">GET</span> http://frappe.local:8000**/api/resource/Person**
 
