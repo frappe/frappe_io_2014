@@ -26,7 +26,7 @@ can be put in this file.
 #### assets
 
 Assets contain files that are required to be served for the browser client.
-These generally include *.js, *.css, *png files. This directory is auto
+These generally include *.js, *.css, *.png files. This directory is auto
 generated using the `frappe --build` command.
 
 #### languages.txt

@@ -84,12 +84,3 @@ Apart from the fields you add to its DocType, a Documents has the following stan
 	<dt>Index (idx)</dt>
 	<dd> Index (sequence) of the record in the child table.</dd>
 </dl>
-
-
-Apple
-:   Pomaceous fruit of plants of the genus Malus in 
-    the family Rosaceae.
-
-Orange
-:   The fruit of an evergreen tree of the genus Citrus.
-
