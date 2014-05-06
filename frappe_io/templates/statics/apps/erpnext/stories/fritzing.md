@@ -39,7 +39,7 @@ Electronic Design Automation.
 
 Fritzing is teaching electronics to people without an engineering background.
 They have done away with dependence on schematic symbol diagrams which are
-abstract to understand and need knowledge of electronics They have enabled
+abstract to understand and need knowledge of electronics. They have enabled
 documentation of prototypes which mimic the realistic aspects of the
 electronic components used in breadboards, sensors or cables.
 
@@ -63,10 +63,7 @@ PCB Prototypes which were earlier difficult to “read” and could only be phot
 
 #### Best Practice: Communication and Collaboration
 
-There are about ten people working part and full time at fritzing, There are
-students, professors, academic researchers, all working together at their own
-pace. Fritzing uses Trello in an “agile” way to make sure the daily business
-runs smoothly, and to manage business and software development . It
+There are about ten people working part-time and full-time at fritzing. There are students, professors, academic researchers, all working together at their own pace. Fritzing uses Trello in an “agile” way to make sure the daily business runs smoothly, and to manage business and software development. It
 facilitates communication and reduces time spent collecting information. They
 use instant messaging a lot. They have one weekly meeting where the entire
 team comes together and discusses sales and plans.

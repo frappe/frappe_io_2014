@@ -38,10 +38,9 @@ good for accounting , some were not equipped to share over the internet . So
 he managed his invoices in Quickbooks and did accounting in Tally. He did not
 like Tally, because it was difficult to import in Tally. He also tried his
 luck with open-source projects like Openbravo, but their implementation was
-too complex and implementation cost was high. He even tried his own tailor-
-made software for his business, which did not work. Just when he was about to
+too complex and implementation cost was high. He even tried his own tailor-made software for his business, which did not work. Just when he was about to
 give-up, he came across ERPNext. He liked ERPNext and the entry-level pricing
-that allowed him to try it. Once he saw the benefits of ERPNext and it’s
+that allowed him to try it. Once he saw the benefits of ERPNext and its
 ability to customise, he replaced Tally and Quickbooks with ERPNext.
 
 #### Best Features of ERPNext as per Aditya
@@ -57,7 +56,7 @@ Aditya confirms that the best part about the software is that, it is easily
 customisable. He has done a lot of customisation for his organisation. He is
 very satisfied with the speed and accuracy of the service and the support he
 gets . Having said that, it also needs to be mentioned that every-time ERPNext
-updates and provides new features, he has to run hither-thither to get
+provides updates and new features, he has to run hither-thither to get
 everybody on the same page. Being the ERP Champion, he has to be ready to
 douse any fire that arises on account of new feature addition. He has seen
 many software vendors who are good at coding but not so good at understanding

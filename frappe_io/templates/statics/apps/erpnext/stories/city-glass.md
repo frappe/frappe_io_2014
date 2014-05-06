@@ -41,14 +41,14 @@ use interface. After some research he came across ERPNext.
 "ERPNext is very simple and integrated. It is very easy and customisable. It
 doesn't need any costly and complex hardware installation. We also have some
 users who used to previously work on SAP and they said that this system is
-better and easier for them and gives them all they need in a better way" said Mr.Hisham Farid. He went against the convention of implementing a proprietary and costly software and decided to embrace an open-source solution for his
+better and easier for them and gives them all they need in a better way" said Mr.Hisham Farid. He went against the standard convention of implementing a proprietary and costly software and decided to embrace an open-source solution for his
 company. With ERPNext, he was able to do away with heavy installations and
 consultation charges. He is a happy man and pleased with his decision.
 
 #### ERPNext Experience
 
 We inquired whether he faced any resistance from the company employees to
-adopt ERPNext. He said "Initially there was a lot of resistance to implementation from old Microsoft users. However, they migrated after they saw a simple and easy way to run an application".
+adopt ERPNext. He said "Initially there was a lot of resistance to implement from old Microsoft users. However, they migrated after they saw a simple and easy way to run an application".
 
 Hisham Farid shared his experience on customisation. He said that "Initially, the manufacturing department was reluctant to adapt to a new software. Their Quality Team had a special quality check form that needed to be filled before production began. The form that ERPNext provided did not have all the specifications that City Glass needed. However, it was easy to
 customise ERPNext to add these missing fields". After operating ERPNext for
@@ -61,7 +61,7 @@ their factories and Head office, and confirm that they are very happy with the
 speed of operations. They insist that ERPNext doesn't need any costly and
 complex hardware installation. They are using a normal Dell server which costs
 one-third of other servers like Microsoft Dynamics or Oracle E-Business suit.
-Even their ex-SAP users say "ERPNext system is better and easier" to use. They
+Even their ex-SAP users say "ERPNext system is better and easier to use". They
 are happy with ERPNext and so are we. They are our first **donors**.
 
 ![](http://frappe.io/files/city_glass_logo.jpg)

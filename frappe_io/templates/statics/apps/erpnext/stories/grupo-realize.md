@@ -21,8 +21,7 @@ Instead of being bogged down by the lackadaisical delivery system, they used
 this trait to acquire customers and become more profitable. They offered 50%
 cash back if they did not deliver on the committed time, as a contract in
 compliance with the consumer protection code. By doing so, they have become a
-benchmark in the furniture industry. Last month they acquired 250 new
-customers.
+benchmark in the furniture industry. They acquire approximately 250 new customers in a month.
 
 ![](http://frappe.io/files/grupo_kitchen.png)
 
@@ -39,7 +38,7 @@ They execute an order in three stages;
 1. Purchase the raw-materials in time, once the requirement is final.
 1. Arrange and schedule transportation to deliver the product to the customer.
 
-They have divided teams based on responsibilities:
+They have divided teams based on responsibilities;
 
   1. SAC System looks after Customer Service.
   2. Scheduling team manages deadlines.
