@@ -1,2 +1,3 @@
 frappe_io.patches.rename_sitemap_to_route
 frappe_io.patches.rename_app_testimonial
+execute:frappe.db.sql_ddl("alter table `tabFrappe Partner` change parnter_address partner_address text") #2014-05-09

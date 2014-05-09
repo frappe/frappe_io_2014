@@ -1,87 +1,87 @@
 {
- "autoname": "field:partner_name", 
- "creation": "2014-02-26 17:20:29.000000", 
- "docstatus": 0, 
- "doctype": "DocType", 
+ "autoname": "field:partner_name",
+ "creation": "2014-02-26 17:20:29.000000",
+ "docstatus": 0,
+ "doctype": "DocType",
  "fields": [
   {
-   "fieldname": "partner_name", 
-   "fieldtype": "Data", 
-   "label": "Partner Name", 
-   "permlevel": 0, 
+   "fieldname": "partner_name",
+   "fieldtype": "Data",
+   "label": "Partner Name",
+   "permlevel": 0,
    "reqd": 1
-  }, 
+  },
   {
-   "fieldname": "show_in_website", 
-   "fieldtype": "Check", 
-   "label": "Show in Website", 
+   "fieldname": "show_in_website",
+   "fieldtype": "Check",
+   "label": "Show in Website",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "logo", 
-   "fieldtype": "Data", 
-   "label": "Logo", 
+   "fieldname": "logo",
+   "fieldtype": "Data",
+   "label": "Logo",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "partner_website", 
-   "fieldtype": "Data", 
-   "label": "Partner Website", 
+   "fieldname": "partner_website",
+   "fieldtype": "Data",
+   "label": "Partner Website",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "email", 
-   "fieldtype": "Data", 
-   "label": "Email", 
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "phone", 
-   "fieldtype": "Data", 
-   "label": "Phone", 
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "parnter_address", 
-   "fieldtype": "Text", 
-   "label": "Parnter Address", 
+   "fieldname": "partner_address",
+   "fieldtype": "Text",
+   "label": "Partner Address",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "introduction", 
-   "fieldtype": "Text", 
-   "label": "Introduction", 
+   "fieldname": "introduction",
+   "fieldtype": "Text",
+   "label": "Introduction",
    "permlevel": 0
-  }, 
+  },
   {
-   "fieldname": "description", 
-   "fieldtype": "Text Editor", 
-   "label": "Description", 
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description",
    "permlevel": 0
-  }, 
+  },
   {
-   "default": "partners", 
-   "fieldname": "parent_website_route", 
-   "fieldtype": "Read Only", 
-   "label": "Parent Website Route", 
-   "options": "Website Route", 
+   "default": "partners",
+   "fieldname": "parent_website_route",
+   "fieldtype": "Read Only",
+   "label": "Parent Website Route",
+   "options": "Website Route",
    "permlevel": 0
   }
- ], 
- "idx": 1, 
- "modified": "2014-02-26 17:29:57.000000", 
- "modified_by": "Administrator", 
- "module": "Frappe Apps", 
- "name": "Frappe Partner", 
- "owner": "Administrator", 
+ ],
+ "idx": 1,
+ "modified": "2014-02-26 17:29:58.000000",
+ "modified_by": "Administrator",
+ "module": "Frappe Apps",
+ "name": "Frappe Partner",
+ "owner": "Administrator",
  "permissions": [
   {
-   "create": 1, 
-   "delete": 1, 
-   "permlevel": 0, 
-   "read": 1, 
-   "report": 1, 
-   "role": "System Manager", 
+   "create": 1,
+   "delete": 1,
+   "permlevel": 0,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
    "write": 1
   }
  ]
