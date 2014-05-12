@@ -32,11 +32,11 @@
 
 <div class="row">
 	<div class="col-md-3">
-		<a class="btn btn-success pull-right" href="/buy/payment#Solo%20Plan">Buy for $99</a>
+		<a class="btn btn-success pull-right" href="/buy/payment#Startup%20Plan">Buy for $149</a>
 	</div>
 	<div class="col-md-7">
-		<h4 style="margin-top:0px">Buy One User Hosting</h4>
-		<p>For $99 you can buy one user hosting for a year at frappecloud.com and get one-on-one chat support private email support.</p>
+		<h4 style="margin-top:0px">Buy One Year Hosting for your Startup</h4>
+		<p>For $149 you can buy hosting for a year at frappecloud.com for <b>two users</b> and get one-on-one chat support private email support.</p>
 		<p><a href="https://frappecloud.com">Signup for a Free 30 day Trial</a></p>
 	</div>
 </div>
@@ -48,7 +48,7 @@
 		<a class="btn btn-success pull-right" href="/buy/payment#Small%20Business%20Plan">Buy for $299</a>
 	</div>
 	<div class="col-md-7">
-		<h4 style="margin-top:0px">Buy One Year Hosting for Your Small Business</h4>
+		<h4 style="margin-top:0px">Buy One Year Hosting for your Small Business</h4>
 		<p>For $299 you can buy hosting for a year at frappecloud.com for <b>five users</b> and get one-on-one chat support and private email support.</p>
 		<p><a href="https://frappecloud.com">Signup for a Free 30 day Trial</a></p>
 	</div>
@@ -61,8 +61,8 @@
 		<a class="btn btn-success pull-right" href="/buy/payment#Enterprise%20Plan">Buy for $599</a>
 	</div>
 	<div class="col-md-7">
-		<h4 style="margin-top:0px">Buy One Year Hosting for Your Enterprise</h4>
-		<p>For $599 you can buy hosting for a year at frappecloud.com for <b>unlimited users</b> and get one-on-one chat support and private email support.</p>
+		<h4 style="margin-top:0px">Buy One Year Hosting for your Enterprise</h4>
+		<p>For $599 you can buy hosting for a year at frappecloud.com for <b>100 users</b> and get one-on-one chat support and private email support.</p>
 		<p><a href="https://frappecloud.com">Signup for a Free 30 day Trial</a></p>
 	</div>
 </div>
@@ -75,7 +75,7 @@
 	</div>
 	<div class="col-md-7">
 		<h4 style="margin-top:0px">Buy One Year Commercial Support</h4>
-		<p>For $299 we will help you setup and maintain your Frappe ERPNext system on your linux server for <b>unlimited users</b> and get one-on-one chat support and private email support.
+		<p>For $599 we will help you setup and maintain your Frappe ERPNext system on your linux server for <b>unlimited users</b> and get one-on-one chat support and private email support.
 			<a href="/buy/commercial-support">Details Here</a></p>
 	</div>
 </div>
