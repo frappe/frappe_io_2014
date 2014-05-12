@@ -1,4 +1,0 @@
-doctype
-crud
-fields
-migrations

@@ -1,8 +1,0 @@
-basic-setup
-new-app
-making-models
-public-pages
-adding-assets
-writing-controllers
-using-cache
-writing-hooks

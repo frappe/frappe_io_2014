@@ -1,8 +1,8 @@
-# API
+# HTTP API
 
 Frappe ships with an HTTP API. There are two parts of this API.
 
-1. RPC
+1. Remote Procedure Calls (RPC)
 2. REST
 
 ## RPC
@@ -279,5 +279,5 @@ For Example,
 <span class="label label-danger">DELETE</span> http://frappe.local:8000**/api/resource/Person/000000008**
 
 _Response:_
-	
+
 	{"message":"ok"}
