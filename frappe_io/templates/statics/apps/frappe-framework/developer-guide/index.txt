@@ -1,7 +1,0 @@
-install
-quickstart
-setup
-doctype
-managing-translations
-api
-app-development
