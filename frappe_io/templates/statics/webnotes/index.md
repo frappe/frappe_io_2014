@@ -125,4 +125,3 @@ We think that the future belongs to Open Source. We have built ERPNext on Open S
 	</div>
 </div>
 
-<blockquote><a href="https://www.youtube.com/watch?v=zRoFnqN6kPU" target="_blank"><i class="icon-youtube"></i> Watch our team video</a></blockquote>

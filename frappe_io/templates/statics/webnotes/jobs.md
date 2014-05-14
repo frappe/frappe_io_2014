@@ -6,7 +6,7 @@ Web Notes Technologies Pvt Ltd is a Mumbai based Open Source Software Developmen
 
 The work culture is unrestrained and expansive. The work environment is very peaceful and zen-like. The [team](/webnotes) is young and energetic and has a perfect environment for coding.
 
-**Bonus:** Since ERPNext is based an open-source software, your work will be public and you are free to show it off :)
+**Bonus:** Since ERPNext is based on an open-source software, your work will be public and you are free to show it off :)
 
 **Desirable attributes:** If you are a maverick, crazy for coding and like to work in a protocol-free environment, Web Notes is the right place for you.
 

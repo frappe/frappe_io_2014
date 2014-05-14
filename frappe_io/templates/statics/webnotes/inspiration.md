@@ -12,4 +12,4 @@ Few people have single handedly created a revolution like [Khan Academy](http://
 
 ### Apple
 
-I know we are sounding cliched, but its just not Steve Jobs. We think that Apple is Apple because what is beautiful on the outside is beautiful inside too. One cannot just take the external appeal of Apple and replicate that. They have set the benchmark of engineering (yes they beat the Germans and the Swedes) and we hope we can understand and use some of their focus and attention to detail.
+I know we are sounding cliched, but it's just not Steve Jobs. We think that Apple is Apple because what is beautiful on the outside is beautiful inside too. One cannot just take the external appeal of Apple and replicate that. They have set the benchmark of engineering (yes they beat the Germans and the Swedes) and we hope we can understand and use some of their focus and attention to detail.

@@ -17,8 +17,8 @@
 
 - Installation on Windows.
 - Customizations - Any extra code we have to write for new features.
-- Conficts with your customization during upgrades.
-- Print Format.
+- Conflicts with your customization during upgrades.
+- Print Formats.
 - Technical / Developer Support.
 - Setup of mirror (master-slave).
 
