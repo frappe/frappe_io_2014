@@ -1,52 +1,42 @@
+# Day 2: Set up Accounts and Human Resource
+
+<p class="lead"> To begin using Accounts it is essential to set up the Chart  of Accounts along with Opening Stock and Accounting Entries. The Employee settings of Human Resources module can also be completed on the second day.</p>
+
 ### Accounts
 
 Go to the Accounts icon and make ledgers under Chart of Accounts.
 
-#### Figure 1: Chart of Accounts
+> Accounts > Chart of Accounts
 
-![Accounts](assets/frappe_io/images/erpnext/seconddaysetup-accounts.png)
+ 
+__Figure 1: Create acccounting ledgers__
 
-  
-#### Figure 2: Create acccounting ledgers.
-
-![Tree](assets/frappe_io/images/erpnext/seconddaysetup-tree.png)
+![Tree](assets/frappe_io/images/erpnext/ledgers.png)
 
   
+### Opening Entry
 
-To begin Opening Entries, go to 'Opening Accounts and Stock' on the Setup
-Page.
+To begin Opening Entries, go to the Accounts module, select Journal Voucher and sub-field 'Opening Entry'. 
 
-#### Figure 3:Opening Accounting Entries
+To understand in detail visit [Opening Entry](/apps/erpnext/user-guide/accounts/opening-accounts)
 
-![Ledger](assets/frappe_io/images/erpnext/seconddaysetup-accounts-jv.png)
-
-  
-
-To understand how to create opening entries in detail visit [Opening Entry
-.](/apps/erpnext/user-guide/accounts/opening-accounts)
-
-  
 
 ### Opening Stock
 
-You can upload your opening stock in the system using Stock Reconciliation.
+You can upload your Opening Stock in the system using Stock Reconciliation.
 Stock Reconciliation will update your stock for any given Item.
 
-#### Figure 4: Opening Accounting Stocks
-
-![Stock Opening](assets/frappe_io/images/erpnext/seconddaysetup-stock-opening.png)  
 
 To understand Stock Opening in detail visit [Opening Stock.](/apps/erpnext/user-guide/setting-up/stock-reconciliation-for-non-serialized-item)
 
   
-
 ### Human Resources
 
-To setup HR, begin by creating individual employee records.
+To setup Human Resources module, begin by creating individual Employee records.
 
-#### Figure 5: Create Employee Records
+__Figure 5: Create Employee Records__
 
-![Employee](assets/frappe_io/images/erpnext/seconddaysetup-hr.png)
+![Employee](assets/frappe_io/images/erpnext/employee-1.png)
 
 To fill the Employee Form, refer to [Employee](/apps/erpnext/user-guide/human-resource-management/employee-master)
 

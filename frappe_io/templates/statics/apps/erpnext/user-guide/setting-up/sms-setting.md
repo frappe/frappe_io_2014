@@ -1,3 +1,5 @@
+# SMS Setting
+
 To integrate SMS in ERPNext, approach a SMS Gateway Provider who provides HTTP
 API. They will create an account for you and will provide an unique username
 and password.

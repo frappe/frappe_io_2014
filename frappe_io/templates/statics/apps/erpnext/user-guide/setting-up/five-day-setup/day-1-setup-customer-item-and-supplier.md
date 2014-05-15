@@ -1,86 +1,71 @@
-Login to your ERPNext account with the User ID and Password sent through the
-mail.
+# Day 1: Set up Customer, Item and Supplier
 
-After filling the set-up wizard, click on the Setup button. The Setup page will appear.
+<p class="lead"> To begin using ERPNext it is essential to set up a few pages of Customers, Items and Suppliers.</p>
 
+
+If you have entered the Customer, Supplier and Item details in the setup wizard, the system will automatically update them for you. In case for some reason you have not done so, not to worry. You can start filling the details based on the explanation given below.
 
 ### Customer
 
-The Organisation details are updated in ERPNext, after filling the setup wizard.
+To create a Customer go to the Selling module and click on Customer;
 
-Go directly to the Customer Icon.
+> Selling > Customer > New Customer
 
-#### Figure 1: Create Customer
 
-![Customer](assets/frappe_io/images/erpnext/firstdaysetup-customer.png)  
+__Figure 1: Create Customer__
 
-After clicking on Customer, a new form will appear.  
+![Customer](assets/frappe_io/images/erpnext/customer-1.png)  
 
-#### Figure 2: Customer List
-
-![Customer](assets/frappe_io/images/erpnext/firstdaysetup-customer-1.png)
+After clicking on Customer, a new form will appear. Fill that form and save it.
 
 To see how customer details are added, visit [Customer](/apps/erpnext/user-guide/selling/customer-master).
 
 Create 5 new customer records in the system, if you have not entered them in the setup wizard. 
 
-Now proceed to make an Item. To go to the main menu, click on erpnext icon
-which is on the left hand corner of the page. On the main menu page, click on
-Setup
-
-#### Figure 3: Go to Main Menu.
-
-![Main Menu](assets/frappe_io/images/erpnext/firstdaysetup-main-menu.png)
-
-  
 ### Item
 
-On the setup page go to Item.
+To create an Item go to the main menu. To go to the main menu, click on home icon which is on the left hand corner of the page. On the main menu page, click on the Stock Module and go to Item.
 
-#### Figure 4: Select Item
+> Stock > Item > New Item
 
-![Item](assets/frappe_io/images/erpnext/firstdaysetup-item.png)
+ 
+__Figure 2: Select Item__
 
-Create a new Item. An Item is your company's product or a service.The term
+![Item](assets/frappe_io/images/erpnext/item-1.png)
+
+Fill the Item form. An Item is your company's product or a service. The term
 Item is applicable to your core products as well as your raw materials. It can
-be a product or service that you buy/sell from your customers/ suppliers.
+be a product or service that you buy/sell from your Customers/Suppliers.
 
 Filling Item details is an important step in ERPNext. Do not postpone this
 step. After clicking on Item, make a new Item.
 
-#### Figure 5: Make a new Item
+> Note: This form will not be saved if Warehouse details are not entered.
 
-![Item](assets/frappe_io/images/erpnext/firstdaysetup-item-1.png)
-
-To understand how to fill an Item in detail, visit[ Item](/apps/erpnext/user-guide/stock-inventory/item-master). Add 5 item records to ERPnext. After adding these records, go back to the Setup Page and add Suppliers.
+To understand how to fill an Item in detail, visit [Item](/apps/erpnext/user-guide/stock/item-master). Add 5 Item records to ERPnext. After adding these records, go back to the Setup Page and add Suppliers.
 
   
 ### Suppliers
 
-On the Setup page go to Supplier.
+To create Suppliers, go to the main menu and click on Buying module. Then click on the icon Supplier.
 
-#### Figure 6: Go to Supplier
+> Buying > Supplier > New Supplier
 
-![Supplier](assets/frappe_io/images/erpnext/firstdaysetup-supplier.png)  
+__Figure 3: Supplier__
 
-Suppliers are companies or individuals who provide you with products or
-services. They are treated in exactly the same manner as Customers in ERPNext.
-Create a new Supplier record.
+![Supplier](assets/frappe_io/images/erpnext/supplier-1.png)
 
-#### Figure 7: Supplier List
+Suppliers are companies who provide you with products or services. They are treated in exactly the same manner as Customers in ERPNext.
 
-![Supplier](assets/frappe_io/images/erpnext/firstdaysetup-supplier-1.png)
+Create the new Supplier record and save the document.To understand how to fill Supplier details, visit [Supplier.](/apps/erpnext/user-guide/buying/supplier-master)
 
-To understand how to fill Supplier details, visit [Supplier.](/apps/erpnext/user-guide/buying/supplier-master)
-
-If you wish to import your list of customers and suppliers directly to
+If you wish to import your list of Customers and Suppliers directly to
 ERPNext, you can do that via the Data Import Tool.
 
-To upload Customers or suppliers in bulk, go to the Data Import Tool.
+To upload Customers or Suppliers in bulk, go to the Data Import Tool.
 
 > Note: The data import format is case-sensitive. The file will not be
 processed if there are any spelling mistakes or deviations from the default
 values.
 
 To understand how to import data, visit [Importing Data.](/apps/erpnext/user-guide/setting-up/data-import-tool)
-
