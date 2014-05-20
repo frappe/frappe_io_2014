@@ -74,7 +74,8 @@ You can also directly deposit a check to your local HDFC Bank Branch to our acco
 
     Payable to: Web Notes Technologies Pvt Ltd
     Account Number: 01632320001931
-    Option C: Mail / Courier Us A Check
+
+#### Option C: Mail / Courier Us A Check
 
 You can send us your check by courier at:
 
