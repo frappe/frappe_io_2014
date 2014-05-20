@@ -25,8 +25,8 @@ A nice way to simplify opening is to create temporary accounts for assets and
 liability just for opening. These accounts will become zero once all your old
 invoices are entered. The two accounts which you can create are (example):
 
-  * Temp Opening Liabilities
-  * Temp Opening Assets
+  * Temporary Opening Liabilities
+  * Temporary Opening Asset
 
 #### The Opening Entry
 
@@ -41,13 +41,13 @@ Note: Make sure to set “Is Opening” as “Yes” in the More Info section.
 
 ![Opening Entry](assets/frappe_io/images/erpnext/opening-entry.png)
 
-  
+
 
 #### Step 2: Complete Journal Entries on the Debit and Credit side.
 
 ![Opening Entry](assets/frappe_io/images/erpnext/opening-entry-1.png)
 
-  
+
 
 #### Step 3: Select Yes in the "Is Opening " record under More Info.
 
@@ -69,7 +69,7 @@ After your Opening Journal Vouchers are made, you will need to enter each
 Sales Invoice and Purchase Invoice that is yet to be paid.
 
 Since you have already booked the income or expense on these invoices in the
-previous period, select the temp opening accounts in the “Income” and
+previous period, select the temp opening accounts (**Temporary Opening Asset** and **Temporary Opening Asset**) in the “Income” and
 “Expense” accounts.
 
 > Note: Make sure to set each invoice as “Is Opening”!
