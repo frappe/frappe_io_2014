@@ -1,4 +1,4 @@
-# Developer
+# Developers
 
 <p class="lead">Frappe is a full stack web application framework built on Python and MariaDb. It is meta-data driven and has a rich web interface and most features you would expect from a web framework</p>
 

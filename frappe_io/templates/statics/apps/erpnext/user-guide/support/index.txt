@@ -1,5 +1,0 @@
-support-ticket
-customer-issue
-maintenance-visit
-maintenance-schedule
-newsletter

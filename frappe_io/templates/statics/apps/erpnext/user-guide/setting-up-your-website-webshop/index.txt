@@ -1,6 +1,0 @@
-website-setup
-web-pages
-styling-the-website
-blog-post
-add-products-to-website
-shopping-cart
