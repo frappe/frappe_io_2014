@@ -5,7 +5,7 @@
 <div>
     <div class="pull-left sponsor-icon-stub" style="padding-top: 20px">
         <a href="http://www.cwt-assembly.com/" target="_blank">
-            <img src="/assets/frappe_io/images/sponsors/cwt-logo.png" class="img-responsive">
+            <img src="/assets/frappe_io/images/partners/cwt-logo.png" class="img-responsive">
         </a>
     </div>
     <div class="pull-left sponsor-icon-stub">	<i class="icon-smile"></i>
