@@ -1,8 +1,9 @@
-# Work With Us
+# Jobs
 
-<p class="lead"></p>
+<img src="/assets/frappe_io/images/jobs.png" style="max-width: 400px;">
 
-Web Notes Technologies Pvt Ltd is a Mumbai based Open Source Software Development Company. The Frappe platform and ERPNext product are created and maintained by us.
+<p class="lead">Web Notes Technologies Pvt Ltd is a Mumbai based Open Source Software Development Company. The Frappe platform and ERPNext product are created and maintained by us.</p>
+
 
 The work culture is unrestrained and expansive. The work environment is very peaceful and zen-like. The [team](/webnotes) is young and energetic and has a perfect environment for coding.
 
