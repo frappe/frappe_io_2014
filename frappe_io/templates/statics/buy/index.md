@@ -1,7 +1,7 @@
 # Buy
 
 <p class="lead">
-	Support ERPNext, a Free and Open Source Software that helps the world's <a href="/apps/erpnext/testimonials">budding entrepreneurs</a> run organizations better.
+	Support ERPNext, a Free and Open Source Software that helps the world's <a href="https://erpnext.com/testimonials">budding entrepreneurs</a> run organizations better.
 </p>
 
 ---

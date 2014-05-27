@@ -16,12 +16,12 @@ Apart from the sites, the `sites_dir` should contain the following.
 `apps.txt` contain a list of Python packages to treat as Frappe apps. Every
 frappe app that you intend to use in you site should have an entry in this file.
 Also, they should be in the `PYTHONPATH`. For more information, refer
-[Frappe Apps](/documentation/4-0-0/basics/apps).
+[Frappe Apps](/apps/frappe-framework/developers/api/apps).
 
 #### common\_site\_config.json
 
-`common_site_config.json` is an optional file. [Configuration](/documentation/4-0-0/configuration) common to all sites
-can be put in this file. 
+`common_site_config.json` is an optional file. [Configuration](/apps/frappe-framework/developers/api/configuration) common to all sites
+can be put in this file.
 
 #### assets
 
@@ -35,7 +35,7 @@ generated using the `frappe --build` command.
 
 ## Site
 
-A site is a directory in `sites_dir` which represents a tenant in Frappe Platform. 
+A site is a directory in `sites_dir` which represents a tenant in Frappe Platform.
 
 
 ### Directory Structure
@@ -59,7 +59,7 @@ Presently, it is limited only to backups.
  example, `testfile.txt` can be accessed by the URL,
 	 http://site/files/testfile.txt
 
-* `site_config.json` contains site specific [configuration](/documentation/4-0-0/configuration).
+* `site_config.json` contains site specific configuration
 
 ### Site Resolution
 
@@ -67,11 +67,11 @@ While responding to an HTTP request, a site is automatically selected based on,
 
 * `Host` header in the HTTP request matches a site
 * `X-Frappe-Site-Name` header in the HTTP request matches a site
-	
+
 It is also possible to force the development server to serve a specific site by
 starting it with the following command.
 	`frappe --serve SITENAME`
-	  
+
 
 ### Adding a new site
 

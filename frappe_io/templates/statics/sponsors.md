@@ -22,5 +22,5 @@ Please consider sponsoring the ERPNext project and help fulfil its potential.
 ---
 
 <p class="text-center">
-	<a href="contact" class="btn btn-default">Contact Us</a>
+	<a href="/contact" class="btn btn-default">Contact Us</a>
 </p>

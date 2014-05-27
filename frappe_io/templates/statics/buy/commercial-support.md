@@ -12,6 +12,7 @@
 - Upgrades and patches.
 - Bugfixes via Ticketing System.
 - Setup of a test system.
+- Maximum 2 databases.
 
 #### What Does It NOT Cover
 

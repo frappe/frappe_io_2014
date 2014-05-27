@@ -95,15 +95,15 @@
 </div>
 <hr>
 <div class="media frappe-coverage">
-	<a class="pull-left" href="http://www.informationweek.in/section/cloud_computing/12-06-14/India_sees_rise_in_emergence_of_cloud-based_startups.aspx?page=2" target="_blank">
+	<a class="pull-left" href="http://www.informationweek.in/informationweek/news-analysis/177110/india-rise-emergence-cloud-startups/page/2" target="_blank">
 		<img class="media-object" src="/assets/frappe_io/images/frappe/information-week.jpg">
 	</a>
 	<div class="media-body">
-		<a href="http://www.informationweek.in/section/cloud_computing/12-06-14/India_sees_rise_in_emergence_of_cloud-based_startups.aspx?page=2" target="_blank">
+		<a href="http://www.informationweek.in/informationweek/news-analysis/177110/india-rise-emergence-cloud-startups/page/2" target="_blank">
 			<h4 class="media-heading">Information Week</h4></a>
 		<p class="text-muted">June 2012</p>
 		<p>Information week convers some of the emerging cloud based startups in India and ERPNext is the second on the list.</p>
-		<p><a href="http://www.informationweek.in/section/cloud_computing/12-06-14/India_sees_rise_in_emergence_of_cloud-based_startups.aspx?page=2" target="_blank">Read the full article</a><br>Pardon the bad web-design.</p>
+		<p><a href="http://www.informationweek.in/informationweek/news-analysis/177110/india-rise-emergence-cloud-startups/page/2" target="_blank">Read the full article</a><br>Pardon the bad web-design.</p>
 	</div>
 </div>
 <hr>

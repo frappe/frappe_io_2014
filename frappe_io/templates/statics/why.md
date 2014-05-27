@@ -31,4 +31,4 @@ thanks,<br>
 
 ---
 
-[Have comments, drop us a line](contact)
+[Have comments, drop us a line](/contact)

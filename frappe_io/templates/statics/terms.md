@@ -86,4 +86,4 @@ Dated: 20th October 2010
 
 ---
 
-<p class="text-center"><a class="btn btn-default" href="contact">Contact Us</a></p>
+<p class="text-center"><a class="btn btn-default" href="/contact">Contact Us</a></p>
