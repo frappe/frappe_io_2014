@@ -13,13 +13,13 @@ Translatable text exists in 3 main sources:
 
 Strings in code files are annotated using the `_` (underscore) method
 
-  1. In Python it is the `webnotes._` method. Example:
+  1. In Python it is the `frappe._` method. Example:
 
-webnotes._("This string must be translated")
+`frappe._("String {0} must be translated".format(txt))`
 
-  2. In Javascript it is the `wn._` method. Example:
+  2. In Javascript it is the `__` method. Example:
 
-`wn._("This string must be translated")`
+`__("String {0} must be translated", [txt])`
 
 ### How Translations Are Picked up During Execution
 
