@@ -1,2 +1,3 @@
 guide
+guide-chat
 api

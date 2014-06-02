@@ -12,7 +12,8 @@ hide_in_installer = True
 home_page = "home"
 brand_html = '<img src="/assets/frappe_io/images/frappe-io-brand.png" style="width: 30px;" /> Frappe.io <span class="text-muted" style="font-size: 9px; margin-left: -20px; margin-top: 15px; display: inline-block;position: absolute; font-weight: normal;">Beta</span>'
 
-web_include_css = "assets/frappe_io/css/frappe-io-web.css"
+web_include_css = ["assets/frappe_io/css/frappe-io-web.css", "/assets/frappe/css/hljs-github.css"]
+web_include_js = "/assets/frappe/js/lib/highlight.pack.js"
 
 fixtures = [
 	"Website Settings",
