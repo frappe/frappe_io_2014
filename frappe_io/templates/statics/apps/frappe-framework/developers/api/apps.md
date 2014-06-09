@@ -36,7 +36,7 @@ The above command would create an app with the following directory structure.
 	│   ├── config
 	│   │   ├── desktop.py
 	│   │   └── __init__.py
-	│   ├── hooks.txt
+	│   ├── hooks.py
 	│   ├── modules.txt
 	│   ├── patches.txt
 	│   └── templates
@@ -55,22 +55,22 @@ The boiler plate contains just enough files to show your app icon on the [Desk].
 
 ### Files in the app
 
-#### `hooks.txt`
+#### `hooks.py`
 
-The	`hooks.txt` file defines the metadata of your app and integration points
+The	`hooks.py` file defines the metadata of your app and integration points
 with other parts of Frappe or Frappe apps. Examples of such parts include task
 scheduling or listening to updates to different documents in the system. For
 now, it just contains the details you entered during app creation.
 
 
-	app_name = sample-app
-	app_title = Sample App
-	app_publisher = Acme Inc.
-	app_description = This is a sample app.
-	app_icon = fa-linux
-	app_color = black
-	app_email = info@example.com
-	app_url = http://example.com
+	app_name = "sample-app"
+	app_title = "Sample App"
+	app_publisher = "Acme Inc."
+	app_description = "This is a sample app."
+	app_icon = "fa-linux"
+	app_color = "black"
+	app_email = "info@example.com"
+	app_url = "http://example.com"
 	app_version = 0.0.1
 
 #### `modules.txt`
@@ -109,7 +109,7 @@ downloaded, you are required to do the following things.
    TODO: add link
 
 2. Add line with your app name to apps.txt (in your sites directory) as
-   explained in [sites](/documentation/4-0-0/basics/sites)
+   explained in [sites](/apps/frappe-framework/developers/api/sites)
 
 
 TODO: Add screenshot

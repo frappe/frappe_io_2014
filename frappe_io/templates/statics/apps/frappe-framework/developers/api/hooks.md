@@ -84,7 +84,7 @@ The above configuration has three parts,
 
 The following hooks allow you to bundle built assets to your app for serving.
 There are two types of assets, app and web. The app assets are loaded in the
-[Desk](/documentation/4-0-0/desk) and web assets are loaded in the website.
+Desk and web assets are loaded in the website.
 
 1. `app_include_js`
 2. `app_include_css`

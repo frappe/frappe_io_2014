@@ -13,4 +13,5 @@ recursive-include frappe_io *.md
 recursive-include frappe_io *.png
 recursive-include frappe_io *.py
 recursive-include frappe_io *.svg
+recursive-include frappe_io/public *
 recursive-exclude frappe_io *.pyc

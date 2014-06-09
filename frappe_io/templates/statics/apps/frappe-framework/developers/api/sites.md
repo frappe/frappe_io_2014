@@ -20,7 +20,7 @@ Also, they should be in the `PYTHONPATH`. For more information, refer
 
 #### common\_site\_config.json
 
-`common_site_config.json` is an optional file. [Configuration](/apps/frappe-framework/developers/api/configuration) common to all sites
+`common_site_config.json` is an optional file. Configuration common to all sites
 can be put in this file.
 
 #### assets

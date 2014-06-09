@@ -36,7 +36,7 @@ To bootstrap an app, use the `frappe --make_app` command.
 Notes:
 
 1. App Name is the python module for the app, hence must be slugfied
-2. For Icon, you can either use FontAwesome 3.x icons or a url to an svg file. (You can set this later via hooks.txt)
+2. For Icon, you can either use FontAwesome 3.x icons or a url to an svg file. (You can set this later via hooks.py)
 
 If you check your apps folder, a new folder `website_chat` would have been created, with basic setup.
 
