@@ -3,7 +3,7 @@
 <div class="well">
     <div class="row">
         <div class="col-xs-4"><i class="icon-calendar text-muted"></i> Founded: 2008</div>
-        <div class="col-xs-4"><i class="icon-group text-muted"></i> Team Size: 7</div>
+        <div class="col-xs-4"><i class="icon-group text-muted"></i> Team Size: 6</div>
         <div class="col-xs-4"><i class="icon-map-marker text-muted"></i> Home: Mumbai</div>
     </div>
 </div>
