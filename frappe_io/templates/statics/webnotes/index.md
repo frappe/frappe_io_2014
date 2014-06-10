@@ -107,16 +107,6 @@ We think that the future belongs to Open Source. We have built ERPNext on Open S
 <div class="media">
 	<div class="pull-left">
 		<div class="media-object avatar avatar-large"
-			style="background-image:url(/assets/frappe_io/images/webnotes/priya.png)"></div>
-	</div>
-	<div class="media-body">
-		<h4 class="media-heading">Priya Shrivastava</h4>
-		Priya is a philosopher who helps us cover gaps in writing and uses mysterious aliases like Fogueri and Heideger. Since writing is something we take very seriously, we were dying to fill this position for many years. After rejecting many candidates, working with freelancers both in Mumbai and online, [we were lucky to find someone who can write with style](/blog/general/writing-web-notes-style). Armed with a degree in Philosophy, Priya started her career at a quality research institute. After that she worked as a full-time parent for six years, before joining Web Notes in July 2013 as a full time writer. Priya has an unusual background too. A Goan by birth, Priya's father was a serial entrepreneur (again a rare commodity in India) and she grew up all over Goa and Maharashtra. This makes her very adaptable and so far, we still have not been able to find out what annoys her. But the hunt is on.
-	</div>
-</div>
-<div class="media">
-	<div class="pull-left">
-		<div class="media-object avatar avatar-large"
 			style="background-image:url(/assets/frappe_io/images/webnotes/prakash.gif)"></div>
 	</div>
 	<div class="media-body">
