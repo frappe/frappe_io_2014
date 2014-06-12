@@ -8,6 +8,8 @@ The ERPNext User Manual is continuously updated and covers most of the functiona
 
 <a class="btn btn-success" href="https://erpnext.com/user-guide"><i class="icon-book"></i> Read the Manual</a>
 
+---
+
 #### 2. Head to the Forums
 
 If you are a user or you are evaluating and want to talk to other ERPNext users:
@@ -18,6 +20,8 @@ If you are a developer and want help in customizing or extending ERPNext:
 
 <a class="btn btn-success" href="https://groups.google.com/forum/#!forum/erpnext-developer-forum"><i class="icon-cog"></i> ERPNext Developer Forum</a>
 
+---
+
 #### 3. Report an Issue / Suggestion at GitHub
 
 We use GitHub to manage the development of ERPNext. So if you encounter a bug
@@ -26,6 +30,7 @@ team keeps a watch on that list.
 
 <a class="btn btn-success" href="https://github.com/frappe/erpnext/issues"><i class="icon-github"></i> Report an Issue on GitHub</a>
 
+---
 
 #### 4. Get in touch with a local partner.
 
@@ -33,6 +38,8 @@ ERPNext has an expanding partner community. So check this page out if there is
 a local partner in your region.
 
 <a class="btn btn-success" href="/partners"><i class="icon-list"></i> Frappe Partner List</a>
+
+---
 
 #### 5. Buy Commercial Support / Hosting
 
