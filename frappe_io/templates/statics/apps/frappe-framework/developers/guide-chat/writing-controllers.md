@@ -44,7 +44,7 @@ We can define a method for this. This is basically a query to see how many agent
 
 	@frappe.whitelist(allow_guest=True)
 	def get_agent_status():
-		if frappe.get_list("Website Chat Agent", filters={"status":"Active"}, 
+		if frappe.get_list("Website Chat Agent", filters={"status":"Active"},
 			ignore_permissions=True, limit_page_length=1):
 			return "active"
 		else:
@@ -73,7 +73,8 @@ For writing Javascript code, we create a `chat.js` file in the folder `website_c
 				200: function(data) {
 					if(data.message=="active") {
 						$(".chat-status").html('<div class="alert alert-success">\
-							Agents online. Please enter your name and email to start a session.</div>')
+							Agents online. Please enter your name and email \
+							to start a session.</div>')
 					} else {
 						$(".chat-status").html('<div class="alert alert-warning">\
 							Agents offline. Please enter your name, email and question. \
@@ -136,7 +137,7 @@ A new session can now be created by sending a POST request:
 			return false;
 		});
 	}
-	
+
 	chat.set_agent_status = ...
 	...
 

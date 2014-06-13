@@ -514,20 +514,23 @@ To start the script, in the `library_management/doctype/library_transaction` fol
 
 #### library_transaction.js
 
-	frappe.ui.form.on("Library Transaction", "library_member", function(frm) {
-		frappe.call({
-			"method": "frappe.client.get",
-			args: {
-				doctype: "Library Member",
-				name: frm.doc.library_member
-			},
-			callback: function (data) {
-				frappe.model.set_value(frm.doctype, frm.docname, "member_name",
-					data.message.first_name
-					+ (data.message.last_name ? (" " + data.message.last_name) : ""))
-			}
-		})
-	})
+	frappe.ui.form.on("Library Transaction", "library_member",
+		function(frm) {
+			frappe.call({
+				"method": "frappe.client.get",
+				args: {
+					doctype: "Library Member",
+					name: frm.doc.library_member
+				},
+				callback: function (data) {
+					frappe.model.set_value(frm.doctype,
+						frm.docname, "member_name",
+						data.message.first_name
+						+ (data.message.last_name ?
+							(" " + data.message.last_name) : ""))
+				}
+			})
+		});
 
 1. **frappe.ui.form.on(*doctype*, *fieldname*, *handler*)** is used to bind a handler to the event when the property library_member is set.
 1. In the handler, we trigger an AJAX call to `frappe.client.get`. In response we get the requested object as JSON. [Learn more about the API](/apps/frappe-framework/developers/api/rest_api).
@@ -573,10 +576,10 @@ Here is the finished controller:
 					"name": ("!=", self.name)
 				})
 			if self.transaction_type=="Issue":
+				msg = _("Article {0} {1} has not been recorded as returned since {1}")
 				if last_transaction and last_transaction[0].transaction_type=="Issue":
-					frappe.throw(_("Article {0} {1} has not been recorded as returned since {1}".format(
-						self.article, self.article_name, last_transaction[0].transaction_date
-					)))
+					frappe.throw(msg.format(self.article, self.article_name,
+						last_transaction[0].transaction_date))
 			else:
 				if not last_transaction or last_transaction[0].transaction_type!="Issue":
 					frappe.throw(_("Cannot return article not issued"))
@@ -635,13 +638,15 @@ Now if you want to make a better list view for the article, drop a file called `
 	<div class="row">
 		<div class="col-sm-4">
 			<a href="/Article/{{ doc.name }}">
-				<img src="{{ doc.image }}" class="img-responsive" style="max-height: 200px">
+				<img src="{{ doc.image }}"
+					class="img-responsive" style="max-height: 200px">
 			</a>
 		</div>
 		<div class="col-sm-4">
 			<a href="/Article/{{ doc.name }}"><h4>{{ doc.article_name }}</h4></a>
 			<p>{{ doc.author }}</p>
-			<p>{{ (doc.description[:200] + "...") if doc.description|length > 200 else doc.description }}</p>
+			<p>{{ (doc.description[:200] + "...")
+				if doc.description|length > 200 else doc.description }}</p>
 			<p class="text-muted">Publisher: {{ doc.publisher }}</p>
 		</div>
 	</div>
@@ -706,7 +711,8 @@ Here we can point to a Python function and that function will be executed every 
 	from frappe.utils import datediff, nowdate, format_date, add_days
 
 	def daily():
-		loan_period = frappe.db.get_value("Library Management Settings", None, "loan_period")
+		loan_period = frappe.db.get_value("Library Management Settings",
+			None, "loan_period")
 
 		overdue = get_overdue(loan_period)
 
@@ -715,13 +721,16 @@ Here we can point to a Python function and that function will be executed every 
 			<p>Please return them as soon as possible</p><ol>"""
 
 			for i in items:
-				content += "<li>{0} ({1}) due on {2}</li>".format(i.article_name, i.article,
+				content += "<li>{0} ({1}) due on {2}</li>".format(i.article_name,
+					i.article,
 					format_date(add_days(i.transaction_date, loan_period)))
 
 			content += "</ol>"
 
-			frappe.send(recipients=[frappe.db.get_value("Library Member", member, "email_id")],
-				sender="test@example.com", subject="Library Articles Overdue", msg=content, bulk=True)
+			recipient = frappe.db.get_value("Library Member", member, "email_id")
+			frappe.send(recipients=[recipient],
+				sender="test@example.com",
+				subject="Library Articles Overdue", msg=content, bulk=True)
 
 	def get_overdue(loan_period):
 		# check for overdue articles
@@ -730,13 +739,16 @@ Here we can point to a Python function and that function will be executed every 
 		overdue_by_member = {}
 		articles_transacted = []
 
-		for d in frappe.db.sql("""select name, article, article_name, library_member, member_name
-			from `tabLibrary Transaction` order by transaction_date desc, modified desc""", as_dict=1):
+		for d in frappe.db.sql("""select name, article, article_name,
+			library_member, member_name
+			from `tabLibrary Transaction`
+			order by transaction_date desc, modified desc""", as_dict=1):
 
 			if d.article in articles_transacted:
 				continue
 
-			if d.transaction_type=="Issue" and datediff(today, d.transaction_date) > loan_period:
+			if d.transaction_type=="Issue" and \
+				datediff(today, d.transaction_date) > loan_period:
 				overdue_by_member.setdefault(d.library_member, [])
 				overdue_by_member[d.library_member].append(d)
 
