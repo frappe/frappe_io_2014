@@ -19,7 +19,7 @@ For the client:
 
 #### Create the HTML Template
 
-To make a new page, we add a file at `website_chat/templates/chat.html`. Lets start with a simple page:
+To make a new page, we add a file at `website_chat/templates/pages/chat.html`. Lets start with a simple page:
 
 	{% block content %}
 	<div class="welcome">
@@ -34,7 +34,7 @@ In the templates, you only need to define the content. The header, footer, toolb
 
 #### Create a Controller
 
-Create a controller for this page. It must be named exactly the same as the html file: `website_chat/templates/chat.py`.
+Create a controller for this page. It must be named exactly the same as the html file: `website_chat/templates/pages/chat.py`.
 
 The `get_context` method should return context elements for the page.
 
