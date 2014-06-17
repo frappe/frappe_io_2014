@@ -8,11 +8,12 @@ import frappe
 from frappe.website.render import clear_cache
 from frappe.website.website_generator import WebsiteGenerator
 
+condition_field = "show_in_website"
+template = "templates/generators/partner.html"
+
 class FrappePartner(WebsiteGenerator):
-	
 	def get_page_title(self):
 		return self.partner_name
-	
+
 	def validate(self):
 		clear_cache("partners")
-		
