@@ -87,7 +87,11 @@ For writing Javascript code, we create a `chat.js` file in the folder `website_c
 
 > Note that we are using `frappe.ready` instead of `$(document).ready`. This is because we use pushState API in Frappe to load new pages and this is the method that gets called after the page is rendered. `$(document).ready` get fired instantly.
 
-Here is the expected output
+Don't forget to add the include statement for this in the `chat.html` file:
+
+	{% block script %}{% include "templates/includes/chat.js" %}{% endblock %}
+
+Here is the expected output:
 
 ![Showing Agent Status](assets/frappe_io/images/app-development/show-agent-status.png)
 

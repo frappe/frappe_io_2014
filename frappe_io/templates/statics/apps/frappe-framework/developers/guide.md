@@ -576,7 +576,7 @@ Here is the finished controller:
 					"name": ("!=", self.name)
 				})
 			if self.transaction_type=="Issue":
-				msg = _("Article {0} {1} has not been recorded as returned since {1}")
+				msg = _("Article {0} {1} has not been recorded as returned since {2}")
 				if last_transaction and last_transaction[0].transaction_type=="Issue":
 					frappe.throw(msg.format(self.article, self.article_name,
 						last_transaction[0].transaction_date))
@@ -753,6 +753,8 @@ Here we can point to a Python function and that function will be executed every 
 				overdue_by_member[d.library_member].append(d)
 
 			articles_transacted.append(d.article)
+
+We can place the above code code in any accessible Python module. The route is defined in `hooks.py`, so for our purposes we would place this code in `library_management/tasks.py`.
 
 Note:
 
