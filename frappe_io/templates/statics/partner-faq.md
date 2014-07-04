@@ -6,25 +6,35 @@
 
 ERPNext is an Open Source ERP application that helps Small to Medium Sized business manage their organizations efficiently. It covers financial accounting, inventory managment, manufacturing, human resource management and much more. It is a web based application, easy and user friendly.
 
+---
+
 #### 2. I want to sell ERPNext Service to my customers. How can I do that?
 
 Before you sell anything to anyone, you must be completely convinced that it is the right tool for you to promote. After all, it is your reputation at stake. Before you sell any ERPNext service, we recommend that you evaluate ERPNext very minutely yourself and the best way to do it is self-implementation. Start using ERPNext for billing, customer support, CRM, quoting your customers. Even if you do not want to use it in production, use it as a test. Once, and if, you are convinced of the application, you should demo it to your customers. Nothing sells better than confidence, so its best to be confident before yo sell.
 
 > Disclosure: We use ERPNext extensively in our own organization too!
 
+---
+
 #### 3. Will I get support during self-implementation?
 
 You do not need to pay for self implmenetation, you can either use the 30-day trial at [FrappeCloud.com](https://frappecloud.com) or use the [Virtual Machine](https://erpnext.com/download). If you need support, you can first go through [the ERPNext user guide](https://erpnext.com/user-guide) and then ask [questions at the forum](/getting-help). If you need priority one-on-one help sessions, you can also buy a subscription service for it.
 
+---
+
 #### 4. What skills do I require to implement ERPNext?
 
 To implement ERPNext, you must have a general understanding of financial accouting, inventory managment and how organizations manage their information. Skills in spreadsheet tools like Excel will be handy for data import. If you are good in HTML / CSS, you can also create a website from within ERPNext.
+
+---
 
 #### 5. Do I need to pay anything to start selling ERPNext
 
 No! This is an open source application and it does not require you to pay us anything. You can charge the customer whatever you like for implementation, training, customization and support. You can either host the customer yourself or host it at [FrappeCloud.com](https://frappecloud.com). There is a one time 30% commission on each customer you sign-up at [FrappeCloud.com](https://frappecloud.com) after your first one.
 
 If your customer wants production support on their servers, you can do it yourself, or let us do it by helping the customer by commercial support.
+
+---
 
 #### 6. What is the general sales / implementation process for ERPNext
 
@@ -36,9 +46,13 @@ If your customer wants production support on their servers, you can do it yourse
 6. Finally before going live, accounting and inventory opening data should be setup and with the help of the champion.
 7. If the customer requires the website to be from ERPNext, you will need to help the customer to create content and setup their master data.
 
+---
+
 #### 7. I would like to be listed at frappe.io/partners, How is that possible?
 
 To be listed at frappe.io/partners, you can either pay an annual fee of $599 per year or help us sign up 3 customers on [FrappeCloud.com](https://frappecloud.com).
+
+---
 
 #### 8. I want to sell services but pass on development support to you. Does that work?
 
@@ -46,9 +60,13 @@ No, we (Web Notes Technologies) do not do any paid development. All our energy i
 
 [It is very easy to build new apps / extentions to ERPNext.](https://frappe.io/apps/frappe-framework/developers)
 
+---
+
 #### 9. I want to setup my own ERPNext cloud, can you help me?
 
 Yes, we are in the process of generalizing our tools that we use to power FrappeClould.com so that they can be used by companies willing to provide their own ERPNext Cloud. Stay tuned for that on our developer forum where we will be posting it.
+
+---
 
 #### 10. I want to sell ERPNext in my brand name, will you do that?
 
