@@ -14,7 +14,7 @@ Before you sell anything to anyone, you must be completely convinced that it is 
 
 #### 3. Will I get support during self-implementation?
 
-You do not need to pay for self implmenetation, you can either use the 30-day trial at FrappeCloud.com or use the Virtual Machine. If you need support, you can first go through our user manual and then ask questions at the forum. If you need priority one-on-one help sessions, you can also buy a subscription service for it.
+You do not need to pay for self implmenetation, you can either use the 30-day trial at [FrappeCloud.com](https://frappecloud.com) or use the [Virtual Machine](https://erpnext.com/download). If you need support, you can first go through [the ERPNext user guide](https://erpnext.com/user-guide) and then ask [questions at the forum](/getting-help). If you need priority one-on-one help sessions, you can also buy a subscription service for it.
 
 #### 4. What skills do I require to implement ERPNext?
 
@@ -22,7 +22,7 @@ To implement ERPNext, you must have a general understanding of financial accouti
 
 #### 5. Do I need to pay anything to start selling ERPNext
 
-No! This is an open source application and it does not require you to pay us anything. You can charge the customer whatever you like for implementation, training, customization and support. You can either host the customer yourself or host it at FrappeCloud.com. There is a one time 30% commission on each customer you sign-up at FrappeCloud.com after your first one.
+No! This is an open source application and it does not require you to pay us anything. You can charge the customer whatever you like for implementation, training, customization and support. You can either host the customer yourself or host it at [FrappeCloud.com](https://frappecloud.com). There is a one time 30% commission on each customer you sign-up at [FrappeCloud.com](https://frappecloud.com) after your first one.
 
 If your customer wants production support on their servers, you can do it yourself, or let us do it by helping the customer by commercial support.
 
@@ -38,11 +38,13 @@ If your customer wants production support on their servers, you can do it yourse
 
 #### 7. I would like to be listed at frappe.io/partners, How is that possible?
 
-To be listed at frappe.io/partners, you can either pay an annual fee of $599 per year or help us sign up 3 customers on FrappeCloud.com
+To be listed at frappe.io/partners, you can either pay an annual fee of $599 per year or help us sign up 3 customers on [FrappeCloud.com](https://frappecloud.com).
 
 #### 8. I want to sell services but pass on development support to you. Does that work?
 
-No, we (Web Notes Technologies) do not do any paid development. All our energy is used in supporting and enhancing the ERPNext product. If you want to develop a feature or customization, you can engage a freelancer or drop in a request on the developer forum. If you are planning do this on any scale, it is best to get one of your developers trained on ERPNext.
+No, we (Web Notes Technologies) do not do any paid development. All our energy is used in supporting and enhancing the ERPNext product. If you want to develop a feature or customization, you can engage a freelancer or drop in a request on the [developer forum](https://groups.google.com/forum/#!forum/erpnext-developer-forum). If you are planning do this on any scale, it is best to get one of your developers trained on ERPNext.
+
+[It is very easy to build new apps / extentions to ERPNext.](https://frappe.io/apps/frappe-framework/developers)
 
 #### 9. I want to setup my own ERPNext cloud, can you help me?
 
@@ -50,8 +52,8 @@ Yes, we are in the process of generalizing our tools that we use to power Frappe
 
 #### 10. I want to sell ERPNext in my brand name, will you do that?
 
-Ofcourse Not! ERPNext is our brand and identity. All work we do will be under the brand name of ERPNext and Frappe. If you want to disguise this as your work, you are free to do it, but don't expect any help from us. If you are using our help documentation, you must attribute us publicly because the documentation is licenced as "Creative Commons BY-CC-NA"
+Ofcourse Not! ERPNext is our brand and identity. All work we do will be under the brand name of ERPNext and Frappe. If you want to disguise this as your work, you are free to do it, but don't expect any help from us. If you are using our help documentation, you must attribute us publicly because the documentation is licenced as [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
 
 ---
 
-Still have questions? Ask them at the partner forum.
+Still have questions? [Ask them at the partner forum](https://groups.google.com/forum/?hl=en#!forum/erpnext-partners-forum).
