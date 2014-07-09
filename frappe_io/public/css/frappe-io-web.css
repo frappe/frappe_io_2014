@@ -59,7 +59,7 @@ blockquote {
     width: 160px;
     height: 160px;
     border-radius: 10%;
-    border: 1px dotted;
+    border: 1px solid #aaa;
     margin: 30px;
     vertical-align: middle;
 }
@@ -68,4 +68,8 @@ blockquote {
     vertical-align: middle;
     padding: 20px 26px;
     display: inherit;
+}
+
+.sponsor-icon-stub img {
+	border: 0px;
 }
