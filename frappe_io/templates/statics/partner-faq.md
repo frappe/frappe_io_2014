@@ -58,7 +58,7 @@ To be listed at frappe.io/partners, you can either pay an annual fee of $599 per
 
 No, we (Web Notes Technologies) do not do any paid development. All our energy is used in supporting and enhancing the ERPNext product. If you want to develop a feature or customization, you can engage a freelancer or drop in a request on the [developer forum](https://groups.google.com/forum/#!forum/erpnext-developer-forum). If you are planning do this on any scale, it is best to get one of your developers trained on ERPNext.
 
-[It is very easy to build new apps / extentions to ERPNext.](https://frappe.io/apps/frappe-framework/developers)
+[It is very easy to build new apps / extentions to ERPNext.](https://frappe.io/developers)
 
 ---
 
