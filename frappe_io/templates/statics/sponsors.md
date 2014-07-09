@@ -9,7 +9,9 @@
         </a>
     </div>
     <div class="pull-left sponsor-icon-stub">	<i class="icon-smile"></i>
-
+        <a href="http://pinnaclegis.com.au/" target="_blank">
+            <img src="/assets/frappe_io/images/partners/pinnaclegis-logo.png" class="img-responsive">
+        </a>
     </div>
     <div class="pull-left sponsor-icon-stub">	<i class="icon-smile"></i>
 
