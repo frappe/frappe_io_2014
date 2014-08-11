@@ -86,7 +86,7 @@
 
 <div class="row">
 	<div class="col-md-3">
-		<a class="btn btn-success pull-right" href="/contact">Buy for $999</a>
+		<a class="btn btn-success pull-right" href="/contact">Buy for $599</a>
 	</div>
 	<div class="col-md-7">
 		<h4 style="margin-top:0px" id="partner-listing">Become A Partner</h4>
