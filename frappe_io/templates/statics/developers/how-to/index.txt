@@ -1,0 +1,2 @@
+report-print-formats
+social-logins
