@@ -1,12 +1,11 @@
+body {
+	color: #444;
+}
+
 .page-header {
 	background-color: #347;
 	background-image: url(/assets/frappe/images/grid-pattern.png);
 	background-repeat: repeat;
-}
-
-.sidebar-item {
-	margin-top: 12px;
-	margin-bottom: 12px;
 }
 
 article img {
@@ -72,4 +71,8 @@ blockquote {
 
 .sponsor-icon-stub img {
 	border: 0px;
+}
+
+.buy-table .btn {
+	margin-bottom: 5px;
 }

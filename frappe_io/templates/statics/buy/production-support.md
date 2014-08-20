@@ -1,6 +1,6 @@
-# Commercial Support
+# Production Support
 
-<p class="lead">Ideal for medium sized enterprises who have the ablity to manage / host their own servers and want full control of their data.</p>
+<p class="lead">Ideal for Software Vendors who want to provide ERPNext Services to their customers.</p>
 
 > Note: Linux Servers Only
 
@@ -9,7 +9,7 @@
 - Installation / Setup support on Linux Servers via [Frappe Bench](https://github.com/frappe/bench).
 - Setup, schedulers backups etc.
 - Setup DNS
-- **Covers setup of maximum 3 sites / databases on one server.**
+- **Covers setup unlimited sites on one server.**
 
 **Note:** Support will be given via chat
 
@@ -17,7 +17,7 @@
 
 #### 2. Implementation Support
 
-- One 2 hour one-on-one consultation on setting ERPNext
+- One 2 hour one-on-one online consultation on setting ERPNext
 - Get your queries answered on priority via our ticketing system.
 
 ---
@@ -26,13 +26,14 @@
 
 - Priority support in case your upgrades break.
 - Support for any additional installations that could be required for upgrades.
+- **Covers unlimited sites / databases on one server.**
 
 ---
 
 #### 4. Incident Support
 
 - Priority support incase of crashes, restoration from backups.
-- Max 2 incidents in a year.
+- Max 3 incidents in a year.
 
 ---
 
@@ -62,7 +63,7 @@ To get started with ERPNext on your server:
 
 Note: Server refers to a root server or managed server or virtual server. Hosting typically refers to only website hosting. ERPNext requires a server, not hosting.
 
-- A stable linux distribution.
+- A stable linux distribution, we recommend CentOS 6, Ubuntu 12+, Debian 7
 - Root access via Secured Shell (SSH) connection.
 - Server should have a static IP.
 - If you choose a commercial linux distribution like RedHat, you will have to buy relevant subscription to installation repositories.
@@ -72,8 +73,8 @@ Note: Server refers to a root server or managed server or virtual server. Hostin
 
 ### Pricing
 
-**US $599 / year**
+**US $3000 / year**
 
-<a href="/buy/payment#CommercialSupport" class="btn btn-success">Buy Now</a>
+<a href="/buy/payment#ProductionSupport" class="btn btn-success">Buy Now</a>
 
 <a href="/contact">Contact Us for information</a>
