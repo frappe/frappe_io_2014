@@ -38,7 +38,7 @@ During office hours, we will try and respond to your developer queries on priori
 
 **Note:** We will not build any code for you and we expect your developer to push via GitHub or BitBucket
 
-**Frequency:** Max twice once per week
+**Frequency:** Max twice per week
 
 ---
 
