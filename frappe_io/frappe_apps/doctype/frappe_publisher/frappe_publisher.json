@@ -1,36 +1,47 @@
 {
  "autoname": "field:publisher_name", 
- "creation": "2014-02-17 15:58:36.000000", 
+ "creation": "2014-02-17 15:58:36", 
  "docstatus": 0, 
  "doctype": "DocType", 
  "fields": [
   {
    "fieldname": "publisher_name", 
    "fieldtype": "Data", 
+   "in_list_view": 1, 
    "label": "Publisher Name", 
    "permlevel": 0
   }, 
   {
    "fieldname": "publisher_logo", 
    "fieldtype": "Attach", 
+   "in_list_view": 1, 
    "label": "Publisher Logo", 
    "permlevel": 0
   }, 
   {
    "fieldname": "location", 
    "fieldtype": "Data", 
+   "in_list_view": 1, 
    "label": "Location", 
    "permlevel": 0
   }, 
   {
    "fieldname": "description", 
    "fieldtype": "Text", 
+   "in_list_view": 1, 
    "label": "Description", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "page_name", 
+   "fieldtype": "Read Only", 
+   "in_list_view": 1, 
+   "label": "Page Name", 
    "permlevel": 0
   }
  ], 
  "idx": 1, 
- "modified": "2014-02-17 16:57:12.000000", 
+ "modified": "2014-08-20 11:57:43.510524", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Publisher", 
@@ -47,5 +58,7 @@
    "submit": 0, 
    "write": 1
   }
- ]
+ ], 
+ "sort_field": "modified", 
+ "sort_order": "DESC"
 }
