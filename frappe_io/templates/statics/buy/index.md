@@ -5,7 +5,7 @@
 <table class="table table-bordered buy-table">
 	<thead>
 		<tr>
-			<th colspan="4">ERPNext Cloud Hosting
+			<th colspan="4"><i class="icon-cloud"></i> ERPNext Cloud Hosting
 				(<a href="https://frappecloud.com">FrappeCloud.com</a>)</th>
 		</tr>
 	</thead>
@@ -45,7 +45,7 @@
 	</tbody>
 	<thead>
 		<tr>
-			<th colspan="4">Production / On-premise Support</th>
+			<th colspan="4"><i class="icon-cog"></i> Production / On-premise Support</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -74,7 +74,7 @@
 	</tbody>
 	<thead>
 		<tr>
-			<th colspan="4">Developer</th>
+			<th colspan="4"><i class="icon-wrench"></i> Developer</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -103,7 +103,7 @@
 	</tbody>
 	<thead>
 		<tr>
-			<th colspan="4">Sponsor</th>
+			<th colspan="4"><i class="icon-star"></i> Sponsor</th>
 		</tr>
 	</thead>
 	<tbody>
