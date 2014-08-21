@@ -51,7 +51,7 @@
 	<tbody>
 		<tr>
 			<td>Single Company</td>
-			<td>3 databases, 1 server</td>
+			<td>2 databases, 1 server</td>
 			<td>$599 / year</td>
 			<td>
 				<a class="btn btn-success"
