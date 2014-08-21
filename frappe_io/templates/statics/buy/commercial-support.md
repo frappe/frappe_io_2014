@@ -9,7 +9,7 @@
 - Installation / Setup support on Linux Servers via [Frappe Bench](https://github.com/frappe/bench).
 - Setup, schedulers backups etc.
 - Setup DNS
-- **Covers setup of maximum 3 sites / databases on one server.**
+- **Covers setup of maximum 2 sites / databases on one server.**
 
 **Note:** Support will be given via chat
 
