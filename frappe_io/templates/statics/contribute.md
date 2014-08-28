@@ -31,19 +31,21 @@
 <hr>
 <div class="row">
 	<div class="col-md-4">
-		<h4>Spread the Word</h4>
+		<h4>Localization</h4>
 	</div>
 	<div class="col-md-8">
-		Help us spread the word about how Frappe and ERPNext projects are helping create better software for everyone. Write / create a small video about your experiences using ERPNext and share it with the community.
+		Get involved by making Frappe, ERPNext and other projects available in your language. Also help us tell the world about how ERPNext is helping create better software for everyone by translating content our website.
+		<br><a href="/translator" class="btn btn-success">
+			Sign up for the translation project right now</a>.
 	</div>
 </div>
 <hr>
 <div class="row">
 	<div class="col-md-4">
-		<h4>Localization</h4>
+		<h4>Spread the Word</h4>
 	</div>
 	<div class="col-md-8">
-		Get involved by making Frappe, ERPNext and other projects available in your language. Also help us tell the world about how ERPNext is helping create better software for everyone by translating content our website. <a href="/translator" target="_blank">Sign up on our translation project right now</a>.
+		Help us spread the word about how Frappe and ERPNext projects are helping create better software for everyone. Write / create a small video about your experiences using ERPNext and share it with the community.
 	</div>
 </div>
 <hr>
