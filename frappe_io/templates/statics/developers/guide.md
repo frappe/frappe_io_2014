@@ -46,7 +46,7 @@ Frappe also has a multi-tenant architecture, grounds up. This means that you can
 
 Easiest way to setup setup on a Unix Like system is to use frappe-bench. Read the detailed instructions on how to install using Frappe Bench.
 
-> [https://github.com/frappe/frappe-bench](https://github.com/frappe/frappe-bench)
+> [https://github.com/frappe/bench](https://github.com/frappe/bench)
 
 With Frappe Bench you will be able to setup and host multiple applications and sites and it will also setup a Python Virtualenv so that you can have an isolated environment to run your applications (and will not have version conflict with other development environments).
 
@@ -58,9 +58,9 @@ The `frappe` command line tool will also be installed that will help you in deve
 
 After the bench is installed, there are two main folders, `apps` and `sites`. All the applications will be installed in apps. `frappe`, `erpnext` and `shopping_card` come pre-installed.
 
-To make a new application go to you bench folder and run, `frappe --make_app apps` and fill in details about the application. This will create a boilerplate application for your.
+To make a new application go to you bench folder and run, `bench new-app {app_name}` and fill in details about the application. This will create a boilerplate application for your.
 
-	$ frappe --make_app apps
+	$ bench --make_app library_management
 	App Name: library_management
 	App Title: Library Management
 	App Description: App for managing Articles, Members, Memberships and Transactions for Libraries
@@ -109,24 +109,15 @@ The application will be created in a folder called `library_management` and will
 1. `generators` are where templates for models are maintained, where each model instance has a separte web route, for example a **Blog Post** where each post has its unique web url. In Frappe, the templating engine used is Jinja2
 1. `pages` is where single route templates are maintained. For example for a "/blog" type of page.
 
-Now Setup this application for using and development
-
-	$ cd apps/library_managment/
-	$ python setup.py develop
-
-
 ### 2.2 Make Site
 
-The next step is to make a site where we can run this application. So make a new site, go back to the `bench/sites` folder.
+Let us create a new site and call it `library`.
 
-Let us create a new site and call it `library` and name its corresponding database also as `library`
-
-You can install a new site, by the command `frappe --install [sitename] [dbname]`
+You can install a new site, by the command `bench new-site library`
 
 This will create a new database and site folder and install `frappe` (which is also an application!) in the new site. The `frappe` application has two built-in modules **Core** and **Website**. The Core module contains the basic models for the application. Frappe is a batteries included framework and comes with a lot of built-in models. These models are called **DocTypes**. More on that later.
 
-	bench $ cd sites
-	$ frappe --install library library
+	$ bench new-site library
 	MySQL root password:
 	Created user library
 	Created database library
@@ -178,23 +169,26 @@ A new folder called `library` will be created in the `sites` folder. Here is the
 
 Now let us install our app `library_management` in our site `library`
 
-1. Add `library_management` in a new line in `sites/apps.txt` to let frappe know that library_management is an installable application.
-1. Install library_management in library with: `frappe [site] --install_app [app]`
+1. Install library_management in library with: `bench frappe [site] --install_app [app]`
 
 Example:
 
-	$ frappe library --install_app library_management
+	$ bench frappe library --install_app library_management
 
 ### 2.5 Start the App
 
-Now we can login and check if everything works. Before we start the server, we can set our default site as `library` so that we do not have to enter it after every command. To set default site, use `frappe --use [site]`
+Now we can login and check if everything works. Before we start the server, we can set our default site as `library` so that we do not have to enter it after every command. To set default site, use `bench set-default-site [site]`
 
-Then to start the development server, run `frappe --serve`
+Then to start the development server, run `bench start`
 
-	$ frappe --use library
-	$ frappe --serve
-	 * Running on http://0.0.0.0:8000/
-	 * Restarting with reloader
+	$ bench set-default-site library
+	$ bench start
+	13:58:51 web.1        | started with pid 22135
+	13:58:51 worker.1     | started with pid 22136
+	13:58:51 workerbeat.1 | started with pid 22137
+	13:58:52 web.1        |  * Running on http://0.0.0.0:8000/
+	13:58:52 web.1        |  * Restarting with reloader
+	13:58:52 workerbeat.1 | [2014-09-17 13:58:52,343: INFO/MainProcess] beat: Starting...
 
 You can now open your browser and go to `http://localhost:8000`. You should see this login page if all goes well:
 
@@ -303,7 +297,7 @@ Click on the **Save** button. When the button is clicked, a popup will ask you f
 
 Now login into mysql and check the database table created:
 
-	$ frappe library --mysql
+	$ bench frappe library --mysql
 	Welcome to the MariaDB monitor.  Commands end with ; or \g.
 	Your MariaDB connection id is 3931
 	Server version: 5.5.36-MariaDB-log Homebrew
