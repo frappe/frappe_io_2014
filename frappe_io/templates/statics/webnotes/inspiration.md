@@ -18,7 +18,7 @@ Few people have single handedly created a revolution like [Khan Academy](http://
 
 <p><span class="label label-info">Quality</span> <span class="label label-info">Reliability</span> <span class="label label-info">Technology</span></p>
 
-[GitHub](https://github.com) has re-invented the way Open Source software is written and shared on the Internet. It has a very well crafted user interface with numerous hidden gems that help you productively manage the software development process and communicate with the community. Over and above this, GitHub gives a very secure, clean and powerful user experience. And ofcourse, [all our code](https://github.com/frappe) is hosted at GitHub
+[GitHub](https://github.com) has re-invented the way Open Source software is written and shared on the Internet. It has a very well crafted user interface with numerous hidden gems that help you productively manage the software development process and communicate with the community. Over and above this, GitHub gives a very secure, clean and powerful user experience. And ofcourse, [all our code](https://github.com/frappe) is hosted at GitHub.
 
 ### Apple
 
