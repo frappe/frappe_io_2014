@@ -60,7 +60,7 @@ After the bench is installed, there are two main folders, `apps` and `sites`. Al
 
 To make a new application, go to your bench folder and run, `bench new-app {app_name}` and fill in details about the application. This will create a boilerplate application for your.
 
-	$ bench --make_app library_management
+	$ bench new-app library_management
 	App Name: library_management
 	App Title: Library Management
 	App Description: App for managing Articles, Members, Memberships and Transactions for Libraries
