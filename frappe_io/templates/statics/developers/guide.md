@@ -56,9 +56,9 @@ The `frappe` command line tool will also be installed that will help you in deve
 
 ## 2. Make a New App Boilerplate
 
-After the bench is installed, there are two main folders, `apps` and `sites`. All the applications will be installed in apps. `frappe`, `erpnext` and `shopping_card` come pre-installed.
+After the bench is installed, there are two main folders, `apps` and `sites`. All the applications will be installed in apps.
 
-To make a new application go to you bench folder and run, `bench new-app {app_name}` and fill in details about the application. This will create a boilerplate application for your.
+To make a new application, go to your bench folder and run, `bench new-app {app_name}` and fill in details about the application. This will create a boilerplate application for your.
 
 	$ bench --make_app library_management
 	App Name: library_management
