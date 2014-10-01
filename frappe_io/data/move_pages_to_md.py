@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import frappe, os
 
-from frappe.utils.email_lib.html2text import html2text
+from frappe.email.html2text import html2text
 
 def execute():
 	return

@@ -36,6 +36,19 @@ If your customer wants production support on their servers, you can do it yourse
 
 ---
 
+#### 6. As a Partner how do I make money?
+
+With ERPNext compared to other ERPs, the cost of license is zero, so there is more money on the table to ensure a successful ERP implementations. These savings can be effectively used to tailor the ERPNext system to the user's requirements and / or to enhance the ERPNext product itself by adding features that could be sponsored. There is always the usual revenue model for:
+
+1. Implementation Services: Gap analysis, user training, data importing
+1. Integration: Integrating with other applications using the API
+1. Print Formats and Reports: Customized Print Layouts and Reports
+1. Website and Webshop setup: Customizing and setting up the website and webshop via ERPNext
+1. Customization: Creating of domain specific apps, connectors for the customer
+1. Support: Priority phone, in-person support as needed
+1. Maintenance: Support for patches and upgrades
+1. Hosting: Providing hosting services (sponsor's message: though you can always host with https://frappecloud.com)
+
 #### 6. What is the general sales / implementation process for ERPNext
 
 1. Ideally, you must first introduce the product and give a quick demo. It is best to highlight that the product is in use in over 300 organizations across 60+ countries and is also affordable and Open Source.
