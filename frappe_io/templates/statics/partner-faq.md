@@ -36,7 +36,7 @@ If your customer wants production support on their servers, you can do it yourse
 
 ---
 
-#### 6. As a Partner how do I make money?
+#### 6. As a service provider how do I make money?
 
 With ERPNext compared to other ERPs, the cost of license is zero, so there is more money on the table to ensure a successful ERP implementations. These savings can be effectively used to tailor the ERPNext system to the user's requirements and / or to enhance the ERPNext product itself by adding features that could be sponsored. There is always the usual revenue model for:
 
@@ -49,7 +49,7 @@ With ERPNext compared to other ERPs, the cost of license is zero, so there is mo
 1. Maintenance: Support for patches and upgrades
 1. Hosting: Providing hosting services (sponsor's message: though you can always host with https://frappecloud.com)
 
-#### 6. What is the general sales / implementation process for ERPNext
+#### 7. What is the general sales / implementation process for ERPNext
 
 1. Ideally, you must first introduce the product and give a quick demo. It is best to highlight that the product is in use in over 300 organizations across 60+ countries and is also affordable and Open Source.
 2. If the customer is convinced, you can do a pilot order in a new trial or Virtual Machine so that the customer is able to see her own data in the system.
@@ -61,13 +61,13 @@ With ERPNext compared to other ERPs, the cost of license is zero, so there is mo
 
 ---
 
-#### 7. I would like to be listed at frappe.io/partners, How is that possible?
+#### 8. I would like to be listed at frappe.io/partners, How is that possible?
 
 To be listed at frappe.io/partners, you can either pay an annual fee of $599 per year or help us sign up 3 customers on [FrappeCloud.com](https://frappecloud.com).
 
 ---
 
-#### 8. I want to sell services but pass on development support to you. Does that work?
+#### 9. I want to sell services but pass on development support to you. Does that work?
 
 No, we (Web Notes Technologies) do not do any paid development. All our energy is used in supporting and enhancing the ERPNext product. If you want to develop a feature or customization, you can engage a freelancer or drop in a request on the [developer forum](https://groups.google.com/forum/#!forum/erpnext-developer-forum). If you are planning do this on any scale, it is best to get one of your developers trained on ERPNext.
 
@@ -75,13 +75,13 @@ No, we (Web Notes Technologies) do not do any paid development. All our energy i
 
 ---
 
-#### 9. I want to setup my own ERPNext cloud, can you help me?
+#### 10. I want to setup my own ERPNext cloud, can you help me?
 
 Yes, we are in the process of generalizing our tools that we use to power FrappeClould.com so that they can be used by companies willing to provide their own ERPNext Cloud. Stay tuned for that on our developer forum where we will be posting it.
 
 ---
 
-#### 10. I want to sell ERPNext in my brand name, will you do that?
+#### 11. I want to sell ERPNext in my brand name, will you do that?
 
 Ofcourse Not! ERPNext is our brand and identity. All work we do will be under the brand name of ERPNext and Frappe. If you want to disguise this as your work, you are free to do it, but don't expect any help from us. If you are using our help documentation, you must attribute us publicly because the documentation is licenced as [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
 
