@@ -37,7 +37,7 @@ You can define complex queries such as:
 
 ### 3. Check the Report
 
-![Query Report](/assets/frappe_io/images/how-to/query-report.png)
+![Query Report](/assets/frappe_io/images/how-to/query-report-out.png)
 
 ---
 
