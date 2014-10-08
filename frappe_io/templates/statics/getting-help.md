@@ -4,7 +4,7 @@ Frappe ERPNext is a platform that is supported by a strong community. There are 
 
 #### 1. Read the Manual (ERPNext)
 
-The ERPNext User Manual is continuously updated and covers most of the functionality. 
+The ERPNext User Manual is continuously updated and covers most of the functionality.
 
 <a class="btn btn-success" href="https://erpnext.com/user-guide"><i class="icon-book"></i> Read the Manual</a>
 
@@ -13,12 +13,9 @@ The ERPNext User Manual is continuously updated and covers most of the functiona
 #### 2. Head to the Forums
 
 If you are a user or you are evaluating and want to talk to other ERPNext users:
-  
-<a class="btn btn-success" href="https://groups.google.com/forum/#!forum/erpnext-user-forum"><i class="icon-group"></i> ERPNext User Forum</a>
 
-If you are a developer and want help in customizing or extending ERPNext:
+<a class="btn btn-success" href="https://disucss.frappe.io"><i class="icon-group"></i> Frappe Forums</a>
 
-<a class="btn btn-success" href="https://groups.google.com/forum/#!forum/erpnext-developer-forum"><i class="icon-cog"></i> ERPNext Developer Forum</a>
 
 ---
 
