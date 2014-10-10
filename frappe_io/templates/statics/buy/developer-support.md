@@ -6,7 +6,7 @@ Enterprise Support Includes:
 
 #### 1. Training
 
-A two day Training Session. [See details](/buy/training)
+A two day Training Session. [See details](/buy/developer-training)
 
 #### 2. Design Review
 

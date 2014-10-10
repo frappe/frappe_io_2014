@@ -14,7 +14,7 @@ The ERPNext User Manual is continuously updated and covers most of the functiona
 
 If you are a user or you are evaluating and want to talk to other ERPNext users:
 
-<a class="btn btn-success" href="https://disucss.frappe.io"><i class="icon-group"></i> Frappe Forums</a>
+<a class="btn btn-success" href="https://discuss.frappe.io"><i class="icon-group"></i> Frappe Forums</a>
 
 
 ---
