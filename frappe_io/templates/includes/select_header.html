@@ -1,0 +1,50 @@
+<div class="row partner-header">
+	<div class="col-sm-4">
+		<select class="form-control select-country">
+			<option value="">Global</option>
+			{% for c in country_list -%}
+			<option value="{{ c }}">{{ c }}</option>
+			{%- endfor %}
+		</select>
+	</div>
+	<div class="col-sm-4">
+		<select class="form-control select-service">
+			<option value="">All Services</option>
+			<option value="app_development">App Development</option>
+			<option value="erp_implementation">ERP Implemenation</option>
+			<option value="customization">Customization</option>
+			<option value="integration">Integration</option>
+		</select>
+	</div>
+</div>
+<hr>
+<script>
+frappe.ready(function() {
+	// set in select
+	if(get_url_arg("country")) {
+		$(".select-country").val(get_url_arg("country"))
+	}
+	if(get_url_arg("service")) {
+		$(".select-service").val(get_url_arg("service"))
+	}
+
+	// search url
+	var search = function() {
+		var url = "/partners?",
+			country = $(".select-country").val(),
+			service = $(".select-service").val()
+		if(country) {
+			url += "country=" + country;
+		}
+		if(service) {
+			url += (country ? "&" : "") + "service=" + service
+		}
+		window.location.href = url;
+	}
+
+	$(".select-country, .select-service").on("change", function() {
+		search();
+	});
+
+});
+</script>

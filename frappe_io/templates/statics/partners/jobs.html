@@ -1,0 +1,27 @@
+<!-- title: Find Jobs -->
+
+{% include "templates/includes/select_header.html" %}
+
+<div class="content">
+	{% if not jobs %}
+	<div class="alert alert-info">
+		No Jobs found for the matching criteria.
+	</div>
+	{% endif %}
+	{% for j in jobs %}
+	<div class="row partner-row">
+		<div class="col-md-9">
+			<a href="/job/{{ j.page_name }}">
+				<h4>{{ j.job_title }}</h4>
+			</a>
+			<p>{{ j.company_name }}</p>
+			<p>{{ j.job_detail }}</p>
+			<p><span class="label label-default">{{ j.country }}</span></p>
+			<p><span class="label label-info">{{ j.service }}</p>
+		</div>
+	</div>
+	{% if not loop.last %}
+	<hr>
+	{% endif %}
+	{% endfor %}
+</div>

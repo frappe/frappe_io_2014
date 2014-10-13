@@ -1,0 +1,42 @@
+{% include "templates/includes/select_header.html" %}
+{%- from "templates/includes/partner_macros.html" import service_cloud, partner_type -%}
+<div class="content">
+	{% if not partners %}
+	<div class="alert alert-info">
+		No Partners found for the matching criteria.
+	</div>
+	{% endif %}
+	{% for p in partners %}
+	<div class="row partner-row">
+		<div class="col-md-3">
+			{% if p.logo -%}
+			<a href="/partners/{{ p.page_name }}">
+				<img itemprop="brand" src="{{ p.logo }}" class="partner-logo no-shadow"
+					alt="{{ p.partner_name }}" title="{{ p.partner_name }}" />
+			</a>
+			{%- endif %}
+		</div>
+		<div class="col-md-9">
+			<a href="/partners/{{ p.page_name }}">
+				<h4>{{ p.partner_name }}</h4>
+			</a>
+			<p><span class="label label-default">{{ p.country }}</span></p>
+			<p>{{ partner_type(p) }}</p>
+			<p>{{ p.introduction }}</p>
+			<p>{{ service_cloud(p) }}</p>
+		</div>
+	</div>
+	{% if not loop.last %}
+	<hr>
+	{% endif %}
+	{% endfor %}
+</div>
+<hr>
+<p class="text-center">
+	<a href="/become-a-partner" class="btn btn-default">Become a Partner</a>
+</p>
+<style>
+	.partner-logo {
+		margin-top: 5px;
+	}
+</style>

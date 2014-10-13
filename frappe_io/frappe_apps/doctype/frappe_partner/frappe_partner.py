@@ -13,4 +13,14 @@ class FrappePartner(WebsiteGenerator):
 	template = "templates/generators/partner.html"
 	page_title_field = "partner_name"
 	def validate(self):
+		self.priority = {
+			"Sponsor": 3,
+			"Verified": 2
+		}.get(self.partner_category) or 1
 		clear_cache("partners")
+
+	def get_parents(self):
+		return [{"title":"Partners", "name": "partners"}]
+
+def get_list_item(doc):
+	return frappe.get_template("frappe_apps/doctype/frappe_partner/list_item.html").render(doc)

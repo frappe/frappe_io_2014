@@ -1,0 +1,19 @@
+{% macro service_cloud(p) %}
+{% for key in ("App Development", "ERP Implementation", "Customization", "Integration") -%}
+	{%- if p.get(key.replace(" ", "_").lower()) -%}
+	<span class="label label-info">{{ key }}</span> {% endif %}
+{%- endfor %}
+{% endmacro %}
+
+{% macro partner_type(p) %}
+{% if p.partner_category=="Verified" %}{{ verified(p) }}{% endif %}
+{% if p.partner_category=="Sponsor" %}{{ sponsor(p) }} {{ verified(p) }}{% endif %}
+{% endmacro %}
+
+{% macro sponsor(p) %}
+<span class="label label-warning"><i class="icon-star"></i> Sponsor</span>
+{% endmacro %}
+
+{% macro verified(p) %}
+<span class="label label-success"><i class="icon-ok-sign"></i> Verified</span>
+{% endmacro %}
