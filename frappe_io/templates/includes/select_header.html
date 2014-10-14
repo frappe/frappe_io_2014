@@ -30,7 +30,7 @@ frappe.ready(function() {
 
 	// search url
 	var search = function() {
-		var url = "/partners?",
+		var url = location.pathname + "?",
 			country = $(".select-country").val(),
 			service = $(".select-service").val()
 		if(country) {

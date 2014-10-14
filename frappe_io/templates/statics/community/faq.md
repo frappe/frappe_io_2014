@@ -1,4 +1,4 @@
-# Partner FAQ
+# Community FAQ
 
 > If you are an independant software vendor or service provider wanting to offer ERPNext sevices to your customer base, this is for you.
 

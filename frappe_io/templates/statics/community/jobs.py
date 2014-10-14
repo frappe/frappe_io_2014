@@ -16,8 +16,7 @@ def get_context(context):
 
 	context.update({
 		"jobs": frappe.db.sql("""select * from `tabFrappe Job`
-			where show_in_website=1 {0} order by modified desc""".format(condition),
+			where show_in_website=1 {0} order by creation desc limit 50""".format(condition),
 			values, as_dict=True),
-		"title": "Partners",
 		"country_list": frappe_partner.get_field("country").options.split("\n")
 	})

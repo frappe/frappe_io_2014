@@ -1,0 +1,65 @@
+{% block content %}
+<div class="job-posting" itemscope itemtype="http://schema.org/JobPosting">
+	<div class="row">
+		<div class="col-md-8">
+			<p><img src="{{ avatar }}" class="avatar avatar-small"> {{ fullname }}</p>
+			<div class="text-muted small">{{ frappe.format_date(creation) }}</div>
+			<p><span class="label label-default">{{ country }}</span> <span class="label label-info">{{ service }}</p>
+			<p><b>Company:</b> {{ company_name }}</p>
+			<p><b>Delivery Type:</b> {{ delivery }}
+			<p><b>Approx Budget (US$):</b> {{ budget }}
+			<p itemprop="description">{{ job_detail }}</p>
+			{% if frappe.user!="Guest" %}
+				<p><b>Email Id:</b> {{ owner }}</p>
+				<hr>
+				{% if bid %}
+				<div class="alert alert-info"><a href="/bid/{{ bid }}">
+					Edit your Bid</a></div>
+				{% elif bids %}
+				<h4>Manage Bids</h4>
+				<ul class="list-group">
+					{% for b in bids %}
+					<li class="list-group-item">
+						<p><a href="/bid/{{ b.name }}">{{ b.frappe_partner }}</a></p>
+						<div class="text-muted small">
+							{{ frappe.format_date(b.creation) }}
+						</div>
+					</li>
+					{% endfor %}
+				</ul>
+				{% elif owner != frappe.user %}
+				<div>
+					<button class="btn btn-success btn-bid">Bid</button>
+				</div>
+				{% endif %}
+			{% else %}
+			<hr>
+			<div class="alert alert-info">Please <a href="/login">register / login</a>
+				to bid for this job.
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+frappe.ready(function() {
+	$(".btn-bid").on("click", function() {
+		frappe.call({
+			type:"POST",
+			method:"frappe_io.frappe_apps.doctype.frappe_job_bid.frappe_job_bid.insert",
+			args: {
+				job: "{{ name }}"
+			},
+			callback: function(r) {
+				if(r.message) {
+					location.reload();
+				}
+			}
+		});
+	});
+});
+</script>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!-- title: Find Jobs -->
+
+{% include "templates/includes/select_header.html" %}
+
+<div class="content">
+	{% if not jobs %}
+	<div class="alert alert-info">
+		No Jobs found for the matching criteria.
+	</div>
+	{% endif %}
+	{% for j in jobs %}
+	<div class="row partner-row">
+		<div class="col-md-9">
+			<a href="/community/jobs/{{ j.page_name }}">
+				<h4>{{ j.job_title }}</h4>
+			</a>
+			<div class="text-muted small">{{ frappe.format_date(j.creation) }}</div>
+			<p>{{ j.job_detail[:300] }}</p>
+			<p><span class="label label-default">{{ j.country }}</span> <span class="label label-info">{{ j.service }}</p>
+		</div>
+	</div>
+	<hr>
+	{% endfor %}
+	{% if jobs|len==50 %}
+	<div class="alert alert-info">Use filters to show more jobs</div>
+	{% endif %}
+</div>
+<div>
+	<a href="/community/manage" class="btn btn-default">
+		Post A New Job
+	</a>
+</div>
