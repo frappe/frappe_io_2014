@@ -110,7 +110,7 @@ You can filter the listing using sql conditions by passing them as the `filters`
 GET param. Each condition is an array of the format, [{doctype}, {field},
 {operator}, {operand}].
 
-Eg, to filter persons with name Jane, pass a param filter=[["Person", "first\_name", "=", "Jane"]]
+Eg, to filter persons with name Jane, pass a param `filters=[["Person", "first_name", "=", "Jane"]]`
 
 <span class="label label-success">GET</span> http://frappe.local:8000**/api/resource/Person/**
 
