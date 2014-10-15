@@ -1,40 +1,69 @@
 {% block content %}
+{% if bid or (frappe.user == owner and status == "Open") -%}
+<div class="text-right">
+	{% if bid %}
+	<a class="btn btn-success" href="/bid/{{ bid }}">
+		<i class="icon-edit"></i> View Bid</a>
+	{% elif owner == frappe.user and status == "Open" %}
+	<a class="text-muted" href="post-jobs?name={{ name }}">
+			<i class="icon-edit"></i> Edit Job</a>
+	<a class="text-muted btn-delete" style="margin-left: 15px;">
+		<i class="icon-remove"></i> Delete Job</a>
+	{% elif owner == frappe.user and status == "Assigned" %}
+	<button class="btn btn-success btn-compelete">
+		<i class="icon-ok-sign"></i> Mark as Complete</button>
+	{% endif %}
+</div>
+<hr>
+{%- endif %}
 <div class="job-posting" itemscope itemtype="http://schema.org/JobPosting">
 	<div class="row">
 		<div class="col-md-8">
 			<p><img src="{{ avatar }}" class="avatar avatar-small"> {{ fullname }}</p>
 			<div class="text-muted small">{{ frappe.format_date(creation) }}</div>
-			<p><span class="label label-default">{{ country }}</span> <span class="label label-info">{{ service }}</p>
+			<p><span class="label label-default">{{ country }}</span>
+				<span class="label label-info">{{ service }}</span>
+				<span class="label label-{{ 'success' if status in ('Open', 'Assigned') else 'default' }}">{{ status }}</span>
+			</p>
 			<p><b>Company:</b> {{ company_name }}</p>
 			<p><b>Delivery Type:</b> {{ delivery }}
 			<p><b>Approx Budget (US$):</b> {{ budget }}
 			<p itemprop="description">{{ job_detail }}</p>
 			{% if frappe.user!="Guest" %}
-				<p><b>Email Id:</b> {{ owner }}</p>
-				<hr>
 				{% if bid %}
-				<div class="alert alert-info"><a href="/bid/{{ bid }}">
-					Edit your Bid</a></div>
-				{% elif bids %}
+				<p><b>Email Id:</b> {{ owner }}</p>
+				{% elif owner == frappe.user %}
+				<br>
 				<h4>Manage Bids</h4>
-				<ul class="list-group">
-					{% for b in bids %}
-					<li class="list-group-item">
-						<p><a href="/bid/{{ b.name }}">{{ b.frappe_partner }}</a></p>
-						<div class="text-muted small">
-							{{ frappe.format_date(b.creation) }}
-						</div>
-					</li>
-					{% endfor %}
-				</ul>
-				{% elif owner != frappe.user %}
+				<hr>
+				{% if bids %}
+					<ul class="list-group">
+						{% for b in bids %}
+						<li class="list-group-item">
+							<div class="pull-right">
+								<span class="label label-{{ 'success' if b.status=='Accepted' else 'default' }}">{{ b.status }}</span>
+							</div>
+							<div><a href="/bid/{{ b.name }}">
+								{{ b.frappe_partner_title }}</a>
+							</div>
+							<div class="text-muted small">
+								{{ frappe.format_date(b.creation) }}
+							</div>
+						</li>
+						{% endfor %}
+					</ul>
+					{% else %}
+					<div class="alert alert-info">No Bids Yet</div>
+				{% endif %}
+				{% elif status=="Open" %}
+				<hr>
 				<div>
-					<button class="btn btn-success btn-bid">Bid</button>
+					<button class="btn btn-success btn-bid">Bid for this Job</button>
 				</div>
 				{% endif %}
 			{% else %}
 			<hr>
-			<div class="alert alert-info">Please <a href="/login">register / login</a>
+			<div class="alert alert-info">Please <a href="/login?redirect-to={{ pathname }}">register / login</a>
 				to bid for this job.
 			</div>
 			{% endif %}
@@ -49,6 +78,7 @@ frappe.ready(function() {
 	$(".btn-bid").on("click", function() {
 		frappe.call({
 			type:"POST",
+			btn: $(this),
 			method:"frappe_io.frappe_apps.doctype.frappe_job_bid.frappe_job_bid.insert",
 			args: {
 				job: "{{ name }}"

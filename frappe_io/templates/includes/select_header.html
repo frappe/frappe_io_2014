@@ -1,6 +1,6 @@
 <div class="row partner-header">
 	<div class="col-sm-4">
-		<select class="form-control select-country">
+		<select class="form-control select-filter" data-key="country">
 			<option value="">Global</option>
 			{% for c in country_list -%}
 			<option value="{{ c }}">{{ c }}</option>
@@ -8,7 +8,7 @@
 		</select>
 	</div>
 	<div class="col-sm-4">
-		<select class="form-control select-service">
+		<select class="form-control select-filter" data-key="service">
 			<option value="">All Services</option>
 			<option value="app_development">App Development</option>
 			<option value="erp_implementation">ERP Implemenation</option>
@@ -16,33 +16,43 @@
 			<option value="integration">Integration</option>
 		</select>
 	</div>
+	{% if is_jobs and frappe.user != "Guest" %}
+	<div class="col-sm-4">
+		<select class="form-control select-filter" data-key="jobs">
+			<option value="">All Jobs</option>
+			<option value="my-jobs">My Jobs</option>
+			<option value="my-bids">My Bids</option>
+		</select>
+	</div>
+	{% endif %}
 </div>
+{% if frappe.form_dict %}
+<div style="margin-top: 5px;">
+	<a href="{{ pathname }}" class="text-muted small">
+		<i class="icon-remove"></i> Clear Filters</a>
+</div>
+{% endif %}
 <hr>
 <script>
 frappe.ready(function() {
 	// set in select
-	if(get_url_arg("country")) {
-		$(".select-country").val(get_url_arg("country"))
-	}
-	if(get_url_arg("service")) {
-		$(".select-service").val(get_url_arg("service"))
-	}
+	$(".select-filter").each(function() {
+		var val = get_url_arg($(this).attr("data-key"));
+		if(val) $(this).val(val);
+	});
 
 	// search url
 	var search = function() {
-		var url = location.pathname + "?",
-			country = $(".select-country").val(),
-			service = $(".select-service").val()
-		if(country) {
-			url += "country=" + country;
-		}
-		if(service) {
-			url += (country ? "&" : "") + "service=" + service
-		}
-		window.location.href = url;
+		var args = {};
+		$(".select-filter").each(function() {
+			var val = $(this).val();
+			if(val) args[$(this).attr("data-key")] = val;
+		});
+
+		window.location.href = location.pathname + "?" + $.param(args);
 	}
 
-	$(".select-country, .select-service").on("change", function() {
+	$(".select-filter").on("change", function() {
 		search();
 	});
 

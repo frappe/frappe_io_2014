@@ -10,6 +10,14 @@
  "document_type": "Transaction", 
  "fields": [
   {
+   "fieldname": "status", 
+   "fieldtype": "Select", 
+   "label": "Status", 
+   "options": "Open\nWithdrawn\nExpired\nCompleted\nAccepted", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
    "allow_on_submit": 0, 
    "fieldname": "frappe_partner", 
    "fieldtype": "Link", 
@@ -59,6 +67,14 @@
    "read_only": 1
   }, 
   {
+   "fieldname": "frappe_partner_title", 
+   "fieldtype": "Read Only", 
+   "label": "Frappe Partner Title", 
+   "options": "frappe_partner.partner_name", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
    "fieldname": "page_name", 
    "fieldtype": "Data", 
    "label": "page_name", 
@@ -85,7 +101,7 @@
  "is_submittable": 0, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2014-10-14 17:13:09.238100", 
+ "modified": "2014-10-15 14:28:08.225241", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Job Bid", 

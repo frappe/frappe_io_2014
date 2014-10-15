@@ -1,5 +1,5 @@
 {
- "autoname": "field:partner_name", 
+ "autoname": "", 
  "creation": "2014-02-26 17:20:29", 
  "docstatus": 0, 
  "doctype": "DocType", 
@@ -142,7 +142,7 @@
  ], 
  "icon": "icon-user", 
  "idx": 1, 
- "modified": "2014-10-14 10:39:13.979010", 
+ "modified": "2014-10-15 11:30:23.814851", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Partner", 

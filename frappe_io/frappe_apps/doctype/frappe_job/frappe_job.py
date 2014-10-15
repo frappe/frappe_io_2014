@@ -12,22 +12,44 @@ class FrappeJob(WebsiteGenerator):
 	page_title_field = "job_title"
 
 	def validate(self):
-		if self.status == "Open":
+		if self.status in ("Open", "Assigned"):
 			self.show_in_website = 1
 		else:
 			self.show_in_website = 0
+
+		if self.status != "Open":
+			self.docstatus = 1
+			all_bids = self.get_all_bids()
+			if self.status in ("Expired", "Closed", "Withdrawn"):
+				for bid in all_bids:
+					bid = frappe.get_doc("Frappe Job Bid", bid.name)
+					bid.status = self.status
+					bid.save()
+			elif self.status in ("Assigned"):
+				for bid in all_bids:
+					bid = frappe.get_doc("Frappe Job Bid", bid.name)
+					if bid.status != "Accepted":
+						bid.status = "Lost"
+						bid.save()
+
+	def get_all_bids(self):
+		return frappe.get_all("Frappe Job Bid", filters={"frappe_job": self.name})
 
 	def get_context(self, context):
 		context.update(get_fullname_and_avatar(self.owner))
 		if frappe.session.user == self.owner:
 			context.bids = frappe.get_all("Frappe Job Bid",
-				fields=["name", "frappe_partner", "creation"],
+				fields=["status, ""name", "frappe_partner", "creation", "frappe_partner_title"],
 				filters={"frappe_job": self.name}, order_by="creation asc")
 		elif frappe.session.user != "Guest":
 			context.bid = frappe.db.get_value("Frappe Job Bid",
-				{"owner": frappe.session.user})
+				{"owner": frappe.session.user, "frappe_job": self.name})
 
 
-	def get_parents(self):
+	def get_parents(self, context):
 		return [{"title":"Community", "name": "community"},
 			{"title":"Jobs", "name": "community/jobs"}]
+
+	def on_trash(self):
+		for bid in get_all_bids():
+			frappe.delete_doc("Frappe Job Bid", bid.name)

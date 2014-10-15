@@ -20,7 +20,7 @@ class FrappePartner(WebsiteGenerator):
 		if len(self.introduction or "") > 300:
 			self.introduction = self.introduction[:297] + "..."
 
-	def get_parents(self):
+	def get_parents(self, context):
 		return [{"title":"Community", "name": "community"},
 			{"title":"Service Providers", "name": "community/service-providers"}]
 

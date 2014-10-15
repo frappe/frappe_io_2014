@@ -11,12 +11,28 @@
 	{% for j in jobs %}
 	<div class="row partner-row">
 		<div class="col-md-9">
-			<a href="/community/jobs/{{ j.page_name }}">
-				<h4>{{ j.job_title }}</h4>
-			</a>
+			{% if j.owner == frappe.user -%}
+			<div class="pull-right" style="margin-top: 12px;">
+				<a class="text-muted small" href="post-jobs?name={{ j.name }}">
+				<i class="icon-edit"></i> Edit Job</a>
+			</div>
+			{%- endif %}
+			<h4>
+				<a href="/community/jobs/{{ j.page_name }}">
+					{{ j.job_title }}
+				</a>
+			</h4>
 			<div class="text-muted small">{{ frappe.format_date(j.creation) }}</div>
 			<p>{{ j.job_detail[:300] }}</p>
-			<p><span class="label label-default">{{ j.country }}</span> <span class="label label-info">{{ j.service }}</p>
+			<p>
+				<span class="label label-default">{{ j.country }}</span>
+				<span class="label label-info">{{ j.service }}</span>
+				{% if j.owner == frappe.user -%}
+					<span class="label label-warning">My Job</span>
+				{% elif j.my_bid -%}
+					<span class="label label-success">Bid</span>
+				{% endif %}
+			</p>
 		</div>
 	</div>
 	<hr>
@@ -26,7 +42,7 @@
 	{% endif %}
 </div>
 <div>
-	<a href="/community/manage" class="btn btn-default">
+	<a href="/post-jobs" class="btn btn-default">
 		Post A New Job
 	</a>
 </div>

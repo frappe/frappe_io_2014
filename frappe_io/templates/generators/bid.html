@@ -1,7 +1,84 @@
 {% block title %}Bid{% endblock %}
 {% block content %}
+{% if frappe.user in (owner, job.owner) and status != "Accepted" %}
+<div class="text-right">
+	{% if job.owner == frappe.user and status=="Open" %}
+	<button class="btn btn-success btn-accept">
+		<i class="icon-ok-sign"></i> Accept Bid</button>
+	{% endif %}
+	{% if owner == frappe.user and status!="Accepted" %}
+	<a class="text-muted btn-delete">
+		<i class="icon-remove"></i> Delete Bid</a>
+	{% endif %}
+</div>
+<hr>
+{% endif %}
+<div class="row">
+	<div class="col-sm-4 text-right">Bid Status</div>
+	<div class="col-sm-8"><span class="label label-{{ 'success' if status in ('Open', 'Accepted') else 'danger' }}">{{ status }}<span></div>
+</div>
+<br>
+<div class="row">
+	<div class="col-sm-4 text-right">Job Link</div>
+	<div class="col-sm-8"><a href="{{ job.get_route() }}">{{ job.job_title }}</a></div>
+</div>
+<div class="row">
+	<div class="col-sm-4 text-right">Company</div>
+	<div class="col-sm-8">{{ job.company_name }}</div>
+</div>
+<div class="row">
+	<div class="col-sm-4 text-right">Approx Budget (US $)</div>
+	<div class="col-sm-8">{{ job.budget }}</div>
+</div>
+<div class="row">
+	<div class="col-sm-4 text-right">Country</div>
+	<div class="col-sm-8">{{ job.country }}</div>
+</div>
+<div class="row">
+	<div class="col-sm-4 text-right">Delivery Type</div>
+	<div class="col-sm-8">{{ job.delivery }}</div>
+</div>
+<div class="row">
+	<div class="col-sm-4 text-right">Job Details</div>
+	<div class="col-sm-8">{{ job.job_detail }}</div>
+</div>
 
 <h3>Comments</h3>
+<hr>
 {% include 'templates/includes/comments.html' %}
 
+{% endblock %}
+{% block script %}
+<script>
+frappe.ready(function() {
+	$(".btn-accept").on("click", function() {
+		frappe.call({
+			type: "POST",
+			btn: $(this),
+			method: "frappe_io.frappe_apps.doctype.frappe_job_bid.frappe_job_bid.accept",
+			args: {bid: "{{ name }}"},
+			callback: function(r) {
+				if(!r.exc) {
+					location.reload();
+				}
+			}
+		})
+	});
+
+	$(".btn-delete").on("click", function() {
+		frappe.call({
+			type: "POST",
+			btn: $(this),
+			method: "frappe_io.frappe_apps.doctype.frappe_job_bid.frappe_job_bid.delete",
+			args: {bid: "{{ name }}"},
+			callback: function(r) {
+				if(!r.exc) {
+					location.href = "/community/jobs?jobs=my-bids";
+				}
+			}
+		})
+	});
+
+});
+</script>
 {% endblock %}
