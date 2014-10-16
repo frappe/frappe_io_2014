@@ -28,5 +28,13 @@ class FrappePartner(WebsiteGenerator):
 		# show on default - good faith
 		self.show_in_website = 1
 
+	def get_context(self, context):
+		context.jobs = frappe.db.sql("""select job.page_name, job.job_title,
+			job.creation from `tabFrappe Job` job, `tabFrappe Job Bid` bid
+			where bid.owner = %s
+				and bid.status = "Accepted"
+				and bid.frappe_job = job.name
+			order by job.creation desc limit 20""", self.owner, as_dict=True)
+
 def get_list_item(doc):
 	return frappe.get_template("frappe_apps/doctype/frappe_partner/list_item.html").render(doc)

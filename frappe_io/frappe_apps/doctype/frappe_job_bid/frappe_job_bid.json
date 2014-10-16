@@ -12,6 +12,7 @@
   {
    "fieldname": "status", 
    "fieldtype": "Select", 
+   "in_list_view": 1, 
    "label": "Status", 
    "options": "Open\nWithdrawn\nExpired\nCompleted\nAccepted", 
    "permlevel": 0, 
@@ -91,6 +92,13 @@
    "precision": "", 
    "read_only": 1, 
    "reqd": 0
+  }, 
+  {
+   "fieldname": "rating", 
+   "fieldtype": "Int", 
+   "label": "Rating", 
+   "permlevel": 0, 
+   "precision": ""
   }
  ], 
  "hide_heading": 0, 
@@ -101,7 +109,7 @@
  "is_submittable": 0, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2014-10-15 14:28:08.225241", 
+ "modified": "2014-10-16 17:15:39.889975", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Job Bid", 

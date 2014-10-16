@@ -20,6 +20,27 @@
 			<p>{{ service_cloud(doc) }}</p>
 		</div>
 		<div class="col-md-8">
+			<div class="well">{{ introduction[:300] }}</div>
+			<hr>
+			<h4>Completed Jobs</h4>
+			{% if jobs %}
+				<ul class="list-group">
+				{% for job in jobs %}
+				<li class="list-group-item">
+					<div>
+						<a href="/community/jobs/{{ job.page_name }}">
+							{{ job.job_title }}</a>
+					</div>
+					<div class="text-muted small">
+						{{ frappe.format_date(job.creation) }}</div>
+				</li>
+				{% endfor %}
+				</ul>
+			{% else %}
+			<div class="alert alert-info">No Jobs Completed on the Community Portal</div>
+			{% endif %}
+			<hr>
+			<p><h4>Capabilities</h4></p>
 			<p>{{ description }}</p>
 		</div>
 	</div>

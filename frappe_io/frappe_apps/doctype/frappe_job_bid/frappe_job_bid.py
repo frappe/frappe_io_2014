@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import frappe
 from frappe import _
 from frappe.website.website_generator import WebsiteGenerator
+from frappe.website.utils import get_comment_list
 
 class FrappeJobBid(WebsiteGenerator):
 	template = "templates/generators/bid.html"
@@ -28,9 +29,14 @@ class FrappeJobBid(WebsiteGenerator):
 		self.frappe_partner_title = frappe.db.get_value("Frappe Partner", self.frappe_partner,
 			"partner_name")
 
+	def after_insert(self):
+		frappe.sendmail(recipients=[self.owner], subject="New Bid for your Job {0}".format(self.name),
+			message=new_bid_template.format(**self.as_dict()), bulk=True)
+
 	def get_context(self, context):
 		context.job = frappe.get_doc("Frappe Job", self.frappe_job)
 		context.partner = frappe.get_doc("Frappe Partner", self.frappe_partner)
+		context.comment_list = get_comment_list(self.doctype, self.name)
 
 	def get_parents(self, context):
 		return [{"title":"Community", "name": "community"},
@@ -44,20 +50,6 @@ class FrappeJobBid(WebsiteGenerator):
 
 
 @frappe.whitelist()
-def insert(job):
-	partner = frappe.db.get_value("Frappe Partner", {"owner": frappe.session.user})
-	if not partner:
-		frappe.msgprint("Please update your Service Provider details before bidding")
-		return
-
-	bid = frappe.new_doc("Frappe Job Bid")
-	bid.frappe_job = job
-	bid.frappe_partner = partner
-	bid.insert(ignore_permissions=True)
-
-	return bid.name
-
-@frappe.whitelist()
 def accept(bid):
 	bid = frappe.get_doc("Frappe Job Bid", bid)
 	job = frappe.get_doc("Frappe Job", bid.frappe_job)
@@ -68,6 +60,7 @@ def accept(bid):
 	bid.status = "Accepted"
 	bid.save()
 	job.status = "Assigned"
+	job.frappe_partner = bid.frappe_partner
 	job.save()
 
 @frappe.whitelist()
@@ -77,3 +70,10 @@ def delete(bid):
 		frappe.throw(_("Not Allowed"), frappe.PermissionError)
 
 	frappe.delete_doc("Frappe Job Bid", bid.name, ignore_permissions=True)
+
+new_bid_template = """
+<h3>Notification from Frappe.io Community Portal</h3>
+<p>{frappe_partner} has bid for your job {frappe_job}</p>
+<p><a href="https://frappe.io/community/jobs/{frappe_job}">
+	Click here to manage bids</a></p>
+"""

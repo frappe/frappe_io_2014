@@ -26,3 +26,7 @@ fixtures = [
 	"Frappe Partner",
 	"Web Form"
 ]
+
+scheduler_events = {
+	"daily": ["frappe_io.frappe_apps.doctype.frappe_job.frappe_job.expire_jobs"]
+}

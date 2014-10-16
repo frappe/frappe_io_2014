@@ -16,7 +16,7 @@ def get_context(context):
 
 	if frappe.session.user != "Guest":
 		my_bids = frappe.db.sql_list("""select frappe_job
-			from `tabFrappe Job Bid` where owner = %s""", frappe.session.user)
+			from `tabFrappe Job Bid` where status in ("Open", "Assigned") and owner = %s""", frappe.session.user)
 
 		if frappe.form_dict.jobs=="my-jobs":
 			condition += """ and owner=%s"""

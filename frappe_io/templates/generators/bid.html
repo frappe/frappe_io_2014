@@ -1,14 +1,15 @@
 {% block title %}Bid{% endblock %}
 {% block content %}
-{% if frappe.user in (owner, job.owner) and status != "Accepted" %}
-<div class="text-right">
+{% if frappe.user in (owner, job.owner) and status in ("Accepted", "Open") %}
+<div >
 	{% if job.owner == frappe.user and status=="Open" %}
 	<button class="btn btn-success btn-accept">
 		<i class="icon-ok-sign"></i> Accept Bid</button>
-	{% endif %}
-	{% if owner == frappe.user and status!="Accepted" %}
-	<a class="text-muted btn-delete">
-		<i class="icon-remove"></i> Delete Bid</a>
+	{% elif owner == frappe.user and status=="Open" %}
+	<a class="btn btn-default btn-delete">
+		<i class="icon-remove"></i> Withdraw Bid</a>
+	{% elif job.owner == frappe.user and status=="Accepted" %}
+	<div class="alert alert-success">You have accepted this bid. To mark this job as completed, <a href="{{ job.get_route() }}">go back to the Job Page</a></div>
 	{% endif %}
 </div>
 <hr>
@@ -19,9 +20,14 @@
 </div>
 <br>
 <div class="row">
-	<div class="col-sm-4 text-right">Job Link</div>
+	<div class="col-sm-4 text-right">Job</div>
 	<div class="col-sm-8"><a href="{{ job.get_route() }}">{{ job.job_title }}</a></div>
 </div>
+<div class="row">
+	<div class="col-sm-4 text-right">Bidder</div>
+	<div class="col-sm-8"><a href="{{ partner.get_route() }}">{{ partner.partner_name }}</a></div>
+</div>
+<br>
 <div class="row">
 	<div class="col-sm-4 text-right">Company</div>
 	<div class="col-sm-8">{{ job.company_name }}</div>
@@ -43,8 +49,9 @@
 	<div class="col-sm-8">{{ job.job_detail }}</div>
 </div>
 
-<h3>Comments</h3>
 <hr>
+<h4><i class="icon-comments text-muted"></i> Discussion</h4>
+<br>
 {% include 'templates/includes/comments.html' %}
 
 {% endblock %}
