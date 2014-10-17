@@ -15,7 +15,7 @@ brand_html = '<img src="/assets/frappe_io/images/frappe-io-brand.png" style="wid
 web_include_css = ["assets/frappe_io/css/frappe-io-web.css", "/assets/frappe/css/hljs-github.css"]
 web_include_js = "/assets/frappe/js/lib/highlight.pack.js"
 
-website_generators = ["Frappe App", "Frappe Partner"]
+website_generators = ["Frappe App", "Frappe Partner", "Frappe Job", "Frappe Job Bid"]
 
 fixtures = [
 	"Website Settings",
@@ -23,5 +23,10 @@ fixtures = [
 	"Contact Us Settings",
 	"Frappe Publisher",
 	"Frappe App",
-	"Frappe Partner"
+	"Frappe Partner",
+	"Web Form"
 ]
+
+scheduler_events = {
+	"daily": ["frappe_io.frappe_apps.doctype.frappe_job.frappe_job.expire_jobs"]
+}

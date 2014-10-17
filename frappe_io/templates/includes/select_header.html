@@ -1,0 +1,60 @@
+<div class="row partner-header">
+	<div class="col-sm-4">
+		<select class="form-control select-filter" data-key="country">
+			<option value="">Global</option>
+			{% for c in country_list -%}
+			<option value="{{ c }}">{{ c }}</option>
+			{%- endfor %}
+		</select>
+	</div>
+	<div class="col-sm-4">
+		<select class="form-control select-filter" data-key="service">
+			<option value="">All Services</option>
+			<option value="app_development">App Development</option>
+			<option value="erp_implementation">ERP Implemenation</option>
+			<option value="customization">Customization</option>
+			<option value="integration">Integration</option>
+		</select>
+	</div>
+	{% if is_jobs and frappe.user != "Guest" %}
+	<div class="col-sm-4">
+		<select class="form-control select-filter" data-key="jobs">
+			<option value="">All Jobs</option>
+			<option value="my-jobs">My Jobs</option>
+			<option value="my-bids">My Bids</option>
+		</select>
+	</div>
+	{% endif %}
+</div>
+{% if frappe.form_dict %}
+<div style="margin-top: 5px;">
+	<a href="{{ pathname }}" class="text-muted small">
+		<i class="icon-remove"></i> Clear Filters</a>
+</div>
+{% endif %}
+<hr>
+<script>
+frappe.ready(function() {
+	// set in select
+	$(".select-filter").each(function() {
+		var val = get_url_arg($(this).attr("data-key"));
+		if(val) $(this).val(val);
+	});
+
+	// search url
+	var search = function() {
+		var args = {};
+		$(".select-filter").each(function() {
+			var val = $(this).val();
+			if(val) args[$(this).attr("data-key")] = val;
+		});
+
+		window.location.href = location.pathname + "?" + $.param(args);
+	}
+
+	$(".select-filter").on("change", function() {
+		search();
+	});
+
+});
+</script>
