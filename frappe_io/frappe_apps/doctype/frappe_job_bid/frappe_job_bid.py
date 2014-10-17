@@ -58,10 +58,13 @@ def accept(bid):
 	if job.status != "Open":
 		frappe.throw(_("Bid not Open"))
 	bid.status = "Accepted"
-	bid.save()
+	bid.save(ignore_permissions=True)
+	bid.clear_cache()
+
 	job.status = "Assigned"
 	job.frappe_partner = bid.frappe_partner
-	job.save()
+	job.save(ignore_permissions=True)
+	job.clear_cache()
 
 @frappe.whitelist()
 def delete(bid):
@@ -70,6 +73,9 @@ def delete(bid):
 		frappe.throw(_("Not Allowed"), frappe.PermissionError)
 
 	frappe.delete_doc("Frappe Job Bid", bid.name, ignore_permissions=True)
+
+	job = frappe.get_doc("Frappe Job", bid.frappe_job)
+	job.clear_cache()
 
 new_bid_template = """
 <h3>Notification from Frappe.io Community Portal</h3>

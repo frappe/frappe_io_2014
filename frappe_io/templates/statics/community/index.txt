@@ -2,3 +2,4 @@ service-providers
 jobs
 manage
 faq
+terms

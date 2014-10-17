@@ -1,5 +1,5 @@
 {% block content %}
-{%- from "templates/includes/community_macros.html" import service_cloud, partner_type -%}
+{%- from "templates/includes/community_macros.html" import service_cloud, partner_type, stars -%}
 <div class="partner-content" itemscope itemtype="http://schema.org/Organization">
 	<div class="row">
 		<div class="col-md-4">
@@ -20,6 +20,9 @@
 			<p>{{ service_cloud(doc) }}</p>
 		</div>
 		<div class="col-md-8">
+			<div class="clearfix">
+				{{ stars(doc) }}
+			</div>
 			<div class="well">{{ introduction[:300] }}</div>
 			<hr>
 			<h4>Completed Jobs</h4>

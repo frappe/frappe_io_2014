@@ -162,7 +162,7 @@
    "set_only_once": 0
   }, 
   {
-   "allow_on_submit": 0, 
+   "allow_on_submit": 1, 
    "fieldname": "show_in_website", 
    "fieldtype": "Check", 
    "hidden": 0, 
@@ -189,6 +189,7 @@
    "precision": ""
   }, 
   {
+   "allow_on_submit": 1, 
    "fieldname": "rating", 
    "fieldtype": "Int", 
    "label": "Partner Rating", 
@@ -196,6 +197,7 @@
    "precision": ""
   }, 
   {
+   "allow_on_submit": 1, 
    "fieldname": "feedback", 
    "fieldtype": "Text", 
    "label": "Partner Feedback", 
@@ -221,6 +223,15 @@
    "precision": "", 
    "read_only": 1, 
    "search_index": 0
+  }, 
+  {
+   "fieldname": "amended_from", 
+   "fieldtype": "Link", 
+   "label": "Amended From", 
+   "no_copy": 1, 
+   "options": "Frappe Job", 
+   "print_hide": 1, 
+   "read_only": 1
   }
  ], 
  "hide_heading": 0, 
@@ -228,10 +239,10 @@
  "icon": "icon-legal", 
  "in_create": 0, 
  "in_dialog": 0, 
- "is_submittable": 0, 
+ "is_submittable": 1, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2014-10-16 18:23:44.475685", 
+ "modified": "2014-10-17 12:14:36.117139", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Job", 
@@ -253,7 +264,7 @@
    "report": 1, 
    "role": "System Manager", 
    "set_user_permissions": 0, 
-   "submit": 0, 
+   "submit": 1, 
    "write": 1
   }
  ], 

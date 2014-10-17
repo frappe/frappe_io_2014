@@ -1,7 +1,7 @@
 <!-- title: Service Providers -->
 
 {% include "templates/includes/select_header.html" %}
-{%- from "templates/includes/community_macros.html" import service_cloud, partner_type -%}
+{%- from "templates/includes/community_macros.html" import service_cloud, partner_type, stars -%}
 <div class="content">
 	{% if not partners %}
 	<div class="alert alert-info">
@@ -14,11 +14,12 @@
 			{% if p.logo -%}
 			<a href="/community/service-providers/{{ p.page_name }}">
 				<img itemprop="brand" src="{{ p.logo }}" class="partner-logo no-shadow"
-					alt="{{ p.partner_name }}" title="{{ p.partner_name }}" />
+					alt="{{ p.partner_name }}" title="{{ p.partner_name }}" style="max-width: 80%" />
 			</a>
 			{%- endif %}
 		</div>
 		<div class="col-md-9">
+			{{ stars(p) }}
 			<a href="/community/service-providers/{{ p.page_name }}">
 				<h4>{{ p.partner_name }}</h4>
 			</a>
@@ -28,9 +29,9 @@
 			<p>{{ service_cloud(p) }}</p>
 		</div>
 	</div>
+	<hr>
 	{% endfor %}
 </div>
-<hr>
 {% if partners|len==50 %}
 <div class="alert alert-info">Use filters to show more jobs</div>
 {% endif %}

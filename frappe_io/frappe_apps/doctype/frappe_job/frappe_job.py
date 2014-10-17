@@ -14,7 +14,7 @@ class FrappeJob(WebsiteGenerator):
 	page_title_field = "job_title"
 
 	def validate(self):
-		if self.status in ("Open", "Assigned"):
+		if self.status in ("Open", "Assigned", "Completed"):
 			self.show_in_website = 1
 		else:
 			self.show_in_website = 0
@@ -26,20 +26,23 @@ class FrappeJob(WebsiteGenerator):
 				for bid in all_bids:
 					bid = frappe.get_doc("Frappe Job Bid", bid.name)
 					bid.status = self.status
-					bid.save()
+					bid.save(ignore_permissions=True)
 
 			elif self.status == "Completed":
 				bid = frappe.get_doc("Frappe Job Bid", {"frappe_job": self.name, "status":"Accepted"})
 				if bid:
 					bid.status = "Completed"
-					bid.save()
+					bid.save(ignore_permissions=True)
 
 			elif self.status in "Assigned":
 				for bid in all_bids:
 					bid = frappe.get_doc("Frappe Job Bid", bid.name)
 					if bid.status != "Accepted":
 						bid.status = "Lost"
-						bid.save()
+						bid.save(ignore_permissions=True)
+
+		if self.frappe_partner:
+			frappe.get_doc("Frappe Partner", self.frappe_partner).clear_cache()
 
 	def before_update_after_submit(self):
 		self.validate()
@@ -54,10 +57,18 @@ class FrappeJob(WebsiteGenerator):
 			context.bids = frappe.get_all("Frappe Job Bid",
 				fields=["status, ""name", "frappe_partner", "creation", "frappe_partner_title"],
 				filters={"frappe_job": self.name}, order_by="creation asc")
+
+			if self.status == "Assigned":
+				context.bid = [b for b in context.bids if b.status=='Accepted'][0].name
+
 		elif frappe.session.user != "Guest":
 			context.bid = frappe.db.get_value("Frappe Job Bid",
 				{"owner": frappe.session.user, "frappe_job": self.name})
 
+		if self.frappe_partner:
+			context.frappe_partner_name, context.frappe_partner_route = \
+				frappe.db.get_value("Frappe Partner",
+					self.frappe_partner, ["partner_name", "page_name"])
 
 	def get_parents(self, context):
 		return [{"title":"Community", "name": "community"},
@@ -100,6 +111,10 @@ def complete(job, feedback, rating):
 	job.feedback = feedback
 	job.rating = rating
 	job.save(ignore_permissions=True)
+
+	partner = frappe.get_doc("Frappe Partner", job.frappe_partner)
+	partner.update_rating_and_feedback()
+
 
 @frappe.whitelist()
 def close(job):
