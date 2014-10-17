@@ -2,6 +2,44 @@
 
 <p class="lead">ERPNext related converage in blogs, magazines, websites</p>
 
+<div class="media frappe-coverage">
+	<a class="pull-left" href="http://www.infoworld.com/article/2688073/applications/applications-164721-bossie-awards-2014-the-best-open-source-applications.html" target="_blank">
+		<img class="media-object" src="/assets/frappe_io/images/frappe/bossie-2014.jpg">
+	</a>
+	<div class="media-body">
+		<a href="http://www.infoworld.com/article/2688073/applications/applications-164721-bossie-awards-2014-the-best-open-source-applications.html" target="_blank">
+			<h4 class="media-heading">BOSSIE Award Winner: Best Open Source of 2014</h4></a>
+		<p class="text-muted">October 2014</p>
+		<p>The past year saw ERPNext move to a new Web framework, called Frappe, which supports plug-ins and extensions through a new API. In addition to the framework upgrade, the platform received a lot of usability improvements and bug fixes. The list of features is impressive and continues to grow.</p>
+		<p><a href="http://www.infoworld.com/article/2688073/applications/applications-164721-bossie-awards-2014-the-best-open-source-applications.html" target="_blank">Read more.</a></p>
+	</div>
+</div>
+<hr>
+<div class="media frappe-coverage">
+	<a class="pull-left" href="http://www.themukt.com/2014/09/19/india-yet-catch-foss-says-rushabh-mehta-erpnext/" target="_blank">
+		<img class="media-object" src="/assets/frappe_io/images/frappe/the-mukt-340.png">
+	</a>
+	<div class="media-body">
+		<a href="http://www.themukt.com/2014/09/19/india-yet-catch-foss-says-rushabh-mehta-erpnext/" target="_blank">
+			<h4 class="media-heading">India yet to catch up with FOSS, says Rushabh Mehta of ERPNext</h4></a>
+		<p class="text-muted">September 2014</p>
+		<p>We got a chance to interact with Rushabh Mehta, the founder of Web Notes Technologies, a company based in Mumbai, India. ERPNext is the major product of the company. It is a free and Open Source web based ERP (Enterprise Resource Planning) solution for small and medium sized businesses with its presence in more than 60 countries.</p>
+		<p><a href="http://www.themukt.com/2014/09/19/india-yet-catch-foss-says-rushabh-mehta-erpnext/" target="_blank">Read more.</a></p>
+	</div>
+</div>
+<hr>
+<div class="media frappe-coverage">
+	<a class="pull-left" href="http://pn.ispirt.in/bootstrapping-is-tough-most-of-the-time-things-take-three-times-longer-than-what-we-think-the-only-way-to-enjoy-this-journey-is-to-absolutely-love-what-you-do-that-is-what-sustains-you/" target="_blank">
+		<img class="media-object" src="/assets/frappe_io/images/frappe/product-nation.png">
+	</a>
+	<div class="media-body">
+		<a href="http://pn.ispirt.in/bootstrapping-is-tough-most-of-the-time-things-take-three-times-longer-than-what-we-think-the-only-way-to-enjoy-this-journey-is-to-absolutely-love-what-you-do-that-is-what-sustains-you/" target="_blank">
+			<h4 class="media-heading">Interview on the Bootstrapping Experience</h4></a>
+		<p class="text-muted">September 2014</p>
+		<p>Bootstrapping is tough. Most of the time things take three times longer than what we think. The only way to enjoy this journey is to absolutely love what you do. That is what sustains you.</p>
+		<p><a href="http://pn.ispirt.in/bootstrapping-is-tough-most-of-the-time-things-take-three-times-longer-than-what-we-think-the-only-way-to-enjoy-this-journey-is-to-absolutely-love-what-you-do-that-is-what-sustains-you/" target="_blank">Read more.</a></p>
+	</div>
+</div>
 <hr>
 <div class="media frappe-coverage">
 	<a class="pull-left" href="http://www.crn.in/news/software/2014/04/02/web-notes-technologies-counts-on-low-cost-erp" target="_blank">
