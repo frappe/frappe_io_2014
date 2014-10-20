@@ -8,7 +8,7 @@ The Frappe Community Portal is a project that aims to connect users who are look
 
 Find Service Providers who can help you setup, implement, customize ERPNext or build extensions and applications on the Frappe Platform. If you are a service provider, listing on this platform is free.
 
-<a href="/community/service-providers" class="btn btn-success">Find Partners</a>
+<a href="/community/service-providers" class="btn btn-success">Find Service Providers</a>
 
 ---
 
