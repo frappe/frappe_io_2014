@@ -10,6 +10,7 @@ from frappe.website.utils import get_comment_list
 class FrappeJobBid(WebsiteGenerator):
 	template = "templates/generators/bid.html"
 	page_title = "Bid"
+	no_cache = 1
 	def onload(self):
 		self.frappe_job_title = frappe.db.get_value("Frappe Job", self.frappe_job, "job_title")
 		self.frappe_job_title = frappe.db.get_value("Frappe Job", self.frappe_job, "job_title")

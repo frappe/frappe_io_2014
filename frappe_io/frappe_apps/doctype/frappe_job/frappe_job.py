@@ -12,6 +12,7 @@ class FrappeJob(WebsiteGenerator):
 	condition_field = "show_in_website"
 	template = "templates/generators/job.html"
 	page_title_field = "job_title"
+	no_cache = 1
 
 	def validate(self):
 		if self.status in ("Open", "Assigned", "Completed"):
