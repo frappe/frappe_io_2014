@@ -23,7 +23,6 @@ fixtures = [
 	"Contact Us Settings",
 	"Frappe Publisher",
 	"Frappe App",
-	"Frappe Partner",
 	"Web Form"
 ]
 
