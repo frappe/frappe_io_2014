@@ -17,6 +17,7 @@ Find Service Providers who can help you setup, implement, customize ERPNext or b
 If you are looking for personalized help to implement, install, setup or customize ERPNext, please add your job here. You can also receive bids from Service Providers and give feedback on the partner.
 
 <a href="/post-jobs" class="btn btn-success">Post A Job</a>
+<a href="/community/jobs" class="btn btn-default">Find Jobs</a>
 
 ---
 
