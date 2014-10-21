@@ -32,6 +32,9 @@ class FrappePartner(WebsiteGenerator):
 		self.save(ignore_permissions=True)
 
 	def get_context(self, context):
+		if context.partner_website and not context.partner_website.startswith("http"):
+			context.partner_website = "http://" + context.partner_website
+
 		context.jobs = frappe.db.sql("""select job.page_name, job.job_title,
 			job.creation from `tabFrappe Job` job, `tabFrappe Job Bid` bid
 			where bid.owner = %s
