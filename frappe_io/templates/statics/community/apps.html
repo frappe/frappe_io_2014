@@ -1,0 +1,23 @@
+<div class="no-shadow">
+	{% for app in apps %}
+	<div class="media">
+		<a class="pull-left"
+			href="/apps/{{ app.page_name }}">
+			<img class="media-object app-icon" src="{{ app.icon }}">
+		</a>
+		<div class="media-body">
+			<a href="/apps/{{ app.page_name }}">
+			<h4 class="media-heading">{{ app.application_name }}</h4>
+		</a>
+		<p>{{ app.introduction }}</p>
+		<p class="text-muted">Publisher: {{ app.publisher }}</p>
+		</div>
+	</div>
+	<hr>
+	{% endfor %}
+	<div>
+		<a href="/list-your-app" class="btn btn-default">
+			Share your App
+		</a>
+	</div>
+</div>

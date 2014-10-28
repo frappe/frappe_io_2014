@@ -21,6 +21,13 @@ If you are looking for personalized help to implement, install, setup or customi
 
 ---
 
+#### Discover Apps
+
+Frappe is an extensible platform and many apps can be created on this platform. Discover and share apps that can be useful for a specific need, domain or region.
+
+<a href="/community/apps" class="btn btn-success">Discover Apps</a>
+<a href="/list-your-app" class="btn btn-default">Share your App</a>
+
 Note:
 
 1. We do not do payments.

@@ -1,25 +1,40 @@
 # My Account
 
-#### [Post and Manage Jobs](/post-jobs)
+<!-- render-jinja -->
 
-If you need help in implementing, customizing, extending ERPNext, add your job requirements and get bids from Service Providers.
-
-<a href="/post-jobs" class="btn btn-default">Post Jobs</a>
-
----
-
-#### [Register as a Service Provider or Edit your Listing](/become-a-partner)
-
-Register as a service provider, manage jobs and build your reputation.
-
-<a href="/become-a-partner" class="btn btn-default">Manage Your Listing</a>
-
----
-
-#### Quick Links
-
-- [All Jobs](/community/jobs)
-- [My Jobs](/community/jobs?jobs=my-jobs)
-- [My Bids](/community/jobs?jobs=my-bids)
-
+{% if frappe.user == "Guest" %}
+<div class="alert alert-info">
+	Please <a href="/login?redirect-to=/community/manage">Login</a> to manage your account.
+</div>
+{% else %}
+<div class="alert alert-info">
+	You are logged in as {{ frappe.full_name }}
+</div>
+<ul class="list-group">
+	<li class="list-group-item">
+		<i class="icon-fixed-width icon-legal"></i>
+		<a href="/become-a-partner">My Bids</a>
+	</li>
+	<li class="list-group-item">
+		<i class="icon-fixed-width icon-user"></i>
+		<a href="/become-a-partner">Jobs by me</a>
+	</li>
+	<li class="list-group-item">
+		<i class="icon-fixed-width icon-edit"></i>
+		<a href="/post-jobs">Edit Jobs</a>
+	</li>
+	<li class="list-group-item">
+		<i class="icon-fixed-width icon-edit"></i>
+		<a href="/become-a-partner">Edit Service Provider Listing</a>
+	</li>
+	<li class="list-group-item">
+		<i class="icon-fixed-width icon-edit"></i>
+		<a href="/post-jobs">Edit Jobs</a>
+	</li>
+	<li class="list-group-item">
+		<i class="icon-fixed-width icon-edit"></i>
+		<a href="/list-your-apps">Edit Apps</a>
+	</li>
+</ul>
+{% endif %}
 

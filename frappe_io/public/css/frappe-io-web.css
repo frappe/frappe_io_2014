@@ -76,3 +76,13 @@ blockquote {
 .buy-table .btn {
 	margin-bottom: 5px;
 }
+
+.app-icon {
+	border-radius: 5px;
+	width: 4em;
+}
+
+.featured-app-icon {
+	width: 1.2em;
+}
+

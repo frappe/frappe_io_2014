@@ -3,6 +3,8 @@ from __future__ import unicode_literals
 import frappe
 import frappe.website.render
 
+from translator.templates.statics.community.index import get_sidebar
+
 def get_context(context):
 	frappe_partner = frappe.get_meta("Frappe Job")
 	condition, values, my_bids = "", [], []
@@ -38,5 +40,6 @@ def get_context(context):
 	context.update({
 		"is_jobs": True,
 		"jobs": jobs,
-		"country_list": frappe_partner.get_field("country").options.split("\n")
+		"country_list": frappe_partner.get_field("country").options.split("\n"),
+		"children": get_sidebar()
 	})

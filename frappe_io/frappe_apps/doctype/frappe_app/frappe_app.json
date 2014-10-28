@@ -36,10 +36,10 @@
   }, 
   {
    "fieldname": "publisher", 
-   "fieldtype": "Link", 
+   "fieldtype": "Data", 
    "in_list_view": 1, 
    "label": "Publisher", 
-   "options": "Frappe Publisher", 
+   "options": "", 
    "permlevel": 0
   }, 
   {
@@ -66,13 +66,6 @@
    "permlevel": 0
   }, 
   {
-   "fieldname": "slideshow", 
-   "fieldtype": "Link", 
-   "label": "Slideshow", 
-   "options": "Website Slideshow", 
-   "permlevel": 0
-  }, 
-  {
    "fieldname": "section_break_9", 
    "fieldtype": "Section Break", 
    "permlevel": 0
@@ -89,6 +82,20 @@
    "fieldtype": "Text Editor", 
    "label": "Description", 
    "permlevel": 0
+  }, 
+  {
+   "fieldname": "screenshot_1", 
+   "fieldtype": "Attach", 
+   "label": "Screenshot 1", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "screenshot_2", 
+   "fieldtype": "Attach", 
+   "label": "Screenshot 2", 
+   "permlevel": 0, 
+   "precision": ""
   }, 
   {
    "fieldname": "page_name", 
@@ -108,7 +115,7 @@
  ], 
  "icon": "icon-star", 
  "idx": 1, 
- "modified": "2014-10-14 16:52:18.460633", 
+ "modified": "2014-10-28 16:18:41.065872", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe App", 

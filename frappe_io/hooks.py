@@ -21,8 +21,6 @@ fixtures = [
 	"Website Settings",
 	"Website Script",
 	"Contact Us Settings",
-	"Frappe Publisher",
-	"Frappe App",
 	"Web Form"
 ]
 
