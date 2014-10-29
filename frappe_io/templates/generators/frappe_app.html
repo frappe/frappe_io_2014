@@ -17,8 +17,9 @@
 {% block content %}
 <div class="row" style="margin-bottom: 15px;">
 	<div class="col-md-12">
-		<h3 style="margin: 0px"><img src="{{ doc.icon }}" class="app-icon"> {{ doc.headline or "" }}</h3>
-		<br>
+		<div class="pull-left">
+			<img src="{{ doc.icon }}" class="app-icon" style="width: 36px; height: 36px;">
+		</div>
 		<div class="pull-right">
 			{% if doc.source_link -%}
 				<a href="{{ doc.source_link }}" target="_blank" class="btn btn-default">
@@ -37,27 +38,16 @@
 	</div>
 </div>
 
+<h4>{{ doc.headline or "" }}</h4>
 <p class="text-muted small">Publisher: {{ doc.publisher }}</p>
 
-{% include "templates/includes/slideshow.html" %}
-
 <p>{{ doc.description }}</p>
-
-<!-- testimonials -->
-{% if doc.get({"parentfield": "app_testimonials"}) %}
+{% if doc.screenshot_1 %}
 <hr>
-<h3>Testimonials</h3>
-{% for testimonial in doc.get({"parentfield": "app_testimonials"}) %}
-<div class="media">
-	<span class="pull-left">
-		<div class="media-object avatar-large testimonial-avatar" style="background-image: url({{ testimonial.author_image }});"></div>
-	</span>
-	<div class="media-body">
-		{{ testimonial.testimonial }}
-		<p class="text-right text-muted" style="margin-top: 7px;"><em>{{ testimonial.author }}</em></p>
-	</div>
+<h4>Screenshot</h4>
+<div>
+	<img src="{{ doc.screenshot_1 }}" class="img-responsive">
 </div>
-{% endfor %}
 {% endif %}
 
 {% endblock %}

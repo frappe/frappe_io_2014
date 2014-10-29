@@ -33,7 +33,7 @@
 	</li>
 	<li class="list-group-item">
 		<i class="icon-fixed-width icon-edit"></i>
-		<a href="/list-your-apps">Edit Apps</a>
+		<a href="/list-your-app">Edit Apps</a>
 	</li>
 </ul>
 {% endif %}
