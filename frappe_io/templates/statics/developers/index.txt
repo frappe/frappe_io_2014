@@ -1,3 +1,5 @@
+tutorials
 guide
 guide-chat
 api
+how-to
