@@ -10,6 +10,8 @@ There are a number of good tutorials online and we found [CodeAcademy](http://ww
 
 Server side Frappe is written in Python and its a good idea to [quickly learn Python](http://www.codecademy.com/tracks/python) before you started digging into Frappe. Another good place to learn Python is the [tutorial on docs.python.org](https://docs.python.org/2.7/tutorial/index.html). Note that Frappe uses Python 2.7
 
+To write quality server side code, you must include automatic tests. You can learn the [basics of test driven development here](http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137).
+
 ---
 
 #### 2. Databases MariaDB / MySQL
