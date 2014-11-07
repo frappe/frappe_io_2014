@@ -21,10 +21,6 @@
 	</li>
 	<li class="list-group-item">
 		<i class="icon-fixed-width icon-edit"></i>
-		<a href="/post-jobs">Edit Jobs</a>
-	</li>
-	<li class="list-group-item">
-		<i class="icon-fixed-width icon-edit"></i>
 		<a href="/become-a-partner">Edit Service Provider Listing</a>
 	</li>
 	<li class="list-group-item">

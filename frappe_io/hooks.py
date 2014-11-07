@@ -25,5 +25,6 @@ fixtures = [
 ]
 
 scheduler_events = {
-	"daily": ["frappe_io.frappe_apps.doctype.frappe_job.frappe_job.expire_jobs"]
+	"daily": ["frappe_io.frappe_apps.doctype.frappe_job.frappe_job.expire_jobs"],
+	"weekly": ["frappe_io.frappe_apps.doctype.frappe_job.frappe_job.weekly_digest"]
 }

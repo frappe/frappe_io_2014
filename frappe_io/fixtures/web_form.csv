@@ -18,6 +18,28 @@
 "Type:","Data (text)","Data","Data","Link","Check","Check","Check","Check","Check","Check","Text","Text","Data","Data","Small Text","","Data","Data","Select","Select","Check","Check","Check","Text","Text","Data"
 "Info:","","","","Valid DocType","0 or 1","0 or 1","0 or 1","0 or 1","0 or 1","0 or 1","","","","","","","Leave blank for new records","","","One of: Attach, Check, Data, Date, Datetime, HTML, Select, Text","0 or 1","0 or 1","0 or 1","","",""
 "Start entering data below this line"
+"","""join-us""","Join Us","join-us","Frappe Job Applicant",1,1,1,0,0,0,"Thanks for your interest! Please take a few moments to fill this form. The better you tell us who you are, the better chances are that we want to have you in our team.","Thanks for applying. If we find your profile interesting, we will get back to you. In the mean-time you can always edit your application.","/join-us","","[{""title"":""Company"", ""name"":""webnotes""}]","","""1d495385811a2be8c102997fddb24d4a2f3f7dfa4d67692ebd45ae70""","Full Name","full_name","Data",1,0,0,"","Not what your friends call you",""
+"","","","","","","","","","","","","","","","","","""9b95091588041b3ce97b08dca11287a07034ec4f552e89fdf160215a""","Email Id","email_id","Data",1,0,0,"","An email id you check frequently",""
+"","","","","","","","","","","","","","","","","","""5ac6fb4c3ce6454e49a87bb67da22a0a45e4010b0f211913a6f3e0da""","Linked In Profile","linked_in_profile","Data",0,0,0,"","Want to share a resume? Link to a document via Dropbox or other similar file sharing tools",""
+"","","","","","","","","","","","","","","","","","""404582f5c677cc228de2dd5ff22b34b1906b816fb052821dbf300bd7""","GitHub Profile","github_profile","Data",0,0,0,"","Already on GitHub / Bitbucket / Dribbble? Do you blog? Yay! Share your profile.",""
+"","","","","","","","","","","","","","","","","","""959e4a5c4a489b1c2c687aca36c8874955172e30cc2407b40f53c3a8""","What are you passionate about?","interests","Text",0,0,0,"","Tell us about your interests, your influences, what do you do in your free time.",""
+"","","","","","","","","","","","","","","","","","""ba7820c1425807a6053904948d7c4d73a5d9469a14f82dc71f24c4a4""","What have you done till now?","projects","Text",0,0,0,"","Your past is the best pointer to your future. Share your achievements, like what is the toughest thing you have done? What is your superpower? Any pet projects?",""
+"","","","","","","","","","","","","","","","","","""968eb54920e0dda930587a9e889f1f3ca2bfebfba257242dc65db208""","Why Us","why_us","Text",0,0,0,"","Yes we know everyone needs a job, but why us? Go through our website and find what interests you. Why do you think working with us is the best decision you will ever make.",""
+"","""list-your-app""","List Your App","list-your-app","Frappe App",1,1,1,1,1,0,"Add your app details","","/list-your-app","","[{""title"":""Community"", ""name"":""community""}, {""title"":""My Account"", ""name"":""community/manage""}]","","""3327b808735ca49f5d0c71893d370293274a70c2557408eaaf55f38d""","Application Name","application_name","Data",1,0,0,"","",""
+"","","","","","","","","","","","","","","","","","""eece38039b3001c1edeefe75cd60c438669d554fb18531e0545c4c5b""","Application Category","application_category","Select",1,"","","Website
+Industry
+Country Specific
+Accounting
+Integration
+General
+Tools","",""
+"","","","","","","","","","","","","","","","","","""83f317edab8a792ce07cb225602a845a45fb75716b4fd2b946da6f5a""","Publisher","publisher","Data",1,"","","","",""
+"","","","","","","","","","","","","","","","","","""06f7b1ad49a27a81a113abfee356dcf9e8eb6ab4180bc72516eab47d""","Repository Link","source_link","Data",1,0,0,"","GitHub / Bitbucket etc link to the repository",""
+"","","","","","","","","","","","","","","","","","""eed4ed39da8cfdf848cd7f9143fe52421d4cfae89f27ddc5f90935a0""","Icon","icon","Attach",1,0,0,"","Application Icon",""
+"","","","","","","","","","","","","","","","","","""c91f7d162d9ce06c85eb7b6fa5f656a62011d1c90ac47af3c06d406c""","Introduction","introduction","Text",1,0,0,"","",""
+"","","","","","","","","","","","","","","","","","""2657e15f6845558baa1324b0bad93ac241b9a50b510d5247caef095d""","Description","description","Text",1,0,0,"","",""
+"","","","","","","","","","","","","","","","","","""ef16767e75ff1a5faac1b22b64c5dc30ff2ceff6431e7a1204885b8e""","Screenshot","screenshot_1","Attach","","","","","",""
+"","","","","","","","","","","","","","","","","","""81c98597f45d19560f16b056625d46926663db7ad1242092e47182eb""","Demo Link","demo_link","Data",0,0,0,"","Link to app demo (if exists)",""
 "","""become-a-partner""","Become A Partner","become-a-partner","Frappe Partner",1,1,1,0,0,0,"Add your profile to the Frappe Partner Listing Page!","Thanks! Your profile will be up when it is verified. You can always edit your profile.","/become-a-partner","View Listing Page","[{""title"":""Community"", ""name"":""community""}, {""title"": ""My Account"", ""name"":""community/manage""}]","","""c65f6bd4b8af71fb47a574b09646d29d5491bffd7e16cb7a51f5e9e5""","Partner Name","partner_name","Data",1,0,0,"","",""
 "","","","","","","","","","","","","","","","","","""a53056cf991a8966dad04db7a90b3b17c9ee149ca309f3a2d557bcdd""","Logo","logo","Attach",0,0,0,"","",""
 "","","","","","","","","","","","","","","","","","""3eed3430f70e7dbfeb54eb732a0c2cf7d9b143f7ba161b5ca695a0a8""","Organization Type","organization_type","Select",0,0,0,"Systems Integrator
@@ -439,11 +461,3 @@ Other","",""
 "","","","","","","","","","","","","","","","","","""3f0f4c1d578716fca9334ba43baca30cb5c3f1b9286efa0dc3cf7804""","Delivery","delivery","Select",1,0,0,"Online
 In Person","",""
 "","","","","","","","","","","","","","","","","","""7c912372f9ba52be92ab14c8fe0a92e48c8a823beeae60ee5b1167ec""","Approx Budget (US$)","budget","Data",0,0,0,"","",""
-"","""list-your-app""","List Your App","list-your-app","Frappe App",1,1,1,1,1,0,"Add your app details","","/list-your-app","","[{""title"":""Community"", ""name"":""community""}, {""title"":""My Account"", ""name"":""manage""}]","","""3327b808735ca49f5d0c71893d370293274a70c2557408eaaf55f38d""","Application Name","application_name","Data",1,0,0,"","",""
-"","","","","","","","","","","","","","","","","","""83f317edab8a792ce07cb225602a845a45fb75716b4fd2b946da6f5a""","Publisher","publisher","Data",1,"","","","",""
-"","","","","","","","","","","","","","","","","","""06f7b1ad49a27a81a113abfee356dcf9e8eb6ab4180bc72516eab47d""","Repository Link","source_link","Data",1,0,0,"","GitHub / Bitbucket etc link to the repository",""
-"","","","","","","","","","","","","","","","","","""eed4ed39da8cfdf848cd7f9143fe52421d4cfae89f27ddc5f90935a0""","Icon","icon","Attach",1,0,0,"","Application Icon",""
-"","","","","","","","","","","","","","","","","","""c91f7d162d9ce06c85eb7b6fa5f656a62011d1c90ac47af3c06d406c""","Introduction","introduction","Text",1,0,0,"","",""
-"","","","","","","","","","","","","","","","","","""2657e15f6845558baa1324b0bad93ac241b9a50b510d5247caef095d""","Description","description","Text",1,0,0,"","",""
-"","","","","","","","","","","","","","","","","","""ef16767e75ff1a5faac1b22b64c5dc30ff2ceff6431e7a1204885b8e""","Screenshot","screenshot_1","Attach","","","","","",""
-"","","","","","","","","","","","","","","","","","""81c98597f45d19560f16b056625d46926663db7ad1242092e47182eb""","Demo Link","demo_link","Data",0,0,0,"","Link to app demo (if exists)",""

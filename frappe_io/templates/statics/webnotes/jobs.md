@@ -1,6 +1,12 @@
 # Jobs
 
-<p class="lead">Web Notes Technologies Pvt Ltd is a Mumbai based Open Source Software Development Company. The Frappe platform and ERPNext product are created and maintained by us.</p>
+<p class="lead">Web Notes Technologies Pvt Ltd is a Mumbai based Open Source Software Development Company.</p>
+
+If you are passionate, obsessive and persistent Software Developer, Designer or Writer, someone who believes in the long term, values quality and believes that honesty is above everything else, we want to know you.
+
+<a href="/join-us" class="btn btn-default">Apply for a position</a>
+
+---
 
 Here are some roles for which we are always looking for candidates.
 
@@ -12,17 +18,9 @@ What we look for in a software developer is someone who is self motivated and is
 
 Our expectation is that you will make a significant contribution to the product and the community and support the team achieve its goals.
 
-#### ERPNext Expert
-
-This role of the ERPNext Expert is to [help users](https://groups.google.com/forum/#!forum/erpnext-user-forum) learn about the product solve their problems via emails, forum and chat. The Expert is expected to give personal or group ERPNext demos to prospects via screen sharing.
-
-The Expert must also have good writing skills so that the [user manual](https://erpnext.com/user-guide) and other help documents can be easily updated.
-
-What we look for in an expert is excellent listening and communication skills, ability to manage time and respond quickly. The expert must learn the product deeply (training will be given) and should be well verse with the various workflows and workarounds so that quick and correct response is given to users.
-
 #### Interested?
 
-If you are interested in any of these positions, drop us a mail at jobs@frappe.io
+<a href="/join-us" class="btn btn-default">Apply for a position</a>
 
 ---
 
