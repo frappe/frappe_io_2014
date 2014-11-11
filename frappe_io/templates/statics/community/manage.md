@@ -1,6 +1,6 @@
 # My Account
 
-<!-- render-jinja -->
+<!-- jinja -->
 
 {% if frappe.user == "Guest" %}
 <div class="alert alert-info">

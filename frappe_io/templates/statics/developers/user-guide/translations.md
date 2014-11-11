@@ -1,3 +1,6 @@
+<!-- jinja -->
+<!-- static -->
+
 This document shows how to translations are managed in ERPNext and how to add
 a new language or update translations of an existing language.
 
@@ -52,4 +55,6 @@ the `translations` of each app
 
 > Please contribute your translations back to ERPNext by sending us a Pull
 Request.
+
+---
 
