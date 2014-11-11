@@ -1,4 +1,4 @@
-# Frappe Framework API
+# Frappe Framework User Guide
 
 > This section is Work in Progress
 
