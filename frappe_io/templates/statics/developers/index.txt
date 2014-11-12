@@ -1,5 +1,5 @@
-tutorials
+user-guide
+api
 guide
 guide-chat
-api
 how-to

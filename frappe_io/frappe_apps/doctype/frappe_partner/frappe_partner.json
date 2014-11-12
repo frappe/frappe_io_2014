@@ -141,7 +141,7 @@
   }, 
   {
    "fieldname": "page_name", 
-   "fieldtype": "Read Only", 
+   "fieldtype": "Data", 
    "label": "Page Name", 
    "permlevel": 0
   }, 
@@ -156,7 +156,7 @@
  ], 
  "icon": "icon-user", 
  "idx": 1, 
- "modified": "2014-10-17 13:18:46.789046", 
+ "modified": "2014-11-12 11:22:27.712342", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Partner", 
