@@ -2,4 +2,4 @@ user-guide
 api
 guide
 guide-chat
-how-to
+tutorials
