@@ -22,4 +22,3 @@ We can listen in on the `on_session_creation` hook and set the status as active:
 
 
 > For more complex hooks, look at how ERPNext is hooked into the Frappe Framework https://github.com/frappe/erpnext/blob/develop/erpnext/hooks.py
-

@@ -16,3 +16,4 @@ What is different from other popular frameworks is that Frappe is a highly opini
 
 For this guide, we will assume you have some idea of how web applications are built and run. You should have an idea of what is the role of the server and the browser and how HTTP requests are sent, processed and received. We also hope you understand the role of Javascript in delivering a rich user experience. Finally, we assume you know a bit of how databases manage your data and can write a few basic SQL queries.
 
+{index}

@@ -87,3 +87,5 @@ Go to your browser and open localhost:800
 You should see the login screen. The Administrator Login is `Administrator` and password is `admin`. Once you login, you should see the a desktop environment with icons.
 
 ![Desk](assets/frappe_io/images/app-development/desk.png)
+
+{next}

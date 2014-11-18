@@ -163,3 +163,4 @@ https://github.com/frappe/website-chat/tree/e6860304b8176ab38f07520a06b39e69a23f
 
 Now we will go ahead and complete the view using the API and adding JS code in the view to create a basic chat appliction.
 
+{next}

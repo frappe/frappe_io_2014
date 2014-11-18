@@ -1,5 +1,6 @@
-user-guide
-api
+tutorials
 guide
 guide-chat
-tutorials
+user-guide
+api
+modules

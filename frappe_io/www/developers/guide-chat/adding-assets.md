@@ -11,3 +11,5 @@ You can also minify and concatenate multiple JS and CSS files by adding a `build
 Example: [https://github.com/frappe/erpnext/blob/develop/erpnext/public/build.json](https://github.com/frappe/erpnext/blob/develop/erpnext/public/build.json)
 
 Note: To keep building continuously while developing, use `frappe --watch`
+
+{next}

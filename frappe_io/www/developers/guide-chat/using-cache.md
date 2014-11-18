@@ -32,3 +32,5 @@ So in the controller of **Website Chat Session**, we clear the cache whenever th
 	class DocType(Document):
 		def on_update(self):
 			frappe.cache().delete_value("website-chat-active-sessions")
+
+{next}

@@ -18,8 +18,6 @@ To check if a new message is arrived, the client will keep querying the server a
 
 Let us call this application as `website_chat`. For this, we need to create a new folder in `bench/apps`.
 
-#### 
-
 To bootstrap an app, use the `frappe --make_app` command.
 
 	bench/apps $ frappe --make_app
@@ -30,7 +28,7 @@ To bootstrap an app, use the `frappe --make_app` command.
 	App Icon: icon-comments
 	App Color: #f1c40f
 	App Email: info@frappe.io
-	App URL: https://frappe.io/apps/website-chat        
+	App URL: https://frappe.io/apps/website-chat
 	App License: GPL
 
 Notes:
@@ -57,3 +55,5 @@ You can install it on your site via, the browser or command line. To install it 
 To check if the app has been installed, login to your site and click on "Installer"
 
 ![Installer](/assets/frappe_io/images/app-development/installer.png)
+
+{next}

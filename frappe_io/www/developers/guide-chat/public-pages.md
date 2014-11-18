@@ -41,9 +41,9 @@ The `get_context` method should return context elements for the page.
 	from __future__ import unicode_literals
 	import frappe
 	from frappe import _
-	
+
 	no_cache = True
-	
+
 	def get_context(context):
 		return {
 			"title": _("Chat")
@@ -59,3 +59,4 @@ Go to `http://localhost:8000/chat` to see how it works.
 
 Now complete the basic parts of the chat page in HTML.
 
+{next}

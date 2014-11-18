@@ -126,3 +126,5 @@ To get the desktop icon, edit the `website_chat/config/desktop.py` file to set:
 Do **Tools > Clear Cache & Refresh** and see the icon. When you click on the icon for Website Chat module, you will be able to see the **Website Chat Session** and **Website Chat Agent** links.
 
 ![New Page](/assets/frappe_io/images/app-development/module.png)
+
+{next}

@@ -1,8 +1,9 @@
 [
-	{"title": "Before you Start", "name": "/developers/tutorials"},
+	{"title": "Before you Start", "name": "developers/tutorials"},
 	{"title": "Tutorial 1", "name": "developers/guide"},
 	{"title": "Tutorial 2", "name": "developers/guide-chat"},
 	{"title": "User Guide", "name": "developers/user-guide"},
 	{"title": "API", "name": "developers/api"},
+	{"title": "Modules", "name": "developers/modules"},
 	{"title": "Knowledge Base", "name": "kb"}
 ]
