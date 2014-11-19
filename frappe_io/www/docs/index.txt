@@ -3,4 +3,4 @@ guide
 guide-chat
 user-guide
 api
-modules
+models

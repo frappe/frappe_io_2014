@@ -1,3 +1,3 @@
-# Frappe Modules
+# Frappe Models Reference
 
 {index}
