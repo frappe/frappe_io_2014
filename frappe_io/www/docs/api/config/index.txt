@@ -1,0 +1,3 @@
+frappe.config.desktop
+frappe.config.setup
+frappe.config.website
