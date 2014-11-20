@@ -38,4 +38,4 @@ If you are customizing Print templates, you need to learn the [Jinja Templating 
 
 ---
 
-When you are ready, [try building a sample application on Frappe](/developers/guide)
+When you are ready, [try building a sample application on Frappe](/docs/guide)

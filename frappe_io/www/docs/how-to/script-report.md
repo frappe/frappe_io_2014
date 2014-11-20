@@ -4,9 +4,9 @@ You can create tabulated reports using server side scripts by creating a new Rep
 
 > Note: You will need Administrator Permissions for this.
 
-Since these reports give you unrestricted access via Python scripts, they can only be created by Administrators. The script part of the report becomes a part of the repository of the application. If you have not created an app, [read this](/developers/guide).
+Since these reports give you unrestricted access via Python scripts, they can only be created by Administrators. The script part of the report becomes a part of the repository of the application. If you have not created an app, [read this](/docs/guide).
 
-> Note: You must be in [Developer Mode](/developers/how-to/enable-developer-mode) to do this
+> Note: You must be in [Developer Mode](/docs/how-to/enable-developer-mode) to do this
 
 ### 1. Create a new Report
 
