@@ -61,6 +61,10 @@ Presently, it is limited only to backups.
 
 * `site_config.json` contains site specific configuration
 
+### Site Config
+
+[See configuration options for `site_config.json`](/docs/user-guide/site_config.md)
+
 ### Site Resolution
 
 While responding to an HTTP request, a site is automatically selected based on,
