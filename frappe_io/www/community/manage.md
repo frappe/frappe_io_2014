@@ -4,7 +4,7 @@
 
 {% if frappe.user == "Guest" %}
 <div class="alert alert-info">
-	Please <a href="/login?redirect-to=/community/manage">Login</a> to manage your account.
+	Please <a href="/login?redirect-to=/community/manage" class="btn btn-small btn-primary">Login</a> to manage your account.
 </div>
 {% else %}
 <div class="alert alert-info">
