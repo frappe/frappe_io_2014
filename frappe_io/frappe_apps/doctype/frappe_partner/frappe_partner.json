@@ -16,7 +16,7 @@
    "fieldname": "partner_category", 
    "fieldtype": "Select", 
    "label": "Partner Category", 
-   "options": "Unverified\nVerified\nSponsor", 
+   "options": "Unverified\nImplementation Partner\nDevelopment Partner", 
    "permlevel": 0, 
    "precision": ""
   }, 
@@ -156,7 +156,7 @@
  ], 
  "icon": "icon-user", 
  "idx": 1, 
- "modified": "2014-11-12 11:22:27.712342", 
+ "modified": "2014-12-15 14:12:50.567730", 
  "modified_by": "Administrator", 
  "module": "Frappe Apps", 
  "name": "Frappe Partner", 

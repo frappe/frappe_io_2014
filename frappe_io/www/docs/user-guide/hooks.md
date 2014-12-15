@@ -56,7 +56,7 @@ The notification configuration hook is expected to return a Python dictionary.
 
 	{ 
 		"for_doctype": {
-			"Support Ticket": {"status":"Open"},
+			"Issue": {"status":"Open"},
 			"Customer Issue": {"status":"Open"},
 		},
 		"for_module_doctypes": {
@@ -74,7 +74,7 @@ The notification configuration hook is expected to return a Python dictionary.
 
 The above configuration has three parts,
 
-1. `for_doctype` part of the above configuration marks any "Support Ticket"
+1. `for_doctype` part of the above configuration marks any "Issue"
 	or "Customer Issue" as unread if its status is Open
 2. `for_module_doctypes` maps doctypes to module's unread count.
 3. `for_module` maps modules to functions to obtain its unread count. The

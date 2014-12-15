@@ -13,11 +13,11 @@
 <ul class="list-group">
 	<li class="list-group-item">
 		<i class="icon-fixed-width icon-legal"></i>
-		<a href="/become-a-partner">My Bids</a>
+		<a href="/community/jobs?jobs=my-bids">My Bids</a>
 	</li>
 	<li class="list-group-item">
 		<i class="icon-fixed-width icon-user"></i>
-		<a href="/become-a-partner">Jobs by me</a>
+		<a href="/community/jobs?jobs=my-jobs">Jobs by me</a>
 	</li>
 	<li class="list-group-item">
 		<i class="icon-fixed-width icon-edit"></i>

@@ -18,8 +18,8 @@ class FrappePartner(WebsiteGenerator):
 
 	def validate(self):
 		self.priority = {
-			"Sponsor": 3,
-			"Verified": 2
+			"Development Partner": 3,
+			"Implementation Partner": 2
 		}.get(self.partner_category) or 1
 
 		if len(self.introduction or "") > 300:
